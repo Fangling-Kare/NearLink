@@ -1,29 +1,38 @@
 
 
 #include "debug.h"
+#include "string.h"
 
 char RxBuffer[8000];
+//接收缓冲区
 
 volatile u8 RxCnt = 0;
-volatile u8 DataReceived = 0;
+volatile u8 StringCnt = 0;
 
 
 void USART2_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast")));
 
-
-
 void extract_data(const char *input, char *output) {
-    const char *start = strchr(input, ','); // 查找第一个逗号
+    // 查找第二个逗号
+    const char *start = strchr(input, ',');
     if (start == NULL) {
         output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
         return;
     }
 
-    start++; // 跳过第一个逗号
-    const char *end = strchr(start, ','); // 查找第二个逗号
-    if (end == NULL) {
+    // 跳过第一个逗号，继续查找第二个逗号
+    start = strchr(start + 1, ',');
+    if (start == NULL) {
         output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
         return;
+    }
+
+    start++; // 跳过第二个逗号
+
+    // 查找字符串末尾或下一个逗号
+    const char *end = strchr(start, ',');
+    if (end == NULL) {
+        end = start + strlen(start); // 输入字符串格式正确，且要提取的部分在末尾
     }
 
     // 计算所需字符串的长度，并复制到输出缓冲区
@@ -151,17 +160,19 @@ int main(void)
     //打印字符串“USART Interrupt TEST”
     USARTx_CFG();
     //对 USART2外设进行初始化。
-    
+
+
+    while(strstr((char *)RxBuffer, "+RECEIVEDATA") != NULL){}
+
+
+    char NearLink_Data[100];
+    extract_data(RxBuffer, NearLink_Data);
+    printf("%s",NearLink_Data);
+
 
     while(1)
     {
-        if(DataReceived)
-        {
-            char NearLink_Send_Data[];
-            extract_data(RxBuffer, NearLink_Send_Data);
-            
-            printf("%s",NearLink_Send_Data);
-        }
+
     }
 }
 
@@ -185,15 +196,8 @@ void USART2_IRQHandler(void)
        str_w++;
        if(str_w != str_r)
        {
-           if(*str_r == "\n")
-           //检查是否为结束标识符
-           {
-               DataReceived = 1;
-               USART_ITConfig(USART2, USART_IT_RXNE, DISABLE); 
-               //禁用USART2的接收中断
-            }else{
-                RxBuffer[RxCnt++] = *str_r;
-            }
+           str_r++;
+           RxBuffer[RxCnt++] = *str_r;
        }
    }
 }
