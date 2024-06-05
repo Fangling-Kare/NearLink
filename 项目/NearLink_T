@@ -6,24 +6,21 @@
 char RxBuffer[8000]={};
 //接收缓冲区
 
-
-
-
 volatile uint8_t RxCnt = 0;
 
 void USART2_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast")));
 
 /*********************************************************************
- * @函数名         extract_data
+ * @函数名         extract_address
  *
- * @功能             通过USART发送数据给NearLink星闪
+ * @功能             解包提取星闪地址
  *
  * @参数             input- 源数据
  *          output - 解包后的数据
  *
  * @返回值         无返回值
  */
-void extract_data(const char *input, char *output) {
+void extract_address(const char *input, char *output) {
     const char *start = strchr(input, ','); // 查找第一个逗号
     if (start == NULL) {
         output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
@@ -41,6 +38,58 @@ void extract_data(const char *input, char *output) {
     size_t length = end - start ;
     strncpy(output, start, length);
 }
+
+
+/*********************************************************************
+ * @函数名         extract_data
+ *
+ * @功能             解包提取数据
+ *
+ * @参数             input- 源数据
+ *          output - 解包后的数据
+ *
+ * @返回值         无返回值
+ */
+void extract_data(const char *input, char *output) {
+    const char *start = strchr(input, '+'); // 查找第一个+号
+    if (start == NULL) {
+        output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
+        return;
+    }
+    start++; // 跳过第一个+号
+
+    start = strchr(start, '+'); // 查找第二个+号
+    if (start == NULL) {
+        output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
+        return;
+    }
+    start++; // 跳过第二个+号
+
+    start = strchr(start, ','); // 查找接收到的数据里面的第一个逗号
+    if (start == NULL) {
+        output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
+        return;
+    }
+    start++; // 跳过接收到的数据里面的第一个逗号
+
+    start = strchr(start, ','); // 查找接收到的数据里面的第二个逗号
+    if (start == NULL) {
+        output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
+        return;
+    }
+    start++; // 跳过接收到的数据里面的第二个逗号
+
+    const char *end = strchr(start, '\0'); // 查找字符串结尾
+    if (end == NULL) {
+        output[0] = '\0'; // 输入字符串格式不正确，返回空字符串
+        return;
+    }
+
+    // 计算所需字符串的长度，并复制到输出缓冲区
+    size_t length = end - start;
+    strncpy(output, start, length);
+}
+
 
 /*********************************************************************
  * @函数名         NearLink_SendData
@@ -160,12 +209,10 @@ int main(void)
     //打印系统时钟频率
     printf( "ChipID:%08x\r\n", DBGMCU_GetCHIPID() );
     //打印芯片信息
-    printf("USART Interrupt TEST\r\n");
-    //打印字符串“USART Interrupt TEST”
+    printf("NearLink_T Test\r\n");
+    //打印字符串“NearLink_T Test”
     USARTx_CFG();
     //对 USART2外设进行初始化。
-
-
 
     //STEP1:发送AT等待星闪初始化
     NearLink_SendData(USART2, "AT\r\n");
@@ -181,8 +228,8 @@ int main(void)
 
     //STEP4:处理返回的数据，解包出地址
     char NearLink_Address[100] = {0};
-    extract_data(RxBuffer, NearLink_Address);
-    
+    extract_address(RxBuffer, NearLink_Address);
+
     //STEP5:发送AT+SEEK=0等待星闪返回OK
     NearLink_SendData(USART2, "AT+SEEK=0\r\n");
     Delay_Ms(100);
@@ -203,7 +250,17 @@ int main(void)
     Delay_Ms(100);
     while(strstr((char *)RxBuffer, "OK") == NULL){}
     printf("NearLink Send Data Succeed\r\n");
-    printf("Now RxBuffer:%s\r\n",RxBuffer);
+
+    //STEP8:接收返回数据
+    while(USART_GetFlagStatus(USART2, USART_FLAG_RXNE) != SET){}
+    Delay_Ms(100);
+    while(strstr((char *)RxBuffer, "RECEIVEDATA") == NULL){}
+    printf("NearLink Receive Data Succeed\r\n");
+
+    //STEP9:处理返回的数据
+    memset(Data, 0, sizeof(Data));
+    extract_data(RxBuffer,Data);
+    printf("Receive Data:%s\r\n",Data);
 
 
     while(1)
