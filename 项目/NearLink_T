@@ -3,15 +3,26 @@
 #include "debug.h"
 #include "string.h"
 
-char RxBuffer[8000];
+char RxBuffer[8000]={};
 //接收缓冲区
 
-volatile u8 RxCnt = 0;
-volatile u8 StringCnt = 0;
 
+
+
+volatile uint8_t RxCnt = 0;
 
 void USART2_IRQHandler(void) __attribute__((interrupt("WCH-Interrupt-fast")));
 
+/*********************************************************************
+ * @函数名         extract_data
+ *
+ * @功能             通过USART发送数据给NearLink星闪
+ *
+ * @参数             input- 源数据
+ *          output - 解包后的数据
+ *
+ * @返回值         无返回值
+ */
 void extract_data(const char *input, char *output) {
     const char *start = strchr(input, ','); // 查找第一个逗号
     if (start == NULL) {
@@ -27,7 +38,7 @@ void extract_data(const char *input, char *output) {
     }
 
     // 计算所需字符串的长度，并复制到输出缓冲区
-    size_t length = end - start;
+    size_t length = end - start ;
     strncpy(output, start, length);
 }
 
@@ -44,6 +55,8 @@ void extract_data(const char *input, char *output) {
 
 void NearLink_SendData(USART_TypeDef *USARTx,const char *Data)
 {
+    memset(RxBuffer, 0, sizeof(RxBuffer));
+    RxCnt = 0;
     while(*Data)
     {
         USART_SendData(USARTx,*Data++);
@@ -152,27 +165,45 @@ int main(void)
     USARTx_CFG();
     //对 USART2外设进行初始化。
 
-    NearLink_SendData(USART2, "AT+SEEK=1\r\n");
-    //开启星闪的扫描
-    while(strstr((char *)RxBuffer, "OK\r\n") != NULL){}
 
-    char NearLink_Address[100];
+
+    //STEP1:发送AT等待星闪初始化
+    NearLink_SendData(USART2, "AT\r\n");
+    Delay_Ms(100);
+
+    //STEP2:等待OK
+    while(strstr((char *)RxBuffer, "OK") == NULL){}
+
+    //STEP3:发送AT+SEEK=1等待星闪返回OK
+    NearLink_SendData(USART2,"AT+SEEK=1\r\n");
+    Delay_Ms(200);
+    while(strstr((char *)RxBuffer,"SEEKDATA") == NULL){}
+
+    //STEP4:处理返回的数据，解包出地址
+    char NearLink_Address[100] = {0};
     extract_data(RxBuffer, NearLink_Address);
-
-    USART_ITConfig(USART2, USART_IT_RXNE, ENABLE);
+    
+    //STEP5:发送AT+SEEK=0等待星闪返回OK
     NearLink_SendData(USART2, "AT+SEEK=0\r\n");
-    //关闭星闪的扫描
-    while(strstr((char *)RxBuffer, "OK\r\n") != NULL){}
+    Delay_Ms(100);
+    while(strstr((char *)RxBuffer, "OK") == NULL){}
 
-    char Nearlink_SetAddress[]={0};
-    sprintf(Nearlink_SetAddress,"+CONNECT:0,%s",NearLink_Address);
+    //STEP6:连接另一块星闪，等待返回OK
+    char Nearlink_SetAddress[128]={0};
+    sprintf(Nearlink_SetAddress,"AT+CONNECT=0,%s\r\n",NearLink_Address);
     NearLink_SendData(USART2, Nearlink_SetAddress);
-    while(strstr((char *)RxBuffer, "OK\r\n") != NULL){}
+    Delay_Ms(100);
+    while(strstr((char *)RxBuffer, "OK") == NULL){}
 
-    char NearLink_Send_Data[]={0};
-    sprintf(NearLink_Send_Data,"AT+SENDDATA=0,%s,%s\r\n",NearLink_Address,NearLink_Send_Data);
-    NearLink_SendData(USART2, NearLink_Send_Data);
-    while(strstr((char *)RxBuffer, "OK\r\n") != NULL){}
+    //STEP7:发送数据
+    char Data[128]={"1234"};
+    char Nearlink_Send_Data[128]={0};
+    sprintf(Nearlink_Send_Data,"AT+SENDDATA=0,%s,%s\r\n",NearLink_Address,Data);
+    NearLink_SendData(USART2,Nearlink_Send_Data);
+    Delay_Ms(100);
+    while(strstr((char *)RxBuffer, "OK") == NULL){}
+    printf("NearLink Send Data Succeed\r\n");
+    printf("Now RxBuffer:%s\r\n",RxBuffer);
 
 
     while(1)
@@ -193,30 +224,10 @@ void USART2_IRQHandler(void)
    if(USART_GetFlagStatus(USART2, USART_FLAG_RXNE) != RESET)
    //判断 USART2 接收中断是否发生
    {
-       char *str_w = &RxBuffer[0];
-       //写指针
-       char *str_r = &RxBuffer[0];
-       //读指针
-       *str_w = USART_ReceiveData(USART2);
-       str_w++;
-       if(str_w != str_r)
-       {
-           str_r++;
-           RxBuffer[RxCnt++] = *str_r;
-           if(*str_r == "\n")
-           {
-               StringCnt++;
-               if(StringCnt == 3)
-               {
-                   StringCnt = 0;
-                   USART_ITConfig(USART2, USART_IT_RXNE, DISABLE);
-                   //禁用USART2的接收中断
-               }
-           }
-       }
-   USART_ClearITPendingBit(USART2, USART_IT_RXNE);
+       RxBuffer[RxCnt++] = USART_ReceiveData(USART2);
    }
 }
+
 
 
 
