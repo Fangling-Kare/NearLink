@@ -9,7 +9,7 @@
 ## 目录
 
 - [作者](#作者)
-
+- bearpi source website:(https://www.bearpi.cn/core_board/bearpi/pico/h3863/#%E5%BC%80%E5%8F%91%E8%80%85%E4%BA%A4%E6%B5%81%E7%BE%A4)
 
 ### 作者
 
