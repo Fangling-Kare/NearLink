@@ -1,0 +1,16 @@
+------------------------------------
+软件启动。。。
+------------------------------------
+------------------------------------
+烧写时间：~2024-07-08-18:12:44
+烧写文件：D:/GitHub/bs21_all_in_one.fwpkg
+烧写bin文件：
+0.loaderboot_sign.bin
+1.partition.bin
+2.flashboot_sign_a.bin
+3.flashboot_sign_b.bin
+4.application_sign.bin
+5.bs21_all_nv.bin
+COM口：COM7
+烧写结果：失败，17
+------------------------------------

@@ -1,0 +1,43 @@
+#===============================================================================
+# @brief    Kconfig file.
+# Copyright (c) @CompanyNameMagicTag 2023-2023. All rights reserved.
+#===============================================================================
+
+config SLE_UART_BUS
+    int
+    prompt "Set the UART BUS of the currrent sample."
+    default 0
+    depends on SAMPLE_SUPPORT_SLE_UART_1_VS_8
+    help
+        This option means the UART BUS of the currrent sample.
+
+config UART_TXD_PIN
+    int
+    prompt "Choose UART TXD pin."
+    depends on SAMPLE_SUPPORT_SLE_UART_1_VS_8
+    default 17
+
+config UART_RXD_PIN
+    int
+    prompt "Choose UART RXD pin."
+    depends on SAMPLE_SUPPORT_SLE_UART_1_VS_8
+    default 18
+
+choice
+    prompt "Select sle uart type"
+    default SAMPLE_SUPPORT_SLE_UART_SERVER_1_VS_8
+    config SAMPLE_SUPPORT_SLE_UART_SERVER_1_VS_8
+        bool "Enable SLE UART Server sample."
+    config SAMPLE_SUPPORT_SLE_UART_CLIENT_1_VS_8
+        bool "Enable SLE UART Client sample."
+endchoice
+
+
+config SUPPORT_SLE_PERIPHERAL
+    bool
+    default y if (SAMPLE_SUPPORT_SLE_UART_SERVER_1_VS_8)
+
+
+config SUPPORT_SLE_CENTRAL
+    bool
+    default y if (SAMPLE_SUPPORT_SLE_UART_CLIENT_1_VS_8)

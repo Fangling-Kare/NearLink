@@ -1,0 +1,290 @@
+warning: the int symbol LFS_PARTITION_ID (defined at middleware/chips/ws63/Kconfig:105) has a non-int default 0x21 (undefined)
+warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_COMPRESS (defined at middleware/chips/ws63/Kconfig:52) will have no effect, as defaults do not affect choice symbols
+warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_AB (defined at middleware/chips/ws63/Kconfig:59) will have no effect, as defaults do not affect choice symbols
+warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_REBOOT (defined at middleware/chips/ws63/Kconfig:85) will have no effect, as defaults do not affect choice symbols
+warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_WAITFOREVER (defined at middleware/chips/ws63/Kconfig:91) will have no effect, as defaults do not affect choice symbols
+
+
+[1/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-nm.exe -S -n --format=sysv ws63-liteos-app.elf > ws63-liteos-app.nm"
+
+
+[2/14] post_build:gen rom and ram bin file
+
+
+[3/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/codesize_statistic.py ws63-liteos-app"
+
+
+'size' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+'size' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+'size' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+'size' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
+���������ļ���
+codesize statistics done
+[4/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objcopy.exe -O ihex ws63-liteos-app.elf ws63-liteos-app_std.hex"
+
+
+[5/14] Generating NV_SRC
+
+
+[6/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/create_hex.py ws63-liteos-app_rom.bin ws63-liteos-app_rom.hex"
+
+
+[7/14] update nv bin
+
+
+build nv bin success!!
+[8/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/create_hex.py ws63-liteos-app.bin ws63-liteos-app.hex"
+
+
+[9/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/patch/patch_riscv.py ws63-liteos-app.bin ws63-liteos-app_rom.bin ws63-liteos-app.nm D:/Nearlink_BearPi/bearpi_h3863/build/config/target_config/ws63/patch_config acore ws63-liteos-app D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app"
+
+
+Generating ws63-liteos-app.bin...
+[10/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -d -m riscv ws63-liteos-app.elf > ws63-liteos-app.asm"
+
+
+[11/14] ws63 image sign
+type: 0
+cfg : param_bin_ecc.cfg
+
+new failed1.
+read file
+read file
+CompressFlag():::0
+Final.
+type: 1
+cfg : root_pubk.cfg
+
+open key file failed.
+FillPublicKey() failed.
+type: 0
+cfg : ssb_bin_ecc.cfg
+
+new failed1.
+read file
+read file
+CompressFlag():::0
+Final.
+type: 0
+cfg : flash_bin_ecc.cfg
+
+new failed1.
+read file
+read file
+CompressFlag():::0
+Final.
+type: 0
+cfg : flash_backup_bin_ecc.cfg
+
+new failed1.
+read file
+read file
+CompressFlag():::0
+Final.
+type: 0
+cfg : loaderboot_bin_ecc.cfg
+
+new failed1.
+read file
+read file
+CompressFlag():::0
+Final.
+type: 0
+cfg : liteos_app_bin_ecc.cfg
+
+new failed1.
+read file
+read file
+CompressFlag():::0
+Final.
+type: 0
+cfg : liteos_mfg_bin_factory_ecc.cfg
+
+new failed1.
+read file
+read file
+CompressFlag():::0
+Final.
+generate params.bin...
+Build params success!
+params.bin size:  1024
+params.bin generate successfully!!!
+params_sign.bin generate successfully!!!
+generate fill root_pubk.bin
+merge out path:  D:\Nearlink_BearPi\bearpi_h3863\build\config\target_config\ws63\sign_config
+root_params_sign.bin generate successfully!!!
+sign name:  ../../../../../output/ws63/acore\ws63-ssb/ssb.bin
+../../../../../output/ws63/acore\ws63-ssb/ssb.bin size:  20800
+../../../../../output/ws63/acore\ws63-ssb/ssb.bin  generated successfully!!!
+ssb_sign.bin generated successfully!!!
+../../../../../output/ws63/acore\ws63-flashboot/flashboot.bin size:  48576
+flash_sign.bin generated successfully!!!
+sign name:  ../../../../../output/ws63/acore\ws63-loaderboot/loaderboot.bin
+../../../../../output/ws63/acore\ws63-loaderboot/loaderboot.bin size:  30592
+../../../../../output/ws63/acore\ws63-loaderboot/loaderboot.bin  generated successfully!!!
+loaderboot_sign.bin generated successfully!!!
+merge out path:  D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\boot_bin
+root_loaderboot_sign.bin generated successfully!!!
+sign name:  ../../../../../output/ws63/acore\ws63-liteos-app/ws63-liteos-app.bin
+../../../../../output/ws63/acore\ws63-liteos-app/ws6
+
+3-liteos-app.bin size:  1250876
+../../../../../output/ws63/acore\ws63-liteos-app/ws63-liteos-app.bin  generated successfully!!!
+sign name:  ../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin
+../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin size:  1261248
+../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin  generated successfully!!!
+[12/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -x -S -l ws63-liteos-app.elf > ws63-liteos-app.lst"
+
+
+[13/14] MEM_LIMIT
+
+
+[14/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/elftodu.py D:/Nearlink_BearPi/bearpi_h3863 ws63-liteos-app.elf D:/Nearlink_BearPi/bearpi_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_fp_win/bin/riscv32-linux-musl-nm.exe > ws63-liteos-app.du && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/mem_stats.py ws63-liteos-app.lst ws63-liteos-app.du D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app/linker.lds ws63 > ws63-liteos-app.mem"
+
+
+ninja: no work to do.
+
+
+data size:  16
+finally size:  64
+[!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-loaderboot/loaderboot.bin` not found, will skip it !
+[!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-loaderboot/root_loaderboot_sign.bin` not found, will skip it !
+[!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-ssb/ssb.bin` not found, will skip it !
+[!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-ssb/ssb_sign.bin` not found, will skip it !
+[!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-liteos-hilink/ws63-liteos-hilink.bin` not found, will skip it !
+[!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-liteos-hilink/ws63-liteos-hilink-sign.bin` not found, will skip it !
+
+
+[*] romboot not found, codepoint files will not be one!
+
+
+current work direction:  d:\Nearlink_BearPi\bearpi_h3863
+NV file reading:  ./output/ws63/acore/nv_bin/temp/cfg/acore_nv.json
+nv xml writing in:  ./output/ws63/database/cco/system/hdbcfg/mss_nvi_db.xml
+[!][nv handle]warning:  ./output/ws63/database/cco/system/hdbcfg/mss_nvi_db.xml  not found!
+struct file reading:  ./output/ws63/acore/nv_bin/temp/acore.etypes
+struct writing in: ./output/ws63/database/cco/system/nv/nv_struct_def.txt
+[!][nv handle]warning:  ./output/ws63/database/cco/system/nv/nv_struct_def.txt  not found!
+
+
+['D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\root_loaderboot_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\param_bin\\root_params_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\ssb_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\flashboot_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\flashboot_backup_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\nv_bin\\ws63_all_nv.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\nv_bin\\ws63_all_nv_backup.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\ws63-liteos-app\\ws63-liteos-app-sign.bin']
+[0, 2097152, 2105344, 2228224, 2162688, 6275072, 2146304, 2293760]
+[2097152, 1920, 21568, 49344, 49344, 16384, 16384, 1251648]
+[31488, 1920, 21568, 49344, 49344, 4096, 4096, 1251648]
+[0, 1, 1, 1, 1, 1, 1, 1]
+['D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\root_loaderboot_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\ws63-liteos-app\\ws63-liteos-app-sign.bin']
+[0, 2293760]
+[2097152, 1251648]
+[31488, 1251648]
+[0, 1]
+python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
+[ws63][acore] run custom cmd success!
+D:\Nearlink_BearPi\bearpi_h3863\build\script\.\..\..\config.in
+d:\Nearlink_BearPi\bearpi_h3863
+No change to Kconfig header in 'D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app\mconfig.h'
+[]
+######### Build target:ws63_liteos_app success
+ws63-liteos-app takes 10.368881 s
+python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
+generate_efuse_bin ing...
+['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\bearpi_h3863\\build\\config\\target_config\\ws63\\script\\efuse_cfg_gen.py']
+generate_efuse_bin done!
+copy_files_to_interim ing...
+['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\bearpi_h3863\\build\\config\\target_config\\ws63\\script\\copy_files_to_interim.py', 'D:\\Nearlink_BearPi\\bearpi_h3863']
+copy_files_to_interim done!
+generate rom_in_one ing...
+['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\bearpi_h3863\\build\\config\\target_config\\ws63\\script\\rom_in_one.py', 'D:\\Nearlink_BearPi\\bearpi_h3863', 'ws63-liteos-app']
+generate rom_in_one done!
+['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\bearpi_h3863\\build\\config\\target_config\\ws63\\script\\nv_handle.py']
+[ws63][acore] run custom cmd success!
+packet ing...
+['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\bearpi_h3863\\tools\\pkg\\packet.py', 'ws63', 'ws63-liteos-app', '']
+packet success!
+
+
+INFO:root:++++++++++++++++++++++++start stackAnalyzer++++++++++++++++++++++++
+
+
+INFO:root:elf_path:./output/ws63/acore/ws63-liteos-app/ws63-liteos-app.elf
+INFO:root:compiler_path:d:\Program Files\HiSpark Studio\tools\Windows\cc_riscv32_musl_fp_win\bin
+INFO:root:asm_path:./output/ws63/acore/ws63-liteos-app/ws63-liteos-app.asm
+INFO:root:prefix:riscv32-linux-musl
+INFO:root:environment:windows
+INFO:root:stack_mode:2
+INFO:root:stack_rec_stats:1
+INFO:root:compiler prefix: riscv32-linux-musl
+
+
+INFO:root:++++++++++++++++++++++++end stackAnalyzer++++++++++++++++++++++++
+
+
+INFO:root:++++++++++++++++++++++++++++++start buildAnalyzer++++++++++++++++++++++++++++++
+
+
+INFO:root:elf_path:                               ./output/ws63/acore/ws63-liteos-app/ws63-liteos-app.elf
+
+
+INFO:root:map_path:                               ./output/ws63/acore/ws63-liteos-app/ws63-liteos-app.map
+
+
+INFO:root:compiler_path:                          d:\Program Files\HiSpark Studio\tools\Windows\cc_riscv32_musl_fp_win\bin
+INFO:root:build_config_path:                      None                                    
+
+
+INFO:root:prefix:                                 riscv32-linux-musl                      
+INFO:root:environment:                            windows                                 
+
+
+INFO:root:undef_addr_sections:                    ['.debug_info', '.debug_abbrev', '.debug_loc', '.debug_aranges', '.debug_ranges', '.debug_line', '.debug_str', '.comment', '.riscv.attributes', '.debug_frame']
+
+
+INFO:root:no_size_sections:                       ['.plat_romtext', '.wifi_romtext', '.btc_romtext', '.bth_romtext', '.bth_romdata', '.plat_rombss', '.plat_text_tcm', '.wifi_text_tcm', '.plat_data_tcm', '.wifi_text_sram', '.btc_text_sram', '.bth_text_sram', '.wifi_data_sram', '.btc_data_sram', '.bth_data_sram', '.heap']
+INFO:root:analysis sections:                      ['.text', '.data', '.bss', 'startup', '.sysintcall.init', '.patch', '.rom_ram_cb_text', '.plat_romdata', '.wifi_romdata', '.btc_romdata', '.bth_rombss', '.wifi_pkt_ram', '.btc_text_tcm', '.patch_on_tcm', '.btc_data_tcm', '.wifi_data_tcm', '.btc_bss_tcm', '.wifi_bss_tcm', '.plat_text_sram', '.patch_on_sram', '.plat_text_flash', '.wifi_text_flash', '.patch_on_flash', '.btc_text_flash', '.bth_text_flash', '.radar_text_flash', '.radar_ai_text_flash', '.btc_data_flash', '.bth_data_flash', '.plat_bss_sram', '.plat_bss_flash', '.wifi_bss_flash', '.radar_bss_flash', '.radar_ai_bss_flash', '.btc_bss_flash', '.bth_bss_flash', '.preserve', '.stacks']
+
+
+INFO:root:--------------------Load Sections:--------------------
+
+
+INFO:root:section_name                            section_size                            
+INFO:root:startup                                 424                                     
+INFO:root:.sysintcall.init                        52                                      
+INFO:root:.patch                                  2344                                    
+INFO:root:.rom_ram_cb_text                        1816                                    
+INFO:root:.plat_romdata                           212                                     
+INFO:root:.wifi_romdata                           98                                      
+INFO:root:.btc_romdata                            672                                     
+INFO:root:.btc_text_tcm                           7206                                    
+INFO:root:.patch_on_tcm                           1528                                    
+INFO:root:.btc_data_tcm                           57                                      
+INFO:root:.wifi_data_tcm                          3408                                    
+INFO:root:.plat_text_sram                         10884                                   
+INFO:root:.patch_on_sram                          2520                                    
+INFO:root:.plat_text_flash                        176604                                  
+INFO:root:.wifi_text_flash                        585302                                  
+INFO:root:.patch_on_flash                         1908                                    
+
+
+INFO:root:.btc_text_flash                         131560                                  
+INFO:root:.bth_text_flash                         236088                                  
+INFO:root:.radar_text_flash                       32012                                   
+INFO:root:.radar_ai_text_flash                    5868                                    
+INFO:root:.text                                   42040                                   
+
+
+INFO:root:.btc_data_flash                         4896                                    
+INFO:root:.bth_data_flash                         2408                                    
+
+
+INFO:root:.data                                   380                                     
+
+
+INFO:root:total_size:                             1250287                                 
+INFO:root:------------------------------------------------------
+
+
+INFO:root:++++++++++++++++++++++++++++++end buildAnalyzer++++++++++++++++++++++++++++++
+
+
