@@ -1,17 +1,2823 @@
 warning: the int symbol LFS_PARTITION_ID (defined at middleware/chips/ws63/Kconfig:105) has a non-int default 0x21 (undefined)
+
+
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_COMPRESS (defined at middleware/chips/ws63/Kconfig:52) will have no effect, as defaults do not affect choice symbols
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_AB (defined at middleware/chips/ws63/Kconfig:59) will have no effect, as defaults do not affect choice symbols
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_REBOOT (defined at middleware/chips/ws63/Kconfig:85) will have no effect, as defaults do not affect choice symbols
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_WAITFOREVER (defined at middleware/chips/ws63/Kconfig:91) will have no effect, as defaults do not affect choice symbols
 
 
-[1/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-nm.exe -S -n --format=sysv ws63-liteos-app.elf > ws63-liteos-app.nm"
+Not searching for unused variables given on the command line.
 
 
-[2/14] post_build:gen rom and ram bin file
+-- BUILD_PLATFORM: windows
 
 
-[3/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/codesize_statistic.py ws63-liteos-app"
+LOSCFG_PLATFORM is set to ws63
+
+
+LOSCFG_COMPILER_GNU_BINUTILS is set to y
+
+
+LOSCFG_COMPILER_GCC is set to y
+LOSCFG_COMPILER_TOOLCHAIN_MUSL is set to y
+LOSCFG_COMPILER_RISCV_GCC_MUSL is set to y
+LOSCFG_COMPILER_RISCV_UNKNOWN is set to y
+LOSCFG_RISCV_COMPILER_OPTIONS_USER_DEFINED is set to 
+LOSCFG_RISCV_COMPILER_OPTIONS_LDM_STM is set to y
+LOSCFG_RISCV_COMPILER_OPTIONS_EMIT_LLI is set to y
+LOSCFG_COMPILER_OPTIMIZE_SIZE is set to y
+
+
+LOSCFG_FAMILY_AIOT is set to y
+LOSCFG_FAMILY is set to aiot
+LOSCFG_PLATFORM is set to ws63
+LOSCFG_PLATFORM_WS63 is set to y
+LOSCFG_USING_BOARD_LD is set to y
+LOSCFG_USING_BOARD_RESET_VECTOR is set to y
+LOSCFG_ARCH_FPU_ENABLE is set to y
+
+
+LOSCFG_APC_ENABLE is set to y
+LOSCFG_ARCH_PMU is set to y
+LOSCFG_ARCH_RISCV32 is set to y
+LOSCFG_ARCH_RISCV_RV32IMC is set to y
+LOSCFG_ARCH_RISCV_RV32F is set to y
+LOSCFG_ARCH_LINXCORE_131 is set to y
+
+
+LOSCFG_KERNEL_MIN is set to y
+LOSCFG_SCHED is set to y
+LOSCFG_SCHED_SQ is set to y
+LOSCFG_BASE_CORE_TIMESLICE is set to y
+LOSCFG_BASE_CORE_TIMESLICE_TIMEOUT is set to 2
+LOSCFG_BASE_CORE_TSK_MONITOR is set to y
+LOSCFG_TASK_STACK_DYNAMIC_ALLOCATION is set to y
+LOSCFG_BASE_CORE_TSK_LIMIT is set to 28
+LOSCFG_BASE_CORE_TSK_MIN_STACK_SIZE is set to 1024
+LOSCFG_BASE_CORE_TSK_DEFAULT_STACK_SIZE is set to 2048
+
+
+LOSCFG_BASE_CORE_TSK_SWTMR_STACK_SIZE is set to 2048
+LOSCFG_BASE_CORE_TSK_IDLE_STACK_SIZE is set to 1024
+LOSCFG_BASE_CORE_TSK_DEFAULT_PRIO is set to 10
+LOSCFG_BASE_CORE_TICK_PER_SECOND is set to 100
+LOSCFG_BASE_CORE_USE_SINGLE_LIST is set to y
+LOSCFG_STARTUP_STACK_SIZE is set to 0x4000
+LOSCFG_KERNEL_MEM_ALLOC is set to y
+LOSCFG_KERNEL_MEM_BESTFIT is set to y
+LOSCFG_KERNEL_MEM_SLAB_EXTENTION is set to y
+LOSCFG_ARCH_INTERRUPT_TAKEOVER is set to y
+LOSCFG_ARCH_INTERRUPT_PREEMPTION is set to y
+LOSCFG_HWI_PRE_POST_PROCESS is set to y
+
+
+LOSCFG_HWI_WITH_ARG is set to y
+LOSCFG_IRQ_STACK_SIZE is set to 0x2000
+LOSCFG_NMI_STACK_SIZE is set to 0x800
+LOSCFG_PLATFORM_HWI_LIMIT is set to 96
+LOSCFG_HWI_PRIO_LIMIT is set to 7
+LOSCFG_EXC_STACK_SIZE is set to 0x800
+LOSCFG_BASE_CORE_SWTMR is set to y
+LOSCFG_BASE_CORE_SWTMR_LIMIT is set to 16
+LOSCFG_BASE_IPC_QUEUE is set to y
+LOSCFG_QUEUE_DYNAMIC_ALLOCATION is set to y
+LOSCFG_BASE_IPC_QUEUE_LIMIT is set to 16
+LOSCFG_BASE_IPC_EVENT is set to y
+LOSCFG_BASE_IPC_MUX is set to y
+
+
+LOSCFG_MUTEX_WAITMODE_PRIO is set to y
+LOSCFG_BASE_IPC_MUX_LIMIT is set to 60
+LOSCFG_BASE_IPC_SEM is set to y
+LOSCFG_BASE_IPC_SEM_LIMIT is set to 32
+LOSCFG_KERNEL_PRINTF is set to y
+
+
+LOSCFG_KERNEL_PRINTF_SIZE_EXTEND is set to y
+LOSCFG_KERNEL_RINGBUF is set to y
+LOSCFG_BASE_CORE_SYS_RES_CHECK is set to y
+LOSCFG_LIB_LIBC is set to y
+LOSCFG_LIB_LIBM is set to y
+LOSCFG_LIB_FORMAT is set to y
+LOSCFG_COMPAT_CMSIS is set to y
+LOSCFG_COMPAT_CMSIS_VER_2 is set to y
+LOSCFG_COMPAT_LINUX is set to y
+LOSCFG_COMPAT_LINUX_PENDLIST is set to y
+LOSCFG_COMPAT_LINUX_TIMER is set to y
+LOSCFG_COMPAT_LINUX_COMPLETION is set to y
+LOSCFG_COMPAT_LINUX_WAITQUEUE is set to y
+LOSCFG_COMPAT_LINUX_DRIVER_BASE is set to y
+LOSCFG_NET_IPERF is set to y
+LOSCFG_BACKTRACE is set to y
+LOSCFG_SERIAL_OUTPUT_ENABLE is set to y
+LOSCFG_KERNEL_CPUP is set to y
+LOSCFG_DRIVERS_BASE is set to y
+LOSCFG_RISCV_HIMIDEERV200_PLIC is set to y
+LOSCFG_TIMER_VENDOR is set to y
+LOSCFG_DRIVERS_UART_VENDOR is set to y
+LOSCFG_DRIVERS_SIMPLE_UART is set to y
+LOSCFG_CC_NO_STACKPROTECTOR is set to y
+
+
+CMAKE_TOOLCHAIN_FILE is defined ahead, skip auto-config compiler
+
+
+CMAKE_TOOLCHAIN_FILE is defined ahead, skip auto-config compiler
+
+
+OUT:D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0
+LITEOS_MODULE_DEP_LIBS_PATH:
+LITEOS_DEP_LIBS_INT:
+LITEOS_DEP_LIBS_EXT:gcc;gcc_eh
+LITEOS_BASELIB:m;gcc;gcc_eh
+
+-- COM_HEADER-includeD:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app/kernel/liteos/liteos_v208.5.0/menuconfig/include/menuconfig.h
+
+
+
+LOS_INTF_DEP_TARGETS:
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/drivers/chips/ws63/porting/patch/sfc_patch.c is not found, finding libplat_patch.a in D:/Nearlink_BearPi/bearpi_h3863/drivers/chips/ws63/porting/patch/ws63-liteos-app
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/drivers/chips/ws63/rom_config/acore/output/rom_callback.S is not found, finding librom_callback.a in D:/Nearlink_BearPi/bearpi_h3863/drivers/chips/ws63/ws63-liteos-app
+
+
+GEN_TARGET_SRC = D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/acore.c
+PRECOMPILE_TARGET = D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/acore.etypes
+
+
+TARGET_INCLUDE = D:/Nearlink_BearPi/bearpi_h3863/middleware/chips/ws63/nv/nv_config/include;D:/Nearlink_BearPi/bearpi_h3863/middleware/utils/common_headers/native
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/middleware/utils/at/at_bt_cmd/src/at_bt_cmd_register.c is not found, finding libbt_at.a in D:/Nearlink_BearPi/bearpi_h3863/middleware/utils/at/at_bt_cmd/ws63-liteos-app
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/middleware/utils/at/at_radar_cmd/at/at_radar.c is not found, finding libradar_at.a in D:/Nearlink_BearPi/bearpi_h3863/middleware/utils/at/at_radar_cmd/ws63-liteos-app
+
+
+Build wifi device with rom repo!
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/rom_code/ws63/source/alg/iot_alg/device/alg_main.c is not found, finding libwifi_driver_dmac.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/rom_code/ws63/source/common/romable/wifi_rom_data.c is not found, finding libwifi_rom_data.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/source/host/feature/interface/hmac_feature_interface.c is not found, finding libwifi_driver_hmac.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/source/host/forward/hmac_rx_data.c is not found, finding libwifi_driver_tcm.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/source/alg/iot_alg/host/alg_txbf.c is not found, finding libwifi_alg_txbf.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/source/alg/iot_alg/host/alg_temp_protect.c is not found, finding libwifi_alg_temp_protect.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/source/alg/iot_alg/host/alg_anti_interference.c is not found, finding libwifi_alg_anti_interference.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/source/alg/iot_alg/host/alg_edca_opt.c is not found, finding libwifi_alg_edca_opt.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/source/alg/iot_alg/host/alg_cca_intrf_mode.c is not found, finding libwifi_alg_cca_opt.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/wifi/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/controller/bgtp/__null__ is not found, finding libbgtp.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/controller/bgtp/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/controller/bgtp/__null__ is not found, finding libbgtp_rom_data.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/controller/bgtp/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bg_common/__null__ is not found, finding libbg_common.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bg_common/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bt/__null__ is not found, finding libbt_app.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bt/ws63-liteos-app
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bt/sdk/__null__ is not found, finding libbth_sdk.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bt/sdk/ws63-liteos-app
+
+
+BGTP_PROJECT=ws63
+BGTP_ROM_VERSION=true
+BGTP_DEVICE_ONLY=false
+BG COMMON BTH_ROM_LIST:__null__
+BTH_ROM_LIST:__null__
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bt/__null__ is not found, finding libbt_host.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/bt/ws63-liteos-app
+
+
+BTH_ROM_LIST:__null__
+
+
+BTH_PUBLIC_HEADER_LIST=
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/gle/__null__ is not found, finding libbth_gle.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/bt/host/gle/ws63-liteos-app
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/radar/alg_ai/radar_ai_attention_layer.c is not found, finding libradar_ai.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/radar/alg_ai/ws63-liteos-app
+
+
+-- project_name:
+
+
+-- D:/Nearlink_BearPi/bearpi_h3863/protocol/radar/plat/radar_service.c is not found, finding libradar_sensing.a in D:/Nearlink_BearPi/bearpi_h3863/protocol/radar/plat/ws63-liteos-app
+
+
+-- Configuring done
+
+
+-- Generating done
+
+
+-- Build files have been written to: D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app
+
+
+[1/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/cipher.c.obj
+
+
+[2/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/debug.c.obj
+
+
+[3/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/aria.c.obj
+
+
+[4/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/aes.c.obj
+
+
+[5/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/chachapoly.c.obj
+
+
+[6/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/aesni.c.obj
+
+
+[7/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ccm.c.obj
+
+
+[8/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/cmac.c.obj
+
+
+[9/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/chacha20.c.obj
+
+
+[10/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/constant_time.c.obj
+
+
+[11/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ctr_drbg.c.obj
+
+
+[12/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/camellia.c.obj
+
+
+[13/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/des.c.obj
+
+
+[14/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/asn1write.c.obj
+
+
+[15/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ecjpake.c.obj
+
+
+[16/787] Building C object CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.0/src/sm3_hmac.c.obj
+
+
+[17/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/base64.c.obj
+
+
+[18/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/cipher_wrap.c.obj
+
+
+[19/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/asn1parse.c.obj
+
+
+[20/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ecdh.c.obj
+
+
+[21/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/dhm.c.obj
+
+
+[22/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ecp.c.obj
+
+
+[23/787] Building C object CMakeFiles/gmssl_hmac_sm3.dir/open_source/GmSSL3.0/src/sm3.c.obj
+
+
+[24/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ecp_curves.c.obj
+
+
+[25/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/entropy.c.obj
+
+
+[26/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/error.c.obj
+
+
+[27/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/gcm.c.obj
+
+
+[28/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ecdsa.c.obj
+
+
+[29/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/hmac_drbg.c.obj
+
+
+[30/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/hkdf.c.obj
+
+
+[31/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/md.c.obj
+
+
+[32/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/md5.c.obj
+
+
+[33/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/memory_buffer_alloc.c.obj
+
+
+[34/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/mps_reader.c.obj
+
+
+[35/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/mps_trace.c.obj
+
+
+[36/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/nist_kw.c.obj
+
+
+[37/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/oid.c.obj
+
+
+[38/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/padlock.c.obj
+
+
+[39/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/pem.c.obj
+
+
+[40/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/pk.c.obj
+
+
+[41/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/pk_wrap.c.obj
+
+
+[42/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/pkcs5.c.obj
+
+
+[43/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/pkcs12.c.obj
+
+
+[44/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/pkparse.c.obj
+
+
+[45/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/pkwrite.c.obj
+
+
+[46/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/platform.c.obj
+
+
+[47/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/platform_util.c.obj
+
+
+[48/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/poly1305.c.obj
+
+
+[49/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ripemd160.c.obj
+
+
+[50/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/rsa.c.obj
+
+
+[51/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/rsa_alt_helpers.c.obj
+
+
+[52/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/sha1.c.obj
+
+
+[53/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/sha256.c.obj
+
+
+[54/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/sha512.c.obj
+
+
+[55/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_cache.c.obj
+
+
+[56/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_ciphersuites.c.obj
+
+
+[57/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_cli.c.obj
+
+
+[58/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_cookie.c.obj
+
+
+[59/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_debug_helpers_generated.c.obj
+
+
+[60/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_msg.c.obj
+
+
+[61/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_srv.c.obj
+
+
+[62/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_ticket.c.obj
+
+
+[63/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_tls.c.obj
+
+
+[64/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_tls13_client.c.obj
+
+
+[65/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_tls13_generic.c.obj
+
+
+[66/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_tls13_server.c.obj
+
+
+[67/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ssl_tls13_keys.c.obj
+
+
+[68/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c.obj
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c: In function 'mbedtls_mpi_exp_mod':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2204:5: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+     MBEDTLS_MPI_CHK( mbedtls_mpi_grow( &W[x_index], j ) );
+     ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2205:5: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+     MBEDTLS_MPI_CHK( mbedtls_mpi_grow( &W[1],  j ) );
+     ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2206:5: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+     MBEDTLS_MPI_CHK( mbedtls_mpi_grow( &T, j * 2 ) );
+     ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2214:9: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+         MBEDTLS_MPI_CHK( mbedtls_mpi_copy( &Apos, A ) );
+         ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2240:9: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+         MBEDTLS_MPI_CHK( mbedtls_mpi_mod_mpi( &W[1], A, N ) );
+         ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2244:9: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+         MBEDTLS_MPI_CHK( mbedtls_mpi_grow( &W[1], N->n + 1 ) );
+         ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2247:9: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+         MBEDTLS_MPI_CHK( mbedtls_mpi_copy( &W[1], A ) );
+         ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2256:5: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+     MBEDTLS_MPI_CHK( mbedtls_mpi_copy( &W[x_index], &RR ) );
+     ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2274:9: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+         MBEDTLS_MPI_CHK( mbedtls_mpi_grow( &W[j], N->n + 1 ) );
+         ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2275:9: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+         MBEDTLS_MPI_CHK( mbedtls_mpi_copy( &W[j], &W[1]    ) );
+         ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2285:13: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+             MBEDTLS_MPI_CHK( mbedtls_mpi_grow( &W[i], N->n + 1 ) );
+             ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+In file included from ../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:40:0:
+../../../../open_source/mbedtls/mbedtls_v3.1.0/include/mbedtls/bignum.h:56:13: warning: jump skips variable initialization [-Wjump-misses-init]
+             goto cleanup;        \
+             ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2286:13: note: in expansion of macro 'MBEDTLS_MPI_CHK'
+             MBEDTLS_MPI_CHK( mbedtls_mpi_copy( &W[i], &W[i - 1] ) );
+             ^~~~~~~~~~~~~~~
+../../../../open_source/mbedtls/mbe
+
+dtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
+ cleanup:
+ ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/library/bignum.c:2295:12: note: 'exponent_bits_in_window' declared here
+     size_t exponent_bits_in_window = 0;
+            ^~~~~~~~~~~~~~~~~~~~~~~
+[69/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/threading.c.obj
+
+
+[70/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/version.c.obj
+
+
+[71/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/version_features.c.obj
+
+
+[72/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/x509.c.obj
+
+
+[73/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/x509_create.c.obj
+
+
+[74/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/x509_crl.c.obj
+
+
+[75/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/x509_crt.c.obj
+
+
+[76/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/x509_csr.c.obj
+
+
+[77/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/x509write_crt.c.obj
+
+
+[78/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/x509write_csr.c.obj
+
+
+[79/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/net_sockets.c.obj
+
+
+[80/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/cipher_adapt.c.obj
+
+
+[81/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/cipher_common.c.obj
+
+
+[82/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/cmac_harden.c.obj
+
+
+[83/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/ecc_harden_common.c.obj
+
+
+[84/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/hkdf_harden.c.obj
+
+
+[85/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/pbkdf2_hmac_harden.c.obj
+
+
+[86/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/bignum_harden.c.obj
+
+
+[87/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/entropy_harden.c.obj
+
+
+[88/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/dfx.c.obj
+
+
+[89/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/gcm_harden.c.obj
+
+
+[90/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/ccm_harden.c.obj
+
+
+[91/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/hash_harden_common.c.obj
+
+
+[92/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/hash_harden_adapt.c.obj
+
+
+[93/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/sha1.c.obj
+
+
+[94/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/sha256.c.obj
+
+
+[95/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/sha512.c.obj
+
+
+[96/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/aes.c.obj
+
+
+[97/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/aes_harden_adapt.c.obj
+
+
+[98/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/ecp.c.obj
+
+
+[99/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/ecp_harden_adapt.c.obj
+
+
+[100/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_block.c.obj
+
+
+[101/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_hashkey.c.obj
+
+
+[102/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io_lwip.c.obj
+
+
+[103/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/ecc_harden.c.obj
+
+
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/ecc_harden.c:55:12: warning: 'ecdsa_sig_alloc' defined but not used [-Wunused-function]
+ static int ecdsa_sig_alloc( const unsigned int klen, drv_pke_ecc_sig *sig )
+            ^~~~~~~~~~~~~~~
+[104/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_session.c.obj
+
+
+[105/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_encode.c.obj
+
+
+[106/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_option.c.obj
+
+
+[107/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_pdu.c.obj
+
+
+[108/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_resource.c.obj
+
+
+[109/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_str.c.obj
+
+
+[110/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_subscribe.c.obj
+
+
+[111/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_uri.c.obj
+
+
+[112/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_debug.c.obj
+
+
+[113/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_io.c.obj
+
+
+[114/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_address.c.obj
+
+
+[115/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_cache.c.obj
+
+
+[116/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_netif.c.obj
+
+
+[117/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa_harden_adapt.c.obj
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa_harden_adapt.c: In function 'inner_alloc_pub_key':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa_harden_adapt.c:59:31: warning: unused variable 'e_len' [-Wunused-variable]
+     size_t size_align, n_len, e_len = 0;
+                               ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa_harden_adapt.c:59:24: warning: unused variable 'n_len' [-Wunused-variable]
+     size_t size_align, n_len, e_len = 0;
+                        ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa_harden_adapt.c: In function 'inner_alloc_priv_key_and_out_buf':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa_harden_adapt.c:106:31: warning: unused variable 'd_len' [-Wunused-variable]
+     size_t size_align, n_len, d_len = 0;
+                               ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rs
+
+a_harden_adapt.c:106:24: warning: unused variable 'n_len' [-Wunused-variable]
+     size_t size_align, n_len, d_len = 0;
+                        ^~~~~
+[118/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_dtls.c.obj
+
+
+[119/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_tcp.c.obj
+
+
+[120/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_ws.c.obj
+
+
+[121/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_layers.c.obj
+
+
+[122/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_async.c.obj
+
+
+[123/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_notls.c.obj
+
+
+[124/787] Building C object application/samples/CMakeFiles/samples.dir/products/sle_uart/sle_uart_client/sle_uart_client.c.obj
+
+
+[125/787] Building C object application/samples/CMakeFiles/samples.dir/products/sle_uart/sle_uart.c.obj
+
+
+[126/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_net.c.obj
+../../../../open_source/libcoap/libcoap/src/coap_net.c: In function 'coap_send_internal':
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1512:7: warning: jump skips variable initialization [-Wjump-misses-init]
+       goto error;
+       ^~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1617:1: note: label 'error' defined here
+ error:
+ ^~~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1605:17: note: 'node' declared here
+   coap_queue_t *node = coap_new_node();
+                 ^~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1525:5: warning: jump skips variable initialization [-Wjump-misses-init]
+     goto error;
+     ^~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1617:1: note: label 'error' defined here
+ error:
+ ^~~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1605:17: note: 'node' declared here
+   coap_queue_t *node = coap_new_node();
+                 ^~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1582:5: warning:
+
+ jump skips variable initialization [-Wjump-misses-init]
+     goto error;
+     ^~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1617:1: note: label 'error' defined here
+ error:
+ ^~~~~
+../../../../open_source/libcoap/libcoap/src/coap_net.c:1605:17: note: 'node' declared here
+   coap_queue_t *node = coap_new_node();
+                 ^~~~
+[127/787] Building C object application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/main.c.obj
+
+
+[128/787] Building ASM object application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/reset_vector.S.obj
+
+
+[129/787] Building C object application/ws63/ws63_liteos_application/CMakeFiles/ws63_liteos_app.dir/clock_init.c.obj
+
+
+[130/787] Building C object kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
+
+
+[131/787] Building C object kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj
+
+
+[132/787] Building C object kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_debug_adapt.c.obj
+
+
+[133/787] Building C object kernel/osal/CMakeFiles/osal.dir/adapt/liteos/oal_onetrack.c.obj
+
+
+[134/787] Building C object kernel/osal/CMakeFiles/osal.dir/adapt/liteos/osal_cpp_adapt.c.obj
+
+
+[135/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_addr.c.obj
+
+
+[136/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_atomic.c.obj
+
+
+[137/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_barrier.c.obj
+
+
+[138/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c.obj
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'mbedtls_rsa_rsaes_oaep_encrypt':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:733:35: warning: unused parameter 'f_rng' [-Wunused-parameter]
+                             int (*f_rng)(void *, unsigned char *, size_t),
+                                   ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:734:35: warning: unused parameter 'p_rng' [-Wunused-parameter]
+                             void *p_rng,
+                                   ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'mbedtls_rsa_rsaes_pkcs1_v15_encrypt':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:785:20: warning: unused variable 'p' [-Wunused-variable]
+     unsigned char *p = output;
+                    ^
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:784:9: warning: unused variable 'ret' [-Wunused-variable]
+     int ret = MBEDTLS_ERR_ERROR_CORRUPTION_DETECTED;
+         ^~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:783:12: warning: unused variable 'nb_pad' [-Wunused-variable]
+     size_t nb_pad, olen;
+            ^~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:778:40: warning: unused parameter 'f_rng' [-Wunused-parameter]
+                                  int (*f_rng)(void *, unsigned char *, size_t),
+                                        ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:779:40: warning: unused parameter 'p_rng' [-Wunused-parameter]
+                                  void *p_rng, size_t ilen,
+                                        ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'mbedtls_rsa_rsaes_oaep_decrypt':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:848:35: warning: unused parameter 'f_rng' [-Wunused-parameter]
+                             int (*f_rng)(void *, unsigned char *, size_t),
+                                   ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:849:35: warning: unused parameter 'p_rng' [-Wunused-parameter]
+                             void *p_rng,
+                                   ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'mbedtls_rsa_rsaes_pkcs1_v15_decrypt':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:899:40: warning: unused parameter 'f_rng' [-Wunused-parameter]
+                                  int (*f_rng)(void *, unsigned char *, size_t),
+                                        ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:900:40: warning: unused parameter 'p_rng' [-Wunused-parameter]
+                                  void *p_rng,
+                                        ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'rsa_rsassa_pss_sign':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:967:32: warning: unused parameter 'f_rng' [-Wunused-parameter]
+                          int (*f_rng)(void *, unsigned char *, size_t),
+                                ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:968:32: warning: unused parameter 'p_rng' [-Wunused-parameter]
+                          void *p_rng,
+                                ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:972:30: warning: unused parameter 'saltlen' [-Wunused-parameter]
+                          int saltlen,
+                              ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'mbedtls_rsa_rsassa_pss_sign_ext':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1004:59: warning: unused parameter 'ctx' [-Wunused-parameter]
+ int mbedtls_rsa_rsassa_pss_sign_ext( mbedtls_rsa_context *ctx,
+                                                           ^~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1005:32: warning: unused parameter 'f_rng' [-Wunused-parameter]
+                          int (*f_rng)(void *, unsigned char *, size_t),
+                                ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1006:32: warning: unused parameter 'p_rng' [-Wunused-parameter]
+                          void *p_rng,
+                                ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1007:44: warning: unused parameter 'md_alg' [-Wunused-parameter]
+                          mbedtls_md_type_t md_alg,
+                                            ^~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1008:39: warning: unused parameter 'hashlen' [-Wunused-parameter]
+                          unsigned int hashlen,
+                                       ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1009:47: warning: unused parameter 'hash' [-Wunused-parameter]
+                          const unsigned char *hash,
+                                               ^~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1010:30: warning: unused parameter 'saltlen' [-Wunused-parameter]
+                          int saltlen,
+                              ^~~~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1011:41: warning: unused parameter 'sig' [-Wunused-parameter]
+                          unsigned char *sig )
+                                         ^~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'mbedtls_rsa_rsassa_pkcs1_v15_sign':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1043:38: warning: unused parameter 'f_rng' [-Wunused-parameter]
+                                int (*f_rng)(void *, unsigned char *, size_t),
+                                      ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1044:38: warning: unused parameter 'p_rng' [-Wunused-parameter]
+                                void *p_rng,
+                                      ^~~~~
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c: In function 'mbed
+
+tls_rsa_rsassa_pss_verify_ext':
+../../../../open_source/mbedtls/mbedtls_v3.1.0/harden/src/connect_src/rsa.c:1122:36: warning: unused parameter 'expected_salt_len' [-Wunused-parameter]
+                                int expected_salt_len,
+                                    ^~~~~~~~~~~~~~~~~
+[139/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_cache.c.obj
+
+
+[140/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_completion.c.obj
+
+
+[141/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_debug.c.obj
+
+
+[142/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_drvbox.c.obj
+
+
+[143/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_event.c.obj
+
+
+[144/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_fileops.c.obj
+
+
+[145/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_interrupt.c.obj
+
+
+[146/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_math.c.obj
+
+
+[147/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_msgqueue.c.obj
+
+
+[148/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_mutex.c.obj
+
+
+[149/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_semaphore.c.obj
+
+
+[150/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_spinlock.c.obj
+
+
+[151/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_string.c.obj
+
+
+[152/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_task.c.obj
+
+
+[153/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_timer.c.obj
+
+
+[154/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_wait.c.obj
+
+
+[155/787] Building C object kernel/osal/CMakeFiles/osal.dir/src/liteos/osal_workqueue.c.obj
+
+
+[156/787] Building C object kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_atomic.c.obj
+
+
+[157/787] Building C object kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_event.c.obj
+
+
+[158/787] Building C object kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_string.c.obj
+
+
+[159/787] Building C object kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_task.c.obj
+
+
+[160/787] Building C object kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_timer.c.obj
+
+
+[161/787] Building C object kernel/osal_adapt/CMakeFiles/osal_adapt.dir/src/osal_adapt_debug.c.obj
+
+
+[162/787] Building C object driver/adc/CMakeFiles/adc.dir/adc.c.obj
+
+
+[163/787] Building C object driver/dma/CMakeFiles/dma.dir/dma.c.obj
+
+
+[164/787] Building C object driver/gpio/CMakeFiles/gpio.dir/gpio.c.obj
+
+
+[165/787] Building C object driver/i2c/CMakeFiles/i2c.dir/i2c.c.obj
+
+
+[166/787] Building C object driver/i2s/CMakeFiles/i2s.dir/i2s.c.obj
+
+
+[167/787] Building C object driver/lpm/CMakeFiles/lpm.dir/lpm_dev_ops.c.obj
+
+
+[168/787] Building C object driver/pmp/CMakeFiles/pmp.dir/pmp.c.obj
+
+
+[169/787] Building C object driver/pwm/CMakeFiles/pwm.dir/pwm.c.obj
+
+
+[170/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc.c.obj
+
+
+[171/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_symc_mac_hard.c.obj
+
+
+[172/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.obj
+
+
+[173/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_hash.c.obj
+
+
+[174/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_pbkdf2_hard.c.obj
+
+
+[175/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/drv_trng.c.obj
+
+
+[176/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.obj
+
+
+[177/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.obj
+
+
+[178/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.obj
+
+
+[179/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.obj
+
+
+[180/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj
+
+
+[181/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.obj
+
+
+[182/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash.c.obj
+
+
+[183/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_hash_simple.c.obj
+
+
+[184/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_init.c.obj
+
+
+[185/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke.c.obj
+
+
+[186/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_symc.c.obj
+
+
+[187/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_trng.c.obj
+
+
+[188/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_km.c.obj
+
+
+[189/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/sl_common.c.obj
+
+
+[190/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/trng.c.obj
+
+
+[191/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/cipher.c.obj
+
+
+[192/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/pke.c.obj
+
+
+[193/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/km.c.obj
+
+
+[194/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_init.c.obj
+
+
+[195/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/service_layer/security_sha256.c.obj
+
+
+[196/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/mbedtls_harden_adapt.c.obj
+
+
+[197/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/ecp_harden_impl.c.obj
+
+
+[198/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_init.c.obj
+
+
+[199/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/os/crypto_drv_irq.c.obj
+
+
+[200/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_cal.c.obj
+
+
+[201/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/kapi/source/kapi_pke_ecc_cal.c.obj
+
+
+[202/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/hash_harden_impl_long_term.c.obj
+
+
+[203/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/mbedtls_harden_adapt/aes_harden_impl_long_term.c.obj
+
+
+[204/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_cal.c.obj
+
+
+[205/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_rsa.c.obj
+
+
+[206/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_sign.c.obj
+
+
+[207/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/ecc/drv_pke_ecc_verify.c.obj
+
+
+[208/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_ecdh.c.obj
+
+
+[209/787] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecc_gen_key.c.obj
+
+
+[210/787] Building C object driver/spi/CMakeFiles/spi.dir/spi.c.obj
+
+
+[211/787] Building C object driver/tsensor/CMakeFiles/tsensor.dir/tsensor.c.obj
+
+
+[212/787] Building C object driver/uart/CMakeFiles/uart.dir/uart.c.obj
+
+
+[213/787] Building C object driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj
+
+
+[214/787] Building C object driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj
+
+
+[215/787] Building C object hal/adc/CMakeFiles/hal_adc.dir/hal_adc.c.obj
+
+
+[216/787] Building C object hal/adc/CMakeFiles/hal_adc.dir/v154/hal_adc_v154.c.obj
+
+
+[217/787] Building C object hal/adc/CMakeFiles/hal_adc.dir/v154/hal_adc_v154_regs_op.c.obj
+
+
+[218/787] Building C object hal/cpu_core/CMakeFiles/hal_cpu_core.dir/hal_cpu_core.c.obj
+
+
+[219/787] Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma.c.obj
+
+
+[220/787] Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/hal_dma_mem.c.obj
+
+
+[221/787] Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151.c.obj
+
+
+[222/787] Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj
+
+
+[223/787] Building C object hal/efuse/CMakeFiles/hal_efuse_v151.dir/hal_efuse.c.obj
+
+
+[224/787] Building C object hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj
+
+
+[225/787] Building C object hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj
+
+
+[226/787] Building C object hal/gpio/CMakeFiles/hal_gpio_v150.dir/hal_gpio.c.obj
+
+
+[227/787] Building C object hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150.c.obj
+
+
+[228/787] Building C object hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150_regs_op.c.obj
+
+
+[229/787] Building C object hal/gpio/CMakeFiles/hal_gpio_v150.dir/v150/hal_gpio_v150_comm.c.obj
+
+
+[230/787] Building C object hal/i2c/CMakeFiles/hal_i2c.dir/hal_i2c.c.obj
+
+
+[231/787] Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_master.c.obj
+
+
+[232/787] Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150.c.obj
+
+
+[233/787] Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_comm.c.obj
+
+
+[234/787] Building C object hal/i2c/CMakeFiles/hal_i2c.dir/v150/hal_i2c_v150_regs_op.c.obj
+
+
+[235/787] Building C object hal/mips/CMakeFiles/hal_mips.dir/hal_mips.c.obj
+
+
+[236/787] Building C object hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.obj
+
+
+[237/787] Building C object hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
+
+
+[238/787] Building C object hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
+
+
+[239/787] Building C object hal/pwm/CMakeFiles/hal_pwm.dir/hal_pwm.c.obj
+
+
+[240/787] Building C object hal/pwm/CMakeFiles/hal_pwm.dir/v151/hal_pwm_v151.c.obj
+
+
+[241/787] Building C object hal/pwm/CMakeFiles/hal_pwm.dir/v151/hal_pwm_v151_regs_op.c.obj
+
+
+[242/787] Building C object hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj
+
+
+[243/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/os/crypto_osal_lib.c.obj
+
+
+[244/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.obj
+
+
+[245/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.obj
+
+
+[246/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.obj
+
+
+[247/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.obj
+
+
+[248/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.obj
+
+
+[249/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/hal_pke.c.obj
+
+
+[250/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_hash.c.obj
+
+
+[251/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/spacc/hal_symc.c.obj
+
+
+[252/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/trng/hal_trng.c.obj
+
+
+[253/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.obj
+
+
+[254/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.obj
+
+
+[255/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.obj
+
+
+[256/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.obj
+
+
+[257/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rsa_data_ram_addr.c.obj
+
+
+[258/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/rsa.c.obj
+
+
+[259/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.obj
+
+
+[260/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_common.c.obj
+
+
+[261/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign.c.obj
+
+
+[262/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.obj
+
+
+[263/787] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify.c.obj
+
+
+[264/787] Building C object hal/spi/CMakeFiles/hal_spi.dir/hal_spi.c.obj
+
+
+[265/787] Building C object hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151.c.obj
+
+
+[266/787] Building C object hal/spi/CMakeFiles/hal_spi.dir/v151/hal_spi_v151_regs_op.c.obj
+
+
+[267/787] Building C object hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj
+
+
+[268/787] Building C object hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj
+
+
+[269/787] Building C object hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj
+
+
+[270/787] Building C object hal/tsensor/CMakeFiles/hal_tsensor.dir/hal_tsensor.c.obj
+
+
+[271/787] Building C object hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151.c.obj
+
+
+[272/787] Building C object hal/tsensor/CMakeFiles/hal_tsensor.dir/v151/hal_tsensor_v151_regs_op.c.obj
+
+
+[273/787] Building C object hal/sio/CMakeFiles/hal_sio.dir/hal_sio.c.obj
+
+
+[274/787] Building C object hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.obj
+
+
+[275/787] Building C object hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v100/hal_rtc_v100.c.obj
+
+
+[276/787] Building C object hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v100/hal_rtc_v100_op.c.obj
+
+
+[277/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt.c.obj
+
+
+[278/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt_handler.c.obj
+
+
+[279/787] Building ASM object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/vectors.s.obj
+
+
+[280/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/flash_patch.c.obj
+
+
+[281/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_adapter.c.obj
+
+
+[282/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/vectors/vectors.c.obj
+
+
+[283/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_os_adapter.c.obj
+
+
+[284/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/oam_trace.c.obj
+
+
+[285/787] Building C object drivers/chips/ws63/porting/adc/CMakeFiles/adc_port.dir/adc_porting.c.obj
+
+
+[286/787] Building C object drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/riscv/pmp_cfg.c.obj
+
+
+[287/787] Building C object drivers/chips/ws63/porting/gpio/CMakeFiles/gpio_port.dir/gpio_porting.c.obj
+
+
+[288/787] Building C object drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/idle_config.c.obj
+
+
+[289/787] Building C object drivers/chips/ws63/porting/liteos/CMakeFiles/liteos_port.dir/riscv31/tick_timer.c.obj
+
+
+[290/787] Building C object drivers/chips/ws63/porting/pwm/CMakeFiles/pwm_port.dir/pwm_porting.c.obj
+
+
+[291/787] Building C object drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/uart_porting.c.obj
+
+
+[292/787] Building C object drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/pmp_porting.c.obj
+
+
+[293/787] Building C object drivers/chips/ws63/porting/i2c/CMakeFiles/i2c_porting.dir/i2c_porting.c.obj
+
+
+[294/787] Building C object drivers/chips/ws63/porting/dma/CMakeFiles/dma_port.dir/dma_porting.c.obj
+
+
+[295/787] Building C object drivers/chips/ws63/porting/spi/CMakeFiles/spi_porting.dir/spi_porting.c.obj
+
+
+[296/787] Building C object drivers/chips/ws63/porting/sfc/flash_config/CMakeFiles/sfc_flash_config_ws63.dir/flash_config_info.c.obj
+
+
+[297/787] Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj
+
+
+[298/787] Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj
+
+
+[299/787] Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj
+
+
+[300/787] Building C object drivers/chips/ws63/porting/tsensor/CMakeFiles/tsensor_port.dir/tsensor_porting.c.obj
+
+
+[301/787] Building C object drivers/chips/ws63/porting/efuse/CMakeFiles/efuse_port.dir/efuse_porting.c.obj
+
+
+[302/787] Building C object drivers/chips/ws63/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj
+
+
+[303/787] Building C object drivers/chips/ws63/porting/sio/CMakeFiles/sio_port.dir/sio_porting.c.obj
+
+
+[304/787] Building C object drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/reboot_porting.c.obj
+
+
+[305/787] Building C object drivers/chips/ws63/porting/soc/CMakeFiles/soc_port.dir/soc_porting.c.obj
+
+
+[306/787] Building C object drivers/chips/ws63/porting/version/CMakeFiles/version_port.dir/version_porting.c.obj
+
+
+[307/787] Building C object drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/pm_porting.c.obj
+
+
+[308/787] Building C object drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/test_pm_port.c.obj
+
+
+[309/787] Building C object drivers/chips/ws63/porting/pm/CMakeFiles/pm_port_ws63.dir/pm_pwr_dbg.c.obj
+
+
+[310/787] Building C object drivers/chips/ws63/porting/xo_trim/CMakeFiles/xo_trim_port.dir/xo_trim_porting.c.obj
+
+
+[311/787] Building C object drivers/chips/ws63/dyn_mem/CMakeFiles/dyn_mem.dir/dyn_mem.c.obj
+
+
+[312/787] Building ASM object middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj
+
+
+[313/787] Building C object middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj
+
+
+[314/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/dfx_channel.c.obj
+
+
+[315/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/dfx_system_init.c.obj
+
+
+[316/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/diag_adapt_cmd_mem.c.obj
+
+
+[317/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/last_dump_adapt.c.obj
+
+
+[318/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/sample_data_adapt.c.obj
+
+
+[319/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/diag_adapt_sdt.c.obj
+
+
+[320/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/diag_adapt_psd.c.obj
+
+
+[321/787] Building C object middleware/chips/ws63/dfx/CMakeFiles/dfx_port_ws63.dir/diag_sample_data.c.obj
+
+
+[322/787] Building C object middleware/chips/ws63/partition/CMakeFiles/partition_ws63.dir/partition_porting.c.obj
+
+
+[323/787] Building C object middleware/chips/ws63/nv/nv_porting/CMakeFiles/nv_ws63.dir/nv_flash.c.obj
+
+
+[324/787] Building C object middleware/chips/ws63/nv/nv_zdiag/CMakeFiles/nv_zdiag_ws63.dir/nv_adapt_zdiag.c.obj
+
+
+[325/787] Building C object middleware/chips/ws63/update/common/CMakeFiles/update_common_ws63.dir/upg_common_porting.c.obj
+
+
+[326/787] Building C object middleware/chips/ws63/update/storage/CMakeFiles/update_storage_ws63.dir/upg_backup.c.obj
+
+
+[327/787] Building C object middleware/chips/ws63/update/ab_upg/CMakeFiles/update_ab_ws63.dir/upg_ab.c.obj
+
+
+[328/787] Building C object middleware/chips/ws63/mac_addr/CMakeFiles/mac_addr_ws63.dir/mac_addr.c.obj
+
+
+[329/787] Building C object middleware/chips/ws63/factory/CMakeFiles/factory_ws63.dir/factory.c.obj
+
+
+[330/787] Building C object services/wifi_service/service/CMakeFiles/wifi_service.dir/soc_wifi_service_api.c.obj
+
+
+[331/787] Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc16.c.obj
+
+
+[332/787] Building C object utils/algorithm/CMakeFiles/algorithm.dir/crc/uapi_crc32.c.obj
+
+
+[333/787] Building C object utils/algorithm/CMakeFiles/algorithm.dir/sha256/sha256.c.obj
+
+
+[334/787] Building C object utils/algorithm/CMakeFiles/algorithm.dir/sec_random/sec_random.c.obj
+
+
+[335/787] Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_hash.c.obj
+
+
+[336/787] Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_rawlist.c.obj
+
+
+[337/787] Building C object utils/algorithm/CMakeFiles/algorithm.dir/cstl/cstl_public.c.obj
+
+
+[338/787] Building C object utils/app_init/CMakeFiles/app_init.dir/app_init.c.obj
+
+
+[339/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_cmd.c.obj
+
+
+[340/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_msg.c.obj
+
+
+[341/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_parse.c.obj
+
+
+[342/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_channel.c.obj
+
+
+[343/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_process.c.obj
+
+
+[344/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_report.c.obj
+
+
+[345/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_base.c.obj
+
+
+[346/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_notify.c.obj
+
+
+[347/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_zdiag.c.obj
+
+
+[348/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_ccpriv.c.obj
+
+
+[349/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_mfg.c.obj
+
+
+[350/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_register.c.obj
+
+
+[351/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_wifi.c.obj
+
+
+[352/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_utils.c.obj
+
+
+[353/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/src/at_cmd_register.c.obj
+
+
+[354/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_sendtest.c.obj
+
+
+[355/787] Building C object utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/at/at_plt.c.obj
+
+
+[356/787] Building C object utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/src/at_plt_cmd_register.c.obj
+
+
+[357/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/romable/diag_oam_log.c.obj
+
+
+[358/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/romable/diag_rom_api.c.obj
+
+
+[359/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_channel.c.obj
+
+
+[360/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_cmd_dst.c.obj
+
+
+[361/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_cmd_src.c.obj
+
+
+[362/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_debug.c.obj
+
+
+[363/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_dfx.c.obj
+
+
+[364/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_filter.c.obj
+
+
+[365/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_ind_dst.c.obj
+
+
+[366/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_ind_src.c.obj
+
+
+[367/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_mem.c.obj
+
+
+[368/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_msg.c.obj
+
+
+[369/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_pkt.c.obj
+
+
+[370/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_pkt_router.c.obj
+
+
+[371/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_rx_api.c.obj
+
+
+[372/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_stat.c.obj
+
+
+[373/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/zdiag_tx.c.obj
+
+
+[374/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_beat_heart.c.obj
+
+
+[375/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_connect.c.obj
+
+
+[376/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_filter.c.obj
+
+
+[377/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_mem_info.c.obj
+
+
+[378/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_task_info.c.obj
+
+
+[379/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_res_info.c.obj
+
+
+[380/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_init_info.c.obj
+
+
+[381/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_get_cpup.c.obj
+
+
+[382/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_log_level.c.obj
+
+
+[383/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_mem_read_write.c.obj
+
+
+[384/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_offline_log.c.obj
+
+
+[385/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_password.c.obj
+
+
+[386/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_trace_info.c.obj
+
+
+[387/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_cmd_stat.c.obj
+
+
+[388/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_mocked_shell.c.obj
+
+
+[389/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/last_dump.c.obj
+
+
+[390/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/zdiag/diag_system_cmd/diag_bt_sample_data.c.obj
+
+
+[391/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_mem.c.obj
+
+
+[392/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_task.c.obj
+
+
+[393/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_res.c.obj
+
+
+[394/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_cpup.c.obj
+
+
+[395/787] Building C object utils/dfx/CMakeFiles/dfx_diag.dir/dfx_os/liteos_v1/dfx_trace.c.obj
+
+
+[396/787] Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj
+
+
+[397/787] Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj
+
+
+[398/787] Building C object utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log.c.obj
+
+
+[399/787] Building C object utils/dfx/CMakeFiles/soc_log.dir/soc_log/soc_log_uart_instance.c.obj
+
+
+[400/787] Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file.c.obj
+
+
+[401/787] Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_file.c.obj
+
+
+[402/787] Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
+
+
+[403/787] Building C object utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
+
+
+[404/787] Building C object utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj
+
+
+[405/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log.c.obj
+
+
+[406/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_logger.c.obj
+
+
+[407/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_mem_query.c.obj
+
+
+[408/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_ota.c.obj
+
+
+[409/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_pcm.c.obj
+
+
+[410/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_reg_query.c.obj
+
+
+[411/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_status.c.obj
+
+
+[412/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_dscr_cb.c.obj
+
+
+[413/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_exception.c.obj
+
+
+[414/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oml_ota_rom.c.obj
+
+
+[415/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf.c.obj
+
+
+[416/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_printf_rom.c.obj
+
+
+[417/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_reg_dump.c.obj
+
+
+[418/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_trigger.c.obj
+
+
+[419/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log/log_oam_msg.c.obj
+
+
+[420/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer.c.obj
+
+
+[421/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_buffer_reader.c.obj
+
+
+[422/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_region.c.obj
+
+
+[423/787] Building C object utils/dfx/CMakeFiles/dfx_log.dir/log_buffer/log_memory_section.c.obj
+
+
+[424/787] Building C object utils/dfx/CMakeFiles/dfx_log_reader.dir/log_reader/log_uart.c.obj
+
+
+[425/787] Building C object utils/dfx/CMakeFiles/dfx_printer.dir/dfx_print/dfx_print.c.obj
+
+
+[426/787] Building C object utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/private/cpu_utils.c.obj
+
+
+[427/787] Building C object utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/shared/non_os_reboot.c.obj
+
+
+[428/787] Building C object utils/dfx/diag_dfx_cmd/CMakeFiles/diag_dfx_cmd.dir/diag_dfx_cmd_init.c.obj
+
+
+[429/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage_handle.c.obj
+
+
+[430/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_app/soc_nv_storage.c.obj
+
+
+[431/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_key.c.obj
+
+
+[432/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_notify.c.obj
+
+
+[433/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_nvregion.c.obj
+
+
+[434/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_page.c.obj
+
+
+[435/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_reset.c.obj
+
+
+[436/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_rpc.c.obj
+
+
+[437/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_store.c.obj
+
+
+[438/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_update.c.obj
+
+
+[439/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_upg.c.obj
+
+
+[440/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_debug.c.obj
+
+
+[441/787] Building C object utils/nv/CMakeFiles/nv.dir/nv_storage_lib/nv_async_store.c.obj
+
+
+[442/787] Building C object utils/partition/CMakeFiles/partition.dir/partition.c.obj
+
+
+[443/787] Building C object utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj
+
+
+[444/787] Building C object utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj
+
+
+[445/787] Building C object utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj
+
+
+[446/787] Building C object utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj
+
+
+[447/787] Building C object utils/mips/CMakeFiles/mips.dir/private/mips.c.obj
+
+
+[448/787] Building C object open_source/cjson/CMakeFiles/cjson.dir/cjson/cJSON.c.obj
+
+
+[449/787] Building C object open_source/cjson/CMakeFiles/cjson.dir/cjson/cJSON_Utils.c.obj
+
+
+[450/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Base64.c.obj
+
+
+[451/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Clients.c.obj
+
+
+[452/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Heap.c.obj
+
+
+[453/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/LinkedList.c.obj
+
+
+[454/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Log.c.obj
+
+
+[455/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Messages.c.obj
+
+
+[456/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTClient.c.obj
+
+
+[457/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacket.c.obj
+
+
+[458/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPacketOut.c.obj
+
+
+[459/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistence.c.obj
+
+
+[460/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTPersistenceDefault.c.obj
+
+
+[461/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProperties.c.obj
+
+
+[462/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolClient.c.obj
+
+
+[463/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTProtocolOut.c.obj
+
+
+[464/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.obj
+
+
+[465/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.obj
+
+
+[466/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Proxy.c.obj
+
+
+[467/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SHA1.c.obj
+
+
+[468/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Socket.c.obj
+
+
+[469/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.obj
+
+
+[470/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.obj
+
+
+[471/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket_mbedtls.c.obj
+
+
+[472/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/StackTrace.c.obj
+
+
+[473/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Thread.c.obj
+
+
+[474/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/Tree.c.obj
+
+
+[475/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/utf-8.c.obj
+
+
+[476/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/WebSocket.c.obj
+
+
+[477/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTTime.c.obj
+
+
+[478/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/bss.c.obj
+
+
+[479/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/config.c.obj
+
+
+[480/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/ctrl_iface.c.obj
+
+
+[481/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/eap_register.c.obj
+
+
+[482/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/events.c.obj
+
+
+[483/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/scan.c.obj
+
+
+[484/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/wpa_supplicant.c.obj
+
+
+[485/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/wpas_glue.c.obj
+
+
+[486/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/ap.c.obj
+
+
+[487/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/hostapd/liteos_hostapd_src/hostapd_main_rtos.c.obj
+
+
+[488/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/hostapd/liteos_hostapd_src/hostapd_ctrl_iface_rtos.c.obj
+
+
+[489/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/liteos_wpa_src/crypto_mbedtls.c.obj
+
+
+[490/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/liteos_wpa_src/ctrl_iface_rtos.c.obj
+
+
+[491/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/liteos_wpa_src/eloop_rtos.c.obj
+
+
+[492/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/liteos_wpa_src/l2_packet_rtos.c.obj
+
+
+[493/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/liteos_wpa_src/main_rtos.c.obj
+
+
+[494/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/liteos_wpa_src/os_rtos.c.obj
+
+
+[495/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/liteos_wpa_src/wpa_cli_rtos.c.obj
+
+
+[496/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/wpa/liteos_wpa_api/wifi_api.c.obj
+
+
+[497/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/wpa/liteos_wpa_api/wifi_softap_api.c.obj
+
+
+[498/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/common/ieee802_11_common.c.obj
+
+
+[499/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/common/wpa_common.c.obj
+
+
+[500/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/common/hw_features_common.c.obj
+
+
+[501/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/aes-internal.c.obj
+
+
+[502/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/aes-unwrap.c.obj
+
+
+[503/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/aes-wrap.c.obj
+
+
+[504/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/aes-omac1.c.obj
+
+
+[505/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/crypto_internal-modexp.c.obj
+
+
+[506/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/dh_groups.c.obj
+
+
+[507/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/md5.c.obj
+
+
+[508/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/random.c.obj
+
+
+[509/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/rc4.c.obj
+
+
+[510/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/sha1-prf.c.obj
+
+
+[511/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/sha256-prf.c.obj
+
+
+[512/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/drivers/drivers.c.obj
+
+
+[513/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/drivers/driver_common.c.obj
+
+
+[514/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eapol_supp/eapol_supp_sm.c.obj
+
+
+[515/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eap_peer/eap.c.obj
+
+
+[516/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eap_peer/eap_methods.c.obj
+
+
+[517/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eap_common/eap_common.c.obj
+
+
+[518/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eapol_auth/eapol_auth_sm.c.obj
+
+
+[519/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eap_server/eap_server.c.obj
+
+
+[520/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eap_server/eap_server_identity.c.obj
+
+
+[521/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/eap_server/eap_server_methods.c.obj
+
+
+[522/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/rsn_supp/wpa.c.obj
+
+
+[523/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/rsn_supp/wpa_ie.c.obj
+
+
+[524/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/utils/base64.c.obj
+
+
+[525/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/utils/common.c.obj
+
+
+[526/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/utils/uuid.c.obj
+
+
+[527/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/utils/wpa_debug.c.obj
+
+
+[528/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/utils/wpabuf.c.obj
+
+
+[529/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/tls/bignum.c.obj
+
+
+[530/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/hostapd.c.obj
+
+
+[531/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/bss_load.c.obj
+
+
+[532/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/wpa_auth_glue.c.obj
+
+
+[533/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/utils.c.obj
+
+
+[534/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ap_config.c.obj
+
+
+[535/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/sta_info.c.obj
+
+
+[536/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ap_mlme.c.obj
+
+
+[537/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/drv_callbacks.c.obj
+
+
+[538/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ap_drv_ops.c.obj
+
+
+[539/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ieee802_11_ht.c.obj
+
+
+[540/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ieee802_11.c.obj
+
+
+[541/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/hw_features.c.obj
+
+
+[542/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/wpa_auth.c.obj
+
+
+[543/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/wpa_auth_ie.c.obj
+
+
+[544/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ieee802_1x.c.obj
+
+
+[545/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ieee802_11_he.c.obj
+
+
+[546/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/eap_user_db.c.obj
+
+
+[547/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/beacon.c.obj
+
+
+[548/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/acs.c.obj
+
+
+[549/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/pmksa_cache_auth.c.obj
+
+
+[550/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/sme.c.obj
+
+
+[551/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/common/sae.c.obj
+
+
+[552/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/common/dragonfly.c.obj
+
+
+[553/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/rsn_supp/pmksa_cache.c.obj
+
+
+[554/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/wpa/ltos_src/eloop_ltos.c.obj
+
+
+[555/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/wpa/osdep/osdep_osal.c.obj
+
+
+[556/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/wpa/driver_soc/driver_soc.c.obj
+
+
+[557/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/wpa/driver_soc/driver_soc_ioctl.c.obj
+
+
+[558/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/ap/ieee802_11_shared.c.obj
+
+
+[559/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/sha256-kdf.c.obj
+
+
+[560/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/utils/crc32.c.obj
+
+
+[561/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/sha384-prf.c.obj
+
+
+[562/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/sha384-kdf.c.obj
+
+
+[563/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/sha512-kdf.c.obj
+
+
+[564/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/src/crypto/sha512-prf.c.obj
+
+
+[565/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/wpa_supplicant/notify.c.obj
+
+
+[566/787] Building C object open_source/wpa_supplicant/CMakeFiles/wpa_supplicant.dir/__/__/middleware/services/wifi_service/wpa/scan_list_adapt/scan_list_adapt.c.obj
+
+
+[567/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_out.c.obj
+
+
+[568/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/autoip.c.obj
+
+
+[569/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcps.c.obj
+
+
+[570/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/igmp.c.obj
+
+
+[571/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/icmp.c.obj
+
+
+[572/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv4/dhcp.c.obj
+
+
+[573/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/lowpower.c.obj
+
+
+[574/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/timeouts.c.obj
+
+
+[575/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ip6in4.c.obj
+
+
+[576/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/debug.c.obj
+
+
+[577/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/mdns.c.obj
+
+
+[578/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_sack.c.obj
+
+
+[579/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tcp_in.c.obj
+
+
+[580/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp.c.obj
+
+
+[581/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/tftpc.c.obj
+
+
+[582/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/filter.c.obj
+
+
+[583/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sntp.c.obj
+
+
+[584/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_tcp.c.obj
+
+
+[585/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/def.c.obj
+
+
+[586/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/dns.c.obj
+
+
+[587/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/stats.c.obj
+
+
+[588/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/inet6.c.obj
+
+
+[589/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/mld6.c.obj
+
+
+[590/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/icmp6.c.obj
+
+
+[591/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/dhcp6.c.obj
+
+
+[592/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_frag.c.obj
+
+
+[593/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6_addr.c.obj
+
+
+[594/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ethip6.c.obj
+
+
+[595/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/nd6.c.obj
+
+
+[596/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/ipv6/ip6.c.obj
+
+
+[597/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/init.c.obj
+
+
+[598/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/sys.c.obj
+
+
+[599/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_addr.c.obj
+
+
+[600/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_dns64.c.obj
+
+
+[601/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64_v4_dhcpc.c.obj
+
+
+[602/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/nat64/nat64.c.obj
+
+
+[603/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/core/altcp_alloc.c.obj
+
+
+[604/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/ifaddrs.c.obj
+
+
+[605/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.obj
+
+
+[606/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.obj
+
+
+[607/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/if_api.c.obj
+
+
+[608/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netifapi.c.obj
+
+
+[609/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.obj
+
+
+[610/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.obj
+
+
+[611/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nat64_api.c.obj
+
+
+[612/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/ethtool.c.obj
+
+
+[613/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/netdb.c.obj
+
+
+[614/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ping.c.obj
+
+
+[615/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/misc.c.obj
+
+
+[616/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/ifconfig.c.obj
+
+
+[617/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/utility.c.obj
+
+
+[618/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/nettool/netstat.c.obj
+
+
+[619/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/sockets.c.obj
+
+
+[620/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/inet_chksum.c.obj
+
+
+[621/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip.c.obj
+
+
+[622/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/udp.c.obj
+
+
+[623/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/etharp.c.obj
+
+
+[624/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4.c.obj
+
+
+[625/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_addr.c.obj
+
+
+[626/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ipv4/ip4_frag.c.obj
+
+
+[627/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/ip_addr.c.obj
+
+
+[628/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/pbuf.c.obj
+
+
+[629/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/mem.c.obj
+
+
+[630/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/memp.c.obj
+
+
+[631/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/netif.c.obj
+
+
+[632/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/tcp.c.obj
+
+
+[633/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/core/raw.c.obj
+
+
+[634/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/ethernet.c.obj
+
+
+[635/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/netif/driverif.c.obj
+
+
+[636/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/netbuf.c.obj
+
+
+[637/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/tcpip.c.obj
+
+
+[638/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_msg.c.obj
+
+
+[639/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_v2.1.3/src/api/api_lib.c.obj
+
+
+[640/787] Building C object open_source/lwip/CMakeFiles/lwip_tcm.dir/lwip_adapter/liteos_207/src/arch/sys_arch.c.obj
+
+
+[641/787] Building C object protocol/wifi/CMakeFiles/wifi_csa.dir/source/host/feature/hmac_csa_ap.c.obj
+
+
+[642/787] Building C object protocol/wifi/CMakeFiles/wifi_csa.dir/source/host/feature/hmac_csa_sta.c.obj
+
+
+[643/787] Building C object protocol/wifi/CMakeFiles/wifi_auto_adjust_freq.dir/source/host/feature/hmac_auto_adjust_freq.c.obj
+
+
+[644/787] Building C object protocol/wifi/CMakeFiles/wifi_frag.dir/source/host/feature/hmac_frag.c.obj
+
+
+[645/787] Building C object protocol/wifi/CMakeFiles/wifi_radar_sensor.dir/source/host/feature/hmac_radar_sensor.c.obj
+
+
+[646/787] Building C object protocol/wifi/CMakeFiles/wifi_tx_amsdu.dir/source/host/feature/hmac_tx_amsdu.c.obj
+
+
+[647/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex.c.obj
+
+
+[648/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_ba.c.obj
+
+
+[649/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_btsta.c.obj
+[650/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_m2s.c.obj
+
+
+[651/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_notify.c.obj
+
+
+[652/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_ps.c.obj
+[653/787] Building C object protocol/wifi/CMakeFiles/wifi_uapsd_ap.dir/source/host/feature/hmac_uapsd.c.obj
+
+
+[654/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite.c.obj
+[655/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_channel.c.obj
+
+
+[656/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_commands_processor.c.obj
+[657/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_console.c.obj
+
+
+[658/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_functions_processor.c.obj
+
+
+[659/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_ipc.c.obj
+
+
+[660/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_log.c.obj
+
+
+[661/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_task.c.obj
+
+
+[662/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_uart.c.obj
+
+
+[663/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_auxiliary.c.obj
+
+
+[664/787] Linking C static library libgmssl_hmac_sm3.a
+
+
+[665/787] Linking C static library libcoap.a
+
+
+[666/787] Linking C static library application\ws63\ws63_liteos_application\libws63_liteos_app.a
+
+
+[667/787] Linking C static library application\samples\libsamples.a
+
+
+[668/787] Linking C static library kernel\non_os\non_os\libnon_os.a
+
+
+[669/787] Linking C static library kernel\osal_adapt\libosal_adapt.a
+
+
+[670/787] Linking C static library kernel\osal\libosal.a
+
+
+[671/787] Linking C static library libmbedtls.a
+
+
+[672/787] Linking C static library driver\adc\libadc.a
+
+
+[673/787] Linking C static library driver\dma\libdma.a
+
+
+[674/787] Linking C static library driver\gpio\libgpio.a
+
+
+[675/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/audio_lieyin.c.obj
+
+
+[676/787] Linking C static library driver\i2c\libi2c.a
+
+
+[677/787] Linking C static library driver\lpm\liblpm.a
+
+
+[678/787] Linking C static library driver\i2s\libi2s.a
+
+
+[679/787] Linking C static library driver\pmp\libpmp.a
+
+
+[680/787] Linking C static library driver\spi\libspi.a
+
+
+[681/787] Linking C static library driver\pwm\libpwm.a
+
+
+[682/787] Linking C static library driver\security_unified\libdrv_security_unified.a
+
+
+[683/787] Linking C static library driver\uart\libuart.a
+
+
+[684/787] Linking C static library driver\tsensor\libtsensor.a
+
+
+[685/787] Linking C static library driver\rtc_unified\librtc_unified.a
+
+
+[686/787] Linking C static library driver\efuse\libefuse.a
+
+
+[687/787] Linking C static library hal\adc\libhal_adc.a
+
+
+[688/787] Linking C static library hal\cpu_core\libhal_cpu_core.a
+
+
+[689/787] Linking C static library hal\dma\libhal_dma_v151.a
+
+
+[690/787] Linking C static library hal\efuse\libhal_efuse_v151.a
+
+
+[691/787] Linking C static library hal\i2c\libhal_i2c.a
+
+
+[692/787] Linking C static library hal\gpio\libhal_gpio_v150.a
+
+
+[693/787] Linking C static library hal\mips\libhal_mips.a
+
+
+[694/787] Linking C static library hal\pmp\libhal_pmp.a
+
+
+[695/787] Linking C static library hal\pwm\libhal_pwm.a
+
+
+[696/787] Linking C static library hal\reboot\libhal_reboot.a
+
+
+[697/787] Linking C static library hal\sio\libhal_sio.a
+
+
+[698/787] Linking C static library hal\tsensor\libhal_tsensor.a
+
+
+[699/787] Linking C static library hal\uart\libhal_uart.a
+
+
+[700/787] Linking C static library hal\spi\libhal_spi.a
+
+
+[701/787] Linking C static library hal\rtc_unified\libhal_rtc_unified.a
+
+
+[702/787] Linking C static library hal\security_unified\libhal_security_unified.a
+
+
+[703/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/audio_crc16.c.obj
+
+
+[704/787] Linking C static library drivers\chips\ws63\porting\adc\libadc_port.a
+
+
+[705/787] Linking C static library drivers\chips\ws63\libchip_ws63.a
+
+
+[706/787] Linking C static library drivers\chips\ws63\porting\arch\libpmp_cfg_ws63.a
+
+
+[707/787] Linking C static library drivers\chips\ws63\porting\gpio\libgpio_port.a
+
+
+[708/787] Linking C static library drivers\chips\ws63\porting\pwm\libpwm_port.a
+
+
+[709/787] Linking C static library drivers\chips\ws63\porting\i2c\libi2c_porting.a
+
+
+[710/787] Linking C static library drivers\chips\ws63\porting\dma\libdma_port.a
+
+
+[711/787] Linking C static library drivers\chips\ws63\porting\liteos\libliteos_port.a
+
+
+[712/787] Linking C static library drivers\chips\ws63\porting\spi\libspi_porting.a
+
+
+[713/787] Linking C static library drivers\chips\ws63\porting\uart\libuart_port.a
+
+
+[714/787] Linking C static library drivers\chips\ws63\porting\pmp\libpmp_port.a
+
+
+[715/787] Linking C static library drivers\chips\ws63\porting\sfc\flash_config\libsfc_flash_config_ws63.a
+
+
+[716/787] Linking C static library drivers\chips\ws63\porting\sfc\porting\libsfc_port_ws63.a
+
+
+[717/787] Linking C static library drivers\chips\ws63\porting\tsensor\libtsensor_port.a
+
+
+[718/787] Linking C static library drivers\chips\ws63\porting\efuse\libefuse_port.a
+
+
+[719/787] Linking C static library drivers\chips\ws63\porting\rtc_unified\librtc_unified_port.a
+
+
+[720/787] Linking C static library drivers\chips\ws63\porting\sio\libsio_port.a
+
+
+[721/787] Linking C static library drivers\chips\ws63\porting\reboot\libreboot_port.a
+
+
+[722/787] Linking C static library drivers\chips\ws63\porting\soc\libsoc_port.a
+
+
+[723/787] Linking C static library drivers\chips\ws63\porting\version\libversion_port.a
+
+
+[724/787] Linking C static library drivers\chips\ws63\porting\xo_trim\libxo_trim_port.a
+
+
+[725/787] Linking C static library drivers\chips\ws63\porting\pm\libpm_port_ws63.a
+
+
+[726/787] Linking C static library drivers\chips\ws63\dyn_mem\libdyn_mem.a
+
+
+[727/787] Building C object CMakeFiles/ws63-liteos-app.dir/temp/__null___.c.obj
+
+
+[728/787] Linking C static library middleware\chips\ws63\exception\libdfx_exception.a
+
+
+[729/787] Linking C static library middleware\chips\ws63\dfx\libdfx_port_ws63.a
+
+
+[730/787] Linking C static library middleware\chips\ws63\partition\libpartition_ws63.a
+
+
+[731/787] Linking C static library middleware\chips\ws63\nv\nv_porting\libnv_ws63.a
+
+
+[732/787] Linking C static library middleware\chips\ws63\update\common\libupdate_common_ws63.a
+
+
+[733/787] Linking C static library middleware\chips\ws63\nv\nv_zdiag\libnv_zdiag_ws63.a
+
+
+[734/787] Linking C static library middleware\chips\ws63\update\storage\libupdate_storage_ws63.a
+
+
+[735/787] Linking C static library middleware\chips\ws63\factory\libfactory_ws63.a
+
+
+[736/787] Linking C static library middleware\chips\ws63\mac_addr\libmac_addr_ws63.a
+
+
+[737/787] Linking C static library middleware\chips\ws63\update\ab_upg\libupdate_ab_ws63.a
+
+
+[738/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_service.a
+
+
+[739/787] Linking C static library utils\algorithm\libalgorithm.a
+
+
+[740/787] Linking C static library utils\app_init\libapp_init.a
+
+
+[741/787] Linking C static library utils\dfx\libdfx_panic.a
+
+
+[742/787] Linking C static library utils\at\at\libat.a
+
+
+[743/787] Linking C static library utils\at\at_plt_cmd\libplt_at.a
+
+
+[744/787] Linking C static library utils\at\at_wifi_cmd\libwifi_at.a
+
+
+[745/787] Linking C static library utils\dfx\libdfx_diag.a
+
+
+[746/787] Linking C static library utils\dfx\libsoc_log.a
+
+
+[747/787] Linking C static library utils\dfx\libdfx_preserve.a
+
+
+[748/787] Linking C static library utils\dfx\liblog_file.a
+
+
+[749/787] Linking C static library utils\dfx\libdfx_log_reader.a
+[750/787] Linking C static library utils\dfx\libdfx_printer.a
+[751/787] Linking C static library utils\dfx\libdfx_log.a
+
+
+[752/787] Linking C static library utils\dfx\dfx_reboot\cpu_utils\libcpu_utils.a
+[753/787] Linking C static library utils\dfx\dfx_reboot\reboot\libreboot.a
+
+
+[754/787] Linking C static library utils\dfx\diag_dfx_cmd\libdiag_dfx_cmd.a
+
+
+[755/787] Linking C static library utils\partition\libpartition.a
+
+
+[756/787] Linking C static library utils\nv\libnv.a
+
+
+[757/787] Linking C static library utils\update\common\libupdate_common.a
+
+
+[758/787] Linking C static library utils\update\storage\libupdate_storage.a
+
+
+[759/787] Linking C static library utils\mips\libmips.a
+
+
+[760/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libcjson.a
+
+
+[761/787] Linking C static library open_source\mqtt\libmqtt.a
+
+
+[762/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_auto_adjust_freq.a
+
+
+[763/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_radar_sensor.a
+
+
+[764/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_tx_amsdu.a
+
+
+[765/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_frag.a
+[766/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_csa.a
+
+
+[767/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_uapsd_ap.a
+
+
+[768/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_btcoex.a
+
+
+[769/787] Linking C static library test\common\testsuite\libtestsuite.a
+
+
+[770/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\liblwip_tcm.a
+
+
+[771/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\liblwip.a
+
+
+[772/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwpa_supplicant.a
+
+
+[773/787] Generating NV_SRC
+
+
+[774/787] Linking C executable ws63-liteos-app.elf
+
+
+Memory region         Used Size  Region Size  %age Used
+             ROM:          0 GB       268 KB      0.00%
+            ITCM:       12896 B        16 KB     78.71%
+            DTCM:       14836 B        16 KB     90.55%
+            SRAM:      184928 B     548608 B     33.71%
+PRESERVE_SHARE_MEM:         252 B        256 B     98.44%
+ PROGRAM_STARTUP:         476 B         1 KB     46.48%
+         PROGRAM:     1246316 B    2095360 B     59.48%
+[775/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/codesize_statistic.py ws63-liteos-app"
 
 
 'size' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
@@ -23,30 +2829,33 @@ warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_WAITFOREVER (def
 'size' �����ڲ����ⲿ���Ҳ���ǿ����еĳ���
 ���������ļ���
 codesize statistics done
-[4/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objcopy.exe -O ihex ws63-liteos-app.elf ws63-liteos-app_std.hex"
+[776/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-nm.exe -S -n --format=sysv ws63-liteos-app.elf > ws63-liteos-app.nm"
 
 
-[5/14] Generating NV_SRC
+[777/787] post_build:gen rom and ram bin file
 
 
-[6/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/create_hex.py ws63-liteos-app_rom.bin ws63-liteos-app_rom.hex"
+[778/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objcopy.exe -O ihex ws63-liteos-app.elf ws63-liteos-app_std.hex"
 
 
-[7/14] update nv bin
+[779/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/create_hex.py ws63-liteos-app_rom.bin ws63-liteos-app_rom.hex"
+
+
+[780/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/create_hex.py ws63-liteos-app.bin ws63-liteos-app.hex"
+
+
+[781/787] update nv bin
 
 
 build nv bin success!!
-[8/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/create_hex.py ws63-liteos-app.bin ws63-liteos-app.hex"
-
-
-[9/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/patch/patch_riscv.py ws63-liteos-app.bin ws63-liteos-app_rom.bin ws63-liteos-app.nm D:/Nearlink_BearPi/bearpi_h3863/build/config/target_config/ws63/patch_config acore ws63-liteos-app D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app"
+[782/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/patch/patch_riscv.py ws63-liteos-app.bin ws63-liteos-app_rom.bin ws63-liteos-app.nm D:/Nearlink_BearPi/bearpi_h3863/build/config/target_config/ws63/patch_config acore ws63-liteos-app D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app"
 
 
 Generating ws63-liteos-app.bin...
-[10/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -d -m riscv ws63-liteos-app.elf > ws63-liteos-app.asm"
+[783/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -d -m riscv ws63-liteos-app.elf > ws63-liteos-app.asm"
 
 
-[11/14] ws63 image sign
+[784/787] ws63 image sign
 type: 0
 cfg : param_bin_ecc.cfg
 
@@ -131,18 +2940,18 @@ root_loaderboot_sign.bin generated successfully!!!
 sign name:  ../../../../../output/ws63/acore\ws63-liteos-app/ws63-liteos-app.bin
 ../../../../../output/ws63/acore\ws63-liteos-app/ws6
 
-3-liteos-app.bin size:  1250876
+3-liteos-app.bin size:  1247340
 ../../../../../output/ws63/acore\ws63-liteos-app/ws63-liteos-app.bin  generated successfully!!!
 sign name:  ../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin
 ../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin size:  1261248
 ../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin  generated successfully!!!
-[12/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -x -S -l ws63-liteos-app.elf > ws63-liteos-app.lst"
+[785/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\bearpi_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -x -S -l ws63-liteos-app.elf > ws63-liteos-app.lst"
 
 
-[13/14] MEM_LIMIT
+[786/787] MEM_LIMIT
 
 
-[14/14] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/elftodu.py D:/Nearlink_BearPi/bearpi_h3863 ws63-liteos-app.elf D:/Nearlink_BearPi/bearpi_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_fp_win/bin/riscv32-linux-musl-nm.exe > ws63-liteos-app.du && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/mem_stats.py ws63-liteos-app.lst ws63-liteos-app.du D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app/linker.lds ws63 > ws63-liteos-app.mem"
+[787/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/elftodu.py D:/Nearlink_BearPi/bearpi_h3863 ws63-liteos-app.elf D:/Nearlink_BearPi/bearpi_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_fp_win/bin/riscv32-linux-musl-nm.exe > ws63-liteos-app.du && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/bearpi_h3863/build/script/utils/mem_stats.py ws63-liteos-app.lst ws63-liteos-app.du D:/Nearlink_BearPi/bearpi_h3863/output/ws63/acore/ws63-liteos-app/linker.lds ws63 > ws63-liteos-app.mem"
 
 
 ninja: no work to do.
@@ -150,6 +2959,8 @@ ninja: no work to do.
 
 data size:  16
 finally size:  64
+
+
 [!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-loaderboot/loaderboot.bin` not found, will skip it !
 [!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-loaderboot/root_loaderboot_sign.bin` not found, will skip it !
 [!][copy_files_to_interim] File `D:\Nearlink_BearPi\bearpi_h3863\output/ws63/acore/ws63-ssb/ssb.bin` not found, will skip it !
@@ -172,22 +2983,23 @@ struct writing in: ./output/ws63/database/cco/system/nv/nv_struct_def.txt
 
 ['D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\root_loaderboot_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\param_bin\\root_params_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\ssb_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\flashboot_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\flashboot_backup_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\nv_bin\\ws63_all_nv.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\nv_bin\\ws63_all_nv_backup.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\ws63-liteos-app\\ws63-liteos-app-sign.bin']
 [0, 2097152, 2105344, 2228224, 2162688, 6275072, 2146304, 2293760]
-[2097152, 1920, 21568, 49344, 49344, 16384, 16384, 1251648]
-[31488, 1920, 21568, 49344, 49344, 4096, 4096, 1251648]
+[2097152, 1920, 21568, 49344, 49344, 16384, 16384, 1248128]
+[31488, 1920, 21568, 49344, 49344, 4096, 4096, 1248128]
 [0, 1, 1, 1, 1, 1, 1, 1]
 ['D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\boot_bin\\root_loaderboot_sign.bin', 'D:\\Nearlink_BearPi\\bearpi_h3863\\output\\ws63\\acore\\ws63-liteos-app\\ws63-liteos-app-sign.bin']
 [0, 2293760]
-[2097152, 1251648]
-[31488, 1251648]
+[2097152, 1248128]
+[31488, 1248128]
 [0, 1]
+
+
 python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
 [ws63][acore] run custom cmd success!
 D:\Nearlink_BearPi\bearpi_h3863\build\script\.\..\..\config.in
 d:\Nearlink_BearPi\bearpi_h3863
-No change to Kconfig header in 'D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app\mconfig.h'
-[]
+Kconfig header saved to 'D:\Nearlink_BearPi\bearpi_h3863\output\ws63\acore\ws63-liteos-app\mconfig.h'
 ######### Build target:ws63_liteos_app success
-ws63-liteos-app takes 10.368881 s
+ws63-liteos-app takes 174.511600 s
 python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
 generate_efuse_bin ing...
 ['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\bearpi_h3863\\build\\config\\target_config\\ws63\\script\\efuse_cfg_gen.py']
@@ -215,6 +3027,8 @@ INFO:root:prefix:riscv32-linux-musl
 INFO:root:environment:windows
 INFO:root:stack_mode:2
 INFO:root:stack_rec_stats:1
+
+
 INFO:root:compiler prefix: riscv32-linux-musl
 
 
@@ -232,9 +3046,9 @@ INFO:root:map_path:                               ./output/ws63/acore/ws63-liteo
 
 INFO:root:compiler_path:                          d:\Program Files\HiSpark Studio\tools\Windows\cc_riscv32_musl_fp_win\bin
 INFO:root:build_config_path:                      None                                    
-
-
 INFO:root:prefix:                                 riscv32-linux-musl                      
+
+
 INFO:root:environment:                            windows                                 
 
 
@@ -253,35 +3067,47 @@ INFO:root:startup                                 424
 INFO:root:.sysintcall.init                        52                                      
 INFO:root:.patch                                  2344                                    
 INFO:root:.rom_ram_cb_text                        1816                                    
+
+
 INFO:root:.plat_romdata                           212                                     
 INFO:root:.wifi_romdata                           98                                      
 INFO:root:.btc_romdata                            672                                     
 INFO:root:.btc_text_tcm                           7206                                    
 INFO:root:.patch_on_tcm                           1528                                    
 INFO:root:.btc_data_tcm                           57                                      
+
+
 INFO:root:.wifi_data_tcm                          3408                                    
+
+
 INFO:root:.plat_text_sram                         10884                                   
 INFO:root:.patch_on_sram                          2520                                    
+
+
 INFO:root:.plat_text_flash                        176604                                  
+
+
 INFO:root:.wifi_text_flash                        585302                                  
+
+
 INFO:root:.patch_on_flash                         1908                                    
 
 
 INFO:root:.btc_text_flash                         131560                                  
-INFO:root:.bth_text_flash                         236088                                  
+INFO:root:.bth_text_flash                         232580                                  
 INFO:root:.radar_text_flash                       32012                                   
 INFO:root:.radar_ai_text_flash                    5868                                    
 INFO:root:.text                                   42040                                   
-
-
 INFO:root:.btc_data_flash                         4896                                    
-INFO:root:.bth_data_flash                         2408                                    
+
+
+INFO:root:.bth_data_flash                         2372                                    
 
 
 INFO:root:.data                                   380                                     
 
 
-INFO:root:total_size:                             1250287                                 
+INFO:root:total_size:                             1246743                                 
 INFO:root:------------------------------------------------------
 
 

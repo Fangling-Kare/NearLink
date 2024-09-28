@@ -24,7 +24,7 @@
     .btc_bss_tcm      0x00183618                    28                  
     .wifi_bss_tcm     0x00183638                   956                  
   
-  SRAM                0x00A00000     0x85F00   0x2D200 = 184832
+  SRAM                0x00A00000     0x85F00   0x2D260 = 184928
     .wifi_pkt_ram     0x00A00000                 49152                  
     .plat_text_sram   0x00A0C000                 10884 load address 0x234AD0
     .wifi_text_sram   0x00A0EA88                     0                  
@@ -34,19 +34,19 @@
     .wifi_data_sram   0x00A0F460                     0                  
     .btc_data_sram    0x00A0F460                     0                  
     .bth_data_sram    0x00A0F460                     0                  
-    .btc_data_flash   0x00A0F460                  4896 load address 0x35FB38
-    .bth_data_flash   0x00A10780                  2408 load address 0x360E58
-    .data             0x00A110E8                   380 load address 0x3617C0
-    .plat_bss_sram    0x00A11270                  1217                  
-    .plat_bss_flash   0x00A11738                 12692                  
-    .wifi_bss_flash   0x00A148D0                 37504                  
-    .radar_bss_flash  0x00A1DB50                 41040                  
-    .radar_ai_bss_flash  0x00A27BA0                  6120                  
-    .btc_bss_flash    0x00A29388                  3264                  
-    .bth_bss_flash    0x00A2A048                  3960                  
-    .bss              0x00A2AFC0                  3648                  
-    .stacks           0x00A2BE00                  5120                  
-    .heap             0x00A2D200                     0                  
+    .btc_data_flash   0x00A0F460                  4896 load address 0x35ED88
+    .bth_data_flash   0x00A10780                  2372 load address 0x3600A8
+    .data             0x00A110C8                   380 load address 0x3609F0
+    .plat_bss_sram    0x00A11250                  1217                  
+    .plat_bss_flash   0x00A11718                 12692                  
+    .wifi_bss_flash   0x00A148B0                 37504                  
+    .radar_bss_flash  0x00A1DB30                 41040                  
+    .radar_ai_bss_flash  0x00A27B80                  6120                  
+    .btc_bss_flash    0x00A29368                  3264                  
+    .bth_bss_flash    0x00A2A028                  4080                  
+    .bss              0x00A2B018                  3656                  
+    .stacks           0x00A2BE60                  5120                  
+    .heap             0x00A2D260                     0                  
   
   PRESERVE_SHARE_MEM  0x00A85F00       0x100      0xFC = 252
     .preserve         0x00A85F00                   252                  
@@ -55,7 +55,7 @@
     startup           0x00230300                   424                  
     .sysintcall.init  0x002304A8                    52                  
   
-  PROGRAM             0x00230700    0x1FF900  0x13123C = 1249852
+  PROGRAM             0x00230700    0x1FF900  0x13046C = 1246316
     .patch            0x00230700                  2344                  
     .rom_ram_cb_text  0x00231028                  1816                  
     .plat_romdata     0x00231740                   212                  
@@ -71,13 +71,13 @@
     .wifi_text_flash  0x00263110                585302                  
     .patch_on_flash   0x002F1F68                  1908                  
     .btc_text_flash   0x002F26E0                131560                  
-    .bth_text_flash   0x003128C8                236088                  
-    .radar_text_flash  0x0034C300                 32012                  
-    .radar_ai_text_flash  0x00354010                  5868                  
-    .text             0x00355700                 42040                  
-    .btc_data_flash   0x0035FB38                  4896                  
-    .bth_data_flash   0x00360E58                  2408                  
-    .data             0x003617C0                   380                  
+    .bth_text_flash   0x003128C8                232580                  
+    .radar_text_flash  0x0034B550                 32012                  
+    .radar_ai_text_flash  0x00353260                  5868                  
+    .text             0x00354950                 42040                  
+    .btc_data_flash   0x0035ED88                  4896                  
+    .bth_data_flash   0x003600A8                  2372                  
+    .data             0x003609F0                   380                  
 
   ====================================================
 
@@ -1234,8 +1234,8 @@
 
                   drv_cipher            1322
                     drv_code            1258
-                      drv_hash                     665
                       drv_symc                     556
+                      drv_hash                     665
                       crypto_drv_common             36
                       drv_trng                       1
 
@@ -1288,7 +1288,7 @@
   --------------------------------  --------  -----
 
 
-  .bth_data_flash                         42
+  .bth_data_flash                          8
 
     D:                                      
       Nearlink_BearPi                       
@@ -1298,9 +1298,6 @@
               products                      
                 sle_uart                    
                   sle_uart                           8
-                  sle_uart_server         34
-                    sle_uart_server                 18
-                    sle_uart_server_adv             16
 
 
   Section                            Total     Size
@@ -1308,7 +1305,7 @@
   --------------------------------  --------  -----
 
 
-  .bth_bss_flash                         537
+  .bth_bss_flash                         659
 
     D:                                      
       Nearlink_BearPi                       
@@ -1317,9 +1314,9 @@
             samples                         
               products                      
                 sle_uart                    
-                  sle_uart                         516
-                  sle_uart_server         21
-                    sle_uart_server                 21
+                  sle_uart                         512
+                  sle_uart_client        147
+                    sle_uart_client                147
 
 
   Section                            Total     Size
@@ -1430,17 +1427,17 @@
                     hal_uart_v151                   24
 
           open_source                     36
-            mbedtls                        8
-              mbedtls_v3.1.0                
-                library                     
-                  platform_util                      4
-                  ecp_curves                         4
-
             wpa_supplicant                 8
               src                           
                 utils                       
                   common                             4
                   wpa_debug                          4
+
+            mbedtls                        8
+              mbedtls_v3.1.0                
+                library                     
+                  platform_util                      4
+                  ecp_curves                         4
 
             lwip                          20
               lwip_v2.1.3                   
@@ -1572,6 +1569,32 @@
   --------------------------------  --------  -----
 
 
+  .bth_text_flash                       1146
+
+    D:                                      
+      Nearlink_BearPi                       
+        bearpi_h3863                        
+          application                   1062
+            samples                         
+              products                      
+                sle_uart                    
+                  sle_uart_client        840
+                    sle_uart_client                840
+
+                  sle_uart                         222
+
+          test                            84
+            common                          
+              testsuite                     
+                src                         
+                  test_suite_uart                   84
+
+
+  Section                            Total     Size
+
+  --------------------------------  --------  -----
+
+
   .patch                                2340
 
     D:                                      
@@ -1581,33 +1604,6 @@
             ws63                            
               ws63_liteos_application       
                 main                              2340
-
-
-  Section                            Total     Size
-
-  --------------------------------  --------  -----
-
-
-  .bth_text_flash                       2662
-
-    D:                                      
-      Nearlink_BearPi                       
-        bearpi_h3863                        
-          application                   2578
-            samples                         
-              products                      
-                sle_uart                    
-                  sle_uart_server       2108
-                    sle_uart_server_adv            748
-                    sle_uart_server               1360
-
-                  sle_uart                         470
-
-          test                            84
-            common                          
-              testsuite                     
-                src                         
-                  test_suite_uart                   84
 
   ====================================================
 
@@ -1622,7 +1618,7 @@
          .data  .lst file = 380 (0x17C)
                  .du file = 358 (0x166)
 
-          .bss  .lst file = 3648 (0xE40)
+          .bss  .lst file = 3656 (0xE48)
                  .du file = 3630 (0xE2E)
 
   ====================================================

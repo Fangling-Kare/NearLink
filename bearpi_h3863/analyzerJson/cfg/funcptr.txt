@@ -2259,7 +2259,7 @@ Miss_funcptr: wpa_event_cb_handle ...
 Remarks_here: 0x2cd3ee wpa_event_cb_handle 
 
 Miss_funcptr: get_dev_addr ... 
-Remarks_here: 0x35e30a get_dev_addr 
+Remarks_here: 0x35d55a get_dev_addr 
 
 Miss_funcptr: wifi_brctl_show ... 
 Remarks_here: 0x2cdc98 wifi_brctl_show 
@@ -2487,25 +2487,25 @@ Miss_funcptr: coex_adapter_wl_state_change_cbk ...
 Remarks_here: 0x2f63f6 coex_adapter_wl_state_change_cbk 
 
 Miss_funcptr: hal_pke_lock ... 
-Remarks_here: 0x35b7b4 hal_pke_lock 
+Remarks_here: 0x35aa04 hal_pke_lock 
 
 Miss_funcptr: crypto_get_cpu_type ... 
-Remarks_here: 0x3567ba crypto_get_cpu_type 
+Remarks_here: 0x355a0a crypto_get_cpu_type 
 
 Miss_funcptr: hal_pke_wait_free_int ... 
-Remarks_here: 0x35b71e hal_pke_wait_free_int 
+Remarks_here: 0x35a96e hal_pke_wait_free_int 
 
 Miss_funcptr: crypto_get_phys_addr ... 
-Remarks_here: 0x356756 crypto_get_phys_addr 
+Remarks_here: 0x3559a6 crypto_get_phys_addr 
 
 Miss_funcptr: hal_cipher_hash_config ... 
-Remarks_here: 0x35bcc2 hal_cipher_hash_config 
+Remarks_here: 0x35af12 hal_cipher_hash_config 
 
 Miss_funcptr: drv_hash_get_state_iv ... 
-Remarks_here: 0x3568ac drv_hash_get_state_iv 
+Remarks_here: 0x355afc drv_hash_get_state_iv 
 
 Miss_funcptr: hal_cipher_hash_wait_done ... 
-Remarks_here: 0x35bffe hal_cipher_hash_wait_done 
+Remarks_here: 0x35b24e hal_cipher_hash_wait_done 
 
 Miss_funcptr: encrypt_done_sm3 ... 
 Remarks_here: 0x2f899c encrypt_done_sm3 
@@ -2595,7 +2595,7 @@ Miss_funcptr: fsm_event_func_external ...
 Remarks_here: 0x3144ea fsm_event_func_external 
 
 Miss_funcptr: ble_gap_internal_cbk ... 
-Remarks_here: 0x341f5e ble_gap_internal_cbk 
+Remarks_here: 0x341e1e ble_gap_internal_cbk 
 
 Miss_funcptr: hci_tl_reg ... 
 Remarks_here: 0x322d72 hci_tl_reg 
@@ -2829,10 +2829,10 @@ Miss_funcptr: l2cap_signal_recv ...
 Remarks_here: 0x324e5c l2cap_signal_recv 
 
 Miss_funcptr: ble_gatt_server_event_handle ... 
-Remarks_here: 0x342050 ble_gatt_server_event_handle 
+Remarks_here: 0x341f10 ble_gatt_server_event_handle 
 
 Miss_funcptr: ble_gatt_client_event_handle ... 
-Remarks_here: 0x342238 ble_gatt_client_event_handle 
+Remarks_here: 0x3420f8 ble_gatt_client_event_handle 
 
 Miss_funcptr: ble_gatt_client_call_back_func ... 
 Remarks_here: 0x325e34 ble_gatt_client_call_back_func 
@@ -2841,7 +2841,7 @@ Miss_funcptr: ble_gatt_client_call_back_func ...
 Remarks_here: 0x325e34 ble_gatt_client_call_back_func 
 
 Miss_funcptr: ble_hci_internal_cbk ... 
-Remarks_here: 0x34236e ble_hci_internal_cbk 
+Remarks_here: 0x34222e ble_hci_internal_cbk 
 
 Miss_funcptr: ble_general_hci_data_process.constprop.1 ... 
 Remarks_here: 0x326a02 ble_general_hci_data_process.constprop.1 
@@ -2931,7 +2931,7 @@ Miss_funcptr: cs_task_send ...
 Remarks_here: 0x32dfd8 cs_task_send 
 
 Miss_funcptr: gle_tm_exter_cbk ... 
-Remarks_here: 0x338f9c gle_tm_exter_cbk 
+Remarks_here: 0x338ed8 gle_tm_exter_cbk 
 
 Miss_funcptr: gle_dm_trans_lcid_dispatch_tcids ... 
 Remarks_here: 0x3319b2 gle_dm_trans_lcid_dispatch_tcids 
@@ -3012,247 +3012,244 @@ Miss_funcptr: ssaps_mtu_req_cbk_handle ...
 Remarks_here: 0x337b20 ssaps_mtu_req_cbk_handle 
 
 Miss_funcptr: gle_tm_data_recv_core ... 
-Remarks_here: 0x338e6e gle_tm_data_recv_core 
+Remarks_here: 0x338daa gle_tm_data_recv_core 
 
 Miss_funcptr: tm_recv_data_ind_dispatch ... 
-Remarks_here: 0x33939e tm_recv_data_ind_dispatch 
+Remarks_here: 0x3392da tm_recv_data_ind_dispatch 
 
 Miss_funcptr: sapi_ssaps_add_service ... 
-Remarks_here: 0x339c30 sapi_ssaps_add_service 
+Remarks_here: 0x339b6c sapi_ssaps_add_service 
 
 Miss_funcptr: sapi_ssaps_add_property ... 
-Remarks_here: 0x339d30 sapi_ssaps_add_property 
+Remarks_here: 0x339c6c sapi_ssaps_add_property 
 
 Miss_funcptr: sapi_ssaps_add_property_desc ... 
-Remarks_here: 0x339e2e sapi_ssaps_add_property_desc 
+Remarks_here: 0x339d6a sapi_ssaps_add_property_desc 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c82c btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c764 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c82c btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c764 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c82c btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c764 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c82c btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c764 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c82c btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c764 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c82c btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c764 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_sle_adv_cbk ... 
-Remarks_here: 0x33d57c btsrv_sle_adv_cbk 
+Remarks_here: 0x33d4b4 btsrv_sle_adv_cbk 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6b8 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d5f0 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6b8 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d5f0 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6b8 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d5f0 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6b8 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d5f0 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: sle_ota_receive_data ... 
-Remarks_here: 0x33e58a sle_ota_receive_data 
+Remarks_here: 0x33e4c2 sle_ota_receive_data 
 
 Miss_funcptr: btsrv_handle_sle_factory_msg ... 
-Remarks_here: 0x33e690 btsrv_handle_sle_factory_msg 
+Remarks_here: 0x33e5c8 btsrv_handle_sle_factory_msg 
 
 Miss_funcptr: btsrv_handle_sle_ssap_client_msg ... 
-Remarks_here: 0x33eb2c btsrv_handle_sle_ssap_client_msg 
+Remarks_here: 0x33ea64 btsrv_handle_sle_ssap_client_msg 
 
 Miss_funcptr: btsrv_handle_sle_ssap_client_msg ... 
-Remarks_here: 0x33eb2c btsrv_handle_sle_ssap_client_msg 
+Remarks_here: 0x33ea64 btsrv_handle_sle_ssap_client_msg 
 
 Miss_funcptr: ssapc_internal_value_handle_cbk ... 
-Remarks_here: 0x33eed0 ssapc_internal_value_handle_cbk 
+Remarks_here: 0x33ee08 ssapc_internal_value_handle_cbk 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x3405d8 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3404d2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x3405d8 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3404d2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x3405d8 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3404d2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x3405d8 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3404d2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x3405d8 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3404d2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x3405d8 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3404d2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_sle_transmission_msg ... 
-Remarks_here: 0x340c84 btsrv_handle_sle_transmission_msg 
+Remarks_here: 0x340b7e btsrv_handle_sle_transmission_msg 
 
 Miss_funcptr: gle_mgr_general_evt_handle ... 
-Remarks_here: 0x341164 gle_mgr_general_evt_handle 
+Remarks_here: 0x34105e gle_mgr_general_evt_handle 
 
 Miss_funcptr: ble_connect_svr_proc ... 
-Remarks_here: 0x341c7c ble_connect_svr_proc 
+Remarks_here: 0x341b3c ble_connect_svr_proc 
 
 Miss_funcptr: mc_bt_manager_transparent ... 
-Remarks_here: 0x341d10 mc_bt_manager_transparent 
+Remarks_here: 0x341bd0 mc_bt_manager_transparent 
 
 Miss_funcptr: bt_manager_svr_proc ... 
-Remarks_here: 0x341d42 bt_manager_svr_proc 
+Remarks_here: 0x341c02 bt_manager_svr_proc 
 
 Miss_funcptr: ble_l2cap_general_ind ... 
-Remarks_here: 0x3424bc ble_l2cap_general_ind 
+Remarks_here: 0x34237c ble_l2cap_general_ind 
 
 Miss_funcptr: test_ble_factory_vendor_pdl_cmd_complete ... 
-Remarks_here: 0x342d40 test_ble_factory_vendor_pdl_cmd_complete 
+Remarks_here: 0x342c00 test_ble_factory_vendor_pdl_cmd_complete 
 
 Miss_funcptr: test_ble_factory_vendor_pdl_cmd_complete ... 
-Remarks_here: 0x342d40 test_ble_factory_vendor_pdl_cmd_complete 
+Remarks_here: 0x342c00 test_ble_factory_vendor_pdl_cmd_complete 
 
 Miss_funcptr: test_ble_factory_vendor_pdl_cmd_complete ... 
-Remarks_here: 0x342d40 test_ble_factory_vendor_pdl_cmd_complete 
+Remarks_here: 0x342c00 test_ble_factory_vendor_pdl_cmd_complete 
 
 Miss_funcptr: ble_at_link_common ... 
-Remarks_here: 0x344980 ble_at_link_common 
+Remarks_here: 0x344846 ble_at_link_common 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346ab6 btsrv_handle_gatt_client_msg 
+Remarks_here: 0x34697a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346ab6 btsrv_handle_gatt_client_msg 
+Remarks_here: 0x34697a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346ab6 btsrv_handle_gatt_client_msg 
+Remarks_here: 0x34697a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346ab6 btsrv_handle_gatt_client_msg 
+Remarks_here: 0x34697a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346ab6 btsrv_handle_gatt_client_msg 
+Remarks_here: 0x34697a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346ab6 btsrv_handle_gatt_client_msg 
+Remarks_here: 0x34697a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347e32 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347cf6 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: ble_factory_evt_proc ... 
-Remarks_here: 0x348fa8 ble_factory_evt_proc 
+Remarks_here: 0x348e6c ble_factory_evt_proc 
 
 Miss_funcptr: btsrv_handle_hci_factory_msg ... 
-Remarks_here: 0x3490ca btsrv_handle_hci_factory_msg 
+Remarks_here: 0x348f8e btsrv_handle_hci_factory_msg 
 
 Miss_funcptr: btsrv_handle_hci_factory_msg ... 
-Remarks_here: 0x3490ca btsrv_handle_hci_factory_msg 
+Remarks_here: 0x348f8e btsrv_handle_hci_factory_msg 
 
 Miss_funcptr: btsrv_handle_hci_factory_msg ... 
-Remarks_here: 0x3490ca btsrv_handle_hci_factory_msg 
+Remarks_here: 0x348f8e btsrv_handle_hci_factory_msg 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349c36 btsrv_handle_local_manager_msg_ble 
-
-Miss_funcptr: sle_connect_state_changed_cbk ... 
-Remarks_here: 0x34b130 sle_connect_state_changed_cbk 
+Remarks_here: 0x349afa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: radar_fft_complex ... 
-Remarks_here: 0x34f958 radar_fft_complex 
+Remarks_here: 0x34eba8 radar_fft_complex 
 
 Miss_funcptr: radar_hal_pc_proc ... 
-Remarks_here: 0x34c4e6 radar_hal_pc_proc 
+Remarks_here: 0x34b736 radar_hal_pc_proc 
 
 Miss_funcptr: radar_hal_cali_rx_gain ... 
-Remarks_here: 0x34c862 radar_hal_cali_rx_gain 
+Remarks_here: 0x34bab2 radar_hal_cali_rx_gain 
 
 Miss_funcptr: update_alg_res ... 
-Remarks_here: 0x34ee92 update_alg_res 
+Remarks_here: 0x34e0e2 update_alg_res 
 
 Miss_funcptr: alg_res_fusion ... 
-Remarks_here: 0x34f57c alg_res_fusion 
+Remarks_here: 0x34e7cc alg_res_fusion 
 
 Miss_funcptr: radar_res_whether_changed ... 
-Remarks_here: 0x34f70e radar_res_whether_changed 
+Remarks_here: 0x34e95e radar_res_whether_changed 
 
 Miss_funcptr: radar_ppl_cali_inv_phase ... 
-Remarks_here: 0x351a90 radar_ppl_cali_inv_phase 
+Remarks_here: 0x350ce0 radar_ppl_cali_inv_phase 
 
 Miss_funcptr: radar_spl_plot_extraction ... 
-Remarks_here: 0x35157e radar_spl_plot_extraction 
+Remarks_here: 0x3507ce radar_spl_plot_extraction 
 
 Miss_funcptr: radar_fpl_update_all_trail ... 
-Remarks_here: 0x3510b6 radar_fpl_update_all_trail 
+Remarks_here: 0x350306 radar_fpl_update_all_trail 
 
 Miss_funcptr: at_radar_set_led_gear ... 
-Remarks_here: 0x353d2e at_radar_set_led_gear 
+Remarks_here: 0x352f7e at_radar_set_led_gear 
 
 Miss_funcptr: uapi_pmp_config ... 
-Remarks_here: 0x3557a6 uapi_pmp_config 
+Remarks_here: 0x3549f6 uapi_pmp_config 
 
 Miss_funcptr: hal_cipher_symc_wait_done ... 
-Remarks_here: 0x35cb00 hal_cipher_symc_wait_done 
+Remarks_here: 0x35bd50 hal_cipher_symc_wait_done 
 
 Miss_funcptr: crypto_free_coherent ... 
-Remarks_here: 0x356748 crypto_free_coherent 
+Remarks_here: 0x355998 crypto_free_coherent 
 
 Miss_funcptr: crypto_malloc_coherent ... 
-Remarks_here: 0x356772 crypto_malloc_coherent 
+Remarks_here: 0x3559c2 crypto_malloc_coherent 
 
 Miss_funcptr: crypto_malloc_mmz ... 
-Remarks_here: 0x356736 crypto_malloc_mmz 
+Remarks_here: 0x355986 crypto_malloc_mmz 

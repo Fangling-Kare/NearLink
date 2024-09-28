@@ -195,3 +195,7 @@ Debug: File:(..\Code\BurnCtrl\WifiBurnCtrl.cpp) Line:(712) 19200 WifiBurnCtrl(0x
 Debug: File:(..\Code\BurnCtrl\WifiBurnCtrl.cpp) Line:(712) 19200 WifiBurnCtrl(0x6640810) (2024-09-18 13:40:42.792)
 Debug: File:(..\Code\BurnCtrl\WifiBurnCtrl.cpp) Line:(712) 19200 WifiBurnCtrl(0x6640810) (2024-09-18 13:41:13.236)
 Debug: File:(..\Code\main.cpp) Line:(84) ret:  0 (2024-09-18 14:51:30.976)
+Warning: File:() Line:(0) bool QSerialPort::setDataTerminalReady(bool): device not open (2024-09-20 12:37:16.091)
+Debug: File:(..\Code\BurnCtrl\WifiBurnCtrl.cpp) Line:(712) 19200 WifiBurnCtrl(0x6713240) (2024-09-20 12:38:29.288)
+Debug: File:(..\Code\BurnCtrl\WifiBurnCtrl.cpp) Line:(712) 19200 WifiBurnCtrl(0x6713240) (2024-09-20 12:38:57.056)
+Debug: File:(..\Code\main.cpp) Line:(84) ret:  0 (2024-09-20 12:53:15.927)
