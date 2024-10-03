@@ -70,8 +70,130 @@ static void uart_init_config(void) // UART初始化配置函数
 }
 
 #if defined(CONFIG_SAMPLE_SUPPORT_SLE_UART_SERVER) // 如果定义了SLE_UART_SERVER模式
-// ...省略部分代码...
-#endif  /* CONFIG_SAMPLE_SUPPORT_SLE_UART_SERVER */
+#define SLE_UART_SERVER_DELAY_COUNT         5 // 定义SLE UART服务器延迟计数
+#define SLE_UART_TASK_STACK_SIZE            0x1200 // 定义SLE UART任务栈大小
+#define SLE_ADV_HANDLE_DEFAULT              1 // 定义默认的SLE广播句柄
+#define SLE_UART_SERVER_MSG_QUEUE_LEN       5 // 定义SLE UART服务器消息队列长度
+#define SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE  32 // 定义SLE UART服务器消息队列最大尺寸
+#define SLE_UART_SERVER_QUEUE_DELAY         0xFFFFFFFF // 定义SLE UART服务器队列延迟
+#define SLE_UART_SERVER_BUFF_MAX_SIZE       800 // 定义SLE UART服务器缓冲区最大尺寸
+
+unsigned long g_sle_uart_server_msgqueue_id; // 定义全局变量，存储SLE UART服务器消息队列ID
+#define SLE_UART_SERVER_LOG                 "[sle uart server]" // 定义SLE UART服务器日志标签
+
+// SLE SSAP服务器读取请求回调函数
+static void ssaps_server_read_request_cbk(uint8_t server_id, uint16_t conn_id, ssaps_req_read_cb_t *read_cb_para,
+    errcode_t status)
+{
+    osal_printk("%s ssaps read request cbk callback server_id:%x, conn_id:%x, handle:%x, status:%x\r\n",
+        SLE_UART_SERVER_LOG, server_id, conn_id, read_cb_para->handle, status);
+}
+
+// SLE SSAP服务器写请求回调函数
+static void ssaps_server_write_request_cbk(uint8_t server_id, uint16_t conn_id, ssaps_req_write_cb_t *write_cb_para,
+    errcode_t status)
+{
+    osal_printk("%s ssaps write request callback cbk server_id:%x, conn_id:%x, handle:%x, status:%x\r\n",
+        SLE_UART_SERVER_LOG, server_id, conn_id, write_cb_para->handle, status);
+    if ((write_cb_para->length > 0) && write_cb_para->value) {
+        osal_printk("\n sle uart recived data : %s\r\n", write_cb_para->value);
+        uapi_uart_write(CONFIG_SLE_UART_BUS, (uint8_t *)write_cb_para->value, write_cb_para->length, 0);
+    }
+}
+
+// SLE UART服务器读取中断处理函数
+static void sle_uart_server_read_int_handler(const void *buffer, uint16_t length, bool error)
+{
+    unused(error);
+    if (sle_uart_client_is_connected()) {
+        sle_uart_server_send_report_by_handle(buffer, length);
+    } else {
+        osal_printk("%s sle client is not connected! \r\n", SLE_UART_SERVER_LOG);
+    }
+}
+
+// 创建SLE UART服务器消息队列
+static void sle_uart_server_create_msgqueue(void)
+{
+    if (osal_msg_queue_create("sle_uart_server_msgqueue", SLE_UART_SERVER_MSG_QUEUE_LEN, \
+        (unsigned long *)&g_sle_uart_server_msgqueue_id, 0, SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE) != OSAL_SUCCESS) {
+        osal_printk("^%s sle_uart_server_create_msgqueue message queue create failed!\n", SLE_UART_SERVER_LOG);
+    }
+}
+
+// 删除SLE UART服务器消息队列
+static void sle_uart_server_delete_msgqueue(void)
+{
+    osal_msg_queue_delete(g_sle_uart_server_msgqueue_id);
+}
+
+// 将数据写入SLE UART服务器消息队列
+static void sle_uart_server_write_msgqueue(uint8_t *buffer_addr, uint16_t buffer_size)
+{
+    osal_msg_queue_write_copy(g_sle_uart_server_msgqueue_id, (void *)buffer_addr, \
+                              (uint32_t)buffer_size, 0);
+}
+
+// 从SLE UART服务器消息队列接收数据
+static int32_t sle_uart_server_receive_msgqueue(uint8_t *buffer_addr, uint32_t *buffer_size)
+{
+    return osal_msg_queue_read_copy(g_sle_uart_server_msgqueue_id, (void *)buffer_addr, \
+                                    buffer_size, SLE_UART_SERVER_QUEUE_DELAY);
+}
+
+// 初始化SLE UART服务器接收缓冲区
+static void sle_uart_server_rx_buf_init(uint8_t *buffer_addr, uint32_t *buffer_size)
+{
+    *buffer_size = SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE;
+    (void)memset_s(buffer_addr, *buffer_size, 0, *buffer_size);
+}
+
+// SLE UART服务器任务函数
+static void *sle_uart_server_task(const char *arg)
+{
+    unused(arg);
+    uint8_t rx_buf[SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE] = {0}; // 定义接收缓冲区
+    uint32_t rx_length = SLE_UART_SERVER_MSG_QUEUE_MAX_SIZE; // 定义接收长度
+    uint8_t sle_connect_state[] = "sle_dis_connect"; // 定义SLE连接状态字符串
+
+    sle_uart_server_create_msgqueue(); // 创建消息队列
+    sle_uart_server_register_msg(sle_uart_server_write_msgqueue); // 注册消息写入函数
+    sle_uart_server_init(ssaps_server_read_request_cbk, ssaps_server_write_request_cbk); // 初始化SLE UART服务器
+
+    // 初始化UART引脚配置
+    uart_init_pin();
+    // 初始化UART配置
+    uart_init_config();
+
+    // 注销UART接收回调
+    uapi_uart_unregister_rx_callback(CONFIG_SLE_UART_BUS);
+    // 注册UART接收回调
+    errcode_t ret = uapi_uart_register_rx_callback(CONFIG_SLE_UART_BUS,
+                                                   UART_RX_CONDITION_FULL_OR_IDLE,
+                                                   1, sle_uart_server_read_int_handler);
+    if (ret != ERRCODE_SUCC) {
+        osal_printk("%s Register uart callback fail.[%x]\r\n", SLE_UART_SERVER_LOG, ret);
+        return NULL;
+    }
+    while (1) {
+        // 初始化接收缓冲区
+        sle_uart_server_rx_buf_init(rx_buf, &rx_length);
+        // 接收消息队列
+        sle_uart_server_receive_msgqueue(rx_buf, &rx_length);
+        // 如果接收到特定的连接状态消息，则开始广播
+        if (strncmp((const char *)rx_buf, (const char *)sle_connect_state, sizeof(sle_connect_state)) == 0) {
+            ret = sle_start_announce(SLE_ADV_HANDLE_DEFAULT);
+            if (ret != ERRCODE_SLE_SUCCESS) {
+                osal_printk("%s sle_connect_state_changed_cbk,sle_start_announce fail :%02x\r\n",
+                    SLE_UART_SERVER_LOG, ret);
+            }
+        }
+        osal_msleep(SLE_UART_TASK_DURATION_MS); // 休眠一段时间
+    }
+    // 删除消息队列
+    sle_uart_server_delete_msgqueue();
+    return NULL;
+}
 
 #elif defined(CONFIG_SAMPLE_SUPPORT_SLE_UART_CLIENT) // 如果定义了SLE_UART_CLIENT模式
 
