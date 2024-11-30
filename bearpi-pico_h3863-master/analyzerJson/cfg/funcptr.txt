@@ -2262,7 +2262,7 @@ Miss_funcptr: wpa_event_cb_handle ...
 Remarks_here: 0x2cd762 wpa_event_cb_handle 
 
 Miss_funcptr: get_dev_addr ... 
-Remarks_here: 0x35e782 get_dev_addr 
+Remarks_here: 0x35e77a get_dev_addr 
 
 Miss_funcptr: wifi_brctl_show ... 
 Remarks_here: 0x2ce00c wifi_brctl_show 
@@ -2490,25 +2490,25 @@ Miss_funcptr: coex_adapter_wl_state_change_cbk ...
 Remarks_here: 0x2f67be coex_adapter_wl_state_change_cbk 
 
 Miss_funcptr: hal_pke_lock ... 
-Remarks_here: 0x35b1f8 hal_pke_lock 
+Remarks_here: 0x35b1f0 hal_pke_lock 
 
 Miss_funcptr: crypto_get_cpu_type ... 
-Remarks_here: 0x355d9a crypto_get_cpu_type 
+Remarks_here: 0x355d92 crypto_get_cpu_type 
 
 Miss_funcptr: hal_pke_wait_free_int ... 
-Remarks_here: 0x35b162 hal_pke_wait_free_int 
+Remarks_here: 0x35b15a hal_pke_wait_free_int 
 
 Miss_funcptr: crypto_get_phys_addr ... 
-Remarks_here: 0x355d36 crypto_get_phys_addr 
+Remarks_here: 0x355d2e crypto_get_phys_addr 
 
 Miss_funcptr: hal_cipher_hash_config ... 
-Remarks_here: 0x35b706 hal_cipher_hash_config 
+Remarks_here: 0x35b6fe hal_cipher_hash_config 
 
 Miss_funcptr: drv_hash_get_state_iv ... 
-Remarks_here: 0x355e8c drv_hash_get_state_iv 
+Remarks_here: 0x355e84 drv_hash_get_state_iv 
 
 Miss_funcptr: hal_cipher_hash_wait_done ... 
-Remarks_here: 0x35ba42 hal_cipher_hash_wait_done 
+Remarks_here: 0x35ba3a hal_cipher_hash_wait_done 
 
 Miss_funcptr: encrypt_done_sm3 ... 
 Remarks_here: 0x2f8d64 encrypt_done_sm3 
@@ -3219,64 +3219,64 @@ Miss_funcptr: btsrv_handle_local_manager_msg_ble ...
 Remarks_here: 0x349ec2 btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: hal_spi_init_config_spi_frame_format ... 
-Remarks_here: 0x35dd56 hal_spi_init_config_spi_frame_format 
+Remarks_here: 0x35dd4e hal_spi_init_config_spi_frame_format 
 
 Miss_funcptr: hal_spi_v151_ctrl ... 
-Remarks_here: 0x35e28e hal_spi_v151_ctrl 
+Remarks_here: 0x35e286 hal_spi_v151_ctrl 
 
 Miss_funcptr: radar_fft_complex ... 
-Remarks_here: 0x34ef08 radar_fft_complex 
+Remarks_here: 0x34ef00 radar_fft_complex 
 
 Miss_funcptr: radar_hal_pc_proc ... 
-Remarks_here: 0x34ba96 radar_hal_pc_proc 
+Remarks_here: 0x34ba8e radar_hal_pc_proc 
 
 Miss_funcptr: radar_hal_cali_rx_gain ... 
-Remarks_here: 0x34be12 radar_hal_cali_rx_gain 
+Remarks_here: 0x34be0a radar_hal_cali_rx_gain 
 
 Miss_funcptr: update_alg_res ... 
-Remarks_here: 0x34e442 update_alg_res 
+Remarks_here: 0x34e43a update_alg_res 
 
 Miss_funcptr: alg_res_fusion ... 
-Remarks_here: 0x34eb2c alg_res_fusion 
+Remarks_here: 0x34eb24 alg_res_fusion 
 
 Miss_funcptr: radar_res_whether_changed ... 
-Remarks_here: 0x34ecbe radar_res_whether_changed 
+Remarks_here: 0x34ecb6 radar_res_whether_changed 
 
 Miss_funcptr: radar_ppl_cali_inv_phase ... 
-Remarks_here: 0x351040 radar_ppl_cali_inv_phase 
+Remarks_here: 0x351038 radar_ppl_cali_inv_phase 
 
 Miss_funcptr: radar_spl_plot_extraction ... 
-Remarks_here: 0x350b2e radar_spl_plot_extraction 
+Remarks_here: 0x350b26 radar_spl_plot_extraction 
 
 Miss_funcptr: radar_fpl_update_all_trail ... 
-Remarks_here: 0x350666 radar_fpl_update_all_trail 
+Remarks_here: 0x35065e radar_fpl_update_all_trail 
 
 Miss_funcptr: at_radar_set_led_gear ... 
-Remarks_here: 0x3532de at_radar_set_led_gear 
+Remarks_here: 0x3532d6 at_radar_set_led_gear 
 
 Miss_funcptr: uapi_pmp_config ... 
-Remarks_here: 0x354d86 uapi_pmp_config 
+Remarks_here: 0x354d7e uapi_pmp_config 
 
 Miss_funcptr: hal_cipher_symc_wait_done ... 
-Remarks_here: 0x35c544 hal_cipher_symc_wait_done 
+Remarks_here: 0x35c53c hal_cipher_symc_wait_done 
 
 Miss_funcptr: crypto_free_coherent ... 
-Remarks_here: 0x355d28 crypto_free_coherent 
+Remarks_here: 0x355d20 crypto_free_coherent 
 
 Miss_funcptr: crypto_malloc_coherent ... 
-Remarks_here: 0x355d52 crypto_malloc_coherent 
+Remarks_here: 0x355d4a crypto_malloc_coherent 
 
 Miss_funcptr: crypto_malloc_mmz ... 
-Remarks_here: 0x355d16 crypto_malloc_mmz 
+Remarks_here: 0x355d0e crypto_malloc_mmz 
 
 Miss_funcptr: spi_helper_invoke_current_fragment_callback ... 
-Remarks_here: 0x35a088 spi_helper_invoke_current_fragment_callback 
+Remarks_here: 0x35a080 spi_helper_invoke_current_fragment_callback 
 
 Miss_funcptr: spi_evt_callback ... 
-Remarks_here: 0x35a280 spi_evt_callback 
+Remarks_here: 0x35a278 spi_evt_callback 
 
 Miss_funcptr: hal_spi_v151_irq_handler ... 
-Remarks_here: 0x35e29c hal_spi_v151_irq_handler 
+Remarks_here: 0x35e294 hal_spi_v151_irq_handler 
 
 Miss_funcptr: hal_spi_v151_int_get_reg ... 
-Remarks_here: 0x35e338 hal_spi_v151_int_get_reg 
+Remarks_here: 0x35e330 hal_spi_v151_int_get_reg 

@@ -34,9 +34,9 @@
     .wifi_data_sram   0x00A0F460                     0                  
     .btc_data_sram    0x00A0F460                     0                  
     .bth_data_sram    0x00A0F460                     0                  
-    .btc_data_flash   0x00A0F460                  4896 load address 0x35FFF0
-    .bth_data_flash   0x00A10780                  2412 load address 0x361310
-    .data             0x00A110F0                   388 load address 0x361C80
+    .btc_data_flash   0x00A0F460                  4896 load address 0x35FFE8
+    .bth_data_flash   0x00A10780                  2412 load address 0x361308
+    .data             0x00A110F0                   388 load address 0x361C78
     .plat_bss_sram    0x00A11280                  1217                  
     .plat_bss_flash   0x00A11748                 12692                  
     .wifi_bss_flash   0x00A148E0                 37504                  
@@ -55,7 +55,7 @@
     startup           0x00230300                   428                  
     .sysintcall.init  0x002304AC                    52                  
   
-  PROGRAM             0x00230700    0x1FF900  0x131704 = 1251076
+  PROGRAM             0x00230700    0x1FF900  0x1316FC = 1251068
     .patch            0x00230700                  2344                  
     .rom_ram_cb_text  0x00231028                  1816                  
     .plat_romdata     0x00231740                   212                  
@@ -71,13 +71,13 @@
     .wifi_text_flash  0x002633D0                585566                  
     .patch_on_flash   0x002F2330                  1908                  
     .btc_text_flash   0x002F2AA8                131560                  
-    .bth_text_flash   0x00312C90                232476                  
-    .radar_text_flash  0x0034B8B0                 32012                  
-    .radar_ai_text_flash  0x003535C0                  5868                  
-    .text             0x00354CB0                 45888                  
-    .btc_data_flash   0x0035FFF0                  4896                  
-    .bth_data_flash   0x00361310                  2412                  
-    .data             0x00361C80                   388                  
+    .bth_text_flash   0x00312C90                232468                  
+    .radar_text_flash  0x0034B8A8                 32012                  
+    .radar_ai_text_flash  0x003535B8                  5868                  
+    .text             0x00354CA8                 45888                  
+    .btc_data_flash   0x0035FFE8                  4896                  
+    .bth_data_flash   0x00361308                  2412                  
+    .data             0x00361C78                   388                  
 
   ====================================================
 
@@ -1056,23 +1056,23 @@
   --------------------------------  --------  -----
 
 
-  .bth_text_flash                       1394
+  .bth_text_flash                       1386
 
     D:                                      
       Nearlink_BearPi                       
         bearpi-pico_h3863-master            
-          application                   1310
+          application                   1302
             samples                         
               peripheral                  84
                 blinky                      
                   blinky_cmsis                      84
 
-              wifi                      1226
+              wifi                      1218
                 udp_client                  
                   wifi                   692
                     wifi_connect                   692
 
-                  udp_client                       534
+                  udp_client                       526
 
           test                            84
             common                          

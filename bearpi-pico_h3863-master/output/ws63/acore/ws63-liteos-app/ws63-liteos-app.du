@@ -3789,7 +3789,7 @@
 246     .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\application\samples\wifi\udp_client\wifi\wifi_connect.c\example_sta_function
 26      .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\application\samples\wifi\udp_client\udp_client.c\my_app_spi_init_pin
 66      .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\application\samples\wifi\udp_client\udp_client.c\my_app_spi_master_init_config
-166     .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\application\samples\wifi\udp_client\udp_client.c\my_spi_recieve
+158     .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\application\samples\wifi\udp_client\udp_client.c\my_spi_recieve
 26      .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\test\common\testsuite\src\test_suite_uart.c\test_suite_uart_send
 58      .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\test\common\testsuite\src\test_suite_uart.c\test_suite_uart_sendf
 68      .\.bth_text_flash\D:\Nearlink_BearPi\bearpi-pico_h3863-master\application\samples\wifi\udp_client\udp_client.c\udp_client_sample_entry
