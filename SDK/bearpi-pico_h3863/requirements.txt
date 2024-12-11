@@ -1,0 +1,2 @@
+kconfiglib>=14.1.0
+pycparser>=2.21
