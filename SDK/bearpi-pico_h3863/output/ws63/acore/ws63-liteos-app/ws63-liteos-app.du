@@ -1572,8 +1572,8 @@
 54      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_supp\eapol_supp_sm.c\eapol_enable_timer_tick
 8       .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap.c\eapol_get_bool
 8       .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap.c\eapol_get_eapReqData
-84      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_supp\eapol_supp_sm.c\eapol_port_timers_tick
 74      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_auth\eapol_auth_sm.c\eapol_port_timers_tick
+84      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_supp\eapol_supp_sm.c\eapol_port_timers_tick
 8       .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap.c\eapol_set_bool
 64      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_supp\eapol_supp_sm.c\eapol_sm_deinit
 12      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_supp\eapol_supp_sm.c\eapol_sm_eap_param_needed
@@ -2722,12 +2722,12 @@
 98      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_auth\eapol_auth_sm.c\sm_AUTH_PAE_DISCONNECTED_Enter.constprop.9
 54      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_auth\eapol_auth_sm.c\sm_AUTH_PAE_RESTART_Enter.constprop.10
 34      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eapol_auth\eapol_auth_sm.c\sm_BE_AUTH_REQUEST_Enter.constprop.15
-84      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server.c\sm_EAP_FAILURE_Enter
 50      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap.c\sm_EAP_FAILURE_Enter
+84      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server.c\sm_EAP_FAILURE_Enter
 50      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server.c\sm_EAP_IDLE_Enter.constprop.34
 50      .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server.c\sm_EAP_IDLE2_Enter.constprop.21
-192     .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap.c\sm_EAP_INITIALIZE_Enter
 166     .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server.c\sm_EAP_INITIALIZE_Enter
+192     .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap.c\sm_EAP_INITIALIZE_Enter
 204     .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap.c\sm_EAP_METHOD_Enter.constprop.14
 104     .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server.c\sm_EAP_METHOD_REQUEST_Enter.constprop.29
 130     .\.wifi_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server.c\sm_EAP_METHOD_RESPONSE_Enter.constprop.28
@@ -3438,8 +3438,8 @@
 40      .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\dns.c\dns_servers
 608     .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\dns.c\dns_table
 4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\ipv6\nd6.c\dup_addr_detect
-4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server_methods.c\eap_methods
 4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_peer\eap_methods.c\eap_methods
+4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\eap_server\eap_server_methods.c\eap_methods
 28      .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\liteos_wpa_src\eloop_rtos.c\eloop
 4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\wpa_supplicant\src\crypto\random.c\entropy
 1       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\ipv4\etharp.c\etharp_cached_entry
@@ -3616,8 +3616,8 @@
 280     .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\ipv6\nd6.c\prefix_list
 4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\raw.c\raw_pcbs
 8       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\ipv6\nd6.c\rd6_ra_buffer
-4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\ipv4\ip4_frag.c\reassdatagrams
 4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\ipv6\ip6_frag.c\reassdatagrams
+4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\ipv4\ip4_frag.c\reassdatagrams
 4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\tcp_in.c\recv_acked
 4       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\tcp_in.c\recv_data
 1       .\.wifi_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\open_source\lwip\lwip_v2.1.3\src\core\tcp_in.c\recv_flags
@@ -4315,19 +4315,18 @@
 80      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\example_check_dhcp_status
 186     .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\example_get_match_network
 246     .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\example_sta_function
-166     .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\sle_uart_client_task
-74      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\sle_uart_client_task.part.1
+326     .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\sle_uart_client_task
 40      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\sle_uart_entry
 26      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\test\common\testsuite\src\test_suite_uart.c\test_suite_uart_send
 58      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\test\common\testsuite\src\test_suite_uart.c\test_suite_uart_sendf
-48      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\uart_read_int_handler
+34      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\uart_read_int_handler
 100     .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\wifi_connect
 50      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\wifi_connection_changed
 30      .\.bth_text_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\wifi_scan_state_changed
 8       .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\middleware\chips\ws63\mac_addr\mac_addr.c\g_ap_dev_addr
 4       .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\init\cfbb\os\crypto_drv_init.c\g_crypto_mutex
-4       .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\drv_cipher\drv_code\drv_hash.c\g_drv_dma_buf
 4       .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\drv_cipher\drv_code\drv_symc.c\g_drv_dma_buf
+4       .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\drv_cipher\drv_code\drv_hash.c\g_drv_dma_buf
 36      .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\drv_cipher\drv_code\crypto_drv_common.c\g_drv_func
 1       .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\drv_cipher\drv_code\drv_hash.c\g_drv_hash_init
 552     .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\drv_cipher\drv_code\drv_symc.c\g_drv_symc_ctx_list
@@ -4372,9 +4371,8 @@
 4       .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\drivers\driver\security_unified\kapi\source\kapi_trng.c\g_trng_mutex
 16      .\.bss\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\chips\ws63\porting\xo_trim\xo_trim_porting.c\g_xo_trim_temp_timer
 8       .\.bth_data_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\g_app_uart_buffer_config
-4       .\.bth_data_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\my_g_addr_length
 48      .\.bth_data_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\wifi_event_cb
-256     .\.bth_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\g_app_uart_rx_buff
+512     .\.bth_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\g_app_uart_rx_buff
 1       .\.bth_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\wifi\wifi_connect.c\g_wifi_state
 16      .\.bth_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\my_g_send_addr
 4       .\.bth_bss_flash\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\samples\demo\demo.c\my_g_sock_fd
@@ -4507,4 +4505,4 @@
 30      .\.plat_text_sram\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\drivers\chips\ws63\porting\sfc\porting\sfc_protect.c\sfc_port_write_unlock
 788     .\.patch\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\ws63\ws63_liteos_application\main.c\patch_cmp
 1552    .\.patch\D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\application\ws63\ws63_liteos_application\main.c\patch_remap
-done. Lines: 17690, Matches: 4509
+done. Lines: 17688, Matches: 4507

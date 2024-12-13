@@ -30142,7 +30142,7 @@ D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot/../../
                             num64 = SECUREC_GET_SIZE_FROM_ARG(formatAttr);
   a310c8:	8dbe                	mv	s11,a5
   a310ca:	b7d1                	j	a3108e <SecOutput+0x634>
-SecNumberToString():
+SecNumber32ToString():
 D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot/../../../../open_source/libboundscheck/src/output.inl:273
     switch (attr->radix) {
   a310cc:	100789bb          	beqi	a5,16,a310f2 <SecOutput+0x698>

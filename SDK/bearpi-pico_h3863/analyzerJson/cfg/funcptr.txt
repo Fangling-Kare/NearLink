@@ -2259,7 +2259,7 @@ Miss_funcptr: wpa_event_cb_handle ...
 Remarks_here: 0x2cd44a wpa_event_cb_handle 
 
 Miss_funcptr: get_dev_addr ... 
-Remarks_here: 0x35d3ea get_dev_addr 
+Remarks_here: 0x35d4da get_dev_addr 
 
 Miss_funcptr: wifi_brctl_show ... 
 Remarks_here: 0x2cdcf4 wifi_brctl_show 
@@ -2487,25 +2487,25 @@ Miss_funcptr: coex_adapter_wl_state_change_cbk ...
 Remarks_here: 0x2f64a6 coex_adapter_wl_state_change_cbk 
 
 Miss_funcptr: hal_pke_lock ... 
-Remarks_here: 0x35a894 hal_pke_lock 
+Remarks_here: 0x35a984 hal_pke_lock 
 
 Miss_funcptr: crypto_get_cpu_type ... 
-Remarks_here: 0x35589a crypto_get_cpu_type 
+Remarks_here: 0x35598a crypto_get_cpu_type 
 
 Miss_funcptr: hal_pke_wait_free_int ... 
-Remarks_here: 0x35a7fe hal_pke_wait_free_int 
+Remarks_here: 0x35a8ee hal_pke_wait_free_int 
 
 Miss_funcptr: crypto_get_phys_addr ... 
-Remarks_here: 0x355836 crypto_get_phys_addr 
+Remarks_here: 0x355926 crypto_get_phys_addr 
 
 Miss_funcptr: hal_cipher_hash_config ... 
-Remarks_here: 0x35ada2 hal_cipher_hash_config 
+Remarks_here: 0x35ae92 hal_cipher_hash_config 
 
 Miss_funcptr: drv_hash_get_state_iv ... 
-Remarks_here: 0x35598c drv_hash_get_state_iv 
+Remarks_here: 0x355a7c drv_hash_get_state_iv 
 
 Miss_funcptr: hal_cipher_hash_wait_done ... 
-Remarks_here: 0x35b0de hal_cipher_hash_wait_done 
+Remarks_here: 0x35b1ce hal_cipher_hash_wait_done 
 
 Miss_funcptr: encrypt_done_sm3 ... 
 Remarks_here: 0x2f8a4c encrypt_done_sm3 
@@ -3213,46 +3213,46 @@ Miss_funcptr: btsrv_handle_local_manager_msg_ble ...
 Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: radar_fft_complex ... 
-Remarks_here: 0x34ea38 radar_fft_complex 
+Remarks_here: 0x34eb28 radar_fft_complex 
 
 Miss_funcptr: radar_hal_pc_proc ... 
-Remarks_here: 0x34b5c6 radar_hal_pc_proc 
+Remarks_here: 0x34b6b6 radar_hal_pc_proc 
 
 Miss_funcptr: radar_hal_cali_rx_gain ... 
-Remarks_here: 0x34b942 radar_hal_cali_rx_gain 
+Remarks_here: 0x34ba32 radar_hal_cali_rx_gain 
 
 Miss_funcptr: update_alg_res ... 
-Remarks_here: 0x34df72 update_alg_res 
+Remarks_here: 0x34e062 update_alg_res 
 
 Miss_funcptr: alg_res_fusion ... 
-Remarks_here: 0x34e65c alg_res_fusion 
+Remarks_here: 0x34e74c alg_res_fusion 
 
 Miss_funcptr: radar_res_whether_changed ... 
-Remarks_here: 0x34e7ee radar_res_whether_changed 
+Remarks_here: 0x34e8de radar_res_whether_changed 
 
 Miss_funcptr: radar_ppl_cali_inv_phase ... 
-Remarks_here: 0x350b70 radar_ppl_cali_inv_phase 
+Remarks_here: 0x350c60 radar_ppl_cali_inv_phase 
 
 Miss_funcptr: radar_spl_plot_extraction ... 
-Remarks_here: 0x35065e radar_spl_plot_extraction 
+Remarks_here: 0x35074e radar_spl_plot_extraction 
 
 Miss_funcptr: radar_fpl_update_all_trail ... 
-Remarks_here: 0x350196 radar_fpl_update_all_trail 
+Remarks_here: 0x350286 radar_fpl_update_all_trail 
 
 Miss_funcptr: at_radar_set_led_gear ... 
-Remarks_here: 0x352e0e at_radar_set_led_gear 
+Remarks_here: 0x352efe at_radar_set_led_gear 
 
 Miss_funcptr: uapi_pmp_config ... 
-Remarks_here: 0x354886 uapi_pmp_config 
+Remarks_here: 0x354976 uapi_pmp_config 
 
 Miss_funcptr: hal_cipher_symc_wait_done ... 
-Remarks_here: 0x35bbe0 hal_cipher_symc_wait_done 
+Remarks_here: 0x35bcd0 hal_cipher_symc_wait_done 
 
 Miss_funcptr: crypto_free_coherent ... 
-Remarks_here: 0x355828 crypto_free_coherent 
+Remarks_here: 0x355918 crypto_free_coherent 
 
 Miss_funcptr: crypto_malloc_coherent ... 
-Remarks_here: 0x355852 crypto_malloc_coherent 
+Remarks_here: 0x355942 crypto_malloc_coherent 
 
 Miss_funcptr: crypto_malloc_mmz ... 
-Remarks_here: 0x355816 crypto_malloc_mmz 
+Remarks_here: 0x355906 crypto_malloc_mmz 

@@ -1,908 +1,8 @@
 warning: the int symbol LFS_PARTITION_ID (defined at middleware/chips/ws63/Kconfig:105) has a non-int default 0x21 (undefined)
-
-
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_COMPRESS (defined at middleware/chips/ws63/Kconfig:52) will have no effect, as defaults do not affect choice symbols
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_AB (defined at middleware/chips/ws63/Kconfig:59) will have no effect, as defaults do not affect choice symbols
-warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_REBOOT (defined at middleware/chips/ws63/Kconfig:85) will have no effect, as defaults do not affect choice symbols
-warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_WAITFOREVER (defined at middleware/chips/ws63/Kconfig:91) will have no effect, as defaults do not affect choice symbols
 
 
-D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\build\script\.\..\..\build\config\target_config\ws63\menuconfig\acore\ws63_flashboot.config:432: warning: DRIVER_SUPPORT_DMA (defined at drivers/drivers/Kconfig:51) set more than once. Old value "n", new value "y".
-
-
-Not searching for unused variables given on the command line.
-
-
--- BUILD_PLATFORM: windows
-
-
--- BUILD_PLATFORM: windows
-
-
--- The C compiler identification is GNU 7.3.0
-
-
--- The ASM compiler identification is GNU
-
-
--- Found assembler: D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_win/bin/riscv32-linux-musl-gcc.exe
-
-
--- The CXX compiler identification is GNU 7.3.0
-
-
--- Detecting C compiler ABI info
-
-
--- Detecting C compiler ABI info - done
-
-
--- Check for working C compiler: D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_win/bin/riscv32-linux-musl-gcc.exe - skipped
--- Detecting C compile features
--- Detecting C compile features - done
--- Detecting CXX compiler ABI info
-
-
--- Detecting CXX compiler ABI info - done
-
-
--- Check for working CXX compiler: D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_win/bin/riscv32-linux-musl-g++.exe - skipped
-
-
--- Detecting CXX compile features
--- Detecting CXX compile features - done
-
-
-GEN_TARGET_SRC = D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/output/ws63/acore/acore.c
-PRECOMPILE_TARGET = D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/output/ws63/acore/acore.etypes
-
-
-TARGET_INCLUDE = D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/middleware/chips/ws63/nv/nv_config/include;D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/middleware/utils/common_headers/native
-
-
-BGTP_PROJECT=ws63
-BGTP_ROM_VERSION=false
-BGTP_DEVICE_ONLY=false
-
-
-BG COMMON BTH_ROM_LIST:__null__
-
-
-BTH_ROM_LIST:__null__
-
-
--- project_name:
-
-
--- Configuring done
-
-
--- Generating done
-
-
--- Build files have been written to: D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/output/ws63/acore/ws63-flashboot
-
-
-[1/234] Building C object bootloader/commonboot/CMakeFiles/common_boot.dir/src/boot_reset.c.obj
-
-
-[2/234] Building C object bootloader/commonboot/CMakeFiles/common_boot.dir/src/boot_flash.c.obj
-
-
-[3/234] Building C object bootloader/commonboot/CMakeFiles/common_boot.dir/src/boot_debug.c.obj
-
-
-[4/234] Building C object bootloader/commonboot/CMakeFiles/common_boot.dir/src/boot_jump.c.obj
-
-
-[5/234] Building C object bootloader/commonboot/libc/CMakeFiles/common_boot_libc.dir/src/string/memset.c.obj
-
-
-[6/234] Building C object bootloader/commonboot/libc/CMakeFiles/common_boot_libc.dir/src/string/memcpy.c.obj
-
-
-[7/234] Building C object bootloader/commonboot/libc/CMakeFiles/common_boot_libc.dir/src/string/memcmp.c.obj
-
-
-[8/234] Building C object bootloader/commonboot/libc/CMakeFiles/common_boot_libc.dir/src/string/strcmp.c.obj
-
-
-[9/234] Building C object bootloader/commonboot/libc/CMakeFiles/common_boot_libc.dir/src/string/strlen.c.obj
-
-
-[10/234] Building C object bootloader/commonboot/libc/CMakeFiles/common_boot_libc.dir/src/string/memmove.c.obj
-
-
-[11/234] Building C object bootloader/flashboot_ws63/CMakeFiles/flashboot_common.dir/startup/main.c.obj
-
-
-[12/234] Building ASM object bootloader/flashboot_ws63/CMakeFiles/flashboot_common.dir/startup/riscv_init.S.obj
-
-
-[13/234] Building C object bootloader/flashboot_ws63/CMakeFiles/flashboot_common.dir/__/commonboot/src/secure_verify_boot.c.obj
-
-
-[14/234] Building C object kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_utils.c.obj
-
-
-[15/234] Building C object kernel/non_os/non_os/CMakeFiles/non_os.dir/non_os_nmi.c.obj
-
-
-[16/234] Building C object kernel/non_os/malloc/CMakeFiles/nonos_malloc.dir/malloc.c.obj
-
-
-[17/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_atomic.c.obj
-
-
-[18/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_debug.c.obj
-
-
-[19/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_interrupt.c.obj
-
-
-[20/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_mutex.c.obj
-
-
-[21/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_semaphore.c.obj
-
-
-[22/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_spinlock.c.obj
-
-
-[23/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_wait.c.obj
-
-
-[24/234] Building C object kernel/osal/CMakeFiles/osal.dir/src/nonos/osal_task.c.obj
-
-
-[25/234] Building C object driver/pinmux/CMakeFiles/pinctrl.dir/pinctrl.c.obj
-
-
-[26/234] Building C object driver/pmp/CMakeFiles/pmp.dir/pmp.c.obj
-
-
-[27/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/romable/hash_romable.c.obj
-
-
-[28/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_flashboot_cipher.c.obj
-
-
-[29/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_flashboot_symc.c.obj
-
-
-[30/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_code/crypto_drv_common.c.obj
-
-
-[31/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_keyslot.c.obj
-
-
-[32/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_km/drv_klad.c.obj
-
-
-[33/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_fapc/drv_fapc.c.obj
-
-
-[34/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/init/cfbb/crypto_curve_param.c.obj
-
-
-[35/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/sm2/drv_pke_sm2_verify.c.obj
-
-
-[36/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/drv_pke_ecdsa.c.obj
-
-
-[37/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_pke_weak_func.c.obj
-
-
-[38/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_cipher/drv_pke_v5/sm2/drv_pke_sm2_dsa_hash.c.obj
-
-
-[39/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/rom_drv_api/hal_rom_table.c.obj
-
-
-[40/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/rom_drv_api/drv_rom_table.c.obj
-
-
-[41/234] Building C object driver/security_unified/CMakeFiles/drv_security_unified.dir/drv_rom_cipher.c.obj
-
-
-[42/234] Building C object driver/systick/CMakeFiles/systick.dir/systick.c.obj
-
-
-[43/234] Building C object driver/tcxo/CMakeFiles/tcxo.dir/tcxo.c.obj
-
-
-[44/234] Building C object driver/timer/CMakeFiles/drv_timer.dir/timer.c.obj
-
-
-[45/234] Building C object driver/uart/CMakeFiles/uart.dir/uart.c.obj
-
-
-[46/234] Building C object driver/watchdog/CMakeFiles/watchdog.dir/watchdog.c.obj
-
-
-[47/234] Building C object driver/rtc_unified/CMakeFiles/rtc_unified.dir/rtc.c.obj
-
-
-[48/234] Building C object driver/efuse/CMakeFiles/efuse.dir/efuse.c.obj
-
-
-[49/234] Building C object hal/cpu_core/CMakeFiles/hal_cpu_core.dir/hal_cpu_core.c.obj
-
-
-[50/234] Building C object hal/efuse/CMakeFiles/hal_efuse_v151.dir/hal_efuse.c.obj
-
-
-[51/234] Building C object hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151.c.obj
-
-
-[52/234] Building C object hal/efuse/CMakeFiles/hal_efuse_v151.dir/v151/hal_efuse_v151_reg_op.c.obj
-
-
-[53/234] Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/common/hal_pinctrl.c.obj
-
-
-[54/234] Building C object hal/pinmux/CMakeFiles/hal_pinctrl.dir/ws63/hal_pinctrl_ws63.c.obj
-
-
-[55/234] Building C object hal/pmp/CMakeFiles/hal_pmp.dir/hal_pmp.c.obj
-
-
-[56/234] Building C object hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31.c.obj
-
-
-[57/234] Building C object hal/pmp/CMakeFiles/hal_pmp.dir/v31/hal_pmp_riscv31_regs_op.c.obj
-
-
-[58/234] Building C object hal/reboot/CMakeFiles/hal_reboot.dir/hal_reboot.c.obj
-
-
-[59/234] Building C object hal/reg_config/CMakeFiles/hal_reg_config.dir/hal_reg_config.c.obj
-
-
-[60/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_rkp.c.obj
-
-
-[61/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_keyslot.c.obj
-
-
-[62/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_km/hal_klad.c.obj
-
-
-[63/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_fapc/hal_fapc.c.obj
-
-
-[64/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/boot/crypto_osal_lib.c.obj
-
-
-[65/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/crypto_osal/cfbb/crypto_security.c.obj
-
-
-[66/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/drv_common_pke.c.obj
-
-
-[67/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_sign_verify_common.c.obj
-
-
-[68/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/ecc_data_ram_addr.c.obj
-
-
-[69/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/arch/rom_lib.c.obj
-
-
-[70/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/ecc_ec_fp_verify_common.c.obj
-
-
-[71/234] Building C object hal/security_unified/CMakeFiles/hal_security_unified.dir/hal_cipher/pke/alg/sm2_ec_fp_sign_verify.c.obj
-
-
-[72/234] Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo.c.obj
-
-
-[73/234] Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150.c.obj
-
-
-[74/234] Building C object hal/tcxo/CMakeFiles/hal_tcxo.dir/hal_tcxo_v150_regs_op.c.obj
-
-
-[75/234] Building C object hal/timer/CMakeFiles/hal_timer.dir/hal_drv_timer.c.obj
-
-
-[76/234] Building C object hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150.c.obj
-
-
-[77/234] Building C object hal/timer/CMakeFiles/hal_timer.dir/v150/hal_timer_v150_regs_op.c.obj
-
-
-[78/234] Building C object hal/uart/CMakeFiles/hal_uart.dir/hal_uart.c.obj
-
-
-[79/234] Building C object hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151.c.obj
-
-
-[80/234] Building C object hal/uart/CMakeFiles/hal_uart.dir/v151/hal_uart_v151_regs_op.c.obj
-
-
-[81/234] Building C object hal/watchdog/CMakeFiles/hal_watchdog.dir/hal_watchdog.c.obj
-
-
-[82/234] Building C object hal/watchdog/CMakeFiles/hal_watchdog.dir/v151/hal_watchdog_v151.c.obj
-
-
-[83/234] Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc.c.obj
-
-
-[84/234] Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150.c.obj
-
-
-[85/234] Building C object hal/sfc/CMakeFiles/hal_sfc.dir/hal_sfc_v150_regs_op.c.obj
-
-
-[86/234] Building C object hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/hal_rtc.c.obj
-
-
-[87/234] Building C object hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v100/hal_rtc_v100.c.obj
-
-
-[88/234] Building C object hal/rtc_unified/CMakeFiles/hal_rtc_unified.dir/v100/hal_rtc_v100_op.c.obj
-
-
-[89/234] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt.c.obj
-
-
-[90/234] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/interrupt_handler.c.obj
-
-
-[91/234] Building ASM object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/vectors.s.obj
-
-
-[92/234] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/arch/riscv/riscv31/flash_patch.c.obj
-
-
-[93/234] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_adapter.c.obj
-
-
-[94/234] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/vectors/vectors.c.obj
-
-
-[95/234] Building C object drivers/chips/ws63/porting/arch/CMakeFiles/pmp_cfg_ws63.dir/riscv/pmp_cfg.c.obj
-
-
-[96/234] Building C object drivers/chips/ws63/porting/uart/CMakeFiles/uart_port.dir/uart_porting.c.obj
-
-
-[97/234] Building C object drivers/chips/ws63/porting/timer/CMakeFiles/timer_port.dir/timer_porting.c.obj
-
-
-[98/234] Building C object drivers/chips/ws63/porting/systick/CMakeFiles/systick_port.dir/hal_systick.c.obj
-
-
-[99/234] Building C object drivers/chips/ws63/porting/systick/CMakeFiles/systick_port.dir/hal_systick_ws63.c.obj
-
-
-[100/234] Building C object drivers/chips/ws63/porting/systick/CMakeFiles/systick_port.dir/systick_porting.c.obj
-
-
-[101/234] Building C object drivers/chips/ws63/porting/tcxo/CMakeFiles/tcxo_port.dir/tcxo_porting.c.obj
-
-
-[102/234] Building C object drivers/chips/ws63/porting/watchdog/CMakeFiles/watchdog_port.dir/watchdog_porting.c.obj
-
-
-[103/234] Building C object drivers/chips/ws63/porting/pinctrl/CMakeFiles/pinctrl_port_ws63.dir/pinctrl_porting_ws63.c.obj
-
-
-[104/234] Building C object drivers/chips/ws63/porting/pmp/CMakeFiles/pmp_port.dir/pmp_porting.c.obj
-
-
-[105/234] Building C object drivers/chips/ws63/porting/sfc/flash_config/CMakeFiles/sfc_flash_config_ws63.dir/flash_config_info.c.obj
-
-
-[106/234] Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_porting.c.obj
-
-
-[107/234] Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect.c.obj
-
-
-[108/234] Building C object drivers/chips/ws63/porting/sfc/porting/CMakeFiles/sfc_port_ws63.dir/sfc_protect_gd25q32.c.obj
-
-
-[109/234] Building C object drivers/chips/ws63/porting/sfc/driver/CMakeFiles/sfc_boot.dir/sfc.c.obj
-
-
-[110/234] Building C object drivers/chips/ws63/porting/efuse/CMakeFiles/efuse_port.dir/efuse_porting.c.obj
-
-
-[111/234] Building C object drivers/chips/ws63/porting/rtc_unified/CMakeFiles/rtc_unified_port.dir/rtc_porting.c.obj
-
-
-[112/234] Building C object drivers/chips/ws63/porting/mem/CMakeFiles/nonos_malloc_port.dir/malloc_porting.c.obj
-
-
-[113/234] Building C object drivers/chips/ws63/porting/reboot/CMakeFiles/reboot_port.dir/reboot_porting.c.obj
-
-
-[114/234] Building C object drivers/chips/ws63/porting/soc/CMakeFiles/soc_port.dir/soc_porting.c.obj
-
-
-[115/234] Building C object drivers/chips/ws63/boot/boot_porting/CMakeFiles/chip_boot_port.dir/delay/delay.c.obj
-
-
-[116/234] Building C object drivers/chips/ws63/boot/boot_porting/CMakeFiles/chip_boot_port.dir/serial/serial.c.obj
-
-
-[117/234] Building C object drivers/chips/ws63/boot/boot_porting/CMakeFiles/chip_boot_port.dir/watchdog/boot_watchdog.c.obj
-
-
-[118/234] Building C object drivers/chips/ws63/boot/boot_porting/CMakeFiles/chip_boot_port.dir/reset/reset_porting.c.obj
-
-
-[119/234] Building ASM object middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/exception_riscv.s.obj
-
-
-[120/234] Building C object middleware/chips/ws63/exception/CMakeFiles/dfx_exception.dir/exception_riscv.c.obj
-
-
-[121/234] Building C object middleware/chips/ws63/partition/CMakeFiles/partition_ws63.dir/partition_porting.c.obj
-
-
-[122/234] Building C object middleware/chips/ws63/update/common/CMakeFiles/update_common_ws63.dir/upg_common_porting.c.obj
-
-
-[123/234] Building C object middleware/chips/ws63/update/local_update/CMakeFiles/update_local_ws63.dir/upg_encry_porting.c.obj
-
-
-[124/234] Building C object middleware/chips/ws63/update/ab_upg/CMakeFiles/update_ab_ws63.dir/upg_ab.c.obj
-
-
-[125/234] Building C object middleware/chips/ws63/factory/CMakeFiles/factory_ws63.dir/factory.c.obj
-
-
-[126/234] Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic.c.obj
-
-
-[127/234] Building C object utils/dfx/CMakeFiles/dfx_panic.dir/panic/private/panic_rom.c.obj
-
-
-[128/234] Building C object utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
-
-
-[129/234] Building C object utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/crash_data.c.obj
-
-
-[130/234] Building C object utils/dfx/dfx_reboot/cpu_utils/CMakeFiles/cpu_utils.dir/private/cpu_utils.c.obj
-
-
-[131/234] Building C object utils/dfx/dfx_reboot/reboot/CMakeFiles/reboot.dir/shared/non_os_reboot.c.obj
-
-
-[132/234] Building C object utils/error_code/CMakeFiles/error_code.dir/private/error_code.c.obj
-
-
-[133/234] Building C object utils/partition/CMakeFiles/partition.dir/partition.c.obj
-
-
-[134/234] Building C object utils/update/common/CMakeFiles/update_common.dir/upg_alloc.c.obj
-
-
-[135/234] Building C object utils/update/common/CMakeFiles/update_common.dir/upg_common.c.obj
-
-
-[136/234] Building C object utils/update/common/CMakeFiles/update_common.dir/upg_verify.c.obj
-
-
-[137/234] Building C object utils/update/storage/CMakeFiles/update_storage.dir/upg_storage.c.obj
-
-
-[138/234] Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_encry.c.obj
-
-
-[139/234] Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_lzmadec.c.obj
-
-
-[140/234] Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_patch.c.obj
-
-
-[141/234] Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_process.c.obj
-
-
-[142/234] Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_resource.c.obj
-
-
-[143/234] Building C object utils/update/local_update/CMakeFiles/update_local.dir/upg_upgrade.c.obj
-
-
-[144/234] Building C object open_source/7-zip-lzma-sdk/CMakeFiles/lzma_22.00.dir/lzma_22.00/C/LzmaDec.c.obj
-
-
-[145/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/memcpy_s.c.obj
-
-
-[146/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/memmove_s.c.obj
-
-
-[147/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/memset_s.c.obj
-
-
-[148/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/securecutil.c.obj
-
-
-[149/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/secureprintoutput_a.c.obj
-
-
-[150/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/snprintf_s.c.obj
-
-
-[151/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/sprintf_s.c.obj
-
-
-[152/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/strcat_s.c.obj
-
-
-[153/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/strcpy_s.c.obj
-
-
-[154/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/strncat_s.c.obj
-
-
-[155/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/strncpy_s.c.obj
-
-
-[156/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/vsnprintf_s.c.obj
-
-
-[157/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/vsprintf_s.c.obj
-
-
-[158/234] Building C object open_source/libboundscheck/CMakeFiles/libboundscheck.dir/src/strtok_s.c.obj
-
-
-[159/234] Building C object CMakeFiles/flashboot.dir/temp/__null___.c.obj
-
-
-[160/234] Linking C static library bootloader\commonboot\libcommon_boot.a
-
-
-[161/234] Linking C static library bootloader\commonboot\libc\libcommon_boot_libc.a
-
-
-[162/234] Linking C static library kernel\non_os\non_os\libnon_os.a
-
-
-[163/234] Linking C static library bootloader\flashboot_ws63\libflashboot_common.a
-
-
-[164/234] Linking C static library kernel\non_os\malloc\libnonos_malloc.a
-
-
-[165/234] Linking C static library kernel\osal\libosal.a
-
-
-[166/234] Linking C static library driver\pinmux\libpinctrl.a
-
-
-[167/234] Linking C static library driver\pmp\libpmp.a
-
-
-[168/234] Linking C static library driver\security_unified\libdrv_security_unified.a
-
-
-[169/234] Linking C static library driver\systick\libsystick.a
-
-
-[170/234] Linking C static library driver\tcxo\libtcxo.a
-
-
-[171/234] Linking C static library driver\timer\libdrv_timer.a
-
-
-[172/234] Linking C static library driver\uart\libuart.a
-
-
-[173/234] Linking C static library driver\watchdog\libwatchdog.a
-
-
-[174/234] Linking C static library driver\rtc_unified\librtc_unified.a
-
-
-[175/234] Linking C static library driver\efuse\libefuse.a
-
-
-[176/234] Linking C static library hal\efuse\libhal_efuse_v151.a
-
-
-[177/234] Linking C static library hal\cpu_core\libhal_cpu_core.a
-
-
-[178/234] Linking C static library hal\pinmux\libhal_pinctrl.a
-
-
-[179/234] Linking C static library hal\reboot\libhal_reboot.a
-
-
-[180/234] Linking C static library hal\pmp\libhal_pmp.a
-
-
-[181/234] Linking C static library hal\reg_config\libhal_reg_config.a
-
-
-[182/234] Linking C static library hal\security_unified\libhal_security_unified.a
-
-
-[183/234] Linking C static library hal\tcxo\libhal_tcxo.a
-
-
-[184/234] Linking C static library hal\timer\libhal_timer.a
-
-
-[185/234] Linking C static library hal\uart\libhal_uart.a
-
-
-[186/234] Linking C static library hal\watchdog\libhal_watchdog.a
-
-
-[187/234] Linking C static library drivers\chips\ws63\libchip_ws63.a
-
-
-[188/234] Linking C static library hal\rtc_unified\libhal_rtc_unified.a
-
-
-[189/234] Linking C static library hal\sfc\libhal_sfc.a
-
-
-[190/234] Linking C static library drivers\chips\ws63\porting\arch\libpmp_cfg_ws63.a
-
-
-[191/234] Linking C static library drivers\chips\ws63\porting\uart\libuart_port.a
-
-
-[192/234] Linking C static library drivers\chips\ws63\porting\timer\libtimer_port.a
-
-
-[193/234] Linking C static library drivers\chips\ws63\porting\systick\libsystick_port.a
-
-
-[194/234] Linking C static library drivers\chips\ws63\porting\tcxo\libtcxo_port.a
-
-
-[195/234] Linking C static library drivers\chips\ws63\porting\watchdog\libwatchdog_port.a
-
-
-[196/234] Linking C static library drivers\chips\ws63\porting\pinctrl\libpinctrl_port_ws63.a
-
-
-[197/234] Linking C static library drivers\chips\ws63\porting\pmp\libpmp_port.a
-
-
-[198/234] Linking C static library drivers\chips\ws63\porting\sfc\flash_config\libsfc_flash_config_ws63.a
-
-
-[199/234] Linking C static library drivers\chips\ws63\porting\sfc\porting\libsfc_port_ws63.a
-
-
-[200/234] Linking C static library drivers\chips\ws63\porting\sfc\driver\libsfc_boot.a
-
-
-[201/234] Linking C static library drivers\chips\ws63\porting\efuse\libefuse_port.a
-
-
-[202/234] Linking C static library drivers\chips\ws63\porting\rtc_unified\librtc_unified_port.a
-
-
-[203/234] Linking C static library drivers\chips\ws63\porting\mem\libnonos_malloc_port.a
-
-
-[204/234] Linking C static library drivers\chips\ws63\porting\reboot\libreboot_port.a
-
-
-[205/234] Linking C static library drivers\chips\ws63\porting\soc\libsoc_port.a
-
-
-[206/234] Linking C static library drivers\chips\ws63\boot\boot_porting\libchip_boot_port.a
-
-
-[207/234] Linking C static library middleware\chips\ws63\exception\libdfx_exception.a
-
-
-[208/234] Linking C static library middleware\chips\ws63\partition\libpartition_ws63.a
-
-
-[209/234] Linking C static library middleware\chips\ws63\update\common\libupdate_common_ws63.a
-
-
-[210/234] Linking C static library middleware\chips\ws63\update\local_update\libupdate_local_ws63.a
-
-
-[211/234] Linking C static library middleware\chips\ws63\update\ab_upg\libupdate_ab_ws63.a
-
-
-[212/234] Linking C static library middleware\chips\ws63\factory\libfactory_ws63.a
-
-
-[213/234] Linking C static library utils\dfx\libdfx_panic.a
-
-
-[214/234] Linking C static library utils\dfx\libdfx_preserve.a
-
-
-[215/234] Linking C static library utils\dfx\dfx_reboot\cpu_utils\libcpu_utils.a
-
-
-[216/234] Linking C static library utils\dfx\dfx_reboot\reboot\libreboot.a
-
-
-[217/234] Linking C static library utils\error_code\liberror_code.a
-
-
-[218/234] Linking C static library utils\partition\libpartition.a
-
-
-[219/234] Linking C static library utils\update\common\libupdate_common.a
-
-
-[220/234] Linking C static library utils\update\storage\libupdate_storage.a
-
-
-[221/234] Linking C static library utils\update\local_update\libupdate_local.a
-
-
-[222/234] Linking C static library open_source\7-zip-lzma-sdk\liblzma_22.00.a
-
-
-[223/234] Linking C static library open_source\libboundscheck\liblibboundscheck.a
-
-
-[224/234] Generating NV_SRC
-
-
-[225/234] Linking C executable flashboot.elf
-
-
-Memory region         Used Size  Region Size  %age Used
-           STACK:          9 KB         9 KB    100.00%
-            SRAM:        1544 B       119 KB      1.27%
-FLASHBOOT_ROM_ADDR:       48568 B        64 KB     74.11%
-[226/234] post_build:gen bin file
-
-
-[227/234] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_win\bin\riscv32-linux-musl-nm.exe -S -n --format=sysv flashboot.elf > flashboot.nm"
-
-
-[228/234] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_win\bin\riscv32-linux-musl-objdump.exe -d -m riscv flashboot.elf > flashboot.asm"
-
-
-[229/234] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/utils/create_hex.py flashboot.bin flashboot.hex"
-
-
-[230/234] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_win\bin\riscv32-linux-musl-objdump.exe -x -S -l flashboot.elf > flashboot.lst"
-
-
-[231/234] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_win\bin\riscv32-linux-musl-objcopy.exe -O ihex flashboot.elf flashboot_std.hex"
-
-
-[232/234] MEM_LIMIT
-
-
-[233/234] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/utils/elftodu.py D:/Nearlink_BearPi/SDK/bearpi-pico_h3863 flashboot.elf D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_win/bin/riscv32-linux-musl-nm.exe > flashboot.du && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/utils/mem_stats.py flashboot.lst flashboot.du D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/output/ws63/acore/ws63-flashboot/linker.lds ws63 > flashboot.mem"
-
-
-[234/234] ws63 image sign
-type: 0
-cfg : param_bin_ecc.cfg
-
-new failed1.
-read file
-read file
-CompressFlag():::0
-Final.
-type: 1
-cfg : root_pubk.cfg
-
-open key file failed.
-FillPublicKey() failed.
-type: 0
-cfg : ssb_bin_ecc.cfg
-
-new failed1.
-read file
-read file
-CompressFlag():::0
-Final.
-type: 0
-cfg : flash_bin_ecc.cfg
-
-new failed1.
-read file
-read file
-CompressFlag():::0
-Final.
-type: 0
-cfg : flash_backup_bin_ecc.cfg
-
-new failed1.
-read file
-read file
-CompressFlag():::0
-Final.
-type: 0
-cfg : loaderboot_bin_ecc.cfg
-
-new failed1.
-read file
-read file
-CompressFlag():::0
-Final.
-type: 0
-cfg : liteos_mfg_bin_factory_ecc.cfg
-
-new failed1.
-read file
-read file
-CompressFlag():::0
-Final.
-generate params.bin...
-Build params success!
-params.bin size:  1024
-params.bin generate successfully!!!
-params_sign.bin generate successfully!!!
-generate fill root_pubk.bin
-merge out path:  D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\build\config\target_config\ws63\sign_config
-root_params_sign.bin generate successfully!!!
-sign name:  ../../../../../output/ws63/acore\ws63-ssb/ssb.bin
-../../../../../output/ws63/acore\ws63-ssb/ssb.bin size:  20800
-../../../../../output/ws63/acore\ws63-ssb/ssb.bin  generated successfully!!!
-ssb_sign.bin generated successfully!!!
-../../../../../output/ws63/acore\ws63-flashboot/flashboot.bin size:  48568
-flash_sign.bin generated successfully!!!
-sign name:  ../../../../../output/ws63/acore\ws63-loaderboot/loaderboot.bin
-../../../../../output/ws63/acore\ws63-loaderboot/loaderboot.bin size:  30592
-../../../../../output/ws63/acore\ws63-loaderboot/loaderboot.bin  generated successfully!!!
-loaderboot_sign.bin generated successfully!!!
-merge out path:  D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\boot_bin
-root_loaderboot_sign.bin generated successfully!!!
-sign name:  ../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin
-../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin size:  1261248
-../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin  gener
-
-ated successfully!!!
-
-
-[!][copy_files_to_interim] File `D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output/ws63/acore/ws63-loaderboot/loaderboot.bin` not found, will skip it !
-[!][copy_files_to_interim] File `D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output/ws63/acore/ws63-loaderboot/root_loaderboot_sign.bin` not found, will skip it !
-[!][copy_files_to_interim] File `D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output/ws63/acore/ws63-liteos-app/efuse_cfg.bin` not found, will skip it !
-[!][copy_files_to_interim] File `D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output/ws63/acore/ws63-ssb/ssb.bin` not found, will skip it !
-[!][copy_files_to_interim] File `D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output/ws63/acore/ws63-ssb/ssb_sign.bin` not found, will skip it !
-[!][copy_files_to_interim] File `D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output/ws63/acore/ws63-liteos-hilink/ws63-liteos-hilink.bin` not found, will skip it !
-[!][copy_files_to_interim] File `D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output/ws63/acore/ws63-liteos-hilink/ws63-liteos-hilink-sign.bin` not found, will skip it !
-
-
-current work direction:  d:\Nearlink_BearPi\SDK\bearpi-pico_h3863
-[!][nv handle]warning:  ./output/ws63/acore/nv_bin/temp/cfg/acore_nv.json  not found!
-[!][nv handle]warning:  ./output/ws63/acore/nv_bin/temp/acore.etypes  not found!
-struct writing in: ./output/ws63/database/cco/system/nv/nv_struct_def.txt
-[!][nv handle]warning:  ./output/ws63/database/cco/system/nv/nv_struct_def.txt  not found!
-
-
-python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
-[ws63][acore] run custom cmd success!
-D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\build\script\.\..\..\config.in
-d:\Nearlink_BearPi\SDK\bearpi-pico_h3863
-Kconfig header saved to 'D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-flashboot\mconfig.h'
-######### Build target:ws63_flashboot success
-ws63-flashboot takes 43.848057 s
-python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
-copy_files_to_interim ing...
-['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\build\\config\\target_config\\ws63\\script\\copy_files_to_interim.py', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863']
-copy_files_to_interim done!
-['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\build\\config\\target_config\\ws63\\script\\nv_handle.py']
-[ws63][acore] run custom cmd success!
-
-
-warning: the int symbol LFS_PARTITION_ID (defined at middleware/chips/ws63/Kconfig:105) has a non-int default 0x21 (undefined)
-warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_COMPRESS (defined at middleware/chips/ws63/Kconfig:52) will have no effect, as defaults do not affect choice symbols
-
-
-warning: default on the choice symbol MIDDLEWARE_SUPPORT_UPG_AB (defined at middleware/chips/ws63/Kconfig:59) will have no effect, as defaults do not affect choice symbols
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_REBOOT (defined at middleware/chips/ws63/Kconfig:85) will have no effect, as defaults do not affect choice symbols
 warning: default on the choice symbol MIDDLEWARE_SUPPORT_EXCEPT_WAITFOREVER (defined at middleware/chips/ws63/Kconfig:91) will have no effect, as defaults do not affect choice symbols
 
@@ -911,102 +11,37 @@ Not searching for unused variables given on the command line.
 
 
 -- BUILD_PLATFORM: windows
-
-
--- BUILD_PLATFORM: windows
-
-
--- The C compiler identification is GNU 7.3.0
-
-
--- The ASM compiler identification is GNU
-
-
--- Found assembler: D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_fp_win/bin/riscv32-linux-musl-gcc.exe
-
-
--- The CXX compiler identification is GNU 7.3.0
-
-
--- Detecting C compiler ABI info
-
-
--- Detecting C compiler ABI info - done
-
-
--- Check for working C compiler: D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_fp_win/bin/riscv32-linux-musl-gcc.exe - skipped
-
-
--- Detecting C compile features
-
-
--- Detecting C compile features - done
-
-
--- Detecting CXX compiler ABI info
-
-
--- Detecting CXX compiler ABI info - done
-
-
--- Check for working CXX compiler: D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/tools/bin/compiler/riscv/cc_riscv32_musl_100/cc_riscv32_musl_fp_win/bin/riscv32-linux-musl-g++.exe - skipped
-
-
--- Detecting CXX compile features
--- Detecting CXX compile features - done
 
 
 LOSCFG_PLATFORM is set to ws63
 
 
 LOSCFG_COMPILER_GNU_BINUTILS is set to y
-
-
 LOSCFG_COMPILER_GCC is set to y
 
 
 LOSCFG_COMPILER_TOOLCHAIN_MUSL is set to y
-
-
 LOSCFG_COMPILER_RISCV_GCC_MUSL is set to y
-
-
 LOSCFG_COMPILER_RISCV_UNKNOWN is set to y
 
 
 LOSCFG_RISCV_COMPILER_OPTIONS_USER_DEFINED is set to 
-
-
 LOSCFG_RISCV_COMPILER_OPTIONS_LDM_STM is set to y
 
 
 LOSCFG_RISCV_COMPILER_OPTIONS_EMIT_LLI is set to y
-
-
 LOSCFG_COMPILER_OPTIMIZE_SIZE is set to y
-
-
 LOSCFG_FAMILY_AIOT is set to y
-
-
 LOSCFG_FAMILY is set to aiot
-
-
 LOSCFG_PLATFORM is set to ws63
-
-
 LOSCFG_PLATFORM_WS63 is set to y
 
 
 LOSCFG_USING_BOARD_LD is set to y
-
-
 LOSCFG_USING_BOARD_RESET_VECTOR is set to y
 
 
 LOSCFG_ARCH_FPU_ENABLE is set to y
-
-
 LOSCFG_APC_ENABLE is set to y
 
 
@@ -1017,8 +52,6 @@ LOSCFG_ARCH_RISCV32 is set to y
 
 
 LOSCFG_ARCH_RISCV_RV32IMC is set to y
-
-
 LOSCFG_ARCH_RISCV_RV32F is set to y
 
 
@@ -1038,8 +71,6 @@ LOSCFG_BASE_CORE_TIMESLICE is set to y
 
 
 LOSCFG_BASE_CORE_TIMESLICE_TIMEOUT is set to 2
-
-
 LOSCFG_BASE_CORE_TSK_MONITOR is set to y
 
 
@@ -1077,11 +108,7 @@ LOSCFG_KERNEL_MEM_ALLOC is set to y
 
 
 LOSCFG_KERNEL_MEM_BESTFIT is set to y
-
-
 LOSCFG_KERNEL_MEM_SLAB_EXTENTION is set to y
-
-
 LOSCFG_ARCH_INTERRUPT_TAKEOVER is set to y
 
 
@@ -1089,17 +116,11 @@ LOSCFG_ARCH_INTERRUPT_PREEMPTION is set to y
 
 
 LOSCFG_HWI_PRE_POST_PROCESS is set to y
-
-
 LOSCFG_HWI_WITH_ARG is set to y
-
-
 LOSCFG_IRQ_STACK_SIZE is set to 0x2000
 
 
 LOSCFG_NMI_STACK_SIZE is set to 0x800
-
-
 LOSCFG_PLATFORM_HWI_LIMIT is set to 96
 
 
@@ -1110,8 +131,6 @@ LOSCFG_EXC_STACK_SIZE is set to 0x800
 
 
 LOSCFG_BASE_CORE_SWTMR is set to y
-
-
 LOSCFG_BASE_CORE_SWTMR_LIMIT is set to 16
 
 
@@ -1134,8 +153,6 @@ LOSCFG_MUTEX_WAITMODE_PRIO is set to y
 
 
 LOSCFG_BASE_IPC_MUX_LIMIT is set to 60
-
-
 LOSCFG_BASE_IPC_SEM is set to y
 
 
@@ -1167,8 +184,6 @@ LOSCFG_COMPAT_CMSIS is set to y
 
 
 LOSCFG_COMPAT_CMSIS_VER_2 is set to y
-
-
 LOSCFG_COMPAT_LINUX is set to y
 
 
@@ -1197,20 +212,12 @@ LOSCFG_SERIAL_OUTPUT_ENABLE is set to y
 
 
 LOSCFG_KERNEL_CPUP is set to y
-
-
 LOSCFG_DRIVERS_BASE is set to y
-
-
 LOSCFG_RISCV_HIMIDEERV200_PLIC is set to y
-
-
 LOSCFG_TIMER_VENDOR is set to y
 
 
 LOSCFG_DRIVERS_UART_VENDOR is set to y
-
-
 LOSCFG_DRIVERS_SIMPLE_UART is set to y
 
 
@@ -1300,8 +307,6 @@ BGTP_DEVICE_ONLY=false
 
 
 BG COMMON BTH_ROM_LIST:__null__
-
-
 BTH_ROM_LIST:__null__
 
 
@@ -1483,8 +488,6 @@ BTH_PUBLIC_HEADER_LIST=
 
 
 [48/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/poly1305.c.obj
-
-
 [49/787] Building C object CMakeFiles/mbedtls.dir/open_source/mbedtls/mbedtls_v3.1.0/library/ripemd160.c.obj
 
 
@@ -1820,8 +823,6 @@ dtls_v3.1.0/library/bignum.c:2396:1: note: label 'cleanup' defined here
 
 
 [107/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_pdu.c.obj
-
-
 [108/787] Building C object CMakeFiles/coap.dir/open_source/libcoap/libcoap/src/coap_resource.c.obj
 
 
@@ -2110,8 +1111,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [162/787] Building C object driver/adc/CMakeFiles/adc.dir/adc.c.obj
-
-
 [163/787] Building C object driver/dma/CMakeFiles/dma.dir/dma.c.obj
 
 
@@ -2290,8 +1289,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [222/787] Building C object hal/dma/CMakeFiles/hal_dma_v151.dir/v151/hal_dmac_v151_regs_op.c.obj
-
-
 [223/787] Building C object hal/efuse/CMakeFiles/hal_efuse_v151.dir/hal_efuse.c.obj
 
 
@@ -2467,8 +1464,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [281/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/interrupt/interrupt_adapter.c.obj
-
-
 [282/787] Building C object drivers/chips/ws63/CMakeFiles/chip_ws63.dir/vectors/vectors.c.obj
 
 
@@ -2650,8 +1645,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [342/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_channel.c.obj
-
-
 [343/787] Building C object utils/at/at/CMakeFiles/at.dir/src/at_process.c.obj
 
 
@@ -2686,6 +1679,8 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [354/787] Building C object utils/at/at_wifi_cmd/CMakeFiles/wifi_at.dir/at/at_sendtest.c.obj
+
+
 [355/787] Building C object utils/at/at_plt_cmd/CMakeFiles/plt_at.dir/at/at_plt.c.obj
 
 
@@ -2828,8 +1823,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [402/787] Building C object utils/dfx/CMakeFiles/log_file.dir/log_file/log_file_flash.c.obj
-
-
 [403/787] Building C object utils/dfx/CMakeFiles/dfx_preserve.dir/preserve/private/preserve.c.obj
 
 
@@ -3014,8 +2007,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [464/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/MQTTReasonCodes.c.obj
-
-
 [465/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/OsWrapper.c.obj
 
 
@@ -3029,6 +2020,8 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [469/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SocketBuffer.c.obj
+
+
 [470/787] Building C object open_source/mqtt/CMakeFiles/mqtt.dir/paho.mqtt.c/src/SSLSocket.c.obj
 
 
@@ -3435,8 +2428,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [605/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6_common.c.obj
-
-
 [606/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/netif/lowpan6.c.obj
 
 
@@ -3447,8 +2438,6 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [609/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/l3event.c.obj
-
-
 [610/787] Building C object open_source/lwip/CMakeFiles/lwip.dir/lwip_v2.1.3/src/api/err.c.obj
 
 
@@ -3564,6 +2553,8 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [648/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_ba.c.obj
+
+
 [649/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_btsta.c.obj
 
 
@@ -3572,99 +2563,77 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [652/787] Building C object protocol/wifi/CMakeFiles/wifi_btcoex.dir/source/host/feature/hmac_btcoex_ps.c.obj
+
+
 [653/787] Building C object protocol/wifi/CMakeFiles/wifi_uapsd_ap.dir/source/host/feature/hmac_uapsd.c.obj
 
 
 [654/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite.c.obj
+
+
 [655/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_channel.c.obj
 
 
 [656/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_commands_processor.c.obj
+
+
 [657/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_console.c.obj
 
 
 [658/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_functions_processor.c.obj
+
+
 [659/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_ipc.c.obj
+
+
 [660/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_log.c.obj
 
 
 [661/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_task.c.obj
+
+
 [662/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_suite_uart.c.obj
+
+
 [663/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/test_auxiliary.c.obj
+
+
 [664/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/audio_lieyin.c.obj
 
 
 [665/787] Building C object test/common/testsuite/CMakeFiles/testsuite.dir/src/audio_crc16.c.obj
+
+
 [666/787] Building C object CMakeFiles/ws63-liteos-app.dir/temp/__null___.c.obj
 
 
-[667/787] Linking C static library libgmssl_hmac_sm3.a
-
-
-[668/787] Linking C static library libmbedtls.a
-
-
-[669/787] Linking C static library libcoap.a
-
-
-[670/787] Linking C static library application\samples\libsamples.a
-
-
-[671/787] Linking C static library kernel\non_os\non_os\libnon_os.a
-
-
-[672/787] Linking C static library kernel\osal_adapt\libosal_adapt.a
-
-
-[673/787] Linking C static library application\ws63\ws63_liteos_application\libws63_liteos_app.a
-
-
-[674/787] Linking C static library driver\adc\libadc.a
-
-
-[675/787] Linking C static library kernel\osal\libosal.a
-
-
-[676/787] Linking C static library driver\i2s\libi2s.a
-
-
-[677/787] Linking C static library driver\dma\libdma.a
-
-
-[678/787] Linking C static library driver\i2c\libi2c.a
-
-
-[679/787] Linking C static library driver\pwm\libpwm.a
-
-
-[680/787] Linking C static library driver\lpm\liblpm.a
-
-
-[681/787] Linking C static library driver\pmp\libpmp.a
-
-
-[682/787] Linking C static library driver\security_unified\libdrv_security_unified.a
-
-
-[683/787] Linking C static library driver\rtc_unified\librtc_unified.a
-
-
+[667/787] Linking C static library driver\i2c\libi2c.a
+[668/787] Linking C static library driver\adc\libadc.a
+[669/787] Linking C static library libgmssl_hmac_sm3.a
+[670/787] Linking C static library driver\dma\libdma.a
+[671/787] Linking C static library libmbedtls.a
+[672/787] Linking C static library application\ws63\ws63_liteos_application\libws63_liteos_app.a
+[673/787] Linking C static library driver\gpio\libgpio.a
+[674/787] Linking C static library application\samples\libsamples.a
+[675/787] Linking C static library driver\lpm\liblpm.a
+[676/787] Linking C static library kernel\osal\libosal.a
+[677/787] Linking C static library libcoap.a
+[678/787] Linking C static library driver\tsensor\libtsensor.a
+[679/787] Linking C static library driver\security_unified\libdrv_security_unified.a
+[680/787] Linking C static library driver\i2s\libi2s.a
+[681/787] Linking C static library driver\uart\libuart.a
+[682/787] Linking C static library kernel\osal_adapt\libosal_adapt.a
+[683/787] Linking C static library kernel\non_os\non_os\libnon_os.a
 [684/787] Linking C static library driver\spi\libspi.a
+[685/787] Linking C static library driver\pmp\libpmp.a
+[686/787] Linking C static library driver\pwm\libpwm.a
+[687/787] Linking C static library driver\rtc_unified\librtc_unified.a
 
 
-[685/787] Linking C static library driver\tsensor\libtsensor.a
+[688/787] Linking C static library driver\efuse\libefuse.a
 
 
-[686/787] Linking C static library driver\gpio\libgpio.a
-
-
-[687/787] Linking C static library driver\efuse\libefuse.a
-
-
-[688/787] Linking C static library hal\adc\libhal_adc.a
-
-
-[689/787] Linking C static library driver\uart\libuart.a
+[689/787] Linking C static library hal\adc\libhal_adc.a
 
 
 [690/787] Linking C static library hal\cpu_core\libhal_cpu_core.a
@@ -3737,65 +2706,25 @@ tls_rsa_rsassa_pss_verify_ext':
 
 
 [713/787] Linking C static library drivers\chips\ws63\porting\i2c\libi2c_porting.a
-
-
 [714/787] Linking C static library drivers\chips\ws63\porting\dma\libdma_port.a
-
-
 [715/787] Linking C static library drivers\chips\ws63\porting\spi\libspi_porting.a
-
-
 [716/787] Linking C static library drivers\chips\ws63\porting\sfc\flash_config\libsfc_flash_config_ws63.a
-
-
 [717/787] Linking C static library drivers\chips\ws63\porting\sfc\porting\libsfc_port_ws63.a
-
-
 [718/787] Linking C static library drivers\chips\ws63\porting\tsensor\libtsensor_port.a
-
-
 [719/787] Linking C static library drivers\chips\ws63\porting\efuse\libefuse_port.a
-
-
 [720/787] Linking C static library drivers\chips\ws63\porting\rtc_unified\librtc_unified_port.a
-
-
 [721/787] Linking C static library drivers\chips\ws63\porting\sio\libsio_port.a
-
-
 [722/787] Linking C static library drivers\chips\ws63\porting\reboot\libreboot_port.a
-
-
 [723/787] Linking C static library drivers\chips\ws63\porting\soc\libsoc_port.a
-
-
 [724/787] Linking C static library drivers\chips\ws63\porting\version\libversion_port.a
-
-
 [725/787] Linking C static library drivers\chips\ws63\porting\pm\libpm_port_ws63.a
-
-
 [726/787] Linking C static library drivers\chips\ws63\porting\xo_trim\libxo_trim_port.a
-
-
 [727/787] Linking C static library drivers\chips\ws63\dyn_mem\libdyn_mem.a
-
-
 [728/787] Linking C static library middleware\chips\ws63\exception\libdfx_exception.a
-
-
 [729/787] Linking C static library middleware\chips\ws63\dfx\libdfx_port_ws63.a
-
-
 [730/787] Linking C static library middleware\chips\ws63\partition\libpartition_ws63.a
-
-
-[731/787] Linking C static library middleware\chips\ws63\nv\nv_porting\libnv_ws63.a
-
-
-[732/787] Linking C static library middleware\chips\ws63\nv\nv_zdiag\libnv_zdiag_ws63.a
-
-
+[731/787] Linking C static library middleware\chips\ws63\nv\nv_zdiag\libnv_zdiag_ws63.a
+[732/787] Linking C static library middleware\chips\ws63\nv\nv_porting\libnv_ws63.a
 [733/787] Linking C static library middleware\chips\ws63\update\common\libupdate_common_ws63.a
 
 
@@ -3865,9 +2794,13 @@ tls_rsa_rsassa_pss_verify_ext':
 [755/787] Linking C static library utils\nv\libnv.a
 
 
-[756/787] Linking C static library utils\partition\libpartition.a
-[757/787] Linking C static library utils\update\common\libupdate_common.a
-[758/787] Linking C static library utils\update\storage\libupdate_storage.a
+[756/787] Linking C static library utils\update\storage\libupdate_storage.a
+
+
+[757/787] Linking C static library utils\partition\libpartition.a
+
+
+[758/787] Linking C static library utils\update\common\libupdate_common.a
 [759/787] Linking C static library utils\mips\libmips.a
 [760/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libcjson.a
 [761/787] Linking C static library open_source\mqtt\libmqtt.a
@@ -3881,6 +2814,8 @@ tls_rsa_rsassa_pss_verify_ext':
 [769/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_tx_amsdu.a
 [770/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_btcoex.a
 [771/787] Linking C static library ..\..\..\..\interim_binary\ws63\libs\wifi\ws63-liteos-app\libwifi_uapsd_ap.a
+
+
 [772/787] Linking C static library test\common\testsuite\libtestsuite.a
 
 
@@ -3894,36 +2829,34 @@ Memory region         Used Size  Region Size  %age Used
              ROM:          0 GB       268 KB      0.00%
             ITCM:       12896 B        16 KB     78.71%
             DTCM:       14836 B        16 KB     90.55%
-            SRAM:      184592 B     548608 B     33.65%
+            SRAM:      184848 B     548608 B     33.69%
 PRESERVE_SHARE_MEM:         252 B        256 B     98.44%
  PROGRAM_STARTUP:         476 B         1 KB     46.48%
-         PROGRAM:     1245996 B    2095360 B     59.46%
+         PROGRAM:     1246236 B    2095360 B     59.48%
 [775/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-nm.exe -S -n --format=sysv ws63-liteos-app.elf > ws63-liteos-app.nm"
 
 
 [776/787] post_build:gen rom and ram bin file
 
 
-[777/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/utils/create_hex.py ws63-liteos-app.bin ws63-liteos-app.hex"
+[777/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objcopy.exe -O ihex ws63-liteos-app.elf ws63-liteos-app_std.hex"
 
 
-[778/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -d -m riscv ws63-liteos-app.elf > ws63-liteos-app.asm"
-
-
-[779/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objcopy.exe -O ihex ws63-liteos-app.elf ws63-liteos-app_std.hex"
-
-
-[780/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/utils/create_hex.py ws63-liteos-app_rom.bin ws63-liteos-app_rom.hex"
-
-
-[781/787] update nv bin
-
-
-build nv bin success!!
-[782/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/codesize_statistic.py ws63-liteos-app"
+[778/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/utils/create_hex.py ws63-liteos-app_rom.bin ws63-liteos-app_rom.hex"
+[779/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/codesize_statistic.py ws63-liteos-app"
 
 
 codesize statistics done
+[780/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\tools\bin\compiler\riscv\cc_riscv32_musl_100\cc_riscv32_musl_fp_win\bin\riscv32-linux-musl-objdump.exe -d -m riscv ws63-liteos-app.elf > ws63-liteos-app.asm"
+
+
+[781/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/utils/create_hex.py ws63-liteos-app.bin ws63-liteos-app.hex"
+
+
+[782/787] update nv bin
+
+
+build nv bin success!!
 [783/787] cmd.exe /C "cd /D D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app && C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/script/patch/patch_riscv.py ws63-liteos-app.bin ws63-liteos-app_rom.bin ws63-liteos-app.nm D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/build/config/target_config/ws63/patch_config acore ws63-liteos-app D:/Nearlink_BearPi/SDK/bearpi-pico_h3863/output/ws63/acore/ws63-liteos-app"
 
 
@@ -4013,7 +2946,7 @@ root_loaderboot_sign.bin generated successfully!!!
 sign name:  ../../../../../output/ws63/acore\ws63-liteos-app/ws63-liteos-app.bin
 ../../../../../output/ws63/acore\w
 
-s63-liteos-app/ws63-liteos-app.bin size:  1247020
+s63-liteos-app/ws63-liteos-app.bin size:  1247260
 ../../../../../output/ws63/acore\ws63-liteos-app/ws63-liteos-app.bin  generated successfully!!!
 sign name:  ../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin
 ../../../../../output/ws63/acore/boot_bin\ws63-liteos-mfg.bin size:  1261248
@@ -4056,25 +2989,23 @@ struct writing in: ./output/ws63/database/cco/system/nv/nv_struct_def.txt
 
 ['D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\boot_bin\\root_loaderboot_sign.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\param_bin\\root_params_sign.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\boot_bin\\ssb_sign.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\boot_bin\\flashboot_sign.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\boot_bin\\flashboot_backup_sign.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\nv_bin\\ws63_all_nv.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\nv_bin\\ws63_all_nv_backup.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\ws63-liteos-app\\ws63-liteos-app-sign.bin']
 [0, 2097152, 2105344, 2228224, 2162688, 6275072, 2146304, 2293760]
-[2097152, 1920, 21568, 49344, 49344, 16384, 16384, 1247808]
-[31488, 1920, 21568, 49344, 49344, 4096, 4096, 1247808]
+[2097152, 1920, 21568, 49344, 49344, 16384, 16384, 1248064]
+[31488, 1920, 21568, 49344, 49344, 4096, 4096, 1248064]
 [0, 1, 1, 1, 1, 1, 1, 1]
 ['D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\boot_bin\\root_loaderboot_sign.bin', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\output\\ws63\\acore\\ws63-liteos-app\\ws63-liteos-app-sign.bin']
 [0, 2293760]
-[2097152, 1247808]
-[31488, 1247808]
+[2097152, 1248064]
+[31488, 1248064]
 [0, 1]
 
 
 python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
-flashboot start build .....
-['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'build.py', 'ws63-flashboot']
 [ws63][acore] run custom cmd success!
 D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\build\script\.\..\..\config.in
 d:\Nearlink_BearPi\SDK\bearpi-pico_h3863
-Kconfig header saved to 'D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app\mconfig.h'
+No change to Kconfig header in 'D:\Nearlink_BearPi\SDK\bearpi-pico_h3863\output\ws63\acore\ws63-liteos-app\mconfig.h'
 ######### Build target:ws63_liteos_app success
-ws63-liteos-app takes 140.102935 s
+ws63-liteos-app takes 130.983538 s
 python path:  C:\Users\32806\AppData\Local\Programs\Python\Python311\python.exe
 generate_efuse_bin ing...
 ['C:\\Users\\32806\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'D:\\Nearlink_BearPi\\SDK\\bearpi-pico_h3863\\build\\config\\target_config\\ws63\\script\\efuse_cfg_gen.py']
@@ -4101,9 +3032,9 @@ INFO:root:asm_path:./output/ws63/acore/ws63-liteos-app/ws63-liteos-app.asm
 INFO:root:prefix:riscv32-linux-musl
 INFO:root:environment:windows
 INFO:root:stack_mode:2
+
+
 INFO:root:stack_rec_stats:1
-
-
 INFO:root:compiler prefix: riscv32-linux-musl
 
 
@@ -4114,14 +3045,8 @@ INFO:root:++++++++++++++++++++++++++++++start buildAnalyzer+++++++++++++++++++++
 
 
 INFO:root:elf_path:                               ./output/ws63/acore/ws63-liteos-app/ws63-liteos-app.elf
-
-
 INFO:root:map_path:                               ./output/ws63/acore/ws63-liteos-app/ws63-liteos-app.map
-
-
 INFO:root:compiler_path:                          d:\Program Files\HiSpark Studio\tools\Windows\cc_riscv32_musl_fp_win\bin
-
-
 INFO:root:build_config_path:                      None                                    
 
 
@@ -4130,18 +3055,16 @@ INFO:root:environment:                            windows
 
 
 INFO:root:undef_addr_sections:                    ['.debug_info', '.debug_abbrev', '.debug_loc', '.debug_aranges', '.debug_ranges', '.debug_line', '.debug_str', '.comment', '.riscv.attributes', '.debug_frame']
-
-
 INFO:root:no_size_sections:                       ['.plat_romtext', '.wifi_romtext', '.btc_romtext', '.bth_romtext', '.bth_romdata', '.plat_rombss', '.plat_text_tcm', '.wifi_text_tcm', '.plat_data_tcm', '.wifi_text_sram', '.btc_text_sram', '.bth_text_sram', '.wifi_data_sram', '.btc_data_sram', '.bth_data_sram', '.heap']
 INFO:root:analysis sections:                      ['.text', '.data', '.bss', 'startup', '.sysintcall.init', '.patch', '.rom_ram_cb_text', '.plat_romdata', '.wifi_romdata', '.btc_romdata', '.bth_rombss', '.wifi_pkt_ram', '.btc_text_tcm', '.patch_on_tcm', '.btc_data_tcm', '.wifi_data_tcm', '.btc_bss_tcm', '.wifi_bss_tcm', '.plat_text_sram', '.patch_on_sram', '.plat_text_flash', '.wifi_text_flash', '.patch_on_flash', '.btc_text_flash', '.bth_text_flash', '.radar_text_flash', '.radar_ai_text_flash', '.btc_data_flash', '.bth_data_flash', '.plat_bss_sram', '.plat_bss_flash', '.wifi_bss_flash', '.radar_bss_flash', '.radar_ai_bss_flash', '.btc_bss_flash', '.bth_bss_flash', '.preserve', '.stacks']
 
 
 INFO:root:--------------------Load Sections:--------------------
-
-
 INFO:root:section_name                            section_size                            
 INFO:root:startup                                 424                                     
 INFO:root:.sysintcall.init                        52                                      
+
+
 INFO:root:.patch                                  2344                                    
 INFO:root:.rom_ram_cb_text                        1816                                    
 INFO:root:.plat_romdata                           212                                     
@@ -4152,31 +3075,25 @@ INFO:root:.patch_on_tcm                           1528
 INFO:root:.btc_data_tcm                           57                                      
 INFO:root:.wifi_data_tcm                          3408                                    
 INFO:root:.plat_text_sram                         10884                                   
-
-
 INFO:root:.patch_on_sram                          2520                                    
 INFO:root:.plat_text_flash                        176516                                  
 INFO:root:.wifi_text_flash                        585566                                  
 INFO:root:.patch_on_flash                         1908                                    
-
-
 INFO:root:.btc_text_flash                         131560                                  
-INFO:root:.bth_text_flash                         232040                                  
 
 
+INFO:root:.bth_text_flash                         232274                                  
 INFO:root:.radar_text_flash                       32012                                   
 INFO:root:.radar_ai_text_flash                    5868                                    
-
-
 INFO:root:.text                                   42040                                   
 INFO:root:.btc_data_flash                         4896                                    
 
 
-INFO:root:.bth_data_flash                         2424                                    
+INFO:root:.bth_data_flash                         2420                                    
 INFO:root:.data                                   380                                     
 
 
-INFO:root:total_size:                             1246431                                 
+INFO:root:total_size:                             1246661                                 
 
 
 INFO:root:------------------------------------------------------
