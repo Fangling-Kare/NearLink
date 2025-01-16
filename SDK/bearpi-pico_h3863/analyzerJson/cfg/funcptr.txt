@@ -1,75 +1,75 @@
 
 Miss_funcptr: OsMain ... 
-Remarks_here: 0x2548b2 OsMain 
+Remarks_here: 0x254922 OsMain 
 
 Miss_funcptr: hal_uart_ctrl ... 
-Remarks_here: 0x25d114 hal_uart_ctrl 
+Remarks_here: 0x25d184 hal_uart_ctrl 
 
 Miss_funcptr: hal_uart_write ... 
-Remarks_here: 0x25d0f4 hal_uart_write 
+Remarks_here: 0x25d164 hal_uart_write 
 
 Miss_funcptr: hal_uart_init ... 
-Remarks_here: 0x25d0ae hal_uart_init 
+Remarks_here: 0x25d11e hal_uart_init 
 
 Miss_funcptr: uapi_efuse_init ... 
-Remarks_here: 0x25e210 uapi_efuse_init 
+Remarks_here: 0x25e280 uapi_efuse_init 
 
 Miss_funcptr: uapi_tsensor_init ... 
-Remarks_here: 0x25e11c uapi_tsensor_init 
+Remarks_here: 0x25e18c uapi_tsensor_init 
 
 Miss_funcptr: uapi_tsensor_start_inquire_mode ... 
-Remarks_here: 0x25e14a uapi_tsensor_start_inquire_mode 
+Remarks_here: 0x25e1ba uapi_tsensor_start_inquire_mode 
 
 Miss_funcptr: invoke_current_state_action ... 
-Remarks_here: 0x2611e0 invoke_current_state_action 
+Remarks_here: 0x261250 invoke_current_state_action 
 
 Miss_funcptr: upg_malloc ... 
-Remarks_here: 0x2622e2 upg_malloc 
+Remarks_here: 0x262352 upg_malloc 
 
 Miss_funcptr: upg_free ... 
-Remarks_here: 0x2622fa upg_free 
+Remarks_here: 0x26236a upg_free 
 
 Miss_funcptr: hal_uart_deinit ... 
-Remarks_here: 0x25d0e4 hal_uart_deinit 
+Remarks_here: 0x25d154 hal_uart_deinit 
 
 Miss_funcptr: at_malloc ... 
-Remarks_here: 0x24727c at_malloc 
+Remarks_here: 0x2472ec at_malloc 
 
 Miss_funcptr: uapi_at_report_to_single_channel ... 
-Remarks_here: 0x247e0a uapi_at_report_to_single_channel 
+Remarks_here: 0x247e7a uapi_at_report_to_single_channel 
 
 Miss_funcptr: uapi_at_report ... 
-Remarks_here: 0x247df0 uapi_at_report 
+Remarks_here: 0x247e60 uapi_at_report 
 
 Miss_funcptr: non_os_enter_critical ... 
-Remarks_here: 0x254248 non_os_enter_critical 
+Remarks_here: 0x2542b8 non_os_enter_critical 
 
 Miss_funcptr: non_os_enter_critical ... 
-Remarks_here: 0x254248 non_os_enter_critical 
+Remarks_here: 0x2542b8 non_os_enter_critical 
 
 Miss_funcptr: non_os_exit_critical ... 
-Remarks_here: 0x2542be non_os_exit_critical 
+Remarks_here: 0x25432e non_os_exit_critical 
 
 Miss_funcptr: non_os_exit_critical ... 
-Remarks_here: 0x2542be non_os_exit_critical 
+Remarks_here: 0x25432e non_os_exit_critical 
 
 Miss_funcptr: LOS_TaskCreateOnly ... 
-Remarks_here: 0x252dba LOS_TaskCreateOnly 
+Remarks_here: 0x252e2a LOS_TaskCreateOnly 
 
 Miss_funcptr: zdiag_pkt_router_tx ... 
-Remarks_here: 0x24edc0 zdiag_pkt_router_tx 
+Remarks_here: 0x24ee30 zdiag_pkt_router_tx 
 
 Miss_funcptr: zdiag_pkt_router_tx ... 
-Remarks_here: 0x24edc0 zdiag_pkt_router_tx 
+Remarks_here: 0x24ee30 zdiag_pkt_router_tx 
 
 Miss_funcptr: diag_pkt_router_run_cmd ... 
-Remarks_here: 0x24e384 diag_pkt_router_run_cmd 
+Remarks_here: 0x24e3f4 diag_pkt_router_run_cmd 
 
 Miss_funcptr: diag_pkt_router_run_ind ... 
-Remarks_here: 0x24e548 diag_pkt_router_run_ind 
+Remarks_here: 0x24e5b8 diag_pkt_router_run_ind 
 
 Miss_funcptr: app_tasks_init ... 
-Remarks_here: 0x25ea54 app_tasks_init 
+Remarks_here: 0x25eac4 app_tasks_init 
 
 Miss_funcptr: evt_prog_pop_elt_match_isr ... 
 Remarks_here: 0x14ebd8 evt_prog_pop_elt_match_isr 
@@ -219,3040 +219,3058 @@ Miss_funcptr: wrapper_cmp ...
 Remarks_here: 0x2396b0 wrapper_cmp 
 
 Miss_funcptr: pop_arg ... 
-Remarks_here: 0x23bd90 pop_arg 
+Remarks_here: 0x23be00 pop_arg 
 
 Miss_funcptr: printf_core ... 
-Remarks_here: 0x23bfb6 printf_core 
+Remarks_here: 0x23c026 printf_core 
 
 Miss_funcptr: printf_core ... 
-Remarks_here: 0x23bfb6 printf_core 
+Remarks_here: 0x23c026 printf_core 
 
 Miss_funcptr: vfprintf_core.constprop.1 ... 
-Remarks_here: 0x23d37c vfprintf_core.constprop.1 
+Remarks_here: 0x23d3ec vfprintf_core.constprop.1 
 
 Miss_funcptr: uart_helper_invoke_current_fragment_callback ... 
-Remarks_here: 0x23d8d0 uart_helper_invoke_current_fragment_callback 
+Remarks_here: 0x23d940 uart_helper_invoke_current_fragment_callback 
 
 Miss_funcptr: uart_error_isr ... 
-Remarks_here: 0x23d952 uart_error_isr 
+Remarks_here: 0x23d9c2 uart_error_isr 
 
 Miss_funcptr: uart_error_isr ... 
-Remarks_here: 0x23d952 uart_error_isr 
+Remarks_here: 0x23d9c2 uart_error_isr 
 
 Miss_funcptr: hal_uart_read ... 
-Remarks_here: 0x25d104 hal_uart_read 
+Remarks_here: 0x25d174 hal_uart_read 
 
 Miss_funcptr: uart_evt_callback ... 
-Remarks_here: 0x23d9cc uart_evt_callback 
+Remarks_here: 0x23da3c uart_evt_callback 
 
 Miss_funcptr: uart_evt_callback ... 
-Remarks_here: 0x23d9cc uart_evt_callback 
+Remarks_here: 0x23da3c uart_evt_callback 
 
 Miss_funcptr: uart_evt_callback ... 
-Remarks_here: 0x23d9cc uart_evt_callback 
+Remarks_here: 0x23da3c uart_evt_callback 
 
 Miss_funcptr: uart_evt_callback ... 
-Remarks_here: 0x23d9cc uart_evt_callback 
+Remarks_here: 0x23da3c uart_evt_callback 
 
 Miss_funcptr: idle_task_process ... 
-Remarks_here: 0x23de24 idle_task_process 
+Remarks_here: 0x23de94 idle_task_process 
 
 Miss_funcptr: HalTickEntry ... 
-Remarks_here: 0x23de3e HalTickEntry 
+Remarks_here: 0x23deae HalTickEntry 
 
 Miss_funcptr: uapi_crc32_no_comp ... 
-Remarks_here: 0x23e19c uapi_crc32_no_comp 
+Remarks_here: 0x23e20c uapi_crc32_no_comp 
 
 Miss_funcptr: uapi_crc32_no_comp ... 
-Remarks_here: 0x23e19c uapi_crc32_no_comp 
+Remarks_here: 0x23e20c uapi_crc32_no_comp 
 
 Miss_funcptr: exec_fault_handler ... 
-Remarks_here: 0x23e74a exec_fault_handler 
+Remarks_here: 0x23e7ba exec_fault_handler 
 
 Miss_funcptr: mbedtls_alt_aes_encrypt ... 
-Remarks_here: 0x23e924 mbedtls_alt_aes_encrypt 
+Remarks_here: 0x23e994 mbedtls_alt_aes_encrypt 
 
 Miss_funcptr: mbedtls_alt_aes_decrypt ... 
-Remarks_here: 0x23e940 mbedtls_alt_aes_decrypt 
+Remarks_here: 0x23e9b0 mbedtls_alt_aes_decrypt 
 
 Miss_funcptr: mbedtls_platform_zeroize ... 
-Remarks_here: 0x2464e4 mbedtls_platform_zeroize 
+Remarks_here: 0x246554 mbedtls_platform_zeroize 
 
 Miss_funcptr: mbedtls_asn1_write_len ... 
-Remarks_here: 0x23eaaa mbedtls_asn1_write_len 
+Remarks_here: 0x23eb1a mbedtls_asn1_write_len 
 
 Miss_funcptr: mpi_mul_hlp ... 
-Remarks_here: 0x23ec36 mpi_mul_hlp 
+Remarks_here: 0x23eca6 mpi_mul_hlp 
 
 Miss_funcptr: mpi_mul_hlp ... 
-Remarks_here: 0x23ec36 mpi_mul_hlp 
+Remarks_here: 0x23eca6 mpi_mul_hlp 
 
 Miss_funcptr: mpi_mul_hlp ... 
-Remarks_here: 0x23ec36 mpi_mul_hlp 
+Remarks_here: 0x23eca6 mpi_mul_hlp 
 
 Miss_funcptr: mpi_mul_hlp ... 
-Remarks_here: 0x23ec36 mpi_mul_hlp 
+Remarks_here: 0x23eca6 mpi_mul_hlp 
 
 Miss_funcptr: mpi_mul_hlp ... 
-Remarks_here: 0x23ec36 mpi_mul_hlp 
+Remarks_here: 0x23eca6 mpi_mul_hlp 
 
 Miss_funcptr: mpi_fill_random_internal ... 
-Remarks_here: 0x23ef6a mpi_fill_random_internal 
+Remarks_here: 0x23efda mpi_fill_random_internal 
 
 Miss_funcptr: CIPHER_PKE_INIT ... 
-Remarks_here: 0x240ec2 CIPHER_PKE_INIT 
+Remarks_here: 0x240f32 CIPHER_PKE_INIT 
 
 Miss_funcptr: CIPHER_PKE_DEINIT ... 
-Remarks_here: 0x240ee8 CIPHER_PKE_DEINIT 
+Remarks_here: 0x240f58 CIPHER_PKE_DEINIT 
 
 Miss_funcptr: CIPHER_PKE_MOD ... 
-Remarks_here: 0x240f0e CIPHER_PKE_MOD 
+Remarks_here: 0x240f7e CIPHER_PKE_MOD 
 
 Miss_funcptr: CIPHER_PKE_EXP_MOD ... 
-Remarks_here: 0x240f34 CIPHER_PKE_EXP_MOD 
+Remarks_here: 0x240fa4 CIPHER_PKE_EXP_MOD 
 
 Miss_funcptr: CIPHER_PBKDF2 ... 
-Remarks_here: 0x240e9c CIPHER_PBKDF2 
+Remarks_here: 0x240f0c CIPHER_PBKDF2 
 
 Miss_funcptr: CIPHER_PKE_RSA_SIGN ... 
-Remarks_here: 0x240f5a CIPHER_PKE_RSA_SIGN 
+Remarks_here: 0x240fca CIPHER_PKE_RSA_SIGN 
 
 Miss_funcptr: CIPHER_PKE_RSA_VERIFY ... 
-Remarks_here: 0x240f82 CIPHER_PKE_RSA_VERIFY 
+Remarks_here: 0x240ff2 CIPHER_PKE_RSA_VERIFY 
 
 Miss_funcptr: CIPHER_PKE_RSA_PUBLIC_ENCRYPT ... 
-Remarks_here: 0x240faa CIPHER_PKE_RSA_PUBLIC_ENCRYPT 
+Remarks_here: 0x24101a CIPHER_PKE_RSA_PUBLIC_ENCRYPT 
 
 Miss_funcptr: CIPHER_PKE_RSA_PRIVATE_DECRYPT ... 
-Remarks_here: 0x240fd4 CIPHER_PKE_RSA_PRIVATE_DECRYPT 
+Remarks_here: 0x241044 CIPHER_PKE_RSA_PRIVATE_DECRYPT 
 
 Miss_funcptr: mbedtls_mpi_mul_mod ... 
-Remarks_here: 0x2420fe mbedtls_mpi_mul_mod 
+Remarks_here: 0x24216e mbedtls_mpi_mul_mod 
 
 Miss_funcptr: mbedtls_md_setup ... 
-Remarks_here: 0x245204 mbedtls_md_setup 
+Remarks_here: 0x245274 mbedtls_md_setup 
 
 Miss_funcptr: mbedtls_md_free ... 
-Remarks_here: 0x245188 mbedtls_md_free 
+Remarks_here: 0x2451f8 mbedtls_md_free 
 
 Miss_funcptr: mbedtls_md_starts ... 
-Remarks_here: 0x2452ac mbedtls_md_starts 
+Remarks_here: 0x24531c mbedtls_md_starts 
 
 Miss_funcptr: mbedtls_alt_hash_start ... 
-Remarks_here: 0x244d90 mbedtls_alt_hash_start 
+Remarks_here: 0x244e00 mbedtls_alt_hash_start 
 
 Miss_funcptr: mbedtls_md_finish ... 
-Remarks_here: 0x24535c mbedtls_md_finish 
+Remarks_here: 0x2453cc mbedtls_md_finish 
 
 Miss_funcptr: mbedtls_alt_hash_finish ... 
-Remarks_here: 0x244dc8 mbedtls_alt_hash_finish 
+Remarks_here: 0x244e38 mbedtls_alt_hash_finish 
 
 Miss_funcptr: mbedtls_md_update ... 
-Remarks_here: 0x245308 mbedtls_md_update 
+Remarks_here: 0x245378 mbedtls_md_update 
 
 Miss_funcptr: mbedtls_alt_hash_update ... 
-Remarks_here: 0x244dac mbedtls_alt_hash_update 
+Remarks_here: 0x244e1c mbedtls_alt_hash_update 
 
 Miss_funcptr: mbedtls_ecp_group_load ... 
-Remarks_here: 0x244240 mbedtls_ecp_group_load 
+Remarks_here: 0x2442b0 mbedtls_ecp_group_load 
 
 Miss_funcptr: get_hash_info ... 
-Remarks_here: 0x244e60 get_hash_info 
+Remarks_here: 0x244ed0 get_hash_info 
 
 Miss_funcptr: hmac_drbg_reseed_core ... 
-Remarks_here: 0x244fec hmac_drbg_reseed_core 
+Remarks_here: 0x24505c hmac_drbg_reseed_core 
 
 Miss_funcptr: mbedtls_pk_free ... 
-Remarks_here: 0x245ff6 mbedtls_pk_free 
+Remarks_here: 0x246066 mbedtls_pk_free 
 
 Miss_funcptr: mbedtls_pk_setup ... 
-Remarks_here: 0x24602a mbedtls_pk_setup 
+Remarks_here: 0x24609a mbedtls_pk_setup 
 
 Miss_funcptr: inner_get_hash_type ... 
-Remarks_here: 0x246b9e inner_get_hash_type 
+Remarks_here: 0x246c0e inner_get_hash_type 
 
 Miss_funcptr: at_free ... 
-Remarks_here: 0x24728c at_free 
+Remarks_here: 0x2472fc at_free 
 
 Miss_funcptr: at_msg_queue_create ... 
-Remarks_here: 0x24729a at_msg_queue_create 
+Remarks_here: 0x24730a at_msg_queue_create 
 
 Miss_funcptr: at_msg_queue_write ... 
-Remarks_here: 0x2472a8 at_msg_queue_write 
+Remarks_here: 0x247318 at_msg_queue_write 
 
 Miss_funcptr: at_msg_queue_read ... 
-Remarks_here: 0x2472b8 at_msg_queue_read 
+Remarks_here: 0x247328 at_msg_queue_read 
 
 Miss_funcptr: at_yield ... 
-Remarks_here: 0x2472c8 at_yield 
+Remarks_here: 0x247338 at_yield 
 
 Miss_funcptr: uapi_at_channel_data_recv ... 
-Remarks_here: 0x2473c2 uapi_at_channel_data_recv 
+Remarks_here: 0x247432 uapi_at_channel_data_recv 
 
 Miss_funcptr: at_proc_cmd_handle ... 
-Remarks_here: 0x247cdc at_proc_cmd_handle 
+Remarks_here: 0x247d4c at_proc_cmd_handle 
 
 Miss_funcptr: at_proc_cmd_handle ... 
-Remarks_here: 0x247cdc at_proc_cmd_handle 
+Remarks_here: 0x247d4c at_proc_cmd_handle 
 
 Miss_funcptr: at_parse_para_arguments ... 
-Remarks_here: 0x247ada at_parse_para_arguments 
+Remarks_here: 0x247b4a at_parse_para_arguments 
 
 Miss_funcptr: at_parse_para_arguments ... 
-Remarks_here: 0x247ada at_parse_para_arguments 
+Remarks_here: 0x247b4a at_parse_para_arguments 
 
 Miss_funcptr: __divdf3 ... 
-Remarks_here: 0x24a9a2 __divdf3 
+Remarks_here: 0x24aa12 __divdf3 
 
 Miss_funcptr: __divtf3 ... 
-Remarks_here: 0x24b07c __divtf3 
+Remarks_here: 0x24b0ec __divtf3 
 
 Miss_funcptr: __muldf3 ... 
-Remarks_here: 0x24c564 __muldf3 
+Remarks_here: 0x24c5d4 __muldf3 
 
 Miss_funcptr: zdiag_set_enable ... 
-Remarks_here: 0x24e400 zdiag_set_enable 
+Remarks_here: 0x24e470 zdiag_set_enable 
 
 Miss_funcptr: diag_cmd_mem_operate ... 
-Remarks_here: 0x24df14 diag_cmd_mem_operate 
+Remarks_here: 0x24df84 diag_cmd_mem_operate 
 
 Miss_funcptr: zdiag_cmd_mocked_shell ... 
-Remarks_here: 0x24e00e zdiag_cmd_mocked_shell 
+Remarks_here: 0x24e07e zdiag_cmd_mocked_shell 
 
 Miss_funcptr: uapi_diag_report_sys_msg ... 
-Remarks_here: 0x24e1c0 uapi_diag_report_sys_msg 
+Remarks_here: 0x24e230 uapi_diag_report_sys_msg 
 
 Miss_funcptr: do_hard_fault_handler ... 
-Remarks_here: 0x24f1b0 do_hard_fault_handler 
+Remarks_here: 0x24f220 do_hard_fault_handler 
 
 Miss_funcptr: log_trigger ... 
-Remarks_here: 0x250386 log_trigger 
+Remarks_here: 0x2503f6 log_trigger 
 
 Miss_funcptr: log_oam_status_store_trigger_callback ... 
-Remarks_here: 0x250330 log_oam_status_store_trigger_callback 
+Remarks_here: 0x2503a0 log_oam_status_store_trigger_callback 
 
 Miss_funcptr: panic_deal ... 
-Remarks_here: 0x2503a0 panic_deal 
+Remarks_here: 0x250410 panic_deal 
 
 Miss_funcptr: panic ... 
-Remarks_here: 0x25049a panic 
+Remarks_here: 0x25050a panic 
 
 Miss_funcptr: diag_debug_cmd_proc ... 
-Remarks_here: 0x250976 diag_debug_cmd_proc 
+Remarks_here: 0x2509e6 diag_debug_cmd_proc 
 
 Miss_funcptr: diag_cmd_psd_enable ... 
-Remarks_here: 0x250738 diag_cmd_psd_enable 
+Remarks_here: 0x2507a8 diag_cmd_psd_enable 
 
 Miss_funcptr: diag_cmd_wlan_module_sample_data ... 
-Remarks_here: 0x250a58 diag_cmd_wlan_module_sample_data 
+Remarks_here: 0x250ac8 diag_cmd_wlan_module_sample_data 
 
 Miss_funcptr: tcpip_send_msg_wait_sem ... 
-Remarks_here: 0x26c796 tcpip_send_msg_wait_sem 
+Remarks_here: 0x26c806 tcpip_send_msg_wait_sem 
 
 Miss_funcptr: pbuf_free ... 
-Remarks_here: 0x26d164 pbuf_free 
+Remarks_here: 0x26d1d4 pbuf_free 
 
 Miss_funcptr: tcp_abandon ... 
-Remarks_here: 0x2e798e tcp_abandon 
+Remarks_here: 0x2e79fe tcp_abandon 
 
 Miss_funcptr: ip6_output_if_src ... 
-Remarks_here: 0x2d9928 ip6_output_if_src 
+Remarks_here: 0x2d9998 ip6_output_if_src 
 
 Miss_funcptr: ip6_frag ... 
-Remarks_here: 0x2da394 ip6_frag 
+Remarks_here: 0x2da404 ip6_frag 
 
 Miss_funcptr: ip4_output_if_opt_src ... 
-Remarks_here: 0x26ccea ip4_output_if_opt_src 
+Remarks_here: 0x26cd5a ip4_output_if_opt_src 
 
 Miss_funcptr: ip4_frag ... 
-Remarks_here: 0x26d5dc ip4_frag 
+Remarks_here: 0x26d64c ip4_frag 
 
 Miss_funcptr: osal_wait_timeout_interruptible ... 
-Remarks_here: 0x25cfae osal_wait_timeout_interruptible 
+Remarks_here: 0x25d01e osal_wait_timeout_interruptible 
 
 Miss_funcptr: osal_wait_uninterruptible ... 
-Remarks_here: 0x25cf80 osal_wait_uninterruptible 
+Remarks_here: 0x25cff0 osal_wait_uninterruptible 
 
 Miss_funcptr: setsockopt ... 
-Remarks_here: 0x2e69cc setsockopt 
+Remarks_here: 0x2e6a3c setsockopt 
 
 Miss_funcptr: accept ... 
-Remarks_here: 0x2e5954 accept 
+Remarks_here: 0x2e59c4 accept 
 
 Miss_funcptr: netconn_accept ... 
-Remarks_here: 0x2e1b8a netconn_accept 
+Remarks_here: 0x2e1bfa netconn_accept 
 
 Miss_funcptr: netconn_recv_data_tcp ... 
-Remarks_here: 0x26c254 netconn_recv_data_tcp 
+Remarks_here: 0x26c2c4 netconn_recv_data_tcp 
 
 Miss_funcptr: netconn_recv_data ... 
-Remarks_here: 0x26c076 netconn_recv_data 
+Remarks_here: 0x26c0e6 netconn_recv_data 
 
 Miss_funcptr: netconn_recv_data ... 
-Remarks_here: 0x26c076 netconn_recv_data 
+Remarks_here: 0x26c0e6 netconn_recv_data 
 
 Miss_funcptr: sendto ... 
-Remarks_here: 0x2e5e84 sendto 
+Remarks_here: 0x2e5ef4 sendto 
 
 Miss_funcptr: sendto ... 
-Remarks_here: 0x2e5e84 sendto 
+Remarks_here: 0x2e5ef4 sendto 
 
 Miss_funcptr: CmdIperf ... 
-Remarks_here: 0x25ae92 CmdIperf 
+Remarks_here: 0x25af02 CmdIperf 
 
 Miss_funcptr: DoInitcalls ... 
-Remarks_here: 0x25bff0 DoInitcalls 
+Remarks_here: 0x25c060 DoInitcalls 
 
 Miss_funcptr: OsExcHandleEntry ... 
-Remarks_here: 0x25c446 OsExcHandleEntry 
+Remarks_here: 0x25c4b6 OsExcHandleEntry 
 
 Miss_funcptr: OsExcHandleEntry ... 
-Remarks_here: 0x25c446 OsExcHandleEntry 
+Remarks_here: 0x25c4b6 OsExcHandleEntry 
 
 Miss_funcptr: hal_uart_v151_ctrl ... 
-Remarks_here: 0x25d23e hal_uart_v151_ctrl 
+Remarks_here: 0x25d2ae hal_uart_v151_ctrl 
 
 Miss_funcptr: hal_uart_enable_interrupt ... 
-Remarks_here: 0x25d36e hal_uart_enable_interrupt 
+Remarks_here: 0x25d3de hal_uart_enable_interrupt 
 
 Miss_funcptr: hal_uart_irq_handler ... 
-Remarks_here: 0x25d546 hal_uart_irq_handler 
+Remarks_here: 0x25d5b6 hal_uart_irq_handler 
 
 Miss_funcptr: hal_uart_irq_handler ... 
-Remarks_here: 0x25d546 hal_uart_irq_handler 
+Remarks_here: 0x25d5b6 hal_uart_irq_handler 
 
 Miss_funcptr: hal_tsensor_v151_set_temp_threshold ... 
-Remarks_here: 0x25d7b4 hal_tsensor_v151_set_temp_threshold 
+Remarks_here: 0x25d824 hal_tsensor_v151_set_temp_threshold 
 
 Miss_funcptr: hal_tsensor_notify_int_callback ... 
-Remarks_here: 0x25d8d2 hal_tsensor_notify_int_callback 
+Remarks_here: 0x25d942 hal_tsensor_notify_int_callback 
 
 Miss_funcptr: hal_pmp_riscv31_regs_set_pmpxcfg ... 
-Remarks_here: 0x25df8a hal_pmp_riscv31_regs_set_pmpxcfg 
+Remarks_here: 0x25dffa hal_pmp_riscv31_regs_set_pmpxcfg 
 
 Miss_funcptr: uapi_tsensor_get_current_temp ... 
-Remarks_here: 0x25e18a uapi_tsensor_get_current_temp 
+Remarks_here: 0x25e1fa uapi_tsensor_get_current_temp 
 
 Miss_funcptr: uapi_tsensor_get_current_temp ... 
-Remarks_here: 0x25e18a uapi_tsensor_get_current_temp 
+Remarks_here: 0x25e1fa uapi_tsensor_get_current_temp 
 
 Miss_funcptr: uapi_efuse_read_bit ... 
-Remarks_here: 0x25e21c uapi_efuse_read_bit 
+Remarks_here: 0x25e28c uapi_efuse_read_bit 
 
 Miss_funcptr: uapi_efuse_read_buffer ... 
-Remarks_here: 0x25e26e uapi_efuse_read_buffer 
+Remarks_here: 0x25e2de uapi_efuse_read_buffer 
 
 Miss_funcptr: uapi_efuse_write_bit ... 
-Remarks_here: 0x25e2c6 uapi_efuse_write_bit 
+Remarks_here: 0x25e336 uapi_efuse_write_bit 
 
 Miss_funcptr: uapi_efuse_write_bit ... 
-Remarks_here: 0x25e2c6 uapi_efuse_write_bit 
+Remarks_here: 0x25e336 uapi_efuse_write_bit 
 
 Miss_funcptr: uapi_efuse_write_buffer ... 
-Remarks_here: 0x25e338 uapi_efuse_write_buffer 
+Remarks_here: 0x25e3a8 uapi_efuse_write_buffer 
 
 Miss_funcptr: uapi_watchdog_enable_patch ... 
-Remarks_here: 0x25e7fc uapi_watchdog_enable_patch 
+Remarks_here: 0x25e86c uapi_watchdog_enable_patch 
 
 Miss_funcptr: hal_gpio_v150_irq_handler ... 
-Remarks_here: 0x262f32 hal_gpio_v150_irq_handler 
+Remarks_here: 0x262fa2 hal_gpio_v150_irq_handler 
 
 Miss_funcptr: hmac_vap_linkloss_clean ... 
-Remarks_here: 0x263b52 hmac_vap_linkloss_clean 
+Remarks_here: 0x263bc2 hmac_vap_linkloss_clean 
 
 Miss_funcptr: hmac_vap_linkloss_clean ... 
-Remarks_here: 0x263b52 hmac_vap_linkloss_clean 
+Remarks_here: 0x263bc2 hmac_vap_linkloss_clean 
 
 Miss_funcptr: hmac_11i_ether_type_filter_etc ... 
-Remarks_here: 0x263bb0 hmac_11i_ether_type_filter_etc 
+Remarks_here: 0x263c20 hmac_11i_ether_type_filter_etc 
 
 Miss_funcptr: hmac_tx_mgmt_send_event_etc ... 
-Remarks_here: 0x27f094 hmac_tx_mgmt_send_event_etc 
+Remarks_here: 0x27f104 hmac_tx_mgmt_send_event_etc 
 
 Miss_funcptr: hmac_tx_process_mgmt_event ... 
-Remarks_here: 0x281f8e hmac_tx_process_mgmt_event 
+Remarks_here: 0x281ffe hmac_tx_process_mgmt_event 
 
 Miss_funcptr: frw_send_cfg_to_device ... 
-Remarks_here: 0x266d56 frw_send_cfg_to_device 
+Remarks_here: 0x266dc6 frw_send_cfg_to_device 
 
 Miss_funcptr: frw_msg_exec_callback ... 
-Remarks_here: 0x266c8c frw_msg_exec_callback 
+Remarks_here: 0x266cfc frw_msg_exec_callback 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_tx_mgmt ... 
-Remarks_here: 0x28aba4 hmac_tx_mgmt 
+Remarks_here: 0x28ac14 hmac_tx_mgmt 
 
 Miss_funcptr: hmac_psm_pkt_need_buff ... 
-Remarks_here: 0x26431c hmac_psm_pkt_need_buff 
+Remarks_here: 0x26438c hmac_psm_pkt_need_buff 
 
 Miss_funcptr: hmac_psm_pkt_need_buff ... 
-Remarks_here: 0x26431c hmac_psm_pkt_need_buff 
+Remarks_here: 0x26438c hmac_psm_pkt_need_buff 
 
 Miss_funcptr: hmac_tx_send_mpdu ... 
-Remarks_here: 0x2653cc hmac_tx_send_mpdu 
+Remarks_here: 0x26543c hmac_tx_send_mpdu 
 
 Miss_funcptr: hmac_call_netbuf_hooks ... 
-Remarks_here: 0x2649b2 hmac_call_netbuf_hooks 
+Remarks_here: 0x264a22 hmac_call_netbuf_hooks 
 
 Miss_funcptr: hmac_ba_filter_serv_etc ... 
-Remarks_here: 0x263f50 hmac_ba_filter_serv_etc 
+Remarks_here: 0x263fc0 hmac_ba_filter_serv_etc 
 
 Miss_funcptr: hmac_tx_schedule ... 
-Remarks_here: 0x26573c hmac_tx_schedule 
+Remarks_here: 0x2657ac hmac_tx_schedule 
 
 Miss_funcptr: hmac_tx_schedule ... 
-Remarks_here: 0x26573c hmac_tx_schedule 
+Remarks_here: 0x2657ac hmac_tx_schedule 
 
 Miss_funcptr: hmac_alg_tx_schedule_timer_notify ... 
-Remarks_here: 0x26ab56 hmac_alg_tx_schedule_timer_notify 
+Remarks_here: 0x26abc6 hmac_alg_tx_schedule_timer_notify 
 
 Miss_funcptr: hmac_tx_process_data ... 
-Remarks_here: 0x26a998 hmac_tx_process_data 
+Remarks_here: 0x26aa08 hmac_tx_process_data 
 
 Miss_funcptr: hmac_tx_process_data ... 
-Remarks_here: 0x26a998 hmac_tx_process_data 
+Remarks_here: 0x26aa08 hmac_tx_process_data 
 
 Miss_funcptr: hmac_tx_process_data ... 
-Remarks_here: 0x26a998 hmac_tx_process_data 
+Remarks_here: 0x26aa08 hmac_tx_process_data 
 
 Miss_funcptr: hmac_tx_process_data ... 
-Remarks_here: 0x26a998 hmac_tx_process_data 
+Remarks_here: 0x26aa08 hmac_tx_process_data 
 
 Miss_funcptr: hmac_alg_tid_update_notify ... 
-Remarks_here: 0x26ab38 hmac_alg_tid_update_notify 
+Remarks_here: 0x26aba8 hmac_alg_tid_update_notify 
 
 Miss_funcptr: hmac_tx_data_send ... 
-Remarks_here: 0x265442 hmac_tx_data_send 
+Remarks_here: 0x2654b2 hmac_tx_data_send 
 
 Miss_funcptr: hmac_tx_schedule_tid ... 
-Remarks_here: 0x265598 hmac_tx_schedule_tid 
+Remarks_here: 0x265608 hmac_tx_schedule_tid 
 
 Miss_funcptr: hmac_encap_beacon ... 
-Remarks_here: 0x2757cc hmac_encap_beacon 
+Remarks_here: 0x27583c hmac_encap_beacon 
 
 Miss_funcptr: hmac_set_rsn_ie_etc ... 
-Remarks_here: 0x290ff8 hmac_set_rsn_ie_etc 
+Remarks_here: 0x291068 hmac_set_rsn_ie_etc 
 
 Miss_funcptr: hmac_set_wpa_ie_etc ... 
-Remarks_here: 0x291202 hmac_set_wpa_ie_etc 
+Remarks_here: 0x291272 hmac_set_wpa_ie_etc 
 
 Miss_funcptr: mac_set_qos_info_field ... 
-Remarks_here: 0x290402 mac_set_qos_info_field 
+Remarks_here: 0x290472 mac_set_qos_info_field 
 
 Miss_funcptr: hmac_set_ht_capabilities_ie_etc ... 
-Remarks_here: 0x291460 hmac_set_ht_capabilities_ie_etc 
+Remarks_here: 0x2914d0 hmac_set_ht_capabilities_ie_etc 
 
 Miss_funcptr: hmac_set_ht_opern_ie_etc ... 
-Remarks_here: 0x2917ea hmac_set_ht_opern_ie_etc 
+Remarks_here: 0x29185a hmac_set_ht_opern_ie_etc 
 
 Miss_funcptr: hmac_set_ext_capabilities_ie_etc ... 
-Remarks_here: 0x2919f8 hmac_set_ext_capabilities_ie_etc 
+Remarks_here: 0x291a68 hmac_set_ext_capabilities_ie_etc 
 
 Miss_funcptr: hmac_set_ext_capabilities_ie_etc ... 
-Remarks_here: 0x2919f8 hmac_set_ext_capabilities_ie_etc 
+Remarks_here: 0x291a68 hmac_set_ext_capabilities_ie_etc 
 
 Miss_funcptr: hmac_set_vht_capabilities_ie_etc ... 
-Remarks_here: 0x291ae2 hmac_set_vht_capabilities_ie_etc 
+Remarks_here: 0x291b52 hmac_set_vht_capabilities_ie_etc 
 
 Miss_funcptr: hmac_set_vht_capabilities_ie_etc ... 
-Remarks_here: 0x291ae2 hmac_set_vht_capabilities_ie_etc 
+Remarks_here: 0x291b52 hmac_set_vht_capabilities_ie_etc 
 
 Miss_funcptr: hmac_set_vht_opern_ie_etc ... 
-Remarks_here: 0x291d20 hmac_set_vht_opern_ie_etc 
+Remarks_here: 0x291d90 hmac_set_vht_opern_ie_etc 
 
 Miss_funcptr: hmac_set_vht_opern_ie_etc ... 
-Remarks_here: 0x291d20 hmac_set_vht_opern_ie_etc 
+Remarks_here: 0x291d90 hmac_set_vht_opern_ie_etc 
 
 Miss_funcptr: hmac_set_he_capabilities_ie ... 
-Remarks_here: 0x2904dc hmac_set_he_capabilities_ie 
+Remarks_here: 0x29054c hmac_set_he_capabilities_ie 
 
 Miss_funcptr: hmac_rx_data_ps_process ... 
-Remarks_here: 0x2642f6 hmac_rx_data_ps_process 
+Remarks_here: 0x264366 hmac_rx_data_ps_process 
 
 Miss_funcptr: frw_util_notifier_notify ... 
-Remarks_here: 0x270da4 frw_util_notifier_notify 
+Remarks_here: 0x270e14 frw_util_notifier_notify 
 
 Miss_funcptr: cfg80211_inform_bss_frame ... 
-Remarks_here: 0x298e66 cfg80211_inform_bss_frame 
+Remarks_here: 0x298ed6 cfg80211_inform_bss_frame 
 
 Miss_funcptr: cfg80211_scan_done ... 
-Remarks_here: 0x2990e8 cfg80211_scan_done 
+Remarks_here: 0x299158 cfg80211_scan_done 
 
 Miss_funcptr: tcpip_api_call ... 
-Remarks_here: 0x2e8494 tcpip_api_call 
+Remarks_here: 0x2e8504 tcpip_api_call 
 
 Miss_funcptr: hmac_config_del_vap_proc ... 
-Remarks_here: 0x28e0e0 hmac_config_del_vap_proc 
+Remarks_here: 0x28e150 hmac_config_del_vap_proc 
 
 Miss_funcptr: hmac_alg_sync_distance_info ... 
-Remarks_here: 0x264d1a hmac_alg_sync_distance_info 
+Remarks_here: 0x264d8a hmac_alg_sync_distance_info 
 
 Miss_funcptr: hmac_alg_sync_distance_info ... 
-Remarks_here: 0x264d1a hmac_alg_sync_distance_info 
+Remarks_here: 0x264d8a hmac_alg_sync_distance_info 
 
 Miss_funcptr: hmac_tx_encap_etc ... 
-Remarks_here: 0x26a42e hmac_tx_encap_etc 
+Remarks_here: 0x26a49e hmac_tx_encap_etc 
 
 Miss_funcptr: hmac_tx_send_encap_data ... 
-Remarks_here: 0x26a6fa hmac_tx_send_encap_data 
+Remarks_here: 0x26a76a hmac_tx_send_encap_data 
 
 Miss_funcptr: hmac_btcoex_set_wlan_priority ... 
-Remarks_here: 0x2efc04 hmac_btcoex_set_wlan_priority 
+Remarks_here: 0x2efc74 hmac_btcoex_set_wlan_priority 
 
 Miss_funcptr: hmac_btcoex_delba_from_user ... 
-Remarks_here: 0x2f06ca hmac_btcoex_delba_from_user 
+Remarks_here: 0x2f073a hmac_btcoex_delba_from_user 
 
 Miss_funcptr: frw_hmac_rcv_netbuf ... 
-Remarks_here: 0x266f2c frw_hmac_rcv_netbuf 
+Remarks_here: 0x266f9c frw_hmac_rcv_netbuf 
 
 Miss_funcptr: frw_netbuf_exec_callback ... 
-Remarks_here: 0x266b94 frw_netbuf_exec_callback 
+Remarks_here: 0x266c04 frw_netbuf_exec_callback 
 
 Miss_funcptr: frw_rx_msg ... 
-Remarks_here: 0x266c7a frw_rx_msg 
+Remarks_here: 0x266cea frw_rx_msg 
 
 Miss_funcptr: frw_rx_wifi_cfg_function ... 
-Remarks_here: 0x266e2c frw_rx_wifi_cfg_function 
+Remarks_here: 0x266e9c frw_rx_wifi_cfg_function 
 
 Miss_funcptr: frw_thread_exit ... 
-Remarks_here: 0x267b7e frw_thread_exit 
+Remarks_here: 0x267bee frw_thread_exit 
 
 Miss_funcptr: frw_task_process ... 
-Remarks_here: 0x2674ee frw_task_process 
+Remarks_here: 0x26755e frw_task_process 
 
 Miss_funcptr: frw_timer_timeout_proc ... 
-Remarks_here: 0x267e40 frw_timer_timeout_proc 
+Remarks_here: 0x267eb0 frw_timer_timeout_proc 
 
 Miss_funcptr: hmac_tx_lan_to_wlan_no_tcp_opt_etc ... 
-Remarks_here: 0x269e28 hmac_tx_lan_to_wlan_no_tcp_opt_etc 
+Remarks_here: 0x269e98 hmac_tx_lan_to_wlan_no_tcp_opt_etc 
 
 Miss_funcptr: hmac_tx_lan_to_wlan_no_tcp_opt_etc ... 
-Remarks_here: 0x269e28 hmac_tx_lan_to_wlan_no_tcp_opt_etc 
+Remarks_here: 0x269e98 hmac_tx_lan_to_wlan_no_tcp_opt_etc 
 
 Miss_funcptr: hmac_tx_ucast_process_etc ... 
-Remarks_here: 0x2699b4 hmac_tx_ucast_process_etc 
+Remarks_here: 0x269a24 hmac_tx_ucast_process_etc 
 
 Miss_funcptr: hmac_tx_ucast_process_etc ... 
-Remarks_here: 0x2699b4 hmac_tx_ucast_process_etc 
+Remarks_here: 0x269a24 hmac_tx_ucast_process_etc 
 
 Miss_funcptr: hmac_tx_ucast_process_etc ... 
-Remarks_here: 0x2699b4 hmac_tx_ucast_process_etc 
+Remarks_here: 0x269a24 hmac_tx_ucast_process_etc 
 
 Miss_funcptr: hmac_rx_transmit_msdu_to_lan ... 
-Remarks_here: 0x268196 hmac_rx_transmit_msdu_to_lan 
+Remarks_here: 0x268206 hmac_rx_transmit_msdu_to_lan 
 
 Miss_funcptr: hmac_rx_transmit_msdu_to_lan ... 
-Remarks_here: 0x268196 hmac_rx_transmit_msdu_to_lan 
+Remarks_here: 0x268206 hmac_rx_transmit_msdu_to_lan 
 
 Miss_funcptr: hmac_rx_transmit_msdu_to_lan ... 
-Remarks_here: 0x268196 hmac_rx_transmit_msdu_to_lan 
+Remarks_here: 0x268206 hmac_rx_transmit_msdu_to_lan 
 
 Miss_funcptr: hwal_netif_rx ... 
-Remarks_here: 0x26b5b8 hwal_netif_rx 
+Remarks_here: 0x26b628 hwal_netif_rx 
 
 Miss_funcptr: hwal_netif_rx ... 
-Remarks_here: 0x26b5b8 hwal_netif_rx 
+Remarks_here: 0x26b628 hwal_netif_rx 
 
 Miss_funcptr: driverif_input ... 
-Remarks_here: 0x26d58a driverif_input 
+Remarks_here: 0x26d5fa driverif_input 
 
 Miss_funcptr: hmac_rx_prepare_msdu_list_to_wlan.isra.13 ... 
-Remarks_here: 0x2682dc hmac_rx_prepare_msdu_list_to_wlan.isra.13 
+Remarks_here: 0x26834c hmac_rx_prepare_msdu_list_to_wlan.isra.13 
 
 Miss_funcptr: hmac_rx_lan_frame_classify_etc ... 
-Remarks_here: 0x268474 hmac_rx_lan_frame_classify_etc 
+Remarks_here: 0x2684e4 hmac_rx_lan_frame_classify_etc 
 
 Miss_funcptr: hmac_rx_lan_frame_classify_etc ... 
-Remarks_here: 0x268474 hmac_rx_lan_frame_classify_etc 
+Remarks_here: 0x2684e4 hmac_rx_lan_frame_classify_etc 
 
 Miss_funcptr: hmac_rx_process_data_msg ... 
-Remarks_here: 0x268ae2 hmac_rx_process_data_msg 
+Remarks_here: 0x268b52 hmac_rx_process_data_msg 
 
 Miss_funcptr: hmac_rx_process_data_msg ... 
-Remarks_here: 0x268ae2 hmac_rx_process_data_msg 
+Remarks_here: 0x268b52 hmac_rx_process_data_msg 
 
 Miss_funcptr: hmac_rx_process_data_msg ... 
-Remarks_here: 0x268ae2 hmac_rx_process_data_msg 
+Remarks_here: 0x268b52 hmac_rx_process_data_msg 
 
 Miss_funcptr: hmac_rx_deal_frame_filter ... 
-Remarks_here: 0x26953a hmac_rx_deal_frame_filter 
+Remarks_here: 0x2695aa hmac_rx_deal_frame_filter 
 
 Miss_funcptr: hmac_bridge_vap_xmit_proc ... 
-Remarks_here: 0x26a234 hmac_bridge_vap_xmit_proc 
+Remarks_here: 0x26a2a4 hmac_bridge_vap_xmit_proc 
 
 Miss_funcptr: hmac_bridge_vap_xmit_etc ... 
-Remarks_here: 0x26a2c6 hmac_bridge_vap_xmit_etc 
+Remarks_here: 0x26a336 hmac_bridge_vap_xmit_etc 
 
 Miss_funcptr: hmac_alg_tx_notify.constprop.3 ... 
-Remarks_here: 0x26a820 hmac_alg_tx_notify.constprop.3 
+Remarks_here: 0x26a890 hmac_alg_tx_notify.constprop.3 
 
 Miss_funcptr: cfg80211_timeout_disconnected ... 
-Remarks_here: 0x2990b2 cfg80211_timeout_disconnected 
+Remarks_here: 0x299122 cfg80211_timeout_disconnected 
 
 Miss_funcptr: cfg80211_disconnected ... 
-Remarks_here: 0x29902a cfg80211_disconnected 
+Remarks_here: 0x29909a cfg80211_disconnected 
 
 Miss_funcptr: event_callback ... 
-Remarks_here: 0x26beea event_callback 
+Remarks_here: 0x26bf5a event_callback 
 
 Miss_funcptr: lwip_netconn_do_writemore ... 
-Remarks_here: 0x2e1fa8 lwip_netconn_do_writemore 
+Remarks_here: 0x2e2018 lwip_netconn_do_writemore 
 
 Miss_funcptr: tcpip_thread ... 
-Remarks_here: 0x26c648 tcpip_thread 
+Remarks_here: 0x26c6b8 tcpip_thread 
 
 Miss_funcptr: tcpip_thread ... 
-Remarks_here: 0x26c648 tcpip_thread 
+Remarks_here: 0x26c6b8 tcpip_thread 
 
 Miss_funcptr: l3_invoke_msg_callback ... 
-Remarks_here: 0x2da4e2 l3_invoke_msg_callback 
+Remarks_here: 0x2da552 l3_invoke_msg_callback 
 
 Miss_funcptr: sys_check_timeouts ... 
-Remarks_here: 0x2e18f2 sys_check_timeouts 
+Remarks_here: 0x2e1962 sys_check_timeouts 
 
 Miss_funcptr: tcpip_inpkt ... 
-Remarks_here: 0x26c6ee tcpip_inpkt 
+Remarks_here: 0x26c75e tcpip_inpkt 
 
 Miss_funcptr: ethernet_output ... 
-Remarks_here: 0x26d2e8 ethernet_output 
+Remarks_here: 0x26d358 ethernet_output 
 
 Miss_funcptr: raw_input6 ... 
-Remarks_here: 0x2e4fb6 raw_input6 
+Remarks_here: 0x2e5026 raw_input6 
 
 Miss_funcptr: udp_input ... 
-Remarks_here: 0x2e858a udp_input 
+Remarks_here: 0x2e85fa udp_input 
 
 Miss_funcptr: udp_input ... 
-Remarks_here: 0x2e858a udp_input 
+Remarks_here: 0x2e85fa udp_input 
 
 Miss_funcptr: tcp_input ... 
-Remarks_here: 0x2df194 tcp_input 
+Remarks_here: 0x2df204 tcp_input 
 
 Miss_funcptr: tcp_input ... 
-Remarks_here: 0x2df194 tcp_input 
+Remarks_here: 0x2df204 tcp_input 
 
 Miss_funcptr: tcp_input ... 
-Remarks_here: 0x2df194 tcp_input 
+Remarks_here: 0x2df204 tcp_input 
 
 Miss_funcptr: tcp_input ... 
-Remarks_here: 0x2df194 tcp_input 
+Remarks_here: 0x2df204 tcp_input 
 
 Miss_funcptr: tcp_input ... 
-Remarks_here: 0x2df194 tcp_input 
+Remarks_here: 0x2df204 tcp_input 
 
 Miss_funcptr: tcp_input ... 
-Remarks_here: 0x2df194 tcp_input 
+Remarks_here: 0x2df204 tcp_input 
 
 Miss_funcptr: tcp_process_refused_data ... 
-Remarks_here: 0x2e7ddc tcp_process_refused_data 
+Remarks_here: 0x2e7e4c tcp_process_refused_data 
 
 Miss_funcptr: tcp_parseopt ... 
-Remarks_here: 0x2de318 tcp_parseopt 
+Remarks_here: 0x2de388 tcp_parseopt 
 
 Miss_funcptr: tcp_receive ... 
-Remarks_here: 0x2de60c tcp_receive 
+Remarks_here: 0x2de67c tcp_receive 
 
 Miss_funcptr: tcp_input_delayed_close ... 
-Remarks_here: 0x2de508 tcp_input_delayed_close 
+Remarks_here: 0x2de578 tcp_input_delayed_close 
 
 Miss_funcptr: netif_set_down ... 
-Remarks_here: 0x2e4690 netif_set_down 
+Remarks_here: 0x2e4700 netif_set_down 
 
 Miss_funcptr: netif_invoke_ext_callback ... 
-Remarks_here: 0x2e4282 netif_invoke_ext_callback 
+Remarks_here: 0x2e42f2 netif_invoke_ext_callback 
 
 Miss_funcptr: netif_ip6_addr_set_state ... 
-Remarks_here: 0x2e484c netif_ip6_addr_set_state 
+Remarks_here: 0x2e48bc netif_ip6_addr_set_state 
 
 Miss_funcptr: raw_input ... 
-Remarks_here: 0x2e4f14 raw_input 
+Remarks_here: 0x2e4f84 raw_input 
 
 Miss_funcptr: driverif_output ... 
-Remarks_here: 0x26d56a driverif_output 
+Remarks_here: 0x26d5da driverif_output 
 
 Miss_funcptr: alg_intfmode_get_statemode ... 
-Remarks_here: 0x26e4fe alg_intfmode_get_statemode 
+Remarks_here: 0x26e56e alg_intfmode_get_statemode 
 
 Miss_funcptr: hmac_alg_cfg_intf_det_cca_notify ... 
-Remarks_here: 0x26f86a hmac_alg_cfg_intf_det_cca_notify 
+Remarks_here: 0x26f8da hmac_alg_cfg_intf_det_cca_notify 
 
 Miss_funcptr: hmac_alg_cfg_intf_det_edca_notify ... 
-Remarks_here: 0x26f858 hmac_alg_cfg_intf_det_edca_notify 
+Remarks_here: 0x26f8c8 hmac_alg_cfg_intf_det_edca_notify 
 
 Miss_funcptr: alg_intf_det_config_param ... 
-Remarks_here: 0x26eb1a alg_intf_det_config_param 
+Remarks_here: 0x26eb8a alg_intf_det_config_param 
 
 Miss_funcptr: hmac_alg_cfg_intf_det_cca_chk_noise_notify ... 
-Remarks_here: 0x26f87c hmac_alg_cfg_intf_det_cca_chk_noise_notify 
+Remarks_here: 0x26f8ec hmac_alg_cfg_intf_det_cca_chk_noise_notify 
 
 Miss_funcptr: alg_hmac_sync_param ... 
-Remarks_here: 0x26f88e alg_hmac_sync_param 
+Remarks_here: 0x26f8fe alg_hmac_sync_param 
 
 Miss_funcptr: alg_schedule_config_param ... 
-Remarks_here: 0x26fda4 alg_schedule_config_param 
+Remarks_here: 0x26fe14 alg_schedule_config_param 
 
 Miss_funcptr: hmac_config_11i_add_key_etc ... 
-Remarks_here: 0x27160e hmac_config_11i_add_key_etc 
+Remarks_here: 0x27167e hmac_config_11i_add_key_etc 
 
 Miss_funcptr: hmac_config_11i_add_key_etc ... 
-Remarks_here: 0x27160e hmac_config_11i_add_key_etc 
+Remarks_here: 0x27167e hmac_config_11i_add_key_etc 
 
 Miss_funcptr: hmac_config_11i_add_key_etc ... 
-Remarks_here: 0x27160e hmac_config_11i_add_key_etc 
+Remarks_here: 0x27167e hmac_config_11i_add_key_etc 
 
 Miss_funcptr: hmac_config_11i_add_key_etc ... 
-Remarks_here: 0x27160e hmac_config_11i_add_key_etc 
+Remarks_here: 0x27167e hmac_config_11i_add_key_etc 
 
 Miss_funcptr: hmac_config_11i_get_key_etc ... 
-Remarks_here: 0x2718e4 hmac_config_11i_get_key_etc 
+Remarks_here: 0x271954 hmac_config_11i_get_key_etc 
 
 Miss_funcptr: hmac_sta_protocol_down_by_chipher ... 
-Remarks_here: 0x271d1c hmac_sta_protocol_down_by_chipher 
+Remarks_here: 0x271d8c hmac_sta_protocol_down_by_chipher 
 
 Miss_funcptr: hmac_config_del_pmksa_etc ... 
-Remarks_here: 0x27202c hmac_config_del_pmksa_etc 
+Remarks_here: 0x27209c hmac_config_del_pmksa_etc 
 
 Miss_funcptr: hmac_ccpriv_alg_cfg_etc ... 
-Remarks_here: 0x27338a hmac_ccpriv_alg_cfg_etc 
+Remarks_here: 0x2733fa hmac_ccpriv_alg_cfg_etc 
 
 Miss_funcptr: hmac_ccpriv_alg_cfg_etc ... 
-Remarks_here: 0x27338a hmac_ccpriv_alg_cfg_etc 
+Remarks_here: 0x2733fa hmac_ccpriv_alg_cfg_etc 
 
 Miss_funcptr: hmac_alg_para_cfg_notify ... 
-Remarks_here: 0x272ea2 hmac_alg_para_cfg_notify 
+Remarks_here: 0x272f12 hmac_alg_para_cfg_notify 
 
 Miss_funcptr: hmac_alg_cfg_channel_notify ... 
-Remarks_here: 0x2750fa hmac_alg_cfg_channel_notify 
+Remarks_here: 0x27516a hmac_alg_cfg_channel_notify 
 
 Miss_funcptr: hmac_pow_set_vap_tx_power ... 
-Remarks_here: 0x2850c2 hmac_pow_set_vap_tx_power 
+Remarks_here: 0x285132 hmac_pow_set_vap_tx_power 
 
 Miss_funcptr: hmac_alg_anti_intf_switch ... 
-Remarks_here: 0x2753fc hmac_alg_anti_intf_switch 
+Remarks_here: 0x27546c hmac_alg_anti_intf_switch 
 
 Miss_funcptr: hmac_alg_anti_intf_tbtt_handler ... 
-Remarks_here: 0x274eda hmac_alg_anti_intf_tbtt_handler 
+Remarks_here: 0x274f4a hmac_alg_anti_intf_tbtt_handler 
 
 Miss_funcptr: hmac_alg_del_assoc_user_notify ... 
-Remarks_here: 0x27513a hmac_alg_del_assoc_user_notify 
+Remarks_here: 0x2751aa hmac_alg_del_assoc_user_notify 
 
 Miss_funcptr: hmac_alg_add_assoc_user_notify ... 
-Remarks_here: 0x2751a6 hmac_alg_add_assoc_user_notify 
+Remarks_here: 0x275216 hmac_alg_add_assoc_user_notify 
 
 Miss_funcptr: hmac_alg_rx_mgmt_notify ... 
-Remarks_here: 0x275284 hmac_alg_rx_mgmt_notify 
+Remarks_here: 0x2752f4 hmac_alg_rx_mgmt_notify 
 
 Miss_funcptr: hmac_alg_rx_cntl_notify ... 
-Remarks_here: 0x2752cc hmac_alg_rx_cntl_notify 
+Remarks_here: 0x27533c hmac_alg_rx_cntl_notify 
 
 Miss_funcptr: hmac_scan_param_sync ... 
-Remarks_here: 0x275378 hmac_scan_param_sync 
+Remarks_here: 0x2753e8 hmac_scan_param_sync 
 
 Miss_funcptr: hmac_alg_scan_ch_complete_notify ... 
-Remarks_here: 0x2753c0 hmac_alg_scan_ch_complete_notify 
+Remarks_here: 0x275430 hmac_alg_scan_ch_complete_notify 
 
 Miss_funcptr: hmac_alg_anti_intf_get_tx_time ... 
-Remarks_here: 0x27544a hmac_alg_anti_intf_get_tx_time 
+Remarks_here: 0x2754ba hmac_alg_anti_intf_get_tx_time 
 
 Miss_funcptr: hmac_alg_cca_opt_radar_notify ... 
-Remarks_here: 0x2754aa hmac_alg_cca_opt_radar_notify 
+Remarks_here: 0x27551a hmac_alg_cca_opt_radar_notify 
 
 Miss_funcptr: hmac_report_linkloss_info ... 
-Remarks_here: 0x2756ea hmac_report_linkloss_info 
+Remarks_here: 0x27575a hmac_report_linkloss_info 
 
 Miss_funcptr: hmac_linkloss_update_mode ... 
-Remarks_here: 0x275754 hmac_linkloss_update_mode 
+Remarks_here: 0x2757c4 hmac_linkloss_update_mode 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_tbtt_event_sta ... 
-Remarks_here: 0x275b68 hmac_tbtt_event_sta 
+Remarks_here: 0x275bd8 hmac_tbtt_event_sta 
 
 Miss_funcptr: hmac_send_disassoc_misc_event ... 
-Remarks_here: 0x281b84 hmac_send_disassoc_misc_event 
+Remarks_here: 0x281bf4 hmac_send_disassoc_misc_event 
 
 Miss_funcptr: hmac_single_hal_device_scan_complete ... 
-Remarks_here: 0x286aae hmac_single_hal_device_scan_complete 
+Remarks_here: 0x286b1e hmac_single_hal_device_scan_complete 
 
 Miss_funcptr: hmac_single_hal_device_scan_complete ... 
-Remarks_here: 0x286aae hmac_single_hal_device_scan_complete 
+Remarks_here: 0x286b1e hmac_single_hal_device_scan_complete 
 
 Miss_funcptr: hmac_single_hal_device_scan_complete ... 
-Remarks_here: 0x286aae hmac_single_hal_device_scan_complete 
+Remarks_here: 0x286b1e hmac_single_hal_device_scan_complete 
 
 Miss_funcptr: hmac_vap_resume_tx_by_chl ... 
-Remarks_here: 0x28d9c4 hmac_vap_resume_tx_by_chl 
+Remarks_here: 0x28da34 hmac_vap_resume_tx_by_chl 
 
 Miss_funcptr: hmac_scan_end ... 
-Remarks_here: 0x2884fa hmac_scan_end 
+Remarks_here: 0x28856a hmac_scan_end 
 
 Miss_funcptr: hmac_scan_end ... 
-Remarks_here: 0x2884fa hmac_scan_end 
+Remarks_here: 0x28856a hmac_scan_end 
 
 Miss_funcptr: hmac_scan_proc_scan_comp_event_etc ... 
-Remarks_here: 0x2882dc hmac_scan_proc_scan_comp_event_etc 
+Remarks_here: 0x28834c hmac_scan_proc_scan_comp_event_etc 
 
 Miss_funcptr: hmac_scan_proc_scan_comp_event_etc ... 
-Remarks_here: 0x2882dc hmac_scan_proc_scan_comp_event_etc 
+Remarks_here: 0x28834c hmac_scan_proc_scan_comp_event_etc 
 
 Miss_funcptr: hmac_config_vap_state_syn ... 
-Remarks_here: 0x28e43a hmac_config_vap_state_syn 
+Remarks_here: 0x28e4aa hmac_config_vap_state_syn 
 
 Miss_funcptr: hmac_vap_down_notify ... 
-Remarks_here: 0x28ddc4 hmac_vap_down_notify 
+Remarks_here: 0x28de34 hmac_vap_down_notify 
 
 Miss_funcptr: hmac_scan_send_probe_req_frame ... 
-Remarks_here: 0x286704 hmac_scan_send_probe_req_frame 
+Remarks_here: 0x286774 hmac_scan_send_probe_req_frame 
 
 Miss_funcptr: hmac_scan_send_probe_req_frame ... 
-Remarks_here: 0x286704 hmac_scan_send_probe_req_frame 
+Remarks_here: 0x286774 hmac_scan_send_probe_req_frame 
 
 Miss_funcptr: hmac_vap_init_11ac_rates ... 
-Remarks_here: 0x294006 hmac_vap_init_11ac_rates 
+Remarks_here: 0x294076 hmac_vap_init_11ac_rates 
 
 Miss_funcptr: hmac_vap_init_11ac_rates ... 
-Remarks_here: 0x294006 hmac_vap_init_11ac_rates 
+Remarks_here: 0x294076 hmac_vap_init_11ac_rates 
 
 Miss_funcptr: hmac_vap_init_11ax_rates ... 
-Remarks_here: 0x293f4e hmac_vap_init_11ax_rates 
+Remarks_here: 0x293fbe hmac_vap_init_11ax_rates 
 
 Miss_funcptr: hmac_config_start_vap ... 
-Remarks_here: 0x28eac2 hmac_config_start_vap 
+Remarks_here: 0x28eb32 hmac_config_start_vap 
 
 Miss_funcptr: hmac_scan_print_scanned_bss_info_etc ... 
-Remarks_here: 0x286f92 hmac_scan_print_scanned_bss_info_etc 
+Remarks_here: 0x287002 hmac_scan_print_scanned_bss_info_etc 
 
 Miss_funcptr: hmac_send_rsp_to_sme_sta_etc ... 
-Remarks_here: 0x28a03e hmac_send_rsp_to_sme_sta_etc 
+Remarks_here: 0x28a0ae hmac_send_rsp_to_sme_sta_etc 
 
 Miss_funcptr: hmac_user_del_etc ... 
-Remarks_here: 0x28bf7a hmac_user_del_etc 
+Remarks_here: 0x28bfea hmac_user_del_etc 
 
 Miss_funcptr: hmac_compability_ap_tpye_identify_etc ... 
-Remarks_here: 0x28b37e hmac_compability_ap_tpye_identify_etc 
+Remarks_here: 0x28b3ee hmac_compability_ap_tpye_identify_etc 
 
 Miss_funcptr: hmac_user_del ... 
-Remarks_here: 0x28bd70 hmac_user_del 
+Remarks_here: 0x28bde0 hmac_user_del 
 
 Miss_funcptr: hmac_tid_clear_etc ... 
-Remarks_here: 0x27b850 hmac_tid_clear_etc 
+Remarks_here: 0x27b8c0 hmac_tid_clear_etc 
 
 Miss_funcptr: hmac_irq_tbtt_ap_isr ... 
-Remarks_here: 0x275fea hmac_irq_tbtt_ap_isr 
+Remarks_here: 0x27605a hmac_irq_tbtt_ap_isr 
 
 Miss_funcptr: hmac_sta_set_bandwith_handler ... 
-Remarks_here: 0x276138 hmac_sta_set_bandwith_handler 
+Remarks_here: 0x2761a8 hmac_sta_set_bandwith_handler 
 
 Miss_funcptr: hmac_tbtt_event_handler ... 
-Remarks_here: 0x2764e8 hmac_tbtt_event_handler 
+Remarks_here: 0x276558 hmac_tbtt_event_handler 
 
 Miss_funcptr: hmac_chan_multi_select_channel_mac ... 
-Remarks_here: 0x2825f6 hmac_chan_multi_select_channel_mac 
+Remarks_here: 0x282666 hmac_chan_multi_select_channel_mac 
 
 Miss_funcptr: hmac_chan_multi_select_channel_mac ... 
-Remarks_here: 0x2825f6 hmac_chan_multi_select_channel_mac 
+Remarks_here: 0x282666 hmac_chan_multi_select_channel_mac 
 
 Miss_funcptr: hmac_check_ap_channel_follow_sta ... 
-Remarks_here: 0x277826 hmac_check_ap_channel_follow_sta 
+Remarks_here: 0x277896 hmac_check_ap_channel_follow_sta 
 
 Miss_funcptr: hmac_check_ap_channel_follow_sta ... 
-Remarks_here: 0x277826 hmac_check_ap_channel_follow_sta 
+Remarks_here: 0x277896 hmac_check_ap_channel_follow_sta 
 
 Miss_funcptr: hmac_sta_up_rx_beacon_check ... 
-Remarks_here: 0x276608 hmac_sta_up_rx_beacon_check 
+Remarks_here: 0x276678 hmac_sta_up_rx_beacon_check 
 
 Miss_funcptr: hmac_sta_up_rx_beacon_check ... 
-Remarks_here: 0x276608 hmac_sta_up_rx_beacon_check 
+Remarks_here: 0x276678 hmac_sta_up_rx_beacon_check 
 
 Miss_funcptr: hmac_sta_set_sec_bandwidth_offset ... 
-Remarks_here: 0x28b692 hmac_sta_set_sec_bandwidth_offset 
+Remarks_here: 0x28b702 hmac_sta_set_sec_bandwidth_offset 
 
 Miss_funcptr: hmac_mgmt_check_set_rx_ba_ok_etc ... 
-Remarks_here: 0x276dba hmac_mgmt_check_set_rx_ba_ok_etc 
+Remarks_here: 0x276e2a hmac_mgmt_check_set_rx_ba_ok_etc 
 
 Miss_funcptr: hmac_ccpriv_do_cmd ... 
-Remarks_here: 0x277218 hmac_ccpriv_do_cmd 
+Remarks_here: 0x277288 hmac_ccpriv_do_cmd 
 
 Miss_funcptr: hmac_config_custom_cfg_priv_ini ... 
-Remarks_here: 0x27818c hmac_config_custom_cfg_priv_ini 
+Remarks_here: 0x2781fc hmac_config_custom_cfg_priv_ini 
 
 Miss_funcptr: hmac_config_set_mode_check_bandwith.part.0 ... 
-Remarks_here: 0x2782f8 hmac_config_set_mode_check_bandwith.part.0 
+Remarks_here: 0x278368 hmac_config_set_mode_check_bandwith.part.0 
 
 Miss_funcptr: hmac_config_kick_user_etc ... 
-Remarks_here: 0x2787f8 hmac_config_kick_user_etc 
+Remarks_here: 0x278868 hmac_config_kick_user_etc 
 
 Miss_funcptr: hmac_config_kick_user_etc ... 
-Remarks_here: 0x2787f8 hmac_config_kick_user_etc 
+Remarks_here: 0x278868 hmac_config_kick_user_etc 
 
 Miss_funcptr: hmac_config_set_mode_etc ... 
-Remarks_here: 0x279258 hmac_config_set_mode_etc 
+Remarks_here: 0x2792c8 hmac_config_set_mode_etc 
 
 Miss_funcptr: hmac_config_set_freq ... 
-Remarks_here: 0x2795c0 hmac_config_set_freq 
+Remarks_here: 0x279630 hmac_config_set_freq 
 
 Miss_funcptr: hmac_config_connect_etc ... 
-Remarks_here: 0x279ce0 hmac_config_connect_etc 
+Remarks_here: 0x279d50 hmac_config_connect_etc 
 
 Miss_funcptr: hmac_config_connect_etc ... 
-Remarks_here: 0x279ce0 hmac_config_connect_etc 
+Remarks_here: 0x279d50 hmac_config_connect_etc 
 
 Miss_funcptr: hmac_config_connect_etc ... 
-Remarks_here: 0x279ce0 hmac_config_connect_etc 
+Remarks_here: 0x279d50 hmac_config_connect_etc 
 
 Miss_funcptr: hmac_config_connect_etc ... 
-Remarks_here: 0x279ce0 hmac_config_connect_etc 
+Remarks_here: 0x279d50 hmac_config_connect_etc 
 
 Miss_funcptr: hmac_config_connect_etc ... 
-Remarks_here: 0x279ce0 hmac_config_connect_etc 
+Remarks_here: 0x279d50 hmac_config_connect_etc 
 
 Miss_funcptr: hmac_config_connect_etc ... 
-Remarks_here: 0x279ce0 hmac_config_connect_etc 
+Remarks_here: 0x279d50 hmac_config_connect_etc 
 
 Miss_funcptr: hmac_sta_initiate_join_etc ... 
-Remarks_here: 0x289cbe hmac_sta_initiate_join_etc 
+Remarks_here: 0x289d2e hmac_sta_initiate_join_etc 
 
 Miss_funcptr: hmac_fsm_call_func_sta_etc ... 
-Remarks_here: 0x27c69a hmac_fsm_call_func_sta_etc 
+Remarks_here: 0x27c70a hmac_fsm_call_func_sta_etc 
 
 Miss_funcptr: hmac_config_set_beacon_etc ... 
-Remarks_here: 0x27a4c2 hmac_config_set_beacon_etc 
+Remarks_here: 0x27a532 hmac_config_set_beacon_etc 
 
 Miss_funcptr: hmac_do_suspend_action_etc ... 
-Remarks_here: 0x27afa2 hmac_do_suspend_action_etc 
+Remarks_here: 0x27b012 hmac_do_suspend_action_etc 
 
 Miss_funcptr: hmac_board_exit ... 
-Remarks_here: 0x27adf4 hmac_board_exit 
+Remarks_here: 0x27ae64 hmac_board_exit 
 
 Miss_funcptr: hmac_board_exit_etc ... 
-Remarks_here: 0x27ac52 hmac_board_exit_etc 
+Remarks_here: 0x27acc2 hmac_board_exit_etc 
 
 Miss_funcptr: hmac_config_del_vap ... 
-Remarks_here: 0x28e8d4 hmac_config_del_vap 
+Remarks_here: 0x28e944 hmac_config_del_vap 
 
 Miss_funcptr: hmac_config_del_vap ... 
-Remarks_here: 0x28e8d4 hmac_config_del_vap 
+Remarks_here: 0x28e944 hmac_config_del_vap 
 
 Miss_funcptr: hmac_config_del_vap ... 
-Remarks_here: 0x28e8d4 hmac_config_del_vap 
+Remarks_here: 0x28e944 hmac_config_del_vap 
 
 Miss_funcptr: hmac_user_del_multi_user_etc ... 
-Remarks_here: 0x28b920 hmac_user_del_multi_user_etc 
+Remarks_here: 0x28b990 hmac_user_del_multi_user_etc 
 
 Miss_funcptr: hmac_config_down_vap_etc ... 
-Remarks_here: 0x28ef46 hmac_config_down_vap_etc 
+Remarks_here: 0x28efb6 hmac_config_down_vap_etc 
 
 Miss_funcptr: hmac_vap_init_etc ... 
-Remarks_here: 0x28e1da hmac_vap_init_etc 
+Remarks_here: 0x28e24a hmac_vap_init_etc 
 
 Miss_funcptr: hmac_config_add_vap_feature ... 
-Remarks_here: 0x28e18c hmac_config_add_vap_feature 
+Remarks_here: 0x28e1fc hmac_config_add_vap_feature 
 
 Miss_funcptr: hmac_user_add_etc ... 
-Remarks_here: 0x28c7ba hmac_user_add_etc 
+Remarks_here: 0x28c82a hmac_user_add_etc 
 
 Miss_funcptr: hmac_user_add_etc ... 
-Remarks_here: 0x28c7ba hmac_user_add_etc 
+Remarks_here: 0x28c82a hmac_user_add_etc 
 
 Miss_funcptr: hmac_user_add_etc ... 
-Remarks_here: 0x28c7ba hmac_user_add_etc 
+Remarks_here: 0x28c82a hmac_user_add_etc 
 
 Miss_funcptr: hmac_user_alloc_etc ... 
-Remarks_here: 0x28b4ba hmac_user_alloc_etc 
+Remarks_here: 0x28b52a hmac_user_alloc_etc 
 
 Miss_funcptr: hmac_mgmt_encap_asoc_rsp_ap_etc ... 
-Remarks_here: 0x27b5cc hmac_mgmt_encap_asoc_rsp_ap_etc 
+Remarks_here: 0x27b63c hmac_mgmt_encap_asoc_rsp_ap_etc 
 
 Miss_funcptr: hmac_encap_auth_rsp_etc ... 
-Remarks_here: 0x27b918 hmac_encap_auth_rsp_etc 
+Remarks_here: 0x27b988 hmac_encap_auth_rsp_etc 
 
 Miss_funcptr: hmac_encap_auth_rsp_etc ... 
-Remarks_here: 0x27b918 hmac_encap_auth_rsp_etc 
+Remarks_here: 0x27b988 hmac_encap_auth_rsp_etc 
 
 Miss_funcptr: hmac_encap_auth_rsp_etc ... 
-Remarks_here: 0x27b918 hmac_encap_auth_rsp_etc 
+Remarks_here: 0x27b988 hmac_encap_auth_rsp_etc 
 
 Miss_funcptr: hmac_encap_auth_rsp_etc ... 
-Remarks_here: 0x27b918 hmac_encap_auth_rsp_etc 
+Remarks_here: 0x27b988 hmac_encap_auth_rsp_etc 
 
 Miss_funcptr: hmac_encap_auth_rsp_etc ... 
-Remarks_here: 0x27b918 hmac_encap_auth_rsp_etc 
+Remarks_here: 0x27b988 hmac_encap_auth_rsp_etc 
 
 Miss_funcptr: hmac_mgmt_encap_asoc_req_sta_etc ... 
-Remarks_here: 0x27be38 hmac_mgmt_encap_asoc_req_sta_etc 
+Remarks_here: 0x27bea8 hmac_mgmt_encap_asoc_req_sta_etc 
 
 Miss_funcptr: hmac_mgmt_encap_asoc_req_sta_etc ... 
-Remarks_here: 0x27be38 hmac_mgmt_encap_asoc_req_sta_etc 
+Remarks_here: 0x27bea8 hmac_mgmt_encap_asoc_req_sta_etc 
 
 Miss_funcptr: hmac_mgmt_encap_asoc_req_sta_etc ... 
-Remarks_here: 0x27be38 hmac_mgmt_encap_asoc_req_sta_etc 
+Remarks_here: 0x27bea8 hmac_mgmt_encap_asoc_req_sta_etc 
 
 Miss_funcptr: hmac_mgmt_encap_asoc_req_sta_etc ... 
-Remarks_here: 0x27be38 hmac_mgmt_encap_asoc_req_sta_etc 
+Remarks_here: 0x27bea8 hmac_mgmt_encap_asoc_req_sta_etc 
 
 Miss_funcptr: hmac_mgmt_encap_auth_req_etc ... 
-Remarks_here: 0x27c0b2 hmac_mgmt_encap_auth_req_etc 
+Remarks_here: 0x27c122 hmac_mgmt_encap_auth_req_etc 
 
 Miss_funcptr: hmac_fsm_init_etc ... 
-Remarks_here: 0x27c4d0 hmac_fsm_init_etc 
+Remarks_here: 0x27c540 hmac_fsm_init_etc 
 
 Miss_funcptr: hmac_fsm_call_func_ap_etc ... 
-Remarks_here: 0x27c61e hmac_fsm_call_func_ap_etc 
+Remarks_here: 0x27c68e hmac_fsm_call_func_ap_etc 
 
 Miss_funcptr: hmac_main_init_etc ... 
-Remarks_here: 0x27caee hmac_main_init_etc 
+Remarks_here: 0x27cb5e hmac_main_init_etc 
 
 Miss_funcptr: hmac_main_exit_etc ... 
-Remarks_here: 0x27cb76 hmac_main_exit_etc 
+Remarks_here: 0x27cbe6 hmac_main_exit_etc 
 
 Miss_funcptr: hmac_ap_send_asoc_rsp ... 
-Remarks_here: 0x27cd50 hmac_ap_send_asoc_rsp 
+Remarks_here: 0x27cdc0 hmac_ap_send_asoc_rsp 
 
 Miss_funcptr: hmac_ap_send_asoc_rsp ... 
-Remarks_here: 0x27cd50 hmac_ap_send_asoc_rsp 
+Remarks_here: 0x27cdc0 hmac_ap_send_asoc_rsp 
 
 Miss_funcptr: hmac_psm_reset ... 
-Remarks_here: 0x285a60 hmac_psm_reset 
+Remarks_here: 0x285ad0 hmac_psm_reset 
 
 Miss_funcptr: hmac_mgmt_timeout_ap_etc ... 
-Remarks_here: 0x27d0e8 hmac_mgmt_timeout_ap_etc 
+Remarks_here: 0x27d158 hmac_mgmt_timeout_ap_etc 
 
 Miss_funcptr: hmac_ap_up_rx_mgmt_etc ... 
-Remarks_here: 0x27d73e hmac_ap_up_rx_mgmt_etc 
+Remarks_here: 0x27d7ae hmac_ap_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_ap_up_rx_mgmt_etc ... 
-Remarks_here: 0x27d73e hmac_ap_up_rx_mgmt_etc 
+Remarks_here: 0x27d7ae hmac_ap_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_ap_up_rx_mgmt_etc ... 
-Remarks_here: 0x27d73e hmac_ap_up_rx_mgmt_etc 
+Remarks_here: 0x27d7ae hmac_ap_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_ap_up_rx_mgmt_etc ... 
-Remarks_here: 0x27d73e hmac_ap_up_rx_mgmt_etc 
+Remarks_here: 0x27d7ae hmac_ap_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_ap_up_rx_mgmt_etc ... 
-Remarks_here: 0x27d73e hmac_ap_up_rx_mgmt_etc 
+Remarks_here: 0x27d7ae hmac_ap_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_ap_up_rx_mgmt_etc ... 
-Remarks_here: 0x27d73e hmac_ap_up_rx_mgmt_etc 
+Remarks_here: 0x27d7ae hmac_ap_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_ap_up_rx_mgmt_etc ... 
-Remarks_here: 0x27d73e hmac_ap_up_rx_mgmt_etc 
+Remarks_here: 0x27d7ae hmac_ap_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_user_add_notify_alg ... 
-Remarks_here: 0x28bba0 hmac_user_add_notify_alg 
+Remarks_here: 0x28bc10 hmac_user_add_notify_alg 
 
 Miss_funcptr: hmac_user_add_notify_alg ... 
-Remarks_here: 0x28bba0 hmac_user_add_notify_alg 
+Remarks_here: 0x28bc10 hmac_user_add_notify_alg 
 
 Miss_funcptr: hmac_add_and_clear_repeat_op_rates ... 
-Remarks_here: 0x27ec2c hmac_add_and_clear_repeat_op_rates 
+Remarks_here: 0x27ec9c hmac_add_and_clear_repeat_op_rates 
 
 Miss_funcptr: hmac_ie_proc_ext_cap_ie_etc ... 
-Remarks_here: 0x29290e hmac_ie_proc_ext_cap_ie_etc 
+Remarks_here: 0x29297e hmac_ie_proc_ext_cap_ie_etc 
 
 Miss_funcptr: hmac_mgmt_tx_addba_rsp_etc ... 
-Remarks_here: 0x27f374 hmac_mgmt_tx_addba_rsp_etc 
+Remarks_here: 0x27f3e4 hmac_mgmt_tx_addba_rsp_etc 
 
 Miss_funcptr: hmac_sa_query_interval_timeout_etc ... 
-Remarks_here: 0x27fbb2 hmac_sa_query_interval_timeout_etc 
+Remarks_here: 0x27fc22 hmac_sa_query_interval_timeout_etc 
 
 Miss_funcptr: hmac_rx_process_report_mgmt_ctrl ... 
-Remarks_here: 0x281290 hmac_rx_process_report_mgmt_ctrl 
+Remarks_here: 0x281300 hmac_rx_process_report_mgmt_ctrl 
 
 Miss_funcptr: hmac_rx_process_report_mgmt_ctrl ... 
-Remarks_here: 0x281290 hmac_rx_process_report_mgmt_ctrl 
+Remarks_here: 0x281300 hmac_rx_process_report_mgmt_ctrl 
 
 Miss_funcptr: hmac_rx_mgmt_ctrl_classify ... 
-Remarks_here: 0x281374 hmac_rx_mgmt_ctrl_classify 
+Remarks_here: 0x2813e4 hmac_rx_mgmt_ctrl_classify 
 
 Miss_funcptr: hmac_scan_mgmt_filter ... 
-Remarks_here: 0x287b28 hmac_scan_mgmt_filter 
+Remarks_here: 0x287b98 hmac_scan_mgmt_filter 
 
 Miss_funcptr: hmac_scan_mgmt_filter ... 
-Remarks_here: 0x287b28 hmac_scan_mgmt_filter 
+Remarks_here: 0x287b98 hmac_scan_mgmt_filter 
 
 Miss_funcptr: hmac_scan_mgmt_filter ... 
-Remarks_here: 0x287b28 hmac_scan_mgmt_filter 
+Remarks_here: 0x287b98 hmac_scan_mgmt_filter 
 
 Miss_funcptr: hmac_detect_2040_te_a_b ... 
-Remarks_here: 0x284acc hmac_detect_2040_te_a_b 
+Remarks_here: 0x284b3c hmac_detect_2040_te_a_b 
 
 Miss_funcptr: hmac_scan_update_bss_dscr ... 
-Remarks_here: 0x287584 hmac_scan_update_bss_dscr 
+Remarks_here: 0x2875f4 hmac_scan_update_bss_dscr 
 
 Miss_funcptr: hmac_scan_update_bss_dscr ... 
-Remarks_here: 0x287584 hmac_scan_update_bss_dscr 
+Remarks_here: 0x2875f4 hmac_scan_update_bss_dscr 
 
 Miss_funcptr: hmac_scan_update_bss_dscr ... 
-Remarks_here: 0x287584 hmac_scan_update_bss_dscr 
+Remarks_here: 0x2875f4 hmac_scan_update_bss_dscr 
 
 Miss_funcptr: hmac_rx_notify_channel_width ... 
-Remarks_here: 0x284e7a hmac_rx_notify_channel_width 
+Remarks_here: 0x284eea hmac_rx_notify_channel_width 
 
 Miss_funcptr: hmac_mgmt_send_disasoc_event ... 
-Remarks_here: 0x281aa0 hmac_mgmt_send_disasoc_event 
+Remarks_here: 0x281b10 hmac_mgmt_send_disasoc_event 
 
 Miss_funcptr: hmac_rx_process_mgmt_ctrl ... 
-Remarks_here: 0x281cdc hmac_rx_process_mgmt_ctrl 
+Remarks_here: 0x281d4c hmac_rx_process_mgmt_ctrl 
 
 Miss_funcptr: hmac_join_set_reg_event_process ... 
-Remarks_here: 0x28223e hmac_join_set_reg_event_process 
+Remarks_here: 0x2822ae hmac_join_set_reg_event_process 
 
 Miss_funcptr: hmac_process_assoc_rsp_etc ... 
-Remarks_here: 0x2833b2 hmac_process_assoc_rsp_etc 
+Remarks_here: 0x283422 hmac_process_assoc_rsp_etc 
 
 Miss_funcptr: hmac_process_assoc_rsp_etc ... 
-Remarks_here: 0x2833b2 hmac_process_assoc_rsp_etc 
+Remarks_here: 0x283422 hmac_process_assoc_rsp_etc 
 
 Miss_funcptr: hmac_process_assoc_rsp_etc ... 
-Remarks_here: 0x2833b2 hmac_process_assoc_rsp_etc 
+Remarks_here: 0x283422 hmac_process_assoc_rsp_etc 
 
 Miss_funcptr: hmac_process_assoc_rsp_etc ... 
-Remarks_here: 0x2833b2 hmac_process_assoc_rsp_etc 
+Remarks_here: 0x283422 hmac_process_assoc_rsp_etc 
 
 Miss_funcptr: hmac_process_assoc_rsp_etc ... 
-Remarks_here: 0x2833b2 hmac_process_assoc_rsp_etc 
+Remarks_here: 0x283422 hmac_process_assoc_rsp_etc 
 
 Miss_funcptr: hmac_sta_wait_asoc_rx_etc ... 
-Remarks_here: 0x2838ee hmac_sta_wait_asoc_rx_etc 
+Remarks_here: 0x28395e hmac_sta_wait_asoc_rx_etc 
 
 Miss_funcptr: hmac_sta_wait_asoc_rx_etc ... 
-Remarks_here: 0x2838ee hmac_sta_wait_asoc_rx_etc 
+Remarks_here: 0x28395e hmac_sta_wait_asoc_rx_etc 
 
 Miss_funcptr: hmac_sta_wait_asoc_rx_etc ... 
-Remarks_here: 0x2838ee hmac_sta_wait_asoc_rx_etc 
+Remarks_here: 0x28395e hmac_sta_wait_asoc_rx_etc 
 
 Miss_funcptr: hmac_sta_update_join_req_params_etc ... 
-Remarks_here: 0x283ce6 hmac_sta_update_join_req_params_etc 
+Remarks_here: 0x283d56 hmac_sta_update_join_req_params_etc 
 
 Miss_funcptr: hmac_sta_update_join_req_params_etc ... 
-Remarks_here: 0x283ce6 hmac_sta_update_join_req_params_etc 
+Remarks_here: 0x283d56 hmac_sta_update_join_req_params_etc 
 
 Miss_funcptr: hmac_sta_rx_deauth_req ... 
-Remarks_here: 0x284210 hmac_sta_rx_deauth_req 
+Remarks_here: 0x284280 hmac_sta_rx_deauth_req 
 
 Miss_funcptr: hmac_sta_rx_deauth_req ... 
-Remarks_here: 0x284210 hmac_sta_rx_deauth_req 
+Remarks_here: 0x284280 hmac_sta_rx_deauth_req 
 
 Miss_funcptr: hmac_sta_wait_auth_seq2_rx_etc ... 
-Remarks_here: 0x28442a hmac_sta_wait_auth_seq2_rx_etc 
+Remarks_here: 0x28449a hmac_sta_wait_auth_seq2_rx_etc 
 
 Miss_funcptr: hmac_sta_up_rx_mgmt_etc ... 
-Remarks_here: 0x2846bc hmac_sta_up_rx_mgmt_etc 
+Remarks_here: 0x28472c hmac_sta_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_sta_up_rx_mgmt_etc ... 
-Remarks_here: 0x2846bc hmac_sta_up_rx_mgmt_etc 
+Remarks_here: 0x28472c hmac_sta_up_rx_mgmt_etc 
 
 Miss_funcptr: hmac_scan_handle_scan_req_entry ... 
-Remarks_here: 0x2891a2 hmac_scan_handle_scan_req_entry 
+Remarks_here: 0x289212 hmac_scan_handle_scan_req_entry 
 
 Miss_funcptr: hmac_scan_one_channel_start ... 
-Remarks_here: 0x288e7c hmac_scan_one_channel_start 
+Remarks_here: 0x288eec hmac_scan_one_channel_start 
 
 Miss_funcptr: hmac_scan_curr_channel_scan_time_out ... 
-Remarks_here: 0x288a86 hmac_scan_curr_channel_scan_time_out 
+Remarks_here: 0x288af6 hmac_scan_curr_channel_scan_time_out 
 
 Miss_funcptr: hmac_scan_prepare_end ... 
-Remarks_here: 0x2885e0 hmac_scan_prepare_end 
+Remarks_here: 0x288650 hmac_scan_prepare_end 
 
 Miss_funcptr: hmac_scan_proc_scan_timeout_fn ... 
-Remarks_here: 0x2861c6 hmac_scan_proc_scan_timeout_fn 
+Remarks_here: 0x286236 hmac_scan_proc_scan_timeout_fn 
 
 Miss_funcptr: hmac_scan_calcu_channel_ratio ... 
-Remarks_here: 0x286cd8 hmac_scan_calcu_channel_ratio 
+Remarks_here: 0x286d48 hmac_scan_calcu_channel_ratio 
 
 Miss_funcptr: hmac_scan_calcu_channel_ratio ... 
-Remarks_here: 0x286cd8 hmac_scan_calcu_channel_ratio 
+Remarks_here: 0x286d48 hmac_scan_calcu_channel_ratio 
 
 Miss_funcptr: hmac_config_set_scan_param ... 
-Remarks_here: 0x2870ae hmac_config_set_scan_param 
+Remarks_here: 0x28711e hmac_config_set_scan_param 
 
 Miss_funcptr: hmac_scan_handle_app_service ... 
-Remarks_here: 0x2888da hmac_scan_handle_app_service 
+Remarks_here: 0x28894a hmac_scan_handle_app_service 
 
 Miss_funcptr: hmac_sta_initiate_asoc_etc ... 
-Remarks_here: 0x2897aa hmac_sta_initiate_asoc_etc 
+Remarks_here: 0x28981a hmac_sta_initiate_asoc_etc 
 
 Miss_funcptr: hmac_cfg80211_start_scan_sta_etc ... 
-Remarks_here: 0x2898fe hmac_cfg80211_start_scan_sta_etc 
+Remarks_here: 0x28996e hmac_cfg80211_start_scan_sta_etc 
 
 Miss_funcptr: hmac_handle_auth_rsp_sta_etc ... 
-Remarks_here: 0x289dc8 hmac_handle_auth_rsp_sta_etc 
+Remarks_here: 0x289e38 hmac_handle_auth_rsp_sta_etc 
 
 Miss_funcptr: hmac_handle_asoc_rsp_sta_etc ... 
-Remarks_here: 0x289f36 hmac_handle_asoc_rsp_sta_etc 
+Remarks_here: 0x289fa6 hmac_handle_asoc_rsp_sta_etc 
 
 Miss_funcptr: hmac_alg_tid_update_notify.constprop.3 ... 
-Remarks_here: 0x28a804 hmac_alg_tid_update_notify.constprop.3 
+Remarks_here: 0x28a874 hmac_alg_tid_update_notify.constprop.3 
 
 Miss_funcptr: hmac_user_add_multi_user_etc ... 
-Remarks_here: 0x28b89c hmac_user_add_multi_user_etc 
+Remarks_here: 0x28b90c hmac_user_add_multi_user_etc 
 
 Miss_funcptr: hmac_user_keepalive_timer ... 
-Remarks_here: 0x28c2b0 hmac_user_keepalive_timer 
+Remarks_here: 0x28c320 hmac_user_keepalive_timer 
 
 Miss_funcptr: hmac_user_keepalive_timer ... 
-Remarks_here: 0x28c2b0 hmac_user_keepalive_timer 
+Remarks_here: 0x28c320 hmac_user_keepalive_timer 
 
 Miss_funcptr: hmac_device_set_vap_id_etc ... 
-Remarks_here: 0x295976 hmac_device_set_vap_id_etc 
+Remarks_here: 0x2959e6 hmac_device_set_vap_id_etc 
 
 Miss_funcptr: hmac_ccpriv_set_edca_param ... 
-Remarks_here: 0x28f906 hmac_ccpriv_set_edca_param 
+Remarks_here: 0x28f976 hmac_ccpriv_set_edca_param 
 
 Miss_funcptr: hmac_ccpriv_set_edca_param ... 
-Remarks_here: 0x28f906 hmac_ccpriv_set_edca_param 
+Remarks_here: 0x28f976 hmac_ccpriv_set_edca_param 
 
 Miss_funcptr: hmac_config_get_wmm_params ... 
-Remarks_here: 0x28fb30 hmac_config_get_wmm_params 
+Remarks_here: 0x28fba0 hmac_config_get_wmm_params 
 
 Miss_funcptr: hmac_config_get_wmm_params ... 
-Remarks_here: 0x28fb30 hmac_config_get_wmm_params 
+Remarks_here: 0x28fba0 hmac_config_get_wmm_params 
 
 Miss_funcptr: wal_psd_data_report ... 
-Remarks_here: 0x296312 wal_psd_data_report 
+Remarks_here: 0x296382 wal_psd_data_report 
 
 Miss_funcptr: wal_csi_data_report ... 
-Remarks_here: 0x296334 wal_csi_data_report 
+Remarks_here: 0x2963a4 wal_csi_data_report 
 
 Miss_funcptr: wal_set_protocol ... 
-Remarks_here: 0x29730e wal_set_protocol 
+Remarks_here: 0x29737e wal_set_protocol 
 
 Miss_funcptr: wal_cfg80211_scan ... 
-Remarks_here: 0x2981e4 wal_cfg80211_scan 
+Remarks_here: 0x298254 wal_cfg80211_scan 
 
 Miss_funcptr: wal_cfg80211_connect ... 
-Remarks_here: 0x2982b6 wal_cfg80211_connect 
+Remarks_here: 0x298326 wal_cfg80211_connect 
 
 Miss_funcptr: cfg80211_csa_channel_switch ... 
-Remarks_here: 0x29910e cfg80211_csa_channel_switch 
+Remarks_here: 0x29917e cfg80211_csa_channel_switch 
 
 Miss_funcptr: cfg80211_new_sta ... 
-Remarks_here: 0x298cf0 cfg80211_new_sta 
+Remarks_here: 0x298d60 cfg80211_new_sta 
 
 Miss_funcptr: cfg80211_del_sta ... 
-Remarks_here: 0x298d96 cfg80211_del_sta 
+Remarks_here: 0x298e06 cfg80211_del_sta 
 
 Miss_funcptr: cfg80211_rx_mgmt ... 
-Remarks_here: 0x298dd2 cfg80211_rx_mgmt 
+Remarks_here: 0x298e42 cfg80211_rx_mgmt 
 
 Miss_funcptr: cfg80211_connect_result ... 
-Remarks_here: 0x298f3c cfg80211_connect_result 
+Remarks_here: 0x298fac cfg80211_connect_result 
 
 Miss_funcptr: cfg80211_external_auth_req ... 
-Remarks_here: 0x299136 cfg80211_external_auth_req 
+Remarks_here: 0x2991a6 cfg80211_external_auth_req 
 
 Miss_funcptr: cfg80211_owe_info ... 
-Remarks_here: 0x299212 cfg80211_owe_info 
+Remarks_here: 0x299282 cfg80211_owe_info 
 
 Miss_funcptr: wal_do_upload_promis_frame_cb ... 
-Remarks_here: 0x299248 wal_do_upload_promis_frame_cb 
+Remarks_here: 0x2992b8 wal_do_upload_promis_frame_cb 
 
 Miss_funcptr: wal_do_report_rx_mgmt_frame_cb ... 
-Remarks_here: 0x29927c wal_do_report_rx_mgmt_frame_cb 
+Remarks_here: 0x2992ec wal_do_report_rx_mgmt_frame_cb 
 
 Miss_funcptr: uapi_ioctl_get_survey ... 
-Remarks_here: 0x29c8f2 uapi_ioctl_get_survey 
+Remarks_here: 0x29c962 uapi_ioctl_get_survey 
 
 Miss_funcptr: drv_soc_hwal_wpa_ioctl ... 
-Remarks_here: 0x29d07a drv_soc_hwal_wpa_ioctl 
+Remarks_here: 0x29d0ea drv_soc_hwal_wpa_ioctl 
 
 Miss_funcptr: netif_set_link_up ... 
-Remarks_here: 0x2e4772 netif_set_link_up 
+Remarks_here: 0x2e47e2 netif_set_link_up 
 
 Miss_funcptr: netif_set_up ... 
-Remarks_here: 0x2e45e4 netif_set_up 
+Remarks_here: 0x2e4654 netif_set_up 
 
 Miss_funcptr: cali_set_cap_code ... 
-Remarks_here: 0x29d75a cali_set_cap_code 
+Remarks_here: 0x29d7ca cali_set_cap_code 
 
 Miss_funcptr: cali_apply_comp_for_certain_mask ... 
-Remarks_here: 0x29d87a cali_apply_comp_for_certain_mask 
+Remarks_here: 0x29d8ea cali_apply_comp_for_certain_mask 
 
 Miss_funcptr: cali_offline_cali_one_rf_channel ... 
-Remarks_here: 0x29df18 cali_offline_cali_one_rf_channel 
+Remarks_here: 0x29df88 cali_offline_cali_one_rf_channel 
 
 Miss_funcptr: cali_offline_cali_one_rf_channel ... 
-Remarks_here: 0x29df18 cali_offline_cali_one_rf_channel 
+Remarks_here: 0x29df88 cali_offline_cali_one_rf_channel 
 
 Miss_funcptr: cali_offline_cali_one_rf_channel ... 
-Remarks_here: 0x29df18 cali_offline_cali_one_rf_channel 
+Remarks_here: 0x29df88 cali_offline_cali_one_rf_channel 
 
 Miss_funcptr: cali_offline_cali_one_rf_channel ... 
-Remarks_here: 0x29df18 cali_offline_cali_one_rf_channel 
+Remarks_here: 0x29df88 cali_offline_cali_one_rf_channel 
 
 Miss_funcptr: cali_offline_cali_one_rf_channel ... 
-Remarks_here: 0x29df18 cali_offline_cali_one_rf_channel 
+Remarks_here: 0x29df88 cali_offline_cali_one_rf_channel 
 
 Miss_funcptr: fe_hal_phy_get_single_pa_lut ... 
-Remarks_here: 0x2a3104 fe_hal_phy_get_single_pa_lut 
+Remarks_here: 0x2a3174 fe_hal_phy_get_single_pa_lut 
 
 Miss_funcptr: cali_trx_iq_alg ... 
-Remarks_here: 0x29e480 cali_trx_iq_alg 
+Remarks_here: 0x29e4f0 cali_trx_iq_alg 
 
 Miss_funcptr: fe_hal_phy_config_single_tone_beta_comp_chip ... 
-Remarks_here: 0x2a2498 fe_hal_phy_config_single_tone_beta_comp_chip 
+Remarks_here: 0x2a2508 fe_hal_phy_config_single_tone_beta_comp_chip 
 
 Miss_funcptr: fe_hal_phy_config_single_tone_beta_comp_chip ... 
-Remarks_here: 0x2a2498 fe_hal_phy_config_single_tone_beta_comp_chip 
+Remarks_here: 0x2a2508 fe_hal_phy_config_single_tone_beta_comp_chip 
 
 Miss_funcptr: fe_hal_soc_config_cali_path ... 
-Remarks_here: 0x2a2fec fe_hal_soc_config_cali_path 
+Remarks_here: 0x2a305c fe_hal_soc_config_cali_path 
 
 Miss_funcptr: online_cali_dyn_pow_event ... 
-Remarks_here: 0x29f304 online_cali_dyn_pow_event 
+Remarks_here: 0x29f374 online_cali_dyn_pow_event 
 
 Miss_funcptr: fe_hal_phy_get_single_ppa_lut ... 
-Remarks_here: 0x2a5234 fe_hal_phy_get_single_ppa_lut 
+Remarks_here: 0x2a52a4 fe_hal_phy_get_single_ppa_lut 
 
 Miss_funcptr: fe_hal_phy_set_single_ppa_lut ... 
-Remarks_here: 0x2a5208 fe_hal_phy_set_single_ppa_lut 
+Remarks_here: 0x2a5278 fe_hal_phy_set_single_ppa_lut 
 
 Miss_funcptr: fe_hal_phy_config_hw_al_tx ... 
-Remarks_here: 0x2a2d50 fe_hal_phy_config_hw_al_tx 
+Remarks_here: 0x2a2dc0 fe_hal_phy_config_hw_al_tx 
 
 Miss_funcptr: dmac_tx_complete_al_tx ... 
-Remarks_here: 0x2a1ee0 dmac_tx_complete_al_tx 
+Remarks_here: 0x2a1f50 dmac_tx_complete_al_tx 
 
 Miss_funcptr: dmac_tbtt_device_handler_hook ... 
-Remarks_here: 0x2a2082 dmac_tbtt_device_handler_hook 
+Remarks_here: 0x2a20f2 dmac_tbtt_device_handler_hook 
 
 Miss_funcptr: fe_rf_dev_set_ops_ext ... 
-Remarks_here: 0x2a5b3e fe_rf_dev_set_ops_ext 
+Remarks_here: 0x2a5bae fe_rf_dev_set_ops_ext 
 
 Miss_funcptr: cali_proc_set_channel ... 
-Remarks_here: 0x2a5e12 cali_proc_set_channel 
+Remarks_here: 0x2a5e82 cali_proc_set_channel 
 
 Miss_funcptr: hh503_set_phy_rx_delay ... 
-Remarks_here: 0x2a68f0 hh503_set_phy_rx_delay 
+Remarks_here: 0x2a6960 hh503_set_phy_rx_delay 
 
 Miss_funcptr: hh503_set_phy_rx_delay ... 
-Remarks_here: 0x2a68f0 hh503_set_phy_rx_delay 
+Remarks_here: 0x2a6960 hh503_set_phy_rx_delay 
 
 Miss_funcptr: hh503_set_phy_rx_delay ... 
-Remarks_here: 0x2a68f0 hh503_set_phy_rx_delay 
+Remarks_here: 0x2a6960 hh503_set_phy_rx_delay 
 
 Miss_funcptr: hh503_set_phy_rx_delay ... 
-Remarks_here: 0x2a68f0 hh503_set_phy_rx_delay 
+Remarks_here: 0x2a6960 hh503_set_phy_rx_delay 
 
 Miss_funcptr: hostapd_driver_scan ... 
-Remarks_here: 0x2aa48e hostapd_driver_scan 
+Remarks_here: 0x2aa4fe hostapd_driver_scan 
 
 Miss_funcptr: acs_scan_complete ... 
-Remarks_here: 0x2a8f2e acs_scan_complete 
+Remarks_here: 0x2a8f9e acs_scan_complete 
 
 Miss_funcptr: acs_scan_complete ... 
-Remarks_here: 0x2a8f2e acs_scan_complete 
+Remarks_here: 0x2a8f9e acs_scan_complete 
 
 Miss_funcptr: hostapd_disable_iface ... 
-Remarks_here: 0x2b71d2 hostapd_disable_iface 
+Remarks_here: 0x2b7242 hostapd_disable_iface 
 
 Miss_funcptr: wpa_comm_event_report ... 
-Remarks_here: 0x2b53c0 wpa_comm_event_report 
+Remarks_here: 0x2b5430 wpa_comm_event_report 
 
 Miss_funcptr: wifi_new_task_event_cb ... 
-Remarks_here: 0x2c1090 wifi_new_task_event_cb 
+Remarks_here: 0x2c1100 wifi_new_task_event_cb 
 
 Miss_funcptr: hostapd_deinit_driver ... 
-Remarks_here: 0x2b667a hostapd_deinit_driver 
+Remarks_here: 0x2b66ea hostapd_deinit_driver 
 
 Miss_funcptr: wpa_auth_remove_ptksa ... 
-Remarks_here: 0x2c3c8e wpa_auth_remove_ptksa 
+Remarks_here: 0x2c3cfe wpa_auth_remove_ptksa 
 
 Miss_funcptr: wpa_auth_set_key ... 
-Remarks_here: 0x2c35b4 wpa_auth_set_key 
+Remarks_here: 0x2c3624 wpa_auth_set_key 
 
 Miss_funcptr: hostapd_drv_sta_remove ... 
-Remarks_here: 0x2bf204 hostapd_drv_sta_remove 
+Remarks_here: 0x2bf274 hostapd_drv_sta_remove 
 
 Miss_funcptr: eap_server_sm_deinit ... 
-Remarks_here: 0x2b2a32 eap_server_sm_deinit 
+Remarks_here: 0x2b2aa2 eap_server_sm_deinit 
 
 Miss_funcptr: forced_memzero ... 
-Remarks_here: 0x2ab3c2 forced_memzero 
+Remarks_here: 0x2ab432 forced_memzero 
 
 Miss_funcptr: wpa_auth_logger ... 
-Remarks_here: 0x2c3c9e wpa_auth_logger 
+Remarks_here: 0x2c3d0e wpa_auth_logger 
 
 Miss_funcptr: hostapd_drv_set_key ... 
-Remarks_here: 0x2aa4a4 hostapd_drv_set_key 
+Remarks_here: 0x2aa514 hostapd_drv_set_key 
 
 Miss_funcptr: hostapd_encode_edmg_chan ... 
-Remarks_here: 0x2b9c88 hostapd_encode_edmg_chan 
+Remarks_here: 0x2b9cf8 hostapd_encode_edmg_chan 
 
 Miss_funcptr: hostapd_drv_do_acs ... 
-Remarks_here: 0x2aa52c hostapd_drv_do_acs 
+Remarks_here: 0x2aa59c hostapd_drv_do_acs 
 
 Miss_funcptr: hostapd_setup_encryption ... 
-Remarks_here: 0x2b66b0 hostapd_setup_encryption 
+Remarks_here: 0x2b6720 hostapd_setup_encryption 
 
 Miss_funcptr: hostapd_set_privacy ... 
-Remarks_here: 0x2aa3aa hostapd_set_privacy 
+Remarks_here: 0x2aa41a hostapd_set_privacy 
 
 Miss_funcptr: sswu ... 
-Remarks_here: 0x2bc1e0 sswu 
+Remarks_here: 0x2bc250 sswu 
 
 Miss_funcptr: random_mix_pool ... 
-Remarks_here: 0x2bba80 random_mix_pool 
+Remarks_here: 0x2bbaf0 random_mix_pool 
 
 Miss_funcptr: ap_for_each_sta ... 
-Remarks_here: 0x2bf27a ap_for_each_sta 
+Remarks_here: 0x2bf2ea ap_for_each_sta 
 
 Miss_funcptr: __ieee802_11_set_beacon ... 
-Remarks_here: 0x2aaab8 __ieee802_11_set_beacon 
+Remarks_here: 0x2aab28 __ieee802_11_set_beacon 
 
 Miss_funcptr: rsn_cipher_put_suites ... 
-Remarks_here: 0x2c7a6a rsn_cipher_put_suites 
+Remarks_here: 0x2c7ada rsn_cipher_put_suites 
 
 Miss_funcptr: wpa_auth_for_each_sta ... 
-Remarks_here: 0x2c3b7c wpa_auth_for_each_sta 
+Remarks_here: 0x2c3bec wpa_auth_for_each_sta 
 
 Miss_funcptr: hostapd_set_generic_elem ... 
-Remarks_here: 0x2aa3c0 hostapd_set_generic_elem 
+Remarks_here: 0x2aa430 hostapd_set_generic_elem 
 
 Miss_funcptr: hostapd_set_ieee8021x ... 
-Remarks_here: 0x2aa3d6 hostapd_set_ieee8021x 
+Remarks_here: 0x2aa446 hostapd_set_ieee8021x 
 
 Miss_funcptr: hostapd_get_hw_feature_data ... 
-Remarks_here: 0x2aa45e hostapd_get_hw_feature_data 
+Remarks_here: 0x2aa4ce hostapd_get_hw_feature_data 
 
 Miss_funcptr: hostapd_drv_send_mlme ... 
-Remarks_here: 0x2aa504 hostapd_drv_send_mlme 
+Remarks_here: 0x2aa574 hostapd_drv_send_mlme 
 
 Miss_funcptr: hostapd_drv_update_dh_ie ... 
-Remarks_here: 0x2aa6e0 hostapd_drv_update_dh_ie 
+Remarks_here: 0x2aa750 hostapd_drv_update_dh_ie 
 
 Miss_funcptr: wpa_config_set ... 
-Remarks_here: 0x2abff4 wpa_config_set 
+Remarks_here: 0x2ac064 wpa_config_set 
 
 Miss_funcptr: wpa_supplicant_ctrl_iface_process ... 
-Remarks_here: 0x2ae06e wpa_supplicant_ctrl_iface_process 
+Remarks_here: 0x2ae0de wpa_supplicant_ctrl_iface_process 
 
 Miss_funcptr: eap_server_unregister_methods ... 
-Remarks_here: 0x2b31a2 eap_server_unregister_methods 
+Remarks_here: 0x2b3212 eap_server_unregister_methods 
 
 Miss_funcptr: hostapd_init ... 
-Remarks_here: 0x2b6dc0 hostapd_init 
+Remarks_here: 0x2b6e30 hostapd_init 
 
 Miss_funcptr: hostapd_interface_deinit_free ... 
-Remarks_here: 0x2b6e38 hostapd_interface_deinit_free 
+Remarks_here: 0x2b6ea8 hostapd_interface_deinit_free 
 
 Miss_funcptr: eloop_run ... 
-Remarks_here: 0x2b4fb6 eloop_run 
+Remarks_here: 0x2b5026 eloop_run 
 
 Miss_funcptr: eloop_run_process_normal_event ... 
-Remarks_here: 0x2b4ce4 eloop_run_process_normal_event 
+Remarks_here: 0x2b4d54 eloop_run_process_normal_event 
 
 Miss_funcptr: eap_peer_unregister_methods ... 
-Remarks_here: 0x2b236a eap_peer_unregister_methods 
+Remarks_here: 0x2b23da eap_peer_unregister_methods 
 
 Miss_funcptr: hostapd_driver_init ... 
-Remarks_here: 0x2b72de hostapd_driver_init 
+Remarks_here: 0x2b734e hostapd_driver_init 
 
 Miss_funcptr: hostapd_setup_interface ... 
-Remarks_here: 0x2b6a8e hostapd_setup_interface 
+Remarks_here: 0x2b6afe hostapd_setup_interface 
 
 Miss_funcptr: wpa_supplicant_add_iface ... 
-Remarks_here: 0x2ca4ba wpa_supplicant_add_iface 
+Remarks_here: 0x2ca52a wpa_supplicant_add_iface 
 
 Miss_funcptr: wpa_supplicant_add_iface ... 
-Remarks_here: 0x2ca4ba wpa_supplicant_add_iface 
+Remarks_here: 0x2ca52a wpa_supplicant_add_iface 
 
 Miss_funcptr: wpa_supplicant_add_iface ... 
-Remarks_here: 0x2ca4ba wpa_supplicant_add_iface 
+Remarks_here: 0x2ca52a wpa_supplicant_add_iface 
 
 Miss_funcptr: wpa_supplicant_add_iface ... 
-Remarks_here: 0x2ca4ba wpa_supplicant_add_iface 
+Remarks_here: 0x2ca52a wpa_supplicant_add_iface 
 
 Miss_funcptr: wpa_supplicant_add_iface ... 
-Remarks_here: 0x2ca4ba wpa_supplicant_add_iface 
+Remarks_here: 0x2ca52a wpa_supplicant_add_iface 
 
 Miss_funcptr: eapol_sm_step ... 
-Remarks_here: 0x2b43be eapol_sm_step 
+Remarks_here: 0x2b442e eapol_sm_step 
 
 Miss_funcptr: eapol_sm_step ... 
-Remarks_here: 0x2b43be eapol_sm_step 
+Remarks_here: 0x2b442e eapol_sm_step 
 
 Miss_funcptr: eapol_sm_step ... 
-Remarks_here: 0x2b43be eapol_sm_step 
+Remarks_here: 0x2b442e eapol_sm_step 
 
 Miss_funcptr: eapol_sm_step ... 
-Remarks_here: 0x2b43be eapol_sm_step 
+Remarks_here: 0x2b442e eapol_sm_step 
 
 Miss_funcptr: eapol_sm_step ... 
-Remarks_here: 0x2b43be eapol_sm_step 
+Remarks_here: 0x2b442e eapol_sm_step 
 
 Miss_funcptr: eapol_set_bool ... 
-Remarks_here: 0x2b15f2 eapol_set_bool 
+Remarks_here: 0x2b1662 eapol_set_bool 
 
 Miss_funcptr: eap_peer_sm_step ... 
-Remarks_here: 0x2b1ae2 eap_peer_sm_step 
+Remarks_here: 0x2b1b52 eap_peer_sm_step 
 
 Miss_funcptr: eap_peer_sm_step ... 
-Remarks_here: 0x2b1ae2 eap_peer_sm_step 
+Remarks_here: 0x2b1b52 eap_peer_sm_step 
 
 Miss_funcptr: eap_peer_sm_step ... 
-Remarks_here: 0x2b1ae2 eap_peer_sm_step 
+Remarks_here: 0x2b1b52 eap_peer_sm_step 
 
 Miss_funcptr: eap_peer_sm_step ... 
-Remarks_here: 0x2b1ae2 eap_peer_sm_step 
+Remarks_here: 0x2b1b52 eap_peer_sm_step 
 
 Miss_funcptr: eap_peer_sm_step ... 
-Remarks_here: 0x2b1ae2 eap_peer_sm_step 
+Remarks_here: 0x2b1b52 eap_peer_sm_step 
 
 Miss_funcptr: sm_EAP_INITIALIZE_Enter ... 
-Remarks_here: 0x2b1856 sm_EAP_INITIALIZE_Enter 
+Remarks_here: 0x2b18c6 sm_EAP_INITIALIZE_Enter 
 
 Miss_funcptr: sm_EAP_INITIALIZE_Enter ... 
-Remarks_here: 0x2b1856 sm_EAP_INITIALIZE_Enter 
+Remarks_here: 0x2b18c6 sm_EAP_INITIALIZE_Enter 
 
 Miss_funcptr: sm_EAP_INITIALIZE_Enter ... 
-Remarks_here: 0x2b1856 sm_EAP_INITIALIZE_Enter 
+Remarks_here: 0x2b18c6 sm_EAP_INITIALIZE_Enter 
 
 Miss_funcptr: eap_get_config ... 
-Remarks_here: 0x2b181a eap_get_config 
+Remarks_here: 0x2b188a eap_get_config 
 
 Miss_funcptr: eapol_get_bool ... 
-Remarks_here: 0x2b15ea eapol_get_bool 
+Remarks_here: 0x2b165a eapol_get_bool 
 
 Miss_funcptr: eap_sm_buildIdentity ... 
-Remarks_here: 0x2b1a28 eap_sm_buildIdentity 
+Remarks_here: 0x2b1a98 eap_sm_buildIdentity 
 
 Miss_funcptr: eap_sm_request ... 
-Remarks_here: 0x2b193a eap_sm_request 
+Remarks_here: 0x2b19aa eap_sm_request 
 
 Miss_funcptr: eap_sm_request ... 
-Remarks_here: 0x2b193a eap_sm_request 
+Remarks_here: 0x2b19aa eap_sm_request 
 
 Miss_funcptr: eapol_get_eapReqData ... 
-Remarks_here: 0x2b15fa eapol_get_eapReqData 
+Remarks_here: 0x2b166a eapol_get_eapReqData 
 
 Miss_funcptr: eapol_sm_processKey ... 
-Remarks_here: 0x2b421a eapol_sm_processKey 
+Remarks_here: 0x2b428a eapol_sm_processKey 
 
 Miss_funcptr: eapol_sm_processKey ... 
-Remarks_here: 0x2b421a eapol_sm_processKey 
+Remarks_here: 0x2b428a eapol_sm_processKey 
 
 Miss_funcptr: select_driver ... 
-Remarks_here: 0x2c86b6 select_driver 
+Remarks_here: 0x2c8726 select_driver 
 
 Miss_funcptr: wpa_supplicant_driver_init ... 
-Remarks_here: 0x2ca3be wpa_supplicant_driver_init 
+Remarks_here: 0x2ca42e wpa_supplicant_driver_init 
 
 Miss_funcptr: wpa_supplicant_driver_init ... 
-Remarks_here: 0x2ca3be wpa_supplicant_driver_init 
+Remarks_here: 0x2ca42e wpa_supplicant_driver_init 
 
 Miss_funcptr: wpa_supplicant_update_mac_addr ... 
-Remarks_here: 0x2c8e10 wpa_supplicant_update_mac_addr 
+Remarks_here: 0x2c8e80 wpa_supplicant_update_mac_addr 
 
 Miss_funcptr: wpa_drv_set_key ... 
-Remarks_here: 0x2c8700 wpa_drv_set_key 
+Remarks_here: 0x2c8770 wpa_drv_set_key 
 
 Miss_funcptr: wpa_supplicant_set_state ... 
-Remarks_here: 0x2ca1e6 wpa_supplicant_set_state 
+Remarks_here: 0x2ca256 wpa_supplicant_set_state 
 
 Miss_funcptr: wpa_supplicant_deauthenticate ... 
-Remarks_here: 0x2c9174 wpa_supplicant_deauthenticate 
+Remarks_here: 0x2c91e4 wpa_supplicant_deauthenticate 
 
 Miss_funcptr: wpa_supplicant_deauthenticate ... 
-Remarks_here: 0x2c9174 wpa_supplicant_deauthenticate 
+Remarks_here: 0x2c91e4 wpa_supplicant_deauthenticate 
 
 Miss_funcptr: wpa_supplicant_event ... 
-Remarks_here: 0x2b5a04 wpa_supplicant_event 
+Remarks_here: 0x2b5a74 wpa_supplicant_event 
 
 Miss_funcptr: wpa_supplicant_event ... 
-Remarks_here: 0x2b5a04 wpa_supplicant_event 
+Remarks_here: 0x2b5a74 wpa_supplicant_event 
 
 Miss_funcptr: wpa_supplicant_event ... 
-Remarks_here: 0x2b5a04 wpa_supplicant_event 
+Remarks_here: 0x2b5a74 wpa_supplicant_event 
 
 Miss_funcptr: wpa_supplicant_event ... 
-Remarks_here: 0x2b5a04 wpa_supplicant_event 
+Remarks_here: 0x2b5a74 wpa_supplicant_event 
 
 Miss_funcptr: hostapd_event ... 
-Remarks_here: 0x2b1422 hostapd_event 
+Remarks_here: 0x2b1492 hostapd_event 
 
 Miss_funcptr: wpa_sta_disconnect ... 
-Remarks_here: 0x2c35d4 wpa_sta_disconnect 
+Remarks_here: 0x2c3644 wpa_sta_disconnect 
 
 Miss_funcptr: wpa_auth_get_psk ... 
-Remarks_here: 0x2c35a2 wpa_auth_get_psk 
+Remarks_here: 0x2c3612 wpa_auth_get_psk 
 
 Miss_funcptr: wpa_sm_step ... 
-Remarks_here: 0x2c4c26 wpa_sm_step 
+Remarks_here: 0x2c4c96 wpa_sm_step 
 
 Miss_funcptr: wpa_sm_step ... 
-Remarks_here: 0x2c4c26 wpa_sm_step 
+Remarks_here: 0x2c4c96 wpa_sm_step 
 
 Miss_funcptr: wpa_auth_set_eapol ... 
-Remarks_here: 0x2c3592 wpa_auth_set_eapol 
+Remarks_here: 0x2c3602 wpa_auth_set_eapol 
 
 Miss_funcptr: handle_auth ... 
-Remarks_here: 0x2b8818 handle_auth 
+Remarks_here: 0x2b8888 handle_auth 
 
 Miss_funcptr: wpa_auth_sm_event ... 
-Remarks_here: 0x2c56dc wpa_auth_sm_event 
+Remarks_here: 0x2c574c wpa_auth_sm_event 
 
 Miss_funcptr: hostapd_wpa_auth_send_eapol ... 
-Remarks_here: 0x2c600a hostapd_wpa_auth_send_eapol 
+Remarks_here: 0x2c607a hostapd_wpa_auth_send_eapol 
 
 Miss_funcptr: sae_check_confirm ... 
-Remarks_here: 0x2bd41e sae_check_confirm 
+Remarks_here: 0x2bd48e sae_check_confirm 
 
 Miss_funcptr: sae_sme_send_external_auth_status ... 
-Remarks_here: 0x2b7e40 sae_sme_send_external_auth_status 
+Remarks_here: 0x2b7eb0 sae_sme_send_external_auth_status 
 
 Miss_funcptr: pmksa_cache_free_entry ... 
-Remarks_here: 0x2bb81c pmksa_cache_free_entry 
+Remarks_here: 0x2bb88c pmksa_cache_free_entry 
 
 Miss_funcptr: wpa_drv_handle_app_service ... 
-Remarks_here: 0x2bda76 wpa_drv_handle_app_service 
+Remarks_here: 0x2bdae6 wpa_drv_handle_app_service 
 
 Miss_funcptr: wpa_supplicant_rx_eapol ... 
-Remarks_here: 0x2c8c78 wpa_supplicant_rx_eapol 
+Remarks_here: 0x2c8ce8 wpa_supplicant_rx_eapol 
 
 Miss_funcptr: wpa_sm_rx_eapol ... 
-Remarks_here: 0x2c28b2 wpa_sm_rx_eapol 
+Remarks_here: 0x2c2922 wpa_sm_rx_eapol 
 
 Miss_funcptr: wpa_sm_rx_eapol ... 
-Remarks_here: 0x2c28b2 wpa_sm_rx_eapol 
+Remarks_here: 0x2c2922 wpa_sm_rx_eapol 
 
 Miss_funcptr: wpa_sm_rx_eapol ... 
-Remarks_here: 0x2c28b2 wpa_sm_rx_eapol 
+Remarks_here: 0x2c2922 wpa_sm_rx_eapol 
 
 Miss_funcptr: wpa_supplicant_process_3_of_4 ... 
-Remarks_here: 0x2c246a wpa_supplicant_process_3_of_4 
+Remarks_here: 0x2c24da wpa_supplicant_process_3_of_4 
 
 Miss_funcptr: wpa_supplicant_process_3_of_4 ... 
-Remarks_here: 0x2c246a wpa_supplicant_process_3_of_4 
+Remarks_here: 0x2c24da wpa_supplicant_process_3_of_4 
 
 Miss_funcptr: wpa_supplicant_process_3_of_4 ... 
-Remarks_here: 0x2c246a wpa_supplicant_process_3_of_4 
+Remarks_here: 0x2c24da wpa_supplicant_process_3_of_4 
 
 Miss_funcptr: wpa_supplicant_send_4_of_4 ... 
-Remarks_here: 0x2c2398 wpa_supplicant_send_4_of_4 
+Remarks_here: 0x2c2408 wpa_supplicant_send_4_of_4 
 
 Miss_funcptr: wpa_eapol_key_send ... 
-Remarks_here: 0x2c1e66 wpa_eapol_key_send 
+Remarks_here: 0x2c1ed6 wpa_eapol_key_send 
 
 Miss_funcptr: ieee80211w_set_keys ... 
-Remarks_here: 0x2c1c52 ieee80211w_set_keys 
+Remarks_here: 0x2c1cc2 ieee80211w_set_keys 
 
 Miss_funcptr: ieee80211w_set_keys ... 
-Remarks_here: 0x2c1c52 ieee80211w_set_keys 
+Remarks_here: 0x2c1cc2 ieee80211w_set_keys 
 
 Miss_funcptr: wpa_sm_set_rekey_offload ... 
-Remarks_here: 0x2c19fe wpa_sm_set_rekey_offload 
+Remarks_here: 0x2c1a6e wpa_sm_set_rekey_offload 
 
 Miss_funcptr: wpa_supplicant_install_ptk ... 
-Remarks_here: 0x2c1b68 wpa_supplicant_install_ptk 
+Remarks_here: 0x2c1bd8 wpa_supplicant_install_ptk 
 
 Miss_funcptr: wpa_supplicant_install_ptk ... 
-Remarks_here: 0x2c1b68 wpa_supplicant_install_ptk 
+Remarks_here: 0x2c1bd8 wpa_supplicant_install_ptk 
 
 Miss_funcptr: wpa_supplicant_send_2_of_4 ... 
-Remarks_here: 0x2c22a0 wpa_supplicant_send_2_of_4 
+Remarks_here: 0x2c2310 wpa_supplicant_send_2_of_4 
 
 Miss_funcptr: eapol_sm_rx_eapol ... 
-Remarks_here: 0x2b48f4 eapol_sm_rx_eapol 
+Remarks_here: 0x2b4964 eapol_sm_rx_eapol 
 
 Miss_funcptr: owe_process_assoc_resp ... 
-Remarks_here: 0x2c3304 owe_process_assoc_resp 
+Remarks_here: 0x2c3374 owe_process_assoc_resp 
 
 Miss_funcptr: pmksa_cache_add_entry ... 
-Remarks_here: 0x2bb4d0 pmksa_cache_add_entry 
+Remarks_here: 0x2bb540 pmksa_cache_add_entry 
 
 Miss_funcptr: pmksa_cache_set_expiration ... 
-Remarks_here: 0x2bb34e pmksa_cache_set_expiration 
+Remarks_here: 0x2bb3be pmksa_cache_set_expiration 
 
 Miss_funcptr: pmksa_cache_free_entry ... 
-Remarks_here: 0x2bb2ba pmksa_cache_free_entry 
+Remarks_here: 0x2bb32a pmksa_cache_free_entry 
 
 Miss_funcptr: pmksa_cache_free_entry ... 
-Remarks_here: 0x2bb2ba pmksa_cache_free_entry 
+Remarks_here: 0x2bb32a pmksa_cache_free_entry 
 
 Miss_funcptr: wpa_drv_get_scan_results2 ... 
-Remarks_here: 0x2cacde wpa_drv_get_scan_results2 
+Remarks_here: 0x2cad4e wpa_drv_get_scan_results2 
 
 Miss_funcptr: wpa_drv_get_bssid ... 
-Remarks_here: 0x2b5318 wpa_drv_get_bssid 
+Remarks_here: 0x2b5388 wpa_drv_get_bssid 
 
 Miss_funcptr: wpa_supplicant_get_ssid ... 
-Remarks_here: 0x2c99b0 wpa_supplicant_get_ssid 
+Remarks_here: 0x2c9a20 wpa_supplicant_get_ssid 
 
 Miss_funcptr: wpa_supplicant_get_ssid ... 
-Remarks_here: 0x2c99b0 wpa_supplicant_get_ssid 
+Remarks_here: 0x2c9a20 wpa_supplicant_get_ssid 
 
 Miss_funcptr: wpa_sm_set_param ... 
-Remarks_here: 0x2c2e90 wpa_sm_set_param 
+Remarks_here: 0x2c2f00 wpa_sm_set_param 
 
 Miss_funcptr: sme_sa_query_rx ... 
-Remarks_here: 0x2bf14c sme_sa_query_rx 
+Remarks_here: 0x2bf1bc sme_sa_query_rx 
 
 Miss_funcptr: sme_external_auth_mgmt_rx ... 
-Remarks_here: 0x2bedde sme_external_auth_mgmt_rx 
+Remarks_here: 0x2bee4e sme_external_auth_mgmt_rx 
 
 Miss_funcptr: sme_external_auth_send_sae_commit ... 
-Remarks_here: 0x2beb8c sme_external_auth_send_sae_commit 
+Remarks_here: 0x2bebfc sme_external_auth_send_sae_commit 
 
 Miss_funcptr: sme_send_external_auth_status ... 
-Remarks_here: 0x2be9b4 sme_send_external_auth_status 
+Remarks_here: 0x2bea24 sme_send_external_auth_status 
 
 Miss_funcptr: radio_remove_works ... 
-Remarks_here: 0x2c8ed0 radio_remove_works 
+Remarks_here: 0x2c8f40 radio_remove_works 
 
 Miss_funcptr: drv_soc_pmkid_opr ... 
-Remarks_here: 0x2af44e drv_soc_pmkid_opr 
+Remarks_here: 0x2af4be drv_soc_pmkid_opr 
 
 Miss_funcptr: drv_soc_drv_deinit ... 
-Remarks_here: 0x2afeee drv_soc_drv_deinit 
+Remarks_here: 0x2aff5e drv_soc_drv_deinit 
 
 Miss_funcptr: drv_soc_set_key ... 
-Remarks_here: 0x2b0216 drv_soc_set_key 
+Remarks_here: 0x2b0286 drv_soc_set_key 
 
 Miss_funcptr: drv_soc_driver_event_process ... 
-Remarks_here: 0x2b0850 drv_soc_driver_event_process 
+Remarks_here: 0x2b08c0 drv_soc_driver_event_process 
 
 Miss_funcptr: drv_soc_driver_event_scan_result_process ... 
-Remarks_here: 0x2be2a6 drv_soc_driver_event_scan_result_process 
+Remarks_here: 0x2be316 drv_soc_driver_event_scan_result_process 
 
 Miss_funcptr: hostapd_prune_associations ... 
-Remarks_here: 0x2bf87e hostapd_prune_associations 
+Remarks_here: 0x2bf8ee hostapd_prune_associations 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_sm_step_run ... 
-Remarks_here: 0x2b34ca eapol_sm_step_run 
+Remarks_here: 0x2b353a eapol_sm_step_run 
 
 Miss_funcptr: eapol_auth_tx_canned_eap ... 
-Remarks_here: 0x2b32b0 eapol_auth_tx_canned_eap 
+Remarks_here: 0x2b3320 eapol_auth_tx_canned_eap 
 
 Miss_funcptr: eapol_auth_vlogger ... 
-Remarks_here: 0x2b3252 eapol_auth_vlogger 
+Remarks_here: 0x2b32c2 eapol_auth_vlogger 
 
 Miss_funcptr: eapol_auth_tx_req ... 
-Remarks_here: 0x2b33bc eapol_auth_tx_req 
+Remarks_here: 0x2b342c eapol_auth_tx_req 
 
 Miss_funcptr: eapol_auth_tx_req ... 
-Remarks_here: 0x2b33bc eapol_auth_tx_req 
+Remarks_here: 0x2b342c eapol_auth_tx_req 
 
 Miss_funcptr: eap_server_sm_step ... 
-Remarks_here: 0x2b2b5c eap_server_sm_step 
+Remarks_here: 0x2b2bcc eap_server_sm_step 
 
 Miss_funcptr: eap_server_sm_step ... 
-Remarks_here: 0x2b2b5c eap_server_sm_step 
+Remarks_here: 0x2b2bcc eap_server_sm_step 
 
 Miss_funcptr: eap_server_sm_step ... 
-Remarks_here: 0x2b2b5c eap_server_sm_step 
+Remarks_here: 0x2b2bcc eap_server_sm_step 
 
 Miss_funcptr: eap_server_sm_step ... 
-Remarks_here: 0x2b2b5c eap_server_sm_step 
+Remarks_here: 0x2b2bcc eap_server_sm_step 
 
 Miss_funcptr: eap_server_sm_step ... 
-Remarks_here: 0x2b2b5c eap_server_sm_step 
+Remarks_here: 0x2b2bcc eap_server_sm_step 
 
 Miss_funcptr: sm_EAP_INITIALIZE_Enter ... 
-Remarks_here: 0x2b2ab6 sm_EAP_INITIALIZE_Enter 
+Remarks_here: 0x2b2b26 sm_EAP_INITIALIZE_Enter 
 
 Miss_funcptr: eap_log_msg ... 
-Remarks_here: 0x2b2636 eap_log_msg 
+Remarks_here: 0x2b26a6 eap_log_msg 
 
 Miss_funcptr: eapol_sm_sta_entry_alive ... 
-Remarks_here: 0x2b3218 eapol_sm_sta_entry_alive 
+Remarks_here: 0x2b3288 eapol_sm_sta_entry_alive 
 
 Miss_funcptr: eap_deinit_prev_method.isra.2 ... 
-Remarks_here: 0x2b1656 eap_deinit_prev_method.isra.2 
+Remarks_here: 0x2b16c6 eap_deinit_prev_method.isra.2 
 
 Miss_funcptr: sm_EAP_METHOD_Enter.constprop.14 ... 
-Remarks_here: 0x2b166e sm_EAP_METHOD_Enter.constprop.14 
+Remarks_here: 0x2b16de sm_EAP_METHOD_Enter.constprop.14 
 
 Miss_funcptr: sm_EAP_METHOD_Enter.constprop.14 ... 
-Remarks_here: 0x2b166e sm_EAP_METHOD_Enter.constprop.14 
+Remarks_here: 0x2b16de sm_EAP_METHOD_Enter.constprop.14 
 
 Miss_funcptr: sm_EAP_METHOD_Enter.constprop.14 ... 
-Remarks_here: 0x2b166e sm_EAP_METHOD_Enter.constprop.14 
+Remarks_here: 0x2b16de sm_EAP_METHOD_Enter.constprop.14 
 
 Miss_funcptr: sm_EAP_SEND_RESPONSE_Enter.constprop.13 ... 
-Remarks_here: 0x2b173a sm_EAP_SEND_RESPONSE_Enter.constprop.13 
+Remarks_here: 0x2b17aa sm_EAP_SEND_RESPONSE_Enter.constprop.13 
 
 Miss_funcptr: sm_EAP_SUCCESS_Enter.constprop.8 ... 
-Remarks_here: 0x2b1a92 sm_EAP_SUCCESS_Enter.constprop.8 
+Remarks_here: 0x2b1b02 sm_EAP_SUCCESS_Enter.constprop.8 
 
 Miss_funcptr: sm_EAP_METHOD_RESPONSE_Enter.constprop.28 ... 
-Remarks_here: 0x2b24a0 sm_EAP_METHOD_RESPONSE_Enter.constprop.28 
+Remarks_here: 0x2b2510 sm_EAP_METHOD_RESPONSE_Enter.constprop.28 
 
 Miss_funcptr: sm_EAP_METHOD_RESPONSE_Enter.constprop.28 ... 
-Remarks_here: 0x2b24a0 sm_EAP_METHOD_RESPONSE_Enter.constprop.28 
+Remarks_here: 0x2b2510 sm_EAP_METHOD_RESPONSE_Enter.constprop.28 
 
 Miss_funcptr: sm_EAP_METHOD_RESPONSE_Enter.constprop.28 ... 
-Remarks_here: 0x2b24a0 sm_EAP_METHOD_RESPONSE_Enter.constprop.28 
+Remarks_here: 0x2b2510 sm_EAP_METHOD_RESPONSE_Enter.constprop.28 
 
 Miss_funcptr: sm_EAP_METHOD_REQUEST_Enter.constprop.29 ... 
-Remarks_here: 0x2b2522 sm_EAP_METHOD_REQUEST_Enter.constprop.29 
+Remarks_here: 0x2b2592 sm_EAP_METHOD_REQUEST_Enter.constprop.29 
 
 Miss_funcptr: sm_EAP_METHOD_REQUEST_Enter.constprop.29 ... 
-Remarks_here: 0x2b2522 sm_EAP_METHOD_REQUEST_Enter.constprop.29 
+Remarks_here: 0x2b2592 sm_EAP_METHOD_REQUEST_Enter.constprop.29 
 
 Miss_funcptr: sm_EAP_PROPOSE_METHOD_Enter.constprop.27 ... 
-Remarks_here: 0x2b26a8 sm_EAP_PROPOSE_METHOD_Enter.constprop.27 
+Remarks_here: 0x2b2718 sm_EAP_PROPOSE_METHOD_Enter.constprop.27 
 
 Miss_funcptr: sm_EAP_PROPOSE_METHOD_Enter.constprop.27 ... 
-Remarks_here: 0x2b26a8 sm_EAP_PROPOSE_METHOD_Enter.constprop.27 
+Remarks_here: 0x2b2718 sm_EAP_PROPOSE_METHOD_Enter.constprop.27 
 
 Miss_funcptr: sm_EAP_NAK_Enter.constprop.26 ... 
-Remarks_here: 0x2b27e6 sm_EAP_NAK_Enter.constprop.26 
+Remarks_here: 0x2b2856 sm_EAP_NAK_Enter.constprop.26 
 
 Miss_funcptr: eap_user_get ... 
-Remarks_here: 0x2b287e eap_user_get 
+Remarks_here: 0x2b28ee eap_user_get 
 
 Miss_funcptr: sm_EAP_SELECT_ACTION_Enter.constprop.25 ... 
-Remarks_here: 0x2b28d4 sm_EAP_SELECT_ACTION_Enter.constprop.25 
+Remarks_here: 0x2b2944 sm_EAP_SELECT_ACTION_Enter.constprop.25 
 
 Miss_funcptr: sm_EAP_SELECT_ACTION_Enter.constprop.25 ... 
-Remarks_here: 0x2b28d4 sm_EAP_SELECT_ACTION_Enter.constprop.25 
+Remarks_here: 0x2b2944 sm_EAP_SELECT_ACTION_Enter.constprop.25 
 
 Miss_funcptr: eapol_sm_get_eap_user ... 
-Remarks_here: 0x2b321e eapol_sm_get_eap_user 
+Remarks_here: 0x2b328e eapol_sm_get_eap_user 
 
 Miss_funcptr: eapol_sm_erp_get_key ... 
-Remarks_here: 0x2b323e eapol_sm_erp_get_key 
+Remarks_here: 0x2b32ae eapol_sm_erp_get_key 
 
 Miss_funcptr: eapol_sm_erp_add_key ... 
-Remarks_here: 0x2b3248 eapol_sm_erp_add_key 
+Remarks_here: 0x2b32b8 eapol_sm_erp_add_key 
 
 Miss_funcptr: sm_AUTH_PAE_DISCONNECTED_Enter.constprop.9 ... 
-Remarks_here: 0x2b3324 sm_AUTH_PAE_DISCONNECTED_Enter.constprop.9 
+Remarks_here: 0x2b3394 sm_AUTH_PAE_DISCONNECTED_Enter.constprop.9 
 
 Miss_funcptr: sm_AUTH_PAE_DISCONNECTED_Enter.constprop.9 ... 
-Remarks_here: 0x2b3324 sm_AUTH_PAE_DISCONNECTED_Enter.constprop.9 
+Remarks_here: 0x2b3394 sm_AUTH_PAE_DISCONNECTED_Enter.constprop.9 
 
 Miss_funcptr: eapol_sm_get_bool ... 
-Remarks_here: 0x2b3ed0 eapol_sm_get_bool 
+Remarks_here: 0x2b3f40 eapol_sm_get_bool 
 
 Miss_funcptr: eapol_sm_set_bool ... 
-Remarks_here: 0x2b3f40 eapol_sm_set_bool 
+Remarks_here: 0x2b3fb0 eapol_sm_set_bool 
 
 Miss_funcptr: eapol_sm_eap_param_needed ... 
-Remarks_here: 0x2b4024 eapol_sm_eap_param_needed 
+Remarks_here: 0x2b4094 eapol_sm_eap_param_needed 
 
 Miss_funcptr: sm_SUPP_PAE_CONNECTING_Enter.constprop.16 ... 
-Remarks_here: 0x2b4074 sm_SUPP_PAE_CONNECTING_Enter.constprop.16 
+Remarks_here: 0x2b40e4 sm_SUPP_PAE_CONNECTING_Enter.constprop.16 
 
 Miss_funcptr: sm_SUPP_PAE_RESTART_Enter.constprop.17 ... 
-Remarks_here: 0x2b4130 sm_SUPP_PAE_RESTART_Enter.constprop.17 
+Remarks_here: 0x2b41a0 sm_SUPP_PAE_RESTART_Enter.constprop.17 
 
 Miss_funcptr: eapol_sm_request_reauth ... 
-Remarks_here: 0x2b41e6 eapol_sm_request_reauth 
+Remarks_here: 0x2b4256 eapol_sm_request_reauth 
 
 Miss_funcptr: hostapd_for_each_interface ... 
-Remarks_here: 0x2b6868 hostapd_for_each_interface 
+Remarks_here: 0x2b68d8 hostapd_for_each_interface 
 
 Miss_funcptr: hostapd_bss_deinit.part.10 ... 
-Remarks_here: 0x2b6940 hostapd_bss_deinit.part.10 
+Remarks_here: 0x2b69b0 hostapd_bss_deinit.part.10 
 
 Miss_funcptr: hostapd_enable_iface ... 
-Remarks_here: 0x2b6e6c hostapd_enable_iface 
+Remarks_here: 0x2b6edc hostapd_enable_iface 
 
 Miss_funcptr: hostapd_enable_iface ... 
-Remarks_here: 0x2b6e6c hostapd_enable_iface 
+Remarks_here: 0x2b6edc hostapd_enable_iface 
 
 Miss_funcptr: hostapd_reload_config ... 
-Remarks_here: 0x2b6fd2 hostapd_reload_config 
+Remarks_here: 0x2b7042 hostapd_reload_config 
 
 Miss_funcptr: owe_process_assoc_req.part.18 ... 
-Remarks_here: 0x2b82d2 owe_process_assoc_req.part.18 
+Remarks_here: 0x2b8342 owe_process_assoc_req.part.18 
 
 Miss_funcptr: ieee802_1x_send ... 
-Remarks_here: 0x2ba32c ieee802_1x_send 
+Remarks_here: 0x2ba39c ieee802_1x_send 
 
 Miss_funcptr: l2_packet_receive ... 
-Remarks_here: 0x2baa0a l2_packet_receive 
+Remarks_here: 0x2baa7a l2_packet_receive 
 
 Miss_funcptr: pmksa_cache_expire ... 
-Remarks_here: 0x2bb40c pmksa_cache_expire 
+Remarks_here: 0x2bb47c pmksa_cache_expire 
 
 Miss_funcptr: wpas_trigger_scan_cb ... 
-Remarks_here: 0x2bd5c2 wpas_trigger_scan_cb 
+Remarks_here: 0x2bd632 wpas_trigger_scan_cb 
 
 Miss_funcptr: wifi_app_service ... 
-Remarks_here: 0x2bda8a wifi_app_service 
+Remarks_here: 0x2bdafa wifi_app_service 
 
 Miss_funcptr: sme_sa_query_timer ... 
-Remarks_here: 0x2bea90 sme_sa_query_timer 
+Remarks_here: 0x2beb00 sme_sa_query_timer 
 
 Miss_funcptr: wifi_event_task_handler ... 
-Remarks_here: 0x2bf8f6 wifi_event_task_handler 
+Remarks_here: 0x2bf966 wifi_event_task_handler 
 
 Miss_funcptr: wifi_sta_connect ... 
-Remarks_here: 0x2bfb4e wifi_sta_connect 
+Remarks_here: 0x2bfbbe wifi_sta_connect 
 
 Miss_funcptr: uapi_wifi_softap_start ... 
-Remarks_here: 0x2c13e8 uapi_wifi_softap_start 
+Remarks_here: 0x2c1458 uapi_wifi_softap_start 
 
 Miss_funcptr: wpa_sm_set_state.isra.2 ... 
-Remarks_here: 0x2c1a3c wpa_sm_set_state.isra.2 
+Remarks_here: 0x2c1aac wpa_sm_set_state.isra.2 
 
 Miss_funcptr: wpa_sm_deauthenticate.isra.4 ... 
-Remarks_here: 0x2c1a42 wpa_sm_deauthenticate.isra.4 
+Remarks_here: 0x2c1ab2 wpa_sm_deauthenticate.isra.4 
 
 Miss_funcptr: wpa_supplicant_key_neg_complete.isra.25 ... 
-Remarks_here: 0x2c1b06 wpa_supplicant_key_neg_complete.isra.25 
+Remarks_here: 0x2c1b76 wpa_supplicant_key_neg_complete.isra.25 
 
 Miss_funcptr: wpa_supplicant_install_gtk.isra.18 ... 
-Remarks_here: 0x2c1db4 wpa_supplicant_install_gtk.isra.18 
+Remarks_here: 0x2c1e24 wpa_supplicant_install_gtk.isra.18 
 
 Miss_funcptr: wpa_supplicant_process_1_of_2.isra.30 ... 
-Remarks_here: 0x2c1ec8 wpa_supplicant_process_1_of_2.isra.30 
+Remarks_here: 0x2c1f38 wpa_supplicant_process_1_of_2.isra.30 
 
 Miss_funcptr: wpa_supplicant_process_1_of_2.isra.30 ... 
-Remarks_here: 0x2c1ec8 wpa_supplicant_process_1_of_2.isra.30 
+Remarks_here: 0x2c1f38 wpa_supplicant_process_1_of_2.isra.30 
 
 Miss_funcptr: wpa_supplicant_process_1_of_2.isra.30 ... 
-Remarks_here: 0x2c1ec8 wpa_supplicant_process_1_of_2.isra.30 
+Remarks_here: 0x2c1f38 wpa_supplicant_process_1_of_2.isra.30 
 
 Miss_funcptr: wpa_sm_key_request ... 
-Remarks_here: 0x2c2162 wpa_sm_key_request 
+Remarks_here: 0x2c21d2 wpa_sm_key_request 
 
 Miss_funcptr: wpa_sm_key_request ... 
-Remarks_here: 0x2c2162 wpa_sm_key_request 
+Remarks_here: 0x2c21d2 wpa_sm_key_request 
 
 Miss_funcptr: wpa_sm_key_request ... 
-Remarks_here: 0x2c2162 wpa_sm_key_request 
+Remarks_here: 0x2c21d2 wpa_sm_key_request 
 
 Miss_funcptr: wpa_sm_key_request ... 
-Remarks_here: 0x2c2162 wpa_sm_key_request 
+Remarks_here: 0x2c21d2 wpa_sm_key_request 
 
 Miss_funcptr: __wpa_send_eapol ... 
-Remarks_here: 0x2c42aa __wpa_send_eapol 
+Remarks_here: 0x2c431a __wpa_send_eapol 
 
 Miss_funcptr: hostapd_wpa_auth_for_each_sta ... 
-Remarks_here: 0x2c5f66 hostapd_wpa_auth_for_each_sta 
+Remarks_here: 0x2c5fd6 hostapd_wpa_auth_for_each_sta 
 
 Miss_funcptr: wpa_auth_iface_iter ... 
-Remarks_here: 0x2c5f88 wpa_auth_iface_iter 
+Remarks_here: 0x2c5ff8 wpa_auth_iface_iter 
 
 Miss_funcptr: hostapd_wpa_auth_for_each_auth ... 
-Remarks_here: 0x2c5fb8 hostapd_wpa_auth_for_each_auth 
+Remarks_here: 0x2c6028 hostapd_wpa_auth_for_each_auth 
 
 Miss_funcptr: hostapd_wpa_auth_set_eapol ... 
-Remarks_here: 0x2c61f8 hostapd_wpa_auth_set_eapol 
+Remarks_here: 0x2c6268 hostapd_wpa_auth_set_eapol 
 
 Miss_funcptr: radio_start_next_work ... 
-Remarks_here: 0x2c8f1c radio_start_next_work 
+Remarks_here: 0x2c8f8c radio_start_next_work 
 
 Miss_funcptr: wpa_supplicant_deinit_iface.isra.31 ... 
-Remarks_here: 0x2c9690 wpa_supplicant_deinit_iface.isra.31 
+Remarks_here: 0x2c9700 wpa_supplicant_deinit_iface.isra.31 
 
 Miss_funcptr: wpa_supplicant_deinit_iface.isra.31 ... 
-Remarks_here: 0x2c9690 wpa_supplicant_deinit_iface.isra.31 
+Remarks_here: 0x2c9700 wpa_supplicant_deinit_iface.isra.31 
 
 Miss_funcptr: wpas_start_assoc_cb ... 
-Remarks_here: 0x2ca83e wpas_start_assoc_cb 
+Remarks_here: 0x2ca8ae wpas_start_assoc_cb 
 
 Miss_funcptr: wpa_supplicant_set_rekey_offload ... 
-Remarks_here: 0x2caf6a wpa_supplicant_set_rekey_offload 
+Remarks_here: 0x2cafda wpa_supplicant_set_rekey_offload 
 
 Miss_funcptr: wpa_drv_set_key ... 
-Remarks_here: 0x2cb0a2 wpa_drv_set_key 
+Remarks_here: 0x2cb112 wpa_drv_set_key 
 
 Miss_funcptr: wpa_supplicant_add_pmkid ... 
-Remarks_here: 0x2cb25e wpa_supplicant_add_pmkid 
+Remarks_here: 0x2cb2ce wpa_supplicant_add_pmkid 
 
 Miss_funcptr: wpa_supplicant_get_bssid ... 
-Remarks_here: 0x2cb384 wpa_supplicant_get_bssid 
+Remarks_here: 0x2cb3f4 wpa_supplicant_get_bssid 
 
 Miss_funcptr: wpa_supplicant_remove_pmkid ... 
-Remarks_here: 0x2cb396 wpa_supplicant_remove_pmkid 
+Remarks_here: 0x2cb406 wpa_supplicant_remove_pmkid 
 
 Miss_funcptr: wpa_ether_send ... 
-Remarks_here: 0x2cb3e0 wpa_ether_send 
+Remarks_here: 0x2cb450 wpa_ether_send 
 
 Miss_funcptr: wpa_ether_send ... 
-Remarks_here: 0x2cb3e0 wpa_ether_send 
+Remarks_here: 0x2cb450 wpa_ether_send 
 
 Miss_funcptr: wpa_supplicant_eapol_send ... 
-Remarks_here: 0x2cb44c wpa_supplicant_eapol_send 
+Remarks_here: 0x2cb4bc wpa_supplicant_eapol_send 
 
 Miss_funcptr: wpa_supplicant_ctrl_req_to_string ... 
-Remarks_here: 0x2cb554 wpa_supplicant_ctrl_req_to_string 
+Remarks_here: 0x2cb5c4 wpa_supplicant_ctrl_req_to_string 
 
 Miss_funcptr: send_broadcast_ap_state_change ... 
-Remarks_here: 0x2cbb72 send_broadcast_ap_state_change 
+Remarks_here: 0x2cbbe2 send_broadcast_ap_state_change 
 
 Miss_funcptr: send_broadcast_connected_change_for_sta ... 
-Remarks_here: 0x2cbbbc send_broadcast_connected_change_for_sta 
+Remarks_here: 0x2cbc2c send_broadcast_connected_change_for_sta 
 
 Miss_funcptr: wpa_event_cb_handle ... 
-Remarks_here: 0x2cd44a wpa_event_cb_handle 
+Remarks_here: 0x2cd4ba wpa_event_cb_handle 
 
 Miss_funcptr: wpa_event_cb_handle ... 
-Remarks_here: 0x2cd44a wpa_event_cb_handle 
+Remarks_here: 0x2cd4ba wpa_event_cb_handle 
 
 Miss_funcptr: wpa_event_cb_handle ... 
-Remarks_here: 0x2cd44a wpa_event_cb_handle 
+Remarks_here: 0x2cd4ba wpa_event_cb_handle 
 
 Miss_funcptr: wpa_event_cb_handle ... 
-Remarks_here: 0x2cd44a wpa_event_cb_handle 
+Remarks_here: 0x2cd4ba wpa_event_cb_handle 
 
 Miss_funcptr: get_dev_addr ... 
-Remarks_here: 0x35d4da get_dev_addr 
+Remarks_here: 0x35d6e2 get_dev_addr 
 
 Miss_funcptr: wifi_brctl_show ... 
-Remarks_here: 0x2cdcf4 wifi_brctl_show 
+Remarks_here: 0x2cdd64 wifi_brctl_show 
 
 Miss_funcptr: netif_l2_netdev_status_callback ... 
-Remarks_here: 0x2e403a netif_l2_netdev_status_callback 
+Remarks_here: 0x2e40aa netif_l2_netdev_status_callback 
 
 Miss_funcptr: ip_monitor ... 
-Remarks_here: 0x2cfade ip_monitor 
+Remarks_here: 0x2cfb4e ip_monitor 
 
 Miss_funcptr: ping_cfg_parse ... 
-Remarks_here: 0x2dd300 ping_cfg_parse 
+Remarks_here: 0x2dd370 ping_cfg_parse 
 
 Miss_funcptr: getsockopt ... 
-Remarks_here: 0x2e649a getsockopt 
+Remarks_here: 0x2e650a getsockopt 
 
 Miss_funcptr: dhcp_release_client ... 
-Remarks_here: 0x2d4c46 dhcp_release_client 
+Remarks_here: 0x2d4cb6 dhcp_release_client 
 
 Miss_funcptr: dhcp_common_option_long ... 
-Remarks_here: 0x2d5e32 dhcp_common_option_long 
+Remarks_here: 0x2d5ea2 dhcp_common_option_long 
 
 Miss_funcptr: dhcp_option_dns_server.isra.1 ... 
-Remarks_here: 0x2d5e72 dhcp_option_dns_server.isra.1 
+Remarks_here: 0x2d5ee2 dhcp_option_dns_server.isra.1 
 
 Miss_funcptr: dhcps_recv ... 
-Remarks_here: 0x2d61ae dhcps_recv 
+Remarks_here: 0x2d621e dhcps_recv 
 
 Miss_funcptr: dhcps_recv ... 
-Remarks_here: 0x2d61ae dhcps_recv 
+Remarks_here: 0x2d621e dhcps_recv 
 
 Miss_funcptr: dns_call_found ... 
-Remarks_here: 0x2d6a74 dns_call_found 
+Remarks_here: 0x2d6ae4 dns_call_found 
 
 Miss_funcptr: tcp_unlock_accept ... 
-Remarks_here: 0x2e83b0 tcp_unlock_accept 
+Remarks_here: 0x2e8420 tcp_unlock_accept 
 
 Miss_funcptr: netif_set_hwaddr ... 
-Remarks_here: 0x2e40d2 netif_set_hwaddr 
+Remarks_here: 0x2e4142 netif_set_hwaddr 
 
 Miss_funcptr: nd6_send_q.part.9 ... 
-Remarks_here: 0x2dad16 nd6_send_q.part.9 
+Remarks_here: 0x2dad86 nd6_send_q.part.9 
 
 Miss_funcptr: nd6_tmr ... 
-Remarks_here: 0x2dbd52 nd6_tmr 
+Remarks_here: 0x2dbdc2 nd6_tmr 
 
 Miss_funcptr: netifapi_do_netif_argcb ... 
-Remarks_here: 0x2dc706 netifapi_do_netif_argcb 
+Remarks_here: 0x2dc776 netifapi_do_netif_argcb 
 
 Miss_funcptr: netifapi_do_netif_common ... 
-Remarks_here: 0x2dc774 netifapi_do_netif_common 
+Remarks_here: 0x2dc7e4 netifapi_do_netif_common 
 
 Miss_funcptr: netifapi_do_netif_common ... 
-Remarks_here: 0x2dc774 netifapi_do_netif_common 
+Remarks_here: 0x2dc7e4 netifapi_do_netif_common 
 
 Miss_funcptr: lwip_cyclic_timer ... 
-Remarks_here: 0x2e1828 lwip_cyclic_timer 
+Remarks_here: 0x2e1898 lwip_cyclic_timer 
 
 Miss_funcptr: tcp_fasttmr ... 
-Remarks_here: 0x2e7e8a tcp_fasttmr 
+Remarks_here: 0x2e7efa tcp_fasttmr 
 
 Miss_funcptr: tcp_slowtmr ... 
-Remarks_here: 0x2e7f80 tcp_slowtmr 
+Remarks_here: 0x2e7ff0 tcp_slowtmr 
 
 Miss_funcptr: tcp_slowtmr ... 
-Remarks_here: 0x2e7f80 tcp_slowtmr 
+Remarks_here: 0x2e7ff0 tcp_slowtmr 
 
 Miss_funcptr: recv_udp ... 
-Remarks_here: 0x2e1ce2 recv_udp 
+Remarks_here: 0x2e1d52 recv_udp 
 
 Miss_funcptr: recv_raw ... 
-Remarks_here: 0x2e1d8c recv_raw 
+Remarks_here: 0x2e1dfc recv_raw 
 
 Miss_funcptr: err_tcp ... 
-Remarks_here: 0x2e1e50 err_tcp 
+Remarks_here: 0x2e1ec0 err_tcp 
 
 Miss_funcptr: lwip_netconn_do_close_internal ... 
-Remarks_here: 0x2e2164 lwip_netconn_do_close_internal 
+Remarks_here: 0x2e21d4 lwip_netconn_do_close_internal 
 
 Miss_funcptr: poll_tcp ... 
-Remarks_here: 0x2e22ca poll_tcp 
+Remarks_here: 0x2e233a poll_tcp 
 
 Miss_funcptr: lwip_netconn_do_connected ... 
-Remarks_here: 0x2e231c lwip_netconn_do_connected 
+Remarks_here: 0x2e238c lwip_netconn_do_connected 
 
 Miss_funcptr: update_tcp_sndplus_event ... 
-Remarks_here: 0x2e23a8 update_tcp_sndplus_event 
+Remarks_here: 0x2e2418 update_tcp_sndplus_event 
 
 Miss_funcptr: sent_tcp ... 
-Remarks_here: 0x2e23bc sent_tcp 
+Remarks_here: 0x2e242c sent_tcp 
 
 Miss_funcptr: recv_tcp ... 
-Remarks_here: 0x2e240a recv_tcp 
+Remarks_here: 0x2e247a recv_tcp 
 
 Miss_funcptr: accept_function ... 
-Remarks_here: 0x2e271c accept_function 
+Remarks_here: 0x2e278c accept_function 
 
 Miss_funcptr: lwip_netconn_do_delconn ... 
-Remarks_here: 0x2e2804 lwip_netconn_do_delconn 
+Remarks_here: 0x2e2874 lwip_netconn_do_delconn 
 
 Miss_funcptr: netif_do_set_ipaddr.part.3 ... 
-Remarks_here: 0x2e3ffc netif_do_set_ipaddr.part.3 
+Remarks_here: 0x2e406c netif_do_set_ipaddr.part.3 
 
 Miss_funcptr: netif_set_link_down ... 
-Remarks_here: 0x2e4810 netif_set_link_down 
+Remarks_here: 0x2e4880 netif_set_link_down 
 
 Miss_funcptr: alg_temp_protect_config_param ... 
-Remarks_here: 0x2eb3fe alg_temp_protect_config_param 
+Remarks_here: 0x2eb46e alg_temp_protect_config_param 
 
 Miss_funcptr: alg_txbf_report_set_pow_rate ... 
-Remarks_here: 0x2eb6cc alg_txbf_report_set_pow_rate 
+Remarks_here: 0x2eb73c alg_txbf_report_set_pow_rate 
 
 Miss_funcptr: alg_anti_intf_config_param ... 
-Remarks_here: 0x2ec06a alg_anti_intf_config_param 
+Remarks_here: 0x2ec0da alg_anti_intf_config_param 
 
 Miss_funcptr: alg_anti_intf_config_param ... 
-Remarks_here: 0x2ec06a alg_anti_intf_config_param 
+Remarks_here: 0x2ec0da alg_anti_intf_config_param 
 
 Miss_funcptr: alg_cca_opt_config_param ... 
-Remarks_here: 0x2ed9e4 alg_cca_opt_config_param 
+Remarks_here: 0x2eda54 alg_cca_opt_config_param 
 
 Miss_funcptr: report_radar_sensor_disable_reason ... 
-Remarks_here: 0x2ee678 report_radar_sensor_disable_reason 
+Remarks_here: 0x2ee6e8 report_radar_sensor_disable_reason 
 
 Miss_funcptr: hmac_radar_sensor_complete_handle ... 
-Remarks_here: 0x2ee874 hmac_radar_sensor_complete_handle 
+Remarks_here: 0x2ee8e4 hmac_radar_sensor_complete_handle 
 
 Miss_funcptr: hmac_btcoex_set_freq_and_work_state_hal_device ... 
-Remarks_here: 0x2f0b62 hmac_btcoex_set_freq_and_work_state_hal_device 
+Remarks_here: 0x2f0bd2 hmac_btcoex_set_freq_and_work_state_hal_device 
 
 Miss_funcptr: hmac_btcoex_ps_off_scan_state_proc ... 
-Remarks_here: 0x2f17d6 hmac_btcoex_ps_off_scan_state_proc 
+Remarks_here: 0x2f1846 hmac_btcoex_ps_off_scan_state_proc 
 
 Miss_funcptr: hmac_btcoex_ps_off_no_scan_state_proc ... 
-Remarks_here: 0x2f1860 hmac_btcoex_ps_off_no_scan_state_proc 
+Remarks_here: 0x2f18d0 hmac_btcoex_ps_off_no_scan_state_proc 
 
 Miss_funcptr: hmac_btcoex_delba_send_timeout ... 
-Remarks_here: 0x2f07ae hmac_btcoex_delba_send_timeout 
+Remarks_here: 0x2f081e hmac_btcoex_delba_send_timeout 
 
 Miss_funcptr: hmac_btcoex_pow_save_callback ... 
-Remarks_here: 0x2f0f38 hmac_btcoex_pow_save_callback 
+Remarks_here: 0x2f0fa8 hmac_btcoex_pow_save_callback 
 
 Miss_funcptr: bt_em_cfg_trx_block ... 
-Remarks_here: 0x2f3f9a bt_em_cfg_trx_block 
+Remarks_here: 0x2f400a bt_em_cfg_trx_block 
 
 Miss_funcptr: dts_coex_cfg_system_chip_bgle_dev_only_init ... 
-Remarks_here: 0x2f7e94 dts_coex_cfg_system_chip_bgle_dev_only_init 
+Remarks_here: 0x2f7f04 dts_coex_cfg_system_chip_bgle_dev_only_init 
 
 Miss_funcptr: cali_run_callback ... 
-Remarks_here: 0x2f4a30 cali_run_callback 
+Remarks_here: 0x2f4aa0 cali_run_callback 
 
 Miss_funcptr: coex_if_wlstate_get ... 
-Remarks_here: 0x2f6e3e coex_if_wlstate_get 
+Remarks_here: 0x2f6eae coex_if_wlstate_get 
 
 Miss_funcptr: bt_common_msg_except_process ... 
-Remarks_here: 0x2f2c40 bt_common_msg_except_process 
+Remarks_here: 0x2f2cb0 bt_common_msg_except_process 
 
 Miss_funcptr: hci_gle_send_evt_msg ... 
-Remarks_here: 0x311c34 hci_gle_send_evt_msg 
+Remarks_here: 0x311ca4 hci_gle_send_evt_msg 
 
 Miss_funcptr: hci_c2h_msg_print ... 
-Remarks_here: 0x311b56 hci_c2h_msg_print 
+Remarks_here: 0x311bc6 hci_c2h_msg_print 
 
 Miss_funcptr: lm_gle_acb_del_all_srv_fsm ... 
-Remarks_here: 0x309916 lm_gle_acb_del_all_srv_fsm 
+Remarks_here: 0x309986 lm_gle_acb_del_all_srv_fsm 
 
 Miss_funcptr: lm_gle_iob_del_all_srv_fsm ... 
-Remarks_here: 0x310ef8 lm_gle_iob_del_all_srv_fsm 
+Remarks_here: 0x310f68 lm_gle_iob_del_all_srv_fsm 
 
 Miss_funcptr: dts_coex_wifi_state_process ... 
-Remarks_here: 0x2f7e3a dts_coex_wifi_state_process 
+Remarks_here: 0x2f7eaa dts_coex_wifi_state_process 
 
 Miss_funcptr: coex_if_btstate_get_bletype ... 
-Remarks_here: 0x2f6d00 coex_if_btstate_get_bletype 
+Remarks_here: 0x2f6d70 coex_if_btstate_get_bletype 
 
 Miss_funcptr: coex_if_btstate_get_gletype ... 
-Remarks_here: 0x2f6d7c coex_if_btstate_get_gletype 
+Remarks_here: 0x2f6dec coex_if_btstate_get_gletype 
 
 Miss_funcptr: coex_if_btstate_set_bletype ... 
-Remarks_here: 0x2f6b88 coex_if_btstate_set_bletype 
+Remarks_here: 0x2f6bf8 coex_if_btstate_set_bletype 
 
 Miss_funcptr: dts_coex_write ... 
-Remarks_here: 0x2f807c dts_coex_write 
+Remarks_here: 0x2f80ec dts_coex_write 
 
 Miss_funcptr: dts_coex_write ... 
-Remarks_here: 0x2f807c dts_coex_write 
+Remarks_here: 0x2f80ec dts_coex_write 
 
 Miss_funcptr: coex_if_btstate_set_gletype ... 
-Remarks_here: 0x2f6c44 coex_if_btstate_set_gletype 
+Remarks_here: 0x2f6cb4 coex_if_btstate_set_gletype 
 
 Miss_funcptr: bt_pll_start_tx ... 
-Remarks_here: 0x2f33f0 bt_pll_start_tx 
+Remarks_here: 0x2f3460 bt_pll_start_tx 
 
 Miss_funcptr: dfx_bt_cmd_handler_table ... 
-Remarks_here: 0x2f48b8 dfx_bt_cmd_handler_table 
+Remarks_here: 0x2f4928 dfx_bt_cmd_handler_table 
 
 Miss_funcptr: dfx_config_samp_param ... 
-Remarks_here: 0x2f4592 dfx_config_samp_param 
+Remarks_here: 0x2f4602 dfx_config_samp_param 
 
 Miss_funcptr: dfx_config_samp_param ... 
-Remarks_here: 0x2f4592 dfx_config_samp_param 
+Remarks_here: 0x2f4602 dfx_config_samp_param 
 
 Miss_funcptr: dfx_config_samp_param ... 
-Remarks_here: 0x2f4592 dfx_config_samp_param 
+Remarks_here: 0x2f4602 dfx_config_samp_param 
 
 Miss_funcptr: dfx_config_samp_param ... 
-Remarks_here: 0x2f4592 dfx_config_samp_param 
+Remarks_here: 0x2f4602 dfx_config_samp_param 
 
 Miss_funcptr: dfx_config_samp_param ... 
-Remarks_here: 0x2f4592 dfx_config_samp_param 
+Remarks_here: 0x2f4602 dfx_config_samp_param 
 
 Miss_funcptr: dfx_config_samp_param ... 
-Remarks_here: 0x2f4592 dfx_config_samp_param 
+Remarks_here: 0x2f4602 dfx_config_samp_param 
 
 Miss_funcptr: bt_rf_set_accum_parameter ... 
-Remarks_here: 0x311f60 bt_rf_set_accum_parameter 
+Remarks_here: 0x311fd0 bt_rf_set_accum_parameter 
 
 Miss_funcptr: bt_cali_matrix_dot_product ... 
-Remarks_here: 0x3126ba bt_cali_matrix_dot_product 
+Remarks_here: 0x31272a bt_cali_matrix_dot_product 
 
 Miss_funcptr: bt_cali_matrix_multiply_with_num ... 
-Remarks_here: 0x31265c bt_cali_matrix_multiply_with_num 
+Remarks_here: 0x3126cc bt_cali_matrix_multiply_with_num 
 
 Miss_funcptr: coex_adapter_wl_state_change_cbk ... 
-Remarks_here: 0x2f64a6 coex_adapter_wl_state_change_cbk 
+Remarks_here: 0x2f6516 coex_adapter_wl_state_change_cbk 
 
 Miss_funcptr: hal_pke_lock ... 
-Remarks_here: 0x35a984 hal_pke_lock 
+Remarks_here: 0x35ab8c hal_pke_lock 
 
 Miss_funcptr: crypto_get_cpu_type ... 
-Remarks_here: 0x35598a crypto_get_cpu_type 
+Remarks_here: 0x355b92 crypto_get_cpu_type 
 
 Miss_funcptr: hal_pke_wait_free_int ... 
-Remarks_here: 0x35a8ee hal_pke_wait_free_int 
+Remarks_here: 0x35aaf6 hal_pke_wait_free_int 
 
 Miss_funcptr: crypto_get_phys_addr ... 
-Remarks_here: 0x355926 crypto_get_phys_addr 
+Remarks_here: 0x355b2e crypto_get_phys_addr 
 
 Miss_funcptr: hal_cipher_hash_config ... 
-Remarks_here: 0x35ae92 hal_cipher_hash_config 
+Remarks_here: 0x35b09a hal_cipher_hash_config 
 
 Miss_funcptr: drv_hash_get_state_iv ... 
-Remarks_here: 0x355a7c drv_hash_get_state_iv 
+Remarks_here: 0x355c84 drv_hash_get_state_iv 
 
 Miss_funcptr: hal_cipher_hash_wait_done ... 
-Remarks_here: 0x35b1ce hal_cipher_hash_wait_done 
+Remarks_here: 0x35b3d6 hal_cipher_hash_wait_done 
 
 Miss_funcptr: encrypt_done_sm3 ... 
-Remarks_here: 0x2f8a4c encrypt_done_sm3 
+Remarks_here: 0x2f8abc encrypt_done_sm3 
 
 Miss_funcptr: evt_task_ble_adv_isr_cbk ... 
-Remarks_here: 0x2f91fa evt_task_ble_adv_isr_cbk 
+Remarks_here: 0x2f926a evt_task_ble_adv_isr_cbk 
 
 Miss_funcptr: evt_task_ble_test_mode_isr_cbk ... 
-Remarks_here: 0x2fa3da evt_task_ble_test_mode_isr_cbk 
+Remarks_here: 0x2fa44a evt_task_ble_test_mode_isr_cbk 
 
 Miss_funcptr: hci_gle_rx_acb_data ... 
-Remarks_here: 0x311cf8 hci_gle_rx_acb_data 
+Remarks_here: 0x311d68 hci_gle_rx_acb_data 
 
 Miss_funcptr: evt_task_gle_acb_instant_prog ... 
-Remarks_here: 0x2fc8c4 evt_task_gle_acb_instant_prog 
+Remarks_here: 0x2fc934 evt_task_gle_acb_instant_prog 
 
 Miss_funcptr: evt_task_gle_acb_event_start_config_sed ... 
-Remarks_here: 0x2fcb4c evt_task_gle_acb_event_start_config_sed 
+Remarks_here: 0x2fcbbc evt_task_gle_acb_event_start_config_sed 
 
 Miss_funcptr: evt_task_gle_acb_isr_cbk ... 
-Remarks_here: 0x2fd4d8 evt_task_gle_acb_isr_cbk 
+Remarks_here: 0x2fd548 evt_task_gle_acb_isr_cbk 
 
 Miss_funcptr: evt_task_gle_adv_evt_cbk ... 
-Remarks_here: 0x2fea92 evt_task_gle_adv_evt_cbk 
+Remarks_here: 0x2feb02 evt_task_gle_adv_evt_cbk 
 
 Miss_funcptr: evt_task_gle_adv_isr_cbk ... 
-Remarks_here: 0x2ff160 evt_task_gle_adv_isr_cbk 
+Remarks_here: 0x2ff1d0 evt_task_gle_adv_isr_cbk 
 
 Miss_funcptr: hci_gle_rx_icb_data ... 
-Remarks_here: 0x311da6 hci_gle_rx_icb_data 
+Remarks_here: 0x311e16 hci_gle_rx_icb_data 
 
 Miss_funcptr: imb_get_csccmpktcnt ... 
-Remarks_here: 0x2fff38 imb_get_csccmpktcnt 
+Remarks_here: 0x2fffa8 imb_get_csccmpktcnt 
 
 Miss_funcptr: evt_task_gle_imb_isr_cbk ... 
-Remarks_here: 0x301040 evt_task_gle_imb_isr_cbk 
+Remarks_here: 0x3010b0 evt_task_gle_imb_isr_cbk 
 
 Miss_funcptr: evt_task_gle_initiate_isr_cbk ... 
-Remarks_here: 0x302fb6 evt_task_gle_initiate_isr_cbk 
+Remarks_here: 0x303026 evt_task_gle_initiate_isr_cbk 
 
 Miss_funcptr: evt_task_gle_scan_isr_cbk ... 
-Remarks_here: 0x3043b4 evt_task_gle_scan_isr_cbk 
+Remarks_here: 0x304424 evt_task_gle_scan_isr_cbk 
 
 Miss_funcptr: evt_task_gle_test_mode_isr_cbk ... 
-Remarks_here: 0x305228 evt_task_gle_test_mode_isr_cbk 
+Remarks_here: 0x305298 evt_task_gle_test_mode_isr_cbk 
 
 Miss_funcptr: hci_bt_cmd_get_dest_id ... 
-Remarks_here: 0x305416 hci_bt_cmd_get_dest_id 
+Remarks_here: 0x305486 hci_bt_cmd_get_dest_id 
 
 Miss_funcptr: hci_bt_cmd_get_dest_id ... 
-Remarks_here: 0x305416 hci_bt_cmd_get_dest_id 
+Remarks_here: 0x305486 hci_bt_cmd_get_dest_id 
 
 Miss_funcptr: hci_gle_cmd_get_dest_id ... 
-Remarks_here: 0x305764 hci_gle_cmd_get_dest_id 
+Remarks_here: 0x3057d4 hci_gle_cmd_get_dest_id 
 
 Miss_funcptr: api_h2c_write ... 
-Remarks_here: 0x305d06 api_h2c_write 
+Remarks_here: 0x305d76 api_h2c_write 
 
 Miss_funcptr: lm_gle_acb_llcp_map_to_sed_map ... 
-Remarks_here: 0x30cc84 lm_gle_acb_llcp_map_to_sed_map 
+Remarks_here: 0x30ccf4 lm_gle_acb_llcp_map_to_sed_map 
 
 Miss_funcptr: lm_gle_acb_fsm_exception_hci ... 
-Remarks_here: 0x309758 lm_gle_acb_fsm_exception_hci 
+Remarks_here: 0x3097c8 lm_gle_acb_fsm_exception_hci 
 
 Miss_funcptr: lm_gle_img_fsm_exception_hci ... 
-Remarks_here: 0x310682 lm_gle_img_fsm_exception_hci 
+Remarks_here: 0x3106f2 lm_gle_img_fsm_exception_hci 
 
 Miss_funcptr: hci_bt_send_evt_msg_without_log ... 
-Remarks_here: 0x311c02 hci_bt_send_evt_msg_without_log 
+Remarks_here: 0x311c72 hci_bt_send_evt_msg_without_log 
 
 Miss_funcptr: hci_bt_send_evt_msg ... 
-Remarks_here: 0x311c0e hci_bt_send_evt_msg 
+Remarks_here: 0x311c7e hci_bt_send_evt_msg 
 
 Miss_funcptr: hci_ble_rx_acl_data ... 
-Remarks_here: 0x311c5e hci_ble_rx_acl_data 
+Remarks_here: 0x311cce hci_ble_rx_acl_data 
 
 Miss_funcptr: ahib_mpc_scan_stream ... 
-Remarks_here: 0x312978 ahib_mpc_scan_stream 
+Remarks_here: 0x3129e8 ahib_mpc_scan_stream 
 
 Miss_funcptr: bt_acore_task_fmk_free_property ... 
-Remarks_here: 0x3150a4 bt_acore_task_fmk_free_property 
+Remarks_here: 0x315114 bt_acore_task_fmk_free_property 
 
 Miss_funcptr: btsdk_load_transport_layer ... 
-Remarks_here: 0x329f7c btsdk_load_transport_layer 
+Remarks_here: 0x329fec btsdk_load_transport_layer 
 
 Miss_funcptr: fsm_event_func_external ... 
-Remarks_here: 0x31459a fsm_event_func_external 
+Remarks_here: 0x31460a fsm_event_func_external 
 
 Miss_funcptr: ble_gap_internal_cbk ... 
-Remarks_here: 0x341ece ble_gap_internal_cbk 
+Remarks_here: 0x341f3e ble_gap_internal_cbk 
 
 Miss_funcptr: hci_tl_reg ... 
-Remarks_here: 0x322e22 hci_tl_reg 
+Remarks_here: 0x322e92 hci_tl_reg 
 
 Miss_funcptr: gle_manager_exter_cbk ... 
-Remarks_here: 0x332e40 gle_manager_exter_cbk 
+Remarks_here: 0x332eb0 gle_manager_exter_cbk 
 
 Miss_funcptr: gle_aa_get_cfm_cbk_proc ... 
-Remarks_here: 0x32f4c0 gle_aa_get_cfm_cbk_proc 
+Remarks_here: 0x32f530 gle_aa_get_cfm_cbk_proc 
 
 Miss_funcptr: btsrv_handle_task_msg ... 
-Remarks_here: 0x313d2a btsrv_handle_task_msg 
+Remarks_here: 0x313d9a btsrv_handle_task_msg 
 
 Miss_funcptr: fsm_q_buf_done ... 
-Remarks_here: 0x31416e fsm_q_buf_done 
+Remarks_here: 0x3141de fsm_q_buf_done 
 
 Miss_funcptr: schedule_loop ... 
-Remarks_here: 0x3143c4 schedule_loop 
+Remarks_here: 0x314434 schedule_loop 
 
 Miss_funcptr: fsm_direct_event ... 
-Remarks_here: 0x31461c fsm_direct_event 
+Remarks_here: 0x31468c fsm_direct_event 
 
 Miss_funcptr: timer_expire_in_sch_lite ... 
-Remarks_here: 0x31463c timer_expire_in_sch_lite 
+Remarks_here: 0x3146ac timer_expire_in_sch_lite 
 
 Miss_funcptr: timer_expire_in_sch_lite ... 
-Remarks_here: 0x31463c timer_expire_in_sch_lite 
+Remarks_here: 0x3146ac timer_expire_in_sch_lite 
 
 Miss_funcptr: gdk_msg_loop ... 
-Remarks_here: 0x31496e gdk_msg_loop 
+Remarks_here: 0x3149de gdk_msg_loop 
 
 Miss_funcptr: bt_acore_tran_task_rx_process_pkt ... 
-Remarks_here: 0x314fa2 bt_acore_tran_task_rx_process_pkt 
+Remarks_here: 0x315012 bt_acore_tran_task_rx_process_pkt 
 
 Miss_funcptr: bt_mpc_check_notify_dev_info_state ... 
-Remarks_here: 0x31adb4 bt_mpc_check_notify_dev_info_state 
+Remarks_here: 0x31ae24 bt_mpc_check_notify_dev_info_state 
 
 Miss_funcptr: gatt_event_cbk ... 
-Remarks_here: 0x3164c6 gatt_event_cbk 
+Remarks_here: 0x316536 gatt_event_cbk 
 
 Miss_funcptr: att_recv_cfm ... 
-Remarks_here: 0x31926c att_recv_cfm 
+Remarks_here: 0x3192dc att_recv_cfm 
 
 Miss_funcptr: att_recv_cfm ... 
-Remarks_here: 0x31926c att_recv_cfm 
+Remarks_here: 0x3192dc att_recv_cfm 
 
 Miss_funcptr: gatt_error_cfm ... 
-Remarks_here: 0x316eee gatt_error_cfm 
+Remarks_here: 0x316f5e gatt_error_cfm 
 
 Miss_funcptr: gatt_task_send ... 
-Remarks_here: 0x316a0a gatt_task_send 
+Remarks_here: 0x316a7a gatt_task_send 
 
 Miss_funcptr: gatt_task_more_handles ... 
-Remarks_here: 0x316fc4 gatt_task_more_handles 
+Remarks_here: 0x317034 gatt_task_more_handles 
 
 Miss_funcptr: att_read_cfm ... 
-Remarks_here: 0x318736 att_read_cfm 
+Remarks_here: 0x3187a6 att_read_cfm 
 
 Miss_funcptr: att_recv_ind ... 
-Remarks_here: 0x3193a0 att_recv_ind 
+Remarks_here: 0x319410 att_recv_ind 
 
 Miss_funcptr: hci_cbk_traverse ... 
-Remarks_here: 0x3204b6 hci_cbk_traverse 
+Remarks_here: 0x320526 hci_cbk_traverse 
 
 Miss_funcptr: hci_cbk_traverse ... 
-Remarks_here: 0x3204b6 hci_cbk_traverse 
+Remarks_here: 0x320526 hci_cbk_traverse 
 
 Miss_funcptr: hci_command_remove ... 
-Remarks_here: 0x31e760 hci_command_remove 
+Remarks_here: 0x31e7d0 hci_command_remove 
 
 Miss_funcptr: list_qos_cbk ... 
-Remarks_here: 0x322984 list_qos_cbk 
+Remarks_here: 0x3229f4 list_qos_cbk 
 
 Miss_funcptr: le_isa_check_adv ... 
-Remarks_here: 0x3213e0 le_isa_check_adv 
+Remarks_here: 0x321450 le_isa_check_adv 
 
 Miss_funcptr: le_local_set_own_addr ... 
-Remarks_here: 0x3211fc le_local_set_own_addr 
+Remarks_here: 0x32126c le_local_set_own_addr 
 
 Miss_funcptr: le_isa_go_idle ... 
-Remarks_here: 0x321186 le_isa_go_idle 
+Remarks_here: 0x3211f6 le_isa_go_idle 
 
 Miss_funcptr: le_isa_check_scan ... 
-Remarks_here: 0x321344 le_isa_check_scan 
+Remarks_here: 0x3213b4 le_isa_check_scan 
 
 Miss_funcptr: gap_pair_devicea ... 
-Remarks_here: 0x31dbd6 gap_pair_devicea 
+Remarks_here: 0x31dc46 gap_pair_devicea 
 
 Miss_funcptr: app_ble_message_handle ... 
-Remarks_here: 0x31a3f8 app_ble_message_handle 
+Remarks_here: 0x31a468 app_ble_message_handle 
 
 Miss_funcptr: app_ble_message_handle ... 
-Remarks_here: 0x31a3f8 app_ble_message_handle 
+Remarks_here: 0x31a468 app_ble_message_handle 
 
 Miss_funcptr: ble_hid_init ... 
-Remarks_here: 0x31ad6a ble_hid_init 
+Remarks_here: 0x31adda ble_hid_init 
 
 Miss_funcptr: gap_execute_commanda ... 
-Remarks_here: 0x31db50 gap_execute_commanda 
+Remarks_here: 0x31dbc0 gap_execute_commanda 
 
 Miss_funcptr: ble_hid_key_send ... 
-Remarks_here: 0x31ac92 ble_hid_key_send 
+Remarks_here: 0x31ad02 ble_hid_key_send 
 
 Miss_funcptr: gaph_complete_task ... 
-Remarks_here: 0x31aef0 gaph_complete_task 
+Remarks_here: 0x31af60 gaph_complete_task 
 
 Miss_funcptr: gaph_execute_command_cfm_cbk ... 
-Remarks_here: 0x31b1c8 gaph_execute_command_cfm_cbk 
+Remarks_here: 0x31b238 gaph_execute_command_cfm_cbk 
 
 Miss_funcptr: hci_controller_config_create_le_nodes_two ... 
-Remarks_here: 0x323044 hci_controller_config_create_le_nodes_two 
+Remarks_here: 0x3230b4 hci_controller_config_create_le_nodes_two 
 
 Miss_funcptr: gaph_cbk ... 
-Remarks_here: 0x31b7f0 gaph_cbk 
+Remarks_here: 0x31b860 gaph_cbk 
 
 Miss_funcptr: gaph_le_mgr_complete ... 
-Remarks_here: 0x31c698 gaph_le_mgr_complete 
+Remarks_here: 0x31c708 gaph_le_mgr_complete 
 
 Miss_funcptr: gaph_le_mgr_complete ... 
-Remarks_here: 0x31c698 gaph_le_mgr_complete 
+Remarks_here: 0x31c708 gaph_le_mgr_complete 
 
 Miss_funcptr: gaph_le_mgr_execute ... 
-Remarks_here: 0x31ce98 gaph_le_mgr_execute 
+Remarks_here: 0x31cf08 gaph_le_mgr_execute 
 
 Miss_funcptr: gaph_smp_cbk ... 
-Remarks_here: 0x31bd30 gaph_smp_cbk 
+Remarks_here: 0x31bda0 gaph_smp_cbk 
 
 Miss_funcptr: gaph_le_mgr_free_adv_set_item ... 
-Remarks_here: 0x31bea0 gaph_le_mgr_free_adv_set_item 
+Remarks_here: 0x31bf10 gaph_le_mgr_free_adv_set_item 
 
 Miss_funcptr: gaph_le_mgr_adv_param_set ... 
-Remarks_here: 0x31bef2 gaph_le_mgr_adv_param_set 
+Remarks_here: 0x31bf62 gaph_le_mgr_adv_param_set 
 
 Miss_funcptr: gaph_le_mgr_op_adv_state_report ... 
-Remarks_here: 0x31bf3a gaph_le_mgr_op_adv_state_report 
+Remarks_here: 0x31bfaa gaph_le_mgr_op_adv_state_report 
 
 Miss_funcptr: gaph_le_mgr_set_scan_param_cfm ... 
-Remarks_here: 0x31bfb6 gaph_le_mgr_set_scan_param_cfm 
+Remarks_here: 0x31c026 gaph_le_mgr_set_scan_param_cfm 
 
 Miss_funcptr: gaph_le_mgr_adv_report_ind ... 
-Remarks_here: 0x31c01a gaph_le_mgr_adv_report_ind 
+Remarks_here: 0x31c08a gaph_le_mgr_adv_report_ind 
 
 Miss_funcptr: gaph_le_mgr_ext_adv_report_ind ... 
-Remarks_here: 0x31c0f0 gaph_le_mgr_ext_adv_report_ind 
+Remarks_here: 0x31c160 gaph_le_mgr_ext_adv_report_ind 
 
 Miss_funcptr: gaph_le_mgr_scan_req_received_ind ... 
-Remarks_here: 0x31c1e2 gaph_le_mgr_scan_req_received_ind 
+Remarks_here: 0x31c252 gaph_le_mgr_scan_req_received_ind 
 
 Miss_funcptr: gaph_le_mgr_set_ext_adv_check_data_size ... 
-Remarks_here: 0x31c98a gaph_le_mgr_set_ext_adv_check_data_size 
+Remarks_here: 0x31c9fa gaph_le_mgr_set_ext_adv_check_data_size 
 
 Miss_funcptr: gaph_le_mgr_set_legacy_adv_go ... 
-Remarks_here: 0x31cb50 gaph_le_mgr_set_legacy_adv_go 
+Remarks_here: 0x31cbc0 gaph_le_mgr_set_legacy_adv_go 
 
 Miss_funcptr: gaph_le_mgr_op_set_scan_cfm ... 
-Remarks_here: 0x31cf5c gaph_le_mgr_op_set_scan_cfm 
+Remarks_here: 0x31cfcc gaph_le_mgr_op_set_scan_cfm 
 
 Miss_funcptr: gaph_le_mgr_legacy_set_data_cfm ... 
-Remarks_here: 0x31d050 gaph_le_mgr_legacy_set_data_cfm 
+Remarks_here: 0x31d0c0 gaph_le_mgr_legacy_set_data_cfm 
 
 Miss_funcptr: gaph_le_mgr_set_ext_adv_enable_cfm ... 
-Remarks_here: 0x31d0a8 gaph_le_mgr_set_ext_adv_enable_cfm 
+Remarks_here: 0x31d118 gaph_le_mgr_set_ext_adv_enable_cfm 
 
 Miss_funcptr: gaph_le_mgr_set_ext_adv_param_cfm ... 
-Remarks_here: 0x31d150 gaph_le_mgr_set_ext_adv_param_cfm 
+Remarks_here: 0x31d1c0 gaph_le_mgr_set_ext_adv_param_cfm 
 
 Miss_funcptr: gaph_le_mgr_set_ext_data_go ... 
-Remarks_here: 0x31d25a gaph_le_mgr_set_ext_data_go 
+Remarks_here: 0x31d2ca gaph_le_mgr_set_ext_data_go 
 
 Miss_funcptr: gaph_le_mgr_adv_set_terminated_ind ... 
-Remarks_here: 0x31d6e4 gaph_le_mgr_adv_set_terminated_ind 
+Remarks_here: 0x31d754 gaph_le_mgr_adv_set_terminated_ind 
 
 Miss_funcptr: gap_vendor_commanda ... 
-Remarks_here: 0x31dc1c gap_vendor_commanda 
+Remarks_here: 0x31dc8c gap_vendor_commanda 
 
 Miss_funcptr: hcic_commandl2_input ... 
-Remarks_here: 0x31e9a8 hcic_commandl2_input 
+Remarks_here: 0x31ea18 hcic_commandl2_input 
 
 Miss_funcptr: hcic_tl_reg ... 
-Remarks_here: 0x31ea1e hcic_tl_reg 
+Remarks_here: 0x31ea8e hcic_tl_reg 
 
 Miss_funcptr: hci_local_remove ... 
-Remarks_here: 0x3206be hci_local_remove 
+Remarks_here: 0x32072e hci_local_remove 
 
 Miss_funcptr: hci_local_remove_one ... 
-Remarks_here: 0x320618 hci_local_remove_one 
+Remarks_here: 0x320688 hci_local_remove_one 
 
 Miss_funcptr: hci_stream_to_struct_by_index ... 
-Remarks_here: 0x32cb50 hci_stream_to_struct_by_index 
+Remarks_here: 0x32cbc0 hci_stream_to_struct_by_index 
 
 Miss_funcptr: hci_stream_to_struct_part1 ... 
-Remarks_here: 0x32c9f6 hci_stream_to_struct_part1 
+Remarks_here: 0x32ca66 hci_stream_to_struct_part1 
 
 Miss_funcptr: bth_hci_acl_data_recombination ... 
-Remarks_here: 0x31f358 bth_hci_acl_data_recombination 
+Remarks_here: 0x31f3c8 bth_hci_acl_data_recombination 
 
 Miss_funcptr: bth_hci_acl_data_recv ... 
-Remarks_here: 0x31f43a bth_hci_acl_data_recv 
+Remarks_here: 0x31f4aa bth_hci_acl_data_recv 
 
 Miss_funcptr: hci_op_read_buffer_size_rom ... 
-Remarks_here: 0x31f7ac hci_op_read_buffer_size_rom 
+Remarks_here: 0x31f81c hci_op_read_buffer_size_rom 
 
 Miss_funcptr: hci_cmd_cmplete_stream_to_struct_part2 ... 
-Remarks_here: 0x32cd34 hci_cmd_cmplete_stream_to_struct_part2 
+Remarks_here: 0x32cda4 hci_cmd_cmplete_stream_to_struct_part2 
 
 Miss_funcptr: hcic_local_rtx ... 
-Remarks_here: 0x320174 hcic_local_rtx 
+Remarks_here: 0x3201e4 hcic_local_rtx 
 
 Miss_funcptr: le_resolving_list_add_reserv ... 
-Remarks_here: 0x3216a0 le_resolving_list_add_reserv 
+Remarks_here: 0x321710 le_resolving_list_add_reserv 
 
 Miss_funcptr: l2cap_event_cbk ... 
-Remarks_here: 0x323f7a l2cap_event_cbk 
+Remarks_here: 0x323fea l2cap_event_cbk 
 
 Miss_funcptr: l2cap_cid_done ... 
-Remarks_here: 0x323a04 l2cap_cid_done 
+Remarks_here: 0x323a74 l2cap_cid_done 
 
 Miss_funcptr: l2cap_acl_dispatch_ci_ds ... 
-Remarks_here: 0x323d06 l2cap_acl_dispatch_ci_ds 
+Remarks_here: 0x323d76 l2cap_acl_dispatch_ci_ds 
 
 Miss_funcptr: l2cap_security_smp_check_result ... 
-Remarks_here: 0x324992 l2cap_security_smp_check_result 
+Remarks_here: 0x324a02 l2cap_security_smp_check_result 
 
 Miss_funcptr: l2capc_data_recv ... 
-Remarks_here: 0x324762 l2capc_data_recv 
+Remarks_here: 0x3247d2 l2capc_data_recv 
 
 Miss_funcptr: l2cap_signal_recv ... 
-Remarks_here: 0x324f0c l2cap_signal_recv 
+Remarks_here: 0x324f7c l2cap_signal_recv 
 
 Miss_funcptr: l2cap_signal_recv ... 
-Remarks_here: 0x324f0c l2cap_signal_recv 
+Remarks_here: 0x324f7c l2cap_signal_recv 
 
 Miss_funcptr: ble_gatt_server_event_handle ... 
-Remarks_here: 0x341fc0 ble_gatt_server_event_handle 
+Remarks_here: 0x342030 ble_gatt_server_event_handle 
 
 Miss_funcptr: ble_gatt_client_event_handle ... 
-Remarks_here: 0x3421a8 ble_gatt_client_event_handle 
+Remarks_here: 0x342218 ble_gatt_client_event_handle 
 
 Miss_funcptr: ble_gatt_client_call_back_func ... 
-Remarks_here: 0x325ee4 ble_gatt_client_call_back_func 
+Remarks_here: 0x325f54 ble_gatt_client_call_back_func 
 
 Miss_funcptr: ble_gatt_client_call_back_func ... 
-Remarks_here: 0x325ee4 ble_gatt_client_call_back_func 
+Remarks_here: 0x325f54 ble_gatt_client_call_back_func 
 
 Miss_funcptr: ble_hci_internal_cbk ... 
-Remarks_here: 0x3422de ble_hci_internal_cbk 
+Remarks_here: 0x34234e ble_hci_internal_cbk 
 
 Miss_funcptr: ble_general_hci_data_process.constprop.1 ... 
-Remarks_here: 0x326ab2 ble_general_hci_data_process.constprop.1 
+Remarks_here: 0x326b22 ble_general_hci_data_process.constprop.1 
 
 Miss_funcptr: sapi_ble_hci_general ... 
-Remarks_here: 0x326b3c sapi_ble_hci_general 
+Remarks_here: 0x326bac sapi_ble_hci_general 
 
 Miss_funcptr: btsdk_gatth_call_upper ... 
-Remarks_here: 0x327f92 btsdk_gatth_call_upper 
+Remarks_here: 0x328002 btsdk_gatth_call_upper 
 
 Miss_funcptr: bt_sdk_gatt_task_complete_handle ... 
-Remarks_here: 0x328434 bt_sdk_gatt_task_complete_handle 
+Remarks_here: 0x3284a4 bt_sdk_gatt_task_complete_handle 
 
 Miss_funcptr: btsdk_gatth_callback ... 
-Remarks_here: 0x32848c btsdk_gatth_callback 
+Remarks_here: 0x3284fc btsdk_gatth_callback 
 
 Miss_funcptr: btsdk_gatth_server_reg_tree_cfm ... 
-Remarks_here: 0x328a96 btsdk_gatth_server_reg_tree_cfm 
+Remarks_here: 0x328b06 btsdk_gatth_server_reg_tree_cfm 
 
 Miss_funcptr: btsdk_gatth_server_app_execute_write_cbk ... 
-Remarks_here: 0x328cc4 btsdk_gatth_server_app_execute_write_cbk 
+Remarks_here: 0x328d34 btsdk_gatth_server_app_execute_write_cbk 
 
 Miss_funcptr: btsdk_gatth_server_read_ind ... 
-Remarks_here: 0x328cf2 btsdk_gatth_server_read_ind 
+Remarks_here: 0x328d62 btsdk_gatth_server_read_ind 
 
 Miss_funcptr: btsdk_gatth_server_write_ind ... 
-Remarks_here: 0x328d7a btsdk_gatth_server_write_ind 
+Remarks_here: 0x328dea btsdk_gatth_server_write_ind 
 
 Miss_funcptr: btsdk_gatth_send_response ... 
-Remarks_here: 0x3291b4 btsdk_gatth_send_response 
+Remarks_here: 0x329224 btsdk_gatth_send_response 
 
 Miss_funcptr: btsdk_gatth_server_callback ... 
-Remarks_here: 0x32942c btsdk_gatth_server_callback 
+Remarks_here: 0x32949c btsdk_gatth_server_callback 
 
 Miss_funcptr: btsdk_gatth_server_callback ... 
-Remarks_here: 0x32942c btsdk_gatth_server_callback 
+Remarks_here: 0x32949c btsdk_gatth_server_callback 
 
 Miss_funcptr: sdk_msg_thread ... 
-Remarks_here: 0x32972e sdk_msg_thread 
+Remarks_here: 0x32979e sdk_msg_thread 
 
 Miss_funcptr: sdk_msg_thread ... 
-Remarks_here: 0x32972e sdk_msg_thread 
+Remarks_here: 0x32979e sdk_msg_thread 
 
 Miss_funcptr: hlp_vendor_event_ind ... 
-Remarks_here: 0x329968 hlp_vendor_event_ind 
+Remarks_here: 0x3299d8 hlp_vendor_event_ind 
 
 Miss_funcptr: hlp_call_upper ... 
-Remarks_here: 0x329992 hlp_call_upper 
+Remarks_here: 0x329a02 hlp_call_upper 
 
 Miss_funcptr: hlp_call_upper ... 
-Remarks_here: 0x329992 hlp_call_upper 
+Remarks_here: 0x329a02 hlp_call_upper 
 
 Miss_funcptr: hlp_call_upper ... 
-Remarks_here: 0x329992 hlp_call_upper 
+Remarks_here: 0x329a02 hlp_call_upper 
 
 Miss_funcptr: hlp_call_upper ... 
-Remarks_here: 0x329992 hlp_call_upper 
+Remarks_here: 0x329a02 hlp_call_upper 
 
 Miss_funcptr: hlp_call_upper ... 
-Remarks_here: 0x329992 hlp_call_upper 
+Remarks_here: 0x329a02 hlp_call_upper 
 
 Miss_funcptr: hlp_call_upper ... 
-Remarks_here: 0x329992 hlp_call_upper 
+Remarks_here: 0x329a02 hlp_call_upper 
+
+Miss_funcptr: hlp_call_upper ... 
+Remarks_here: 0x329a02 hlp_call_upper 
+
+Miss_funcptr: hlp_call_upper ... 
+Remarks_here: 0x329a02 hlp_call_upper 
+
+Miss_funcptr: hlp_call_upper ... 
+Remarks_here: 0x329a02 hlp_call_upper 
+
+Miss_funcptr: hlp_call_upper ... 
+Remarks_here: 0x329a02 hlp_call_upper 
+
+Miss_funcptr: hlp_call_upper ... 
+Remarks_here: 0x329a02 hlp_call_upper 
+
+Miss_funcptr: hlp_call_upper ... 
+Remarks_here: 0x329a02 hlp_call_upper 
+
+Miss_funcptr: hlp_call_upper ... 
+Remarks_here: 0x329a02 hlp_call_upper 
 
 Miss_funcptr: smp_cbk ... 
-Remarks_here: 0x32a2b8 smp_cbk 
+Remarks_here: 0x32a328 smp_cbk 
 
 Miss_funcptr: smpc_data_ind_event_do ... 
-Remarks_here: 0x32c140 smpc_data_ind_event_do 
+Remarks_here: 0x32c1b0 smpc_data_ind_event_do 
 
 Miss_funcptr: smpc_data_ind_event_do ... 
-Remarks_here: 0x32c140 smpc_data_ind_event_do 
+Remarks_here: 0x32c1b0 smpc_data_ind_event_do 
 
 Miss_funcptr: recv_data_task ... 
-Remarks_here: 0x32d2b4 recv_data_task 
+Remarks_here: 0x32d324 recv_data_task 
 
 Miss_funcptr: recv_data_task ... 
-Remarks_here: 0x32d2b4 recv_data_task 
+Remarks_here: 0x32d324 recv_data_task 
 
 Miss_funcptr: cs_pdu_tl_send ... 
-Remarks_here: 0x32d38c cs_pdu_tl_send 
+Remarks_here: 0x32d3fc cs_pdu_tl_send 
 
 Miss_funcptr: cs_event_cbk ... 
-Remarks_here: 0x32d896 cs_event_cbk 
+Remarks_here: 0x32d906 cs_event_cbk 
 
 Miss_funcptr: cs_task_send ... 
-Remarks_here: 0x32e088 cs_task_send 
+Remarks_here: 0x32e0f8 cs_task_send 
 
 Miss_funcptr: gle_tm_exter_cbk ... 
-Remarks_here: 0x338f88 gle_tm_exter_cbk 
+Remarks_here: 0x338ff8 gle_tm_exter_cbk 
 
 Miss_funcptr: gle_dm_trans_lcid_dispatch_tcids ... 
-Remarks_here: 0x331a62 gle_dm_trans_lcid_dispatch_tcids 
+Remarks_here: 0x331ad2 gle_dm_trans_lcid_dispatch_tcids 
 
 Miss_funcptr: gle_hci_command_clear ... 
-Remarks_here: 0x331f34 gle_hci_command_clear 
+Remarks_here: 0x331fa4 gle_hci_command_clear 
 
 Miss_funcptr: gle_cm_exter_cbk ... 
-Remarks_here: 0x32faec gle_cm_exter_cbk 
+Remarks_here: 0x32fb5c gle_cm_exter_cbk 
 
 Miss_funcptr: gle_cm_exter_cbk ... 
-Remarks_here: 0x32faec gle_cm_exter_cbk 
+Remarks_here: 0x32fb5c gle_cm_exter_cbk 
 
 Miss_funcptr: gle_dd_exter_cbk ... 
-Remarks_here: 0x330a20 gle_dd_exter_cbk 
+Remarks_here: 0x330a90 gle_dd_exter_cbk 
 
 Miss_funcptr: gle_dd_exter_cbk ... 
-Remarks_here: 0x330a20 gle_dd_exter_cbk 
+Remarks_here: 0x330a90 gle_dd_exter_cbk 
 
 Miss_funcptr: gle_dd_exter_cbk ... 
-Remarks_here: 0x330a20 gle_dd_exter_cbk 
+Remarks_here: 0x330a90 gle_dd_exter_cbk 
 
 Miss_funcptr: gle_hci_command_remove ... 
-Remarks_here: 0x331de2 gle_hci_command_remove 
+Remarks_here: 0x331e52 gle_hci_command_remove 
 
 Miss_funcptr: gle_hci_cbk_traverse ... 
-Remarks_here: 0x33256e gle_hci_cbk_traverse 
+Remarks_here: 0x3325de gle_hci_cbk_traverse 
 
 Miss_funcptr: gle_hci_acb_data_recv ... 
-Remarks_here: 0x332264 gle_hci_acb_data_recv 
+Remarks_here: 0x3322d4 gle_hci_acb_data_recv 
 
 Miss_funcptr: gle_general_command_proc_dispatch_core ... 
-Remarks_here: 0x3331a2 gle_general_command_proc_dispatch_core 
+Remarks_here: 0x333212 gle_general_command_proc_dispatch_core 
 
 Miss_funcptr: gle_sm_exter_cbk ... 
-Remarks_here: 0x333bc4 gle_sm_exter_cbk 
+Remarks_here: 0x333c34 gle_sm_exter_cbk 
 
 Miss_funcptr: gle_sm_pairing_commom_sdu ... 
-Remarks_here: 0x3341e4 gle_sm_pairing_commom_sdu 
+Remarks_here: 0x334254 gle_sm_pairing_commom_sdu 
 
 Miss_funcptr: gle_sm_paring_procedure ... 
-Remarks_here: 0x334678 gle_sm_paring_procedure 
+Remarks_here: 0x3346e8 gle_sm_paring_procedure 
 
 Miss_funcptr: ssapc_value_cbk_handle ... 
-Remarks_here: 0x335444 ssapc_value_cbk_handle 
+Remarks_here: 0x3354b4 ssapc_value_cbk_handle 
 
 Miss_funcptr: ssapc_write_req_task_send ... 
-Remarks_here: 0x335640 ssapc_write_req_task_send 
+Remarks_here: 0x3356b0 ssapc_write_req_task_send 
 
 Miss_funcptr: ssapc_task_event_callback ... 
-Remarks_here: 0x33573a ssapc_task_event_callback 
+Remarks_here: 0x3357aa ssapc_task_event_callback 
 
 Miss_funcptr: ssap_recv_data_ind_cbk ... 
-Remarks_here: 0x337488 ssap_recv_data_ind_cbk 
+Remarks_here: 0x3374f8 ssap_recv_data_ind_cbk 
 
 Miss_funcptr: ssap_recv_data_ind_cbk ... 
-Remarks_here: 0x337488 ssap_recv_data_ind_cbk 
+Remarks_here: 0x3374f8 ssap_recv_data_ind_cbk 
 
 Miss_funcptr: ssaps_event_callback_handler ... 
-Remarks_here: 0x337bf6 ssaps_event_callback_handler 
+Remarks_here: 0x337c66 ssaps_event_callback_handler 
 
 Miss_funcptr: ssaps_start_service_handle ... 
-Remarks_here: 0x337ada ssaps_start_service_handle 
+Remarks_here: 0x337b4a ssaps_start_service_handle 
 
 Miss_funcptr: ssaps_find_hdl_by_uuid_handle ... 
-Remarks_here: 0x337b58 ssaps_find_hdl_by_uuid_handle 
+Remarks_here: 0x337bc8 ssaps_find_hdl_by_uuid_handle 
 
 Miss_funcptr: ssaps_write_req_cbk_handle ... 
-Remarks_here: 0x337b76 ssaps_write_req_cbk_handle 
+Remarks_here: 0x337be6 ssaps_write_req_cbk_handle 
 
 Miss_funcptr: ssaps_read_req_cbk_handle ... 
-Remarks_here: 0x337b94 ssaps_read_req_cbk_handle 
+Remarks_here: 0x337c04 ssaps_read_req_cbk_handle 
 
 Miss_funcptr: ssaps_update_value_cbk_handle ... 
-Remarks_here: 0x337bb2 ssaps_update_value_cbk_handle 
+Remarks_here: 0x337c22 ssaps_update_value_cbk_handle 
 
 Miss_funcptr: ssaps_mtu_req_cbk_handle ... 
-Remarks_here: 0x337bd0 ssaps_mtu_req_cbk_handle 
+Remarks_here: 0x337c40 ssaps_mtu_req_cbk_handle 
 
 Miss_funcptr: gle_tm_data_recv_core ... 
-Remarks_here: 0x338e5a gle_tm_data_recv_core 
+Remarks_here: 0x338eca gle_tm_data_recv_core 
 
 Miss_funcptr: tm_recv_data_ind_dispatch ... 
-Remarks_here: 0x33938a tm_recv_data_ind_dispatch 
+Remarks_here: 0x3393fa tm_recv_data_ind_dispatch 
 
 Miss_funcptr: sapi_ssaps_add_service ... 
-Remarks_here: 0x339c1c sapi_ssaps_add_service 
+Remarks_here: 0x339c8c sapi_ssaps_add_service 
 
 Miss_funcptr: sapi_ssaps_add_property ... 
-Remarks_here: 0x339d1c sapi_ssaps_add_property 
+Remarks_here: 0x339d8c sapi_ssaps_add_property 
 
 Miss_funcptr: sapi_ssaps_add_property_desc ... 
-Remarks_here: 0x339e1a sapi_ssaps_add_property_desc 
+Remarks_here: 0x339e8a sapi_ssaps_add_property_desc 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c814 btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c884 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c814 btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c884 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c814 btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c884 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c814 btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c884 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c814 btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c884 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_handle_sle_connection_msg ... 
-Remarks_here: 0x33c814 btsrv_handle_sle_connection_msg 
+Remarks_here: 0x33c884 btsrv_handle_sle_connection_msg 
 
 Miss_funcptr: btsrv_sle_adv_cbk ... 
-Remarks_here: 0x33d564 btsrv_sle_adv_cbk 
+Remarks_here: 0x33d5d4 btsrv_sle_adv_cbk 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6a0 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d710 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6a0 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d710 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6a0 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d710 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: btsrv_handle_sle_device_discovery_msg ... 
-Remarks_here: 0x33d6a0 btsrv_handle_sle_device_discovery_msg 
+Remarks_here: 0x33d710 btsrv_handle_sle_device_discovery_msg 
 
 Miss_funcptr: sle_ota_receive_data ... 
-Remarks_here: 0x33e572 sle_ota_receive_data 
+Remarks_here: 0x33e5e2 sle_ota_receive_data 
 
 Miss_funcptr: btsrv_handle_sle_factory_msg ... 
-Remarks_here: 0x33e678 btsrv_handle_sle_factory_msg 
+Remarks_here: 0x33e6e8 btsrv_handle_sle_factory_msg 
 
 Miss_funcptr: btsrv_handle_sle_ssap_client_msg ... 
-Remarks_here: 0x33eb14 btsrv_handle_sle_ssap_client_msg 
+Remarks_here: 0x33eb84 btsrv_handle_sle_ssap_client_msg 
 
 Miss_funcptr: btsrv_handle_sle_ssap_client_msg ... 
-Remarks_here: 0x33eb14 btsrv_handle_sle_ssap_client_msg 
+Remarks_here: 0x33eb84 btsrv_handle_sle_ssap_client_msg 
 
 Miss_funcptr: ssapc_internal_value_handle_cbk ... 
-Remarks_here: 0x33eeb8 ssapc_internal_value_handle_cbk 
+Remarks_here: 0x33ef28 ssapc_internal_value_handle_cbk 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x340582 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3405f2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x340582 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3405f2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x340582 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3405f2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x340582 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3405f2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x340582 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3405f2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_ssaps_msg ... 
-Remarks_here: 0x340582 btsrv_handle_ssaps_msg 
+Remarks_here: 0x3405f2 btsrv_handle_ssaps_msg 
 
 Miss_funcptr: btsrv_handle_sle_transmission_msg ... 
-Remarks_here: 0x340c2e btsrv_handle_sle_transmission_msg 
+Remarks_here: 0x340c9e btsrv_handle_sle_transmission_msg 
 
 Miss_funcptr: gle_mgr_general_evt_handle ... 
-Remarks_here: 0x34110e gle_mgr_general_evt_handle 
+Remarks_here: 0x34117e gle_mgr_general_evt_handle 
 
 Miss_funcptr: ble_connect_svr_proc ... 
-Remarks_here: 0x341bec ble_connect_svr_proc 
+Remarks_here: 0x341c5c ble_connect_svr_proc 
 
 Miss_funcptr: mc_bt_manager_transparent ... 
-Remarks_here: 0x341c80 mc_bt_manager_transparent 
+Remarks_here: 0x341cf0 mc_bt_manager_transparent 
 
 Miss_funcptr: bt_manager_svr_proc ... 
-Remarks_here: 0x341cb2 bt_manager_svr_proc 
+Remarks_here: 0x341d22 bt_manager_svr_proc 
 
 Miss_funcptr: ble_l2cap_general_ind ... 
-Remarks_here: 0x34242c ble_l2cap_general_ind 
+Remarks_here: 0x34249c ble_l2cap_general_ind 
 
 Miss_funcptr: test_ble_factory_vendor_pdl_cmd_complete ... 
-Remarks_here: 0x342cb0 test_ble_factory_vendor_pdl_cmd_complete 
+Remarks_here: 0x342d20 test_ble_factory_vendor_pdl_cmd_complete 
 
 Miss_funcptr: test_ble_factory_vendor_pdl_cmd_complete ... 
-Remarks_here: 0x342cb0 test_ble_factory_vendor_pdl_cmd_complete 
+Remarks_here: 0x342d20 test_ble_factory_vendor_pdl_cmd_complete 
 
 Miss_funcptr: test_ble_factory_vendor_pdl_cmd_complete ... 
-Remarks_here: 0x342cb0 test_ble_factory_vendor_pdl_cmd_complete 
+Remarks_here: 0x342d20 test_ble_factory_vendor_pdl_cmd_complete 
 
 Miss_funcptr: ble_at_link_common ... 
-Remarks_here: 0x3448f6 ble_at_link_common 
+Remarks_here: 0x344966 ble_at_link_common 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346a2a btsrv_handle_gatt_client_msg 
+Remarks_here: 0x346a9a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346a2a btsrv_handle_gatt_client_msg 
+Remarks_here: 0x346a9a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346a2a btsrv_handle_gatt_client_msg 
+Remarks_here: 0x346a9a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346a2a btsrv_handle_gatt_client_msg 
+Remarks_here: 0x346a9a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346a2a btsrv_handle_gatt_client_msg 
+Remarks_here: 0x346a9a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_client_msg ... 
-Remarks_here: 0x346a2a btsrv_handle_gatt_client_msg 
+Remarks_here: 0x346a9a btsrv_handle_gatt_client_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: btsrv_handle_gatt_server_msg ... 
-Remarks_here: 0x347da6 btsrv_handle_gatt_server_msg 
+Remarks_here: 0x347e16 btsrv_handle_gatt_server_msg 
 
 Miss_funcptr: ble_factory_evt_proc ... 
-Remarks_here: 0x348f1c ble_factory_evt_proc 
+Remarks_here: 0x348f8c ble_factory_evt_proc 
 
 Miss_funcptr: btsrv_handle_hci_factory_msg ... 
-Remarks_here: 0x34903e btsrv_handle_hci_factory_msg 
+Remarks_here: 0x3490ae btsrv_handle_hci_factory_msg 
 
 Miss_funcptr: btsrv_handle_hci_factory_msg ... 
-Remarks_here: 0x34903e btsrv_handle_hci_factory_msg 
+Remarks_here: 0x3490ae btsrv_handle_hci_factory_msg 
 
 Miss_funcptr: btsrv_handle_hci_factory_msg ... 
-Remarks_here: 0x34903e btsrv_handle_hci_factory_msg 
-
-Miss_funcptr: btsrv_handle_hci_factory_msg ... 
-Remarks_here: 0x34903e btsrv_handle_hci_factory_msg 
+Remarks_here: 0x3490ae btsrv_handle_hci_factory_msg 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: btsrv_handle_local_manager_msg_ble ... 
-Remarks_here: 0x349baa btsrv_handle_local_manager_msg_ble 
+Remarks_here: 0x349c1a btsrv_handle_local_manager_msg_ble 
 
 Miss_funcptr: radar_fft_complex ... 
-Remarks_here: 0x34eb28 radar_fft_complex 
+Remarks_here: 0x34ed30 radar_fft_complex 
 
 Miss_funcptr: radar_hal_pc_proc ... 
-Remarks_here: 0x34b6b6 radar_hal_pc_proc 
+Remarks_here: 0x34b8be radar_hal_pc_proc 
 
 Miss_funcptr: radar_hal_cali_rx_gain ... 
-Remarks_here: 0x34ba32 radar_hal_cali_rx_gain 
+Remarks_here: 0x34bc3a radar_hal_cali_rx_gain 
 
 Miss_funcptr: update_alg_res ... 
-Remarks_here: 0x34e062 update_alg_res 
+Remarks_here: 0x34e26a update_alg_res 
 
 Miss_funcptr: alg_res_fusion ... 
-Remarks_here: 0x34e74c alg_res_fusion 
+Remarks_here: 0x34e954 alg_res_fusion 
 
 Miss_funcptr: radar_res_whether_changed ... 
-Remarks_here: 0x34e8de radar_res_whether_changed 
+Remarks_here: 0x34eae6 radar_res_whether_changed 
 
 Miss_funcptr: radar_ppl_cali_inv_phase ... 
-Remarks_here: 0x350c60 radar_ppl_cali_inv_phase 
+Remarks_here: 0x350e68 radar_ppl_cali_inv_phase 
 
 Miss_funcptr: radar_spl_plot_extraction ... 
-Remarks_here: 0x35074e radar_spl_plot_extraction 
+Remarks_here: 0x350956 radar_spl_plot_extraction 
 
 Miss_funcptr: radar_fpl_update_all_trail ... 
-Remarks_here: 0x350286 radar_fpl_update_all_trail 
+Remarks_here: 0x35048e radar_fpl_update_all_trail 
 
 Miss_funcptr: at_radar_set_led_gear ... 
-Remarks_here: 0x352efe at_radar_set_led_gear 
+Remarks_here: 0x353106 at_radar_set_led_gear 
 
 Miss_funcptr: uapi_pmp_config ... 
-Remarks_here: 0x354976 uapi_pmp_config 
+Remarks_here: 0x354b7e uapi_pmp_config 
 
 Miss_funcptr: hal_cipher_symc_wait_done ... 
-Remarks_here: 0x35bcd0 hal_cipher_symc_wait_done 
+Remarks_here: 0x35bed8 hal_cipher_symc_wait_done 
 
 Miss_funcptr: crypto_free_coherent ... 
-Remarks_here: 0x355918 crypto_free_coherent 
+Remarks_here: 0x355b20 crypto_free_coherent 
 
 Miss_funcptr: crypto_malloc_coherent ... 
-Remarks_here: 0x355942 crypto_malloc_coherent 
+Remarks_here: 0x355b4a crypto_malloc_coherent 
 
 Miss_funcptr: crypto_malloc_mmz ... 
-Remarks_here: 0x355906 crypto_malloc_mmz 
+Remarks_here: 0x355b0e crypto_malloc_mmz 

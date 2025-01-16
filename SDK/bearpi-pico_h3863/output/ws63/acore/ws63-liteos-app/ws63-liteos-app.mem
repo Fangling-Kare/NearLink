@@ -24,7 +24,7 @@
     .btc_bss_tcm      0x00183618                    28                  
     .wifi_bss_tcm     0x00183638                   956                  
   
-  SRAM                0x00A00000     0x85F00   0x2D210 = 184848
+  SRAM                0x00A00000     0x85F00   0x2D260 = 184928
     .wifi_pkt_ram     0x00A00000                 49152                  
     .plat_text_sram   0x00A0C000                 10884 load address 0x234AD0
     .wifi_text_sram   0x00A0EA88                     0                  
@@ -34,19 +34,19 @@
     .wifi_data_sram   0x00A0F460                     0                  
     .btc_data_sram    0x00A0F460                     0                  
     .bth_data_sram    0x00A0F460                     0                  
-    .btc_data_flash   0x00A0F460                  4896 load address 0x35ED08
-    .bth_data_flash   0x00A10780                  2420 load address 0x360028
-    .data             0x00A110F8                   380 load address 0x3609A0
-    .plat_bss_sram    0x00A11280                  1217                  
-    .plat_bss_flash   0x00A11748                 12692                  
-    .wifi_bss_flash   0x00A148E0                 37504                  
-    .radar_bss_flash  0x00A1DB60                 41040                  
-    .radar_ai_bss_flash  0x00A27BB0                  6120                  
-    .btc_bss_flash    0x00A29398                  3264                  
-    .bth_bss_flash    0x00A2A058                  3952                  
-    .bss              0x00A2AFC8                  3656                  
-    .stacks           0x00A2BE10                  5120                  
-    .heap             0x00A2D210                     0                  
+    .btc_data_flash   0x00A0F460                  4896 load address 0x35EF10
+    .bth_data_flash   0x00A10780                  2512 load address 0x360230
+    .data             0x00A11150                   380 load address 0x360C00
+    .plat_bss_sram    0x00A112D0                  1217                  
+    .plat_bss_flash   0x00A11798                 12700                  
+    .wifi_bss_flash   0x00A14938                 37504                  
+    .radar_bss_flash  0x00A1DBB8                 41040                  
+    .radar_ai_bss_flash  0x00A27C08                  6120                  
+    .btc_bss_flash    0x00A293F0                  3264                  
+    .bth_bss_flash    0x00A2A0B0                  3952                  
+    .bss              0x00A2B020                  3648                  
+    .stacks           0x00A2BE60                  5120                  
+    .heap             0x00A2D260                     0                  
   
   PRESERVE_SHARE_MEM  0x00A85F00       0x100      0xFC = 252
     .preserve         0x00A85F00                   252                  
@@ -55,7 +55,7 @@
     startup           0x00230300                   424                  
     .sysintcall.init  0x002304A8                    52                  
   
-  PROGRAM             0x00230700    0x1FF900  0x13041C = 1246236
+  PROGRAM             0x00230700    0x1FF900  0x13067C = 1246844
     .patch            0x00230700                  2344                  
     .rom_ram_cb_text  0x00231028                  1816                  
     .plat_romdata     0x00231740                   212                  
@@ -67,17 +67,17 @@
     .wifi_data_tcm    0x00233D80                  3408                  
     .plat_text_sram   0x00234AD0                 10884                  
     .patch_on_sram    0x00237558                  2520                  
-    .plat_text_flash  0x00237F30                176516                  
-    .wifi_text_flash  0x002630B8                585566                  
-    .patch_on_flash   0x002F2018                  1908                  
-    .btc_text_flash   0x002F2790                131560                  
-    .bth_text_flash   0x00312978                232274                  
-    .radar_text_flash  0x0034B4D0                 32012                  
-    .radar_ai_text_flash  0x003531E0                  5868                  
-    .text             0x003548D0                 42040                  
-    .btc_data_flash   0x0035ED08                  4896                  
-    .bth_data_flash   0x00360028                  2420                  
-    .data             0x003609A0                   380                  
+    .plat_text_flash  0x00237F30                176628                  
+    .wifi_text_flash  0x00263128                585566                  
+    .patch_on_flash   0x002F2088                  1908                  
+    .btc_text_flash   0x002F2800                131560                  
+    .bth_text_flash   0x003129E8                232684                  
+    .radar_text_flash  0x0034B6D8                 32012                  
+    .radar_ai_text_flash  0x003533E8                  5868                  
+    .text             0x00354AD8                 42040                  
+    .btc_data_flash   0x0035EF10                  4896                  
+    .bth_data_flash   0x00360230                  2512                  
+    .data             0x00360C00                   380                  
 
   ====================================================
 
@@ -1209,19 +1209,38 @@
   --------------------------------  --------  -----
 
 
-  .bth_text_flash                       1176
+  .bth_data_flash                        148
 
     D:                                      
       Nearlink_BearPi                       
         SDK                                 
           bearpi-pico_h3863                 
-            application                 1092
+            application                     
+              samples                       
+                demo                        
+                  demo                             100
+                  wifi                    48
+                    wifi_connect                    48
+
+
+  Section                            Total     Size
+
+  --------------------------------  --------  -----
+
+
+  .bth_text_flash                       1582
+
+    D:                                      
+      Nearlink_BearPi                       
+        SDK                                 
+          bearpi-pico_h3863                 
+            application                 1498
               samples                       
                 demo                        
                   wifi                   692
                     wifi_connect                   692
 
-                  demo                             400
+                  demo                             806
 
             test                          84
               common                        
@@ -1266,8 +1285,8 @@
 
                     drv_cipher          1322
                       drv_code          1258
-                        drv_symc                   556
                         drv_hash                   665
+                        drv_symc                   556
                         crypto_drv_common           36
                         drv_trng                     1
 
@@ -1320,7 +1339,7 @@
   --------------------------------  --------  -----
 
 
-  .bth_data_flash                         56
+  .bth_bss_flash                         535
 
     D:                                      
       Nearlink_BearPi                       
@@ -1329,26 +1348,7 @@
             application                     
               samples                       
                 demo                        
-                  demo                               8
-                  wifi                    48
-                    wifi_connect                    48
-
-
-  Section                            Total     Size
-
-  --------------------------------  --------  -----
-
-
-  .bth_bss_flash                         533
-
-    D:                                      
-      Nearlink_BearPi                       
-        SDK                                 
-          bearpi-pico_h3863                 
-            application                     
-              samples                       
-                demo                        
-                  demo                             532
+                  demo                             534
                   wifi                     1
                     wifi_connect                     1
 
@@ -1632,7 +1632,7 @@
          .data  .lst file = 380 (0x17C)
                  .du file = 358 (0x166)
 
-          .bss  .lst file = 3656 (0xE48)
+          .bss  .lst file = 3648 (0xE40)
                  .du file = 3630 (0xE2E)
 
   ====================================================
